@@ -16,26 +16,38 @@ public val BrandsGroup.Cloudsmith: ImageVector
         if (_cloudsmith != null) {
             return _cloudsmith!!
         }
-        _cloudsmith = Builder(name = "Cloudsmith", defaultWidth = 332.0.dp, defaultHeight =
-                512.0.dp, viewportWidth = 332.0f, viewportHeight = 512.0f).apply {
+        _cloudsmith = Builder(name = "Cloudsmith", defaultWidth = 512.0.dp, defaultHeight =
+                512.0.dp, viewportWidth = 512.0f, viewportHeight = 512.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(332.5f, 419.9f)
-                curveToRelative(0.0f, 46.4f, -37.6f, 84.1f, -84.0f, 84.1f)
-                reflectiveCurveToRelative(-84.0f, -37.7f, -84.0f, -84.1f)
-                reflectiveCurveToRelative(37.6f, -84.0f, 84.0f, -84.0f)
-                reflectiveCurveToRelative(84.0f, 37.6f, 84.0f, 84.0f)
+                moveTo(512.0f, 227.6f)
+                lineTo(512.0f, 284.5f)
+                lineTo(284.4f, 512.0f)
+                lineTo(227.6f, 512.0f)
+                lineTo(0.0f, 284.4f)
+                lineTo(0.0f, 227.6f)
+                lineTo(227.6f, 0.0f)
+                lineTo(284.5f, 0.0f)
+                lineTo(512.0f, 227.6f)
                 close()
-                moveTo(248.5f, 176.0f)
-                curveToRelative(46.4f, 0.0f, 80.0f, -37.6f, 80.0f, -84.0f)
-                reflectiveCurveToRelative(-33.6f, -84.0f, -80.0f, -84.0f)
-                reflectiveCurveToRelative(-88.0f, 37.6f, -88.0f, 84.0f)
-                reflectiveCurveToRelative(-29.6f, 76.0f, -76.0f, 76.0f)
-                reflectiveCurveToRelative(-84.0f, 41.6f, -84.0f, 88.0f)
-                reflectiveCurveToRelative(37.6f, 80.0f, 84.0f, 80.0f)
-                reflectiveCurveToRelative(84.0f, -33.6f, 84.0f, -80.0f)
-                reflectiveCurveToRelative(33.6f, -80.0f, 80.0f, -80.0f)
+                moveTo(256.0f, 389.6f)
+                curveToRelative(17.8f, 0.5f, 35.6f, -2.6f, 52.2f, -9.1f)
+                reflectiveCurveToRelative(31.8f, -16.2f, 44.6f, -28.7f)
+                reflectiveCurveToRelative(23.0f, -27.3f, 29.9f, -43.8f)
+                reflectiveCurveToRelative(10.5f, -34.1f, 10.5f, -52.0f)
+                reflectiveCurveToRelative(-3.6f, -35.5f, -10.5f, -52.0f)
+                reflectiveCurveToRelative(-17.1f, -31.3f, -29.9f, -43.8f)
+                reflectiveCurveToRelative(-28.0f, -22.2f, -44.6f, -28.7f)
+                reflectiveCurveToRelative(-34.4f, -9.6f, -52.2f, -9.1f)
+                curveToRelative(-17.8f, -0.5f, -35.6f, 2.6f, -52.2f, 9.1f)
+                reflectiveCurveToRelative(-31.8f, 16.3f, -44.6f, 28.7f)
+                reflectiveCurveToRelative(-23.0f, 27.3f, -29.9f, 43.8f)
+                reflectiveCurveToRelative(-10.5f, 34.1f, -10.5f, 52.0f)
+                reflectiveCurveToRelative(3.6f, 35.5f, 10.5f, 52.0f)
+                reflectiveCurveToRelative(17.1f, 31.3f, 29.9f, 43.8f)
+                reflectiveCurveToRelative(28.0f, 22.2f, 44.6f, 28.7f)
+                reflectiveCurveToRelative(34.4f, 9.6f, 52.2f, 9.1f)
                 close()
             }
         }

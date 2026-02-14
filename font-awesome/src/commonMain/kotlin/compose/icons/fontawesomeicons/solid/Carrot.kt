@@ -16,36 +16,41 @@ public val SolidGroup.Carrot: ImageVector
         if (_carrot != null) {
             return _carrot!!
         }
-        _carrot = Builder(name = "Carrot", defaultWidth = 512.0.dp, defaultHeight = 512.0.dp,
-                viewportWidth = 512.0f, viewportHeight = 512.0f).apply {
+        _carrot = Builder(name = "Carrot", defaultWidth = 640.0.dp, defaultHeight = 512.0.dp,
+                viewportWidth = 640.0f, viewportHeight = 512.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(298.2f, 156.6f)
-                curveToRelative(-52.7f, -25.7f, -114.5f, -10.5f, -150.2f, 32.8f)
-                lineToRelative(55.2f, 55.2f)
-                curveToRelative(6.3f, 6.3f, 6.3f, 16.4f, 0.0f, 22.6f)
-                curveToRelative(-3.1f, 3.1f, -7.2f, 4.7f, -11.3f, 4.7f)
-                reflectiveCurveToRelative(-8.2f, -1.6f, -11.3f, -4.7f)
-                lineTo(130.4f, 217.0f)
-                lineTo(2.3f, 479.7f)
-                curveToRelative(-2.9f, 6.0f, -3.1f, 13.3f, 0.0f, 19.7f)
-                curveToRelative(5.4f, 11.1f, 18.9f, 15.7f, 30.0f, 10.3f)
-                lineToRelative(133.6f, -65.2f)
-                lineToRelative(-49.2f, -49.2f)
-                curveToRelative(-6.3f, -6.2f, -6.3f, -16.4f, 0.0f, -22.6f)
-                curveToRelative(6.3f, -6.2f, 16.4f, -6.2f, 22.6f, 0.0f)
-                lineToRelative(57.0f, 57.0f)
-                lineToRelative(102.0f, -49.8f)
-                curveToRelative(24.0f, -11.7f, 44.5f, -31.3f, 57.1f, -57.1f)
-                curveToRelative(30.1f, -61.7f, 4.5f, -136.1f, -57.2f, -166.2f)
+                moveTo(453.1f, -36.7f)
+                lineTo(440.9f, -24.6f)
+                curveToRelative(-31.2f, 31.2f, -31.2f, 81.9f, 0.0f, 113.1f)
+                curveToRelative(15.6f, 15.6f, 31.2f, 31.2f, 46.9f, 46.9f)
+                curveToRelative(31.2f, 31.2f, 81.9f, 31.2f, 113.1f, 0.0f)
+                lineToRelative(12.1f, -12.1f)
+                curveToRelative(6.2f, -6.2f, 6.2f, -16.4f, 0.0f, -22.6f)
+                lineTo(600.9f, 88.6f)
+                curveToRelative(-31.2f, -31.2f, -81.9f, -31.2f, -113.1f, 0.0f)
+                curveToRelative(31.2f, -31.2f, 31.2f, -81.9f, 0.0f, -113.1f)
+                lineTo(475.7f, -36.7f)
+                curveToRelative(-6.2f, -6.2f, -16.4f, -6.2f, -22.6f, 0.0f)
                 close()
-                moveTo(390.3f, 121.7f)
-                curveTo(409.8f, 81.0f, 399.7f, 32.9f, 360.0f, 0.0f)
-                curveToRelative(-50.3f, 41.7f, -52.5f, 107.5f, -7.9f, 151.9f)
-                lineToRelative(8.0f, 8.0f)
-                curveToRelative(44.4f, 44.6f, 110.3f, 42.4f, 151.9f, -7.9f)
-                curveToRelative(-32.9f, -39.7f, -81.0f, -49.8f, -121.7f, -30.3f)
+                moveTo(331.6f, 96.0f)
+                curveToRelative(-45.2f, 0.0f, -87.1f, 20.4f, -115.0f, 54.3f)
+                lineTo(273.3f, 207.0f)
+                curveToRelative(9.4f, 9.4f, 9.4f, 24.6f, 0.0f, 33.9f)
+                reflectiveCurveToRelative(-24.6f, 9.4f, -33.9f, 0.0f)
+                lineTo(191.6f, 193.2f)
+                lineTo(67.2f, 466.8f)
+                curveToRelative(-5.5f, 12.1f, -2.9f, 26.4f, 6.5f, 35.9f)
+                reflectiveCurveToRelative(23.7f, 12.0f, 35.9f, 6.5f)
+                lineToRelative(141.6f, -64.4f)
+                lineToRelative(-43.8f, -43.8f)
+                curveToRelative(-9.4f, -9.4f, -9.4f, -24.6f, 0.0f, -33.9f)
+                reflectiveCurveToRelative(24.6f, -9.4f, 33.9f, 0.0f)
+                lineToRelative(56.5f, 56.5f)
+                lineToRelative(95.3f, -43.3f)
+                curveToRelative(53.1f, -24.1f, 87.2f, -77.1f, 87.2f, -135.5f)
+                curveToRelative(0.0f, -82.2f, -66.6f, -148.8f, -148.8f, -148.8f)
                 close()
             }
         }

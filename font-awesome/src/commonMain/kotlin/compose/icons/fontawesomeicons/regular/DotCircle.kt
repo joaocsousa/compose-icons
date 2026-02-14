@@ -21,22 +21,17 @@ public val RegularGroup.DotCircle: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(256.0f, 56.0f)
-                curveToRelative(110.53f, 0.0f, 200.0f, 89.45f, 200.0f, 200.0f)
-                curveToRelative(0.0f, 110.53f, -89.45f, 200.0f, -200.0f, 200.0f)
-                curveToRelative(-110.53f, 0.0f, -200.0f, -89.45f, -200.0f, -200.0f)
-                curveToRelative(0.0f, -110.53f, 89.45f, -200.0f, 200.0f, -200.0f)
-                moveToRelative(0.0f, -48.0f)
-                curveTo(119.03f, 8.0f, 8.0f, 119.03f, 8.0f, 256.0f)
-                reflectiveCurveToRelative(111.03f, 248.0f, 248.0f, 248.0f)
-                reflectiveCurveToRelative(248.0f, -111.03f, 248.0f, -248.0f)
-                reflectiveCurveTo(392.97f, 8.0f, 256.0f, 8.0f)
+                moveTo(256.0f, 512.0f)
+                arcToRelative(256.0f, 256.0f, 0.0f, true, true, 0.0f, -512.0f)
+                arcToRelative(256.0f, 256.0f, 0.0f, true, true, 0.0f, 512.0f)
                 close()
-                moveTo(256.0f, 176.0f)
-                curveToRelative(-44.18f, 0.0f, -80.0f, 35.82f, -80.0f, 80.0f)
-                reflectiveCurveToRelative(35.82f, 80.0f, 80.0f, 80.0f)
-                reflectiveCurveToRelative(80.0f, -35.82f, 80.0f, -80.0f)
-                reflectiveCurveToRelative(-35.82f, -80.0f, -80.0f, -80.0f)
+                moveTo(256.0f, 48.0f)
+                arcToRelative(208.0f, 208.0f, 0.0f, true, false, 0.0f, 416.0f)
+                arcToRelative(208.0f, 208.0f, 0.0f, true, false, 0.0f, -416.0f)
+                close()
+                moveTo(256.0f, 352.0f)
+                arcToRelative(96.0f, 96.0f, 0.0f, true, true, 0.0f, -192.0f)
+                arcToRelative(96.0f, 96.0f, 0.0f, true, true, 0.0f, 192.0f)
                 close()
             }
         }

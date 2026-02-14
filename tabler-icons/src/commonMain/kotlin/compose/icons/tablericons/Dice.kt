@@ -23,48 +23,43 @@ public val TablerIcons.Dice: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(6.0f, 4.0f)
-                lineTo(18.0f, 4.0f)
-                arcTo(2.0f, 2.0f, 0.0f, false, true, 20.0f, 6.0f)
-                lineTo(20.0f, 18.0f)
-                arcTo(2.0f, 2.0f, 0.0f, false, true, 18.0f, 20.0f)
-                lineTo(6.0f, 20.0f)
-                arcTo(2.0f, 2.0f, 0.0f, false, true, 4.0f, 18.0f)
-                lineTo(4.0f, 6.0f)
-                arcTo(2.0f, 2.0f, 0.0f, false, true, 6.0f, 4.0f)
-                close()
+                moveTo(3.0f, 5.0f)
+                arcToRelative(2.0f, 2.0f, 0.0f, false, true, 2.0f, -2.0f)
+                horizontalLineToRelative(14.0f)
+                arcToRelative(2.0f, 2.0f, 0.0f, false, true, 2.0f, 2.0f)
+                verticalLineToRelative(14.0f)
+                arcToRelative(2.0f, 2.0f, 0.0f, false, true, -2.0f, 2.0f)
+                horizontalLineToRelative(-14.0f)
+                arcToRelative(2.0f, 2.0f, 0.0f, false, true, -2.0f, -2.0f)
+                verticalLineToRelative(-14.0f)
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(8.5f, 8.5f)
-                moveToRelative(-0.5f, 0.0f)
-                arcToRelative(0.5f, 0.5f, 0.0f, true, true, 1.0f, 0.0f)
-                arcToRelative(0.5f, 0.5f, 0.0f, true, true, -1.0f, 0.0f)
+                moveTo(8.0f, 8.5f)
+                arcToRelative(0.5f, 0.5f, 0.0f, true, false, 1.0f, 0.0f)
+                arcToRelative(0.5f, 0.5f, 0.0f, true, false, -1.0f, 0.0f)
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(15.5f, 8.5f)
-                moveToRelative(-0.5f, 0.0f)
-                arcToRelative(0.5f, 0.5f, 0.0f, true, true, 1.0f, 0.0f)
-                arcToRelative(0.5f, 0.5f, 0.0f, true, true, -1.0f, 0.0f)
+                moveTo(15.0f, 8.5f)
+                arcToRelative(0.5f, 0.5f, 0.0f, true, false, 1.0f, 0.0f)
+                arcToRelative(0.5f, 0.5f, 0.0f, true, false, -1.0f, 0.0f)
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(15.5f, 15.5f)
-                moveToRelative(-0.5f, 0.0f)
-                arcToRelative(0.5f, 0.5f, 0.0f, true, true, 1.0f, 0.0f)
-                arcToRelative(0.5f, 0.5f, 0.0f, true, true, -1.0f, 0.0f)
+                moveTo(15.0f, 15.5f)
+                arcToRelative(0.5f, 0.5f, 0.0f, true, false, 1.0f, 0.0f)
+                arcToRelative(0.5f, 0.5f, 0.0f, true, false, -1.0f, 0.0f)
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(8.5f, 15.5f)
-                moveToRelative(-0.5f, 0.0f)
-                arcToRelative(0.5f, 0.5f, 0.0f, true, true, 1.0f, 0.0f)
-                arcToRelative(0.5f, 0.5f, 0.0f, true, true, -1.0f, 0.0f)
+                moveTo(8.0f, 15.5f)
+                arcToRelative(0.5f, 0.5f, 0.0f, true, false, 1.0f, 0.0f)
+                arcToRelative(0.5f, 0.5f, 0.0f, true, false, -1.0f, 0.0f)
             }
         }
         .build()

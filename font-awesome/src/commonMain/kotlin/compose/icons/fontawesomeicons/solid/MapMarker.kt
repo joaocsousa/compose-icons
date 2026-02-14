@@ -21,12 +21,12 @@ public val SolidGroup.MapMarker: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(172.27f, 501.67f)
-                curveTo(26.97f, 291.03f, 0.0f, 269.41f, 0.0f, 192.0f)
-                curveTo(0.0f, 85.96f, 85.96f, 0.0f, 192.0f, 0.0f)
-                reflectiveCurveToRelative(192.0f, 85.96f, 192.0f, 192.0f)
-                curveToRelative(0.0f, 77.41f, -26.97f, 99.03f, -172.27f, 309.67f)
-                curveToRelative(-9.53f, 13.77f, -29.93f, 13.77f, -39.46f, 0.0f)
+                moveTo(192.0f, 0.0f)
+                curveTo(86.0f, 0.0f, 0.0f, 84.4f, 0.0f, 188.6f)
+                curveTo(0.0f, 307.9f, 120.2f, 450.9f, 170.4f, 505.4f)
+                curveTo(182.2f, 518.2f, 201.8f, 518.2f, 213.6f, 505.4f)
+                curveTo(263.8f, 450.9f, 384.0f, 307.9f, 384.0f, 188.6f)
+                curveTo(384.0f, 84.4f, 298.0f, 0.0f, 192.0f, 0.0f)
                 close()
             }
         }

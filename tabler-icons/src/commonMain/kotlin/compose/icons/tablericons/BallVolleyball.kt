@@ -23,34 +23,45 @@ public val TablerIcons.BallVolleyball: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(12.0f, 12.0f)
-                moveToRelative(-9.0f, 0.0f)
-                arcToRelative(9.0f, 9.0f, 0.0f, true, true, 18.0f, 0.0f)
-                arcToRelative(9.0f, 9.0f, 0.0f, true, true, -18.0f, 0.0f)
+                moveTo(3.0f, 12.0f)
+                arcToRelative(9.0f, 9.0f, 0.0f, true, false, 18.0f, 0.0f)
+                arcToRelative(9.0f, 9.0f, 0.0f, true, false, -18.0f, 0.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(12.0f, 12.0f)
                 arcToRelative(8.0f, 8.0f, 0.0f, false, false, 8.0f, 4.0f)
-                moveToRelative(-12.5f, -2.5f)
+            }
+            path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
+                    strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
+                    StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
+                moveTo(7.5f, 13.5f)
                 arcToRelative(12.0f, 12.0f, 0.0f, false, false, 8.5f, 6.5f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(12.0f, 12.0f)
-                arcToRelative(8.0f, 8.0f, 61.845f, false, false, -7.464f, 4.928f)
-                moveToRelative(8.415f, -9.575f)
-                arcToRelative(12.0f, 12.0f, 84.274f, false, false, -9.879f, 4.111f)
+                arcToRelative(8.0f, 8.0f, 0.0f, false, false, -7.464f, 4.928f)
+            }
+            path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
+                    strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
+                    StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
+                moveTo(12.951f, 7.353f)
+                arcToRelative(12.0f, 12.0f, 0.0f, false, false, -9.88f, 4.111f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(12.0f, 12.0f)
-                arcToRelative(8.0f, 8.0f, 118.155f, false, false, -0.536f, -8.928f)
-                moveToRelative(4.085f, 12.075f)
-                arcToRelative(12.0f, 12.0f, 99.675f, false, false, 1.379f, -10.611f)
+                arcToRelative(8.0f, 8.0f, 0.0f, false, false, -0.536f, -8.928f)
+            }
+            path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
+                    strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
+                    StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
+                moveTo(15.549f, 15.147f)
+                arcToRelative(12.0f, 12.0f, 0.0f, false, false, 1.38f, -10.611f)
             }
         }
         .build()

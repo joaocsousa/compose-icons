@@ -38,19 +38,18 @@ public val TablerIcons.Helicopter: ImageVector
                 arcToRelative(2.0f, 2.0f, 0.0f, false, false, 2.0f, -2.0f)
                 curveToRelative(0.0f, -3.31f, -3.13f, -5.0f, -7.0f, -5.0f)
                 horizontalLineToRelative(-2.0f)
-                close()
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(13.0f, 9.0f)
-                lineTo(13.0f, 6.0f)
+                lineToRelative(0.0f, -3.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(5.0f, 6.0f)
-                lineTo(20.0f, 6.0f)
+                lineToRelative(15.0f, 0.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
@@ -63,13 +62,13 @@ public val TablerIcons.Helicopter: ImageVector
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(15.0f, 19.0f)
-                lineTo(15.0f, 16.0f)
+                lineToRelative(0.0f, -3.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(19.0f, 19.0f)
-                lineTo(11.0f, 19.0f)
+                lineToRelative(-8.0f, 0.0f)
             }
         }
         .build()

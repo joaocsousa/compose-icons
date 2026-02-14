@@ -16,33 +16,37 @@ public val SolidGroup.ChartPie: ImageVector
         if (_chartPie != null) {
             return _chartPie!!
         }
-        _chartPie = Builder(name = "ChartPie", defaultWidth = 544.0.dp, defaultHeight = 512.0.dp,
-                viewportWidth = 544.0f, viewportHeight = 512.0f).apply {
+        _chartPie = Builder(name = "ChartPie", defaultWidth = 576.0.dp, defaultHeight = 512.0.dp,
+                viewportWidth = 576.0f, viewportHeight = 512.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(527.79f, 288.0f)
-                lineTo(290.5f, 288.0f)
-                lineToRelative(158.03f, 158.03f)
-                curveToRelative(6.04f, 6.04f, 15.98f, 6.53f, 22.19f, 0.68f)
-                curveToRelative(38.7f, -36.46f, 65.32f, -85.61f, 73.13f, -140.86f)
-                curveToRelative(1.34f, -9.46f, -6.51f, -17.85f, -16.06f, -17.85f)
+                moveTo(512.4f, 240.0f)
+                lineToRelative(-176.0f, 0.0f)
+                curveToRelative(-17.7f, 0.0f, -32.0f, -14.3f, -32.0f, -32.0f)
+                lineToRelative(0.0f, -176.0f)
+                curveToRelative(0.0f, -17.7f, 14.4f, -32.2f, 31.9f, -29.9f)
+                curveToRelative(107.0f, 14.2f, 191.8f, 99.0f, 206.0f, 206.0f)
+                curveToRelative(2.3f, 17.5f, -12.2f, 31.9f, -29.9f, 31.9f)
                 close()
-                moveTo(511.96f, 223.2f)
-                curveTo(503.72f, 103.74f, 408.26f, 8.28f, 288.8f, 0.04f)
-                curveTo(279.68f, -0.59f, 272.0f, 7.1f, 272.0f, 16.24f)
-                lineTo(272.0f, 240.0f)
-                horizontalLineToRelative(223.77f)
-                curveToRelative(9.14f, 0.0f, 16.82f, -7.68f, 16.19f, -16.8f)
+                moveTo(222.6f, 37.2f)
+                curveToRelative(18.1f, -3.8f, 33.8f, 11.0f, 33.8f, 29.5f)
+                lineToRelative(0.0f, 197.3f)
+                curveToRelative(0.0f, 5.6f, 2.0f, 11.0f, 5.5f, 15.3f)
+                lineTo(394.0f, 438.7f)
+                curveToRelative(11.7f, 14.1f, 9.2f, 35.4f, -6.9f, 44.1f)
+                curveToRelative(-34.1f, 18.6f, -73.2f, 29.2f, -114.7f, 29.2f)
+                curveToRelative(-132.5f, 0.0f, -240.0f, -107.5f, -240.0f, -240.0f)
+                curveToRelative(0.0f, -115.5f, 81.5f, -211.9f, 190.2f, -234.8f)
                 close()
-                moveTo(224.0f, 288.0f)
-                lineTo(224.0f, 50.71f)
-                curveToRelative(0.0f, -9.55f, -8.39f, -17.4f, -17.84f, -16.06f)
-                curveTo(86.99f, 51.49f, -4.1f, 155.6f, 0.14f, 280.37f)
-                curveTo(4.5f, 408.51f, 114.83f, 513.59f, 243.03f, 511.98f)
-                curveToRelative(50.4f, -0.63f, 96.97f, -16.87f, 135.26f, -44.03f)
-                curveToRelative(7.9f, -5.6f, 8.42f, -17.23f, 1.57f, -24.08f)
-                lineTo(224.0f, 288.0f)
+                moveTo(477.8f, 288.0f)
+                lineToRelative(64.0f, 0.0f)
+                curveToRelative(18.5f, 0.0f, 33.3f, 15.7f, 29.5f, 33.8f)
+                curveToRelative(-10.2f, 48.4f, -35.0f, 91.4f, -69.6f, 124.2f)
+                curveToRelative(-12.3f, 11.7f, -31.6f, 9.2f, -42.4f, -3.9f)
+                lineTo(374.9f, 340.4f)
+                curveToRelative(-17.3f, -20.9f, -2.4f, -52.4f, 24.6f, -52.4f)
+                lineToRelative(78.2f, 0.0f)
                 close()
             }
         }

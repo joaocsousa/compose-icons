@@ -21,17 +21,13 @@ public val SolidGroup.DotCircle: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(256.0f, 8.0f)
-                curveTo(119.03f, 8.0f, 8.0f, 119.03f, 8.0f, 256.0f)
-                reflectiveCurveToRelative(111.03f, 248.0f, 248.0f, 248.0f)
-                reflectiveCurveToRelative(248.0f, -111.03f, 248.0f, -248.0f)
-                reflectiveCurveTo(392.97f, 8.0f, 256.0f, 8.0f)
+                moveTo(256.0f, 512.0f)
+                arcToRelative(256.0f, 256.0f, 0.0f, true, false, 0.0f, -512.0f)
+                arcToRelative(256.0f, 256.0f, 0.0f, true, false, 0.0f, 512.0f)
                 close()
-                moveTo(336.0f, 256.0f)
-                curveToRelative(0.0f, 44.11f, -35.89f, 80.0f, -80.0f, 80.0f)
-                reflectiveCurveToRelative(-80.0f, -35.89f, -80.0f, -80.0f)
-                reflectiveCurveToRelative(35.89f, -80.0f, 80.0f, -80.0f)
-                reflectiveCurveToRelative(80.0f, 35.89f, 80.0f, 80.0f)
+                moveTo(256.0f, 160.0f)
+                arcToRelative(96.0f, 96.0f, 0.0f, true, true, 0.0f, 192.0f)
+                arcToRelative(96.0f, 96.0f, 0.0f, true, true, 0.0f, -192.0f)
                 close()
             }
         }

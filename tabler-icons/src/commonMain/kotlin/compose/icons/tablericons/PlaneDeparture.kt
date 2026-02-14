@@ -25,21 +25,21 @@ public val TablerIcons.PlaneDeparture: ImageVector
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(14.639f, 10.258f)
                 lineToRelative(4.83f, -1.294f)
-                arcToRelative(2.0f, 2.0f, 111.576f, false, true, 1.035f, 3.864f)
-                lineToRelative(-14.489f, 3.882f)
-                lineToRelative(-4.451f, -5.019f)
-                lineToRelative(2.898f, -0.776f)
-                lineToRelative(2.449f, 1.414f)
-                lineToRelative(2.898f, -0.776f)
-                lineToRelative(-3.744f, -6.244f)
-                lineToRelative(2.898f, -0.776f)
-                close()
+                arcToRelative(2.0f, 2.0f, 0.0f, true, true, 1.035f, 3.863f)
+                lineToRelative(-14.489f, 3.883f)
+                lineToRelative(-4.45f, -5.02f)
+                lineToRelative(2.897f, -0.776f)
+                lineToRelative(2.45f, 1.414f)
+                lineToRelative(2.897f, -0.776f)
+                lineToRelative(-3.743f, -6.244f)
+                lineToRelative(2.898f, -0.777f)
+                lineToRelative(5.675f, 5.727f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(3.0f, 21.0f)
-                lineTo(21.0f, 21.0f)
+                horizontalLineToRelative(18.0f)
             }
         }
         .build()

@@ -23,10 +23,9 @@ public val TablerIcons.WiperWash: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(12.0f, 20.0f)
-                moveToRelative(-1.0f, 0.0f)
-                arcToRelative(1.0f, 1.0f, 0.0f, true, true, 2.0f, 0.0f)
-                arcToRelative(1.0f, 1.0f, 0.0f, true, true, -2.0f, 0.0f)
+                moveTo(11.0f, 20.0f)
+                arcToRelative(1.0f, 1.0f, 0.0f, true, false, 2.0f, 0.0f)
+                arcToRelative(1.0f, 1.0f, 0.0f, true, false, -2.0f, 0.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
@@ -41,7 +40,7 @@ public val TablerIcons.WiperWash: ImageVector
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(12.0f, 20.0f)
-                lineTo(12.0f, 6.0f)
+                lineToRelative(0.0f, -14.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =

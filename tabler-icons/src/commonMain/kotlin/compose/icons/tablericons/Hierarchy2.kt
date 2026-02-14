@@ -27,7 +27,7 @@ public val TablerIcons.Hierarchy2: ImageVector
                 horizontalLineToRelative(4.0f)
                 verticalLineToRelative(4.0f)
                 horizontalLineToRelative(-4.0f)
-                close()
+                lineToRelative(0.0f, -4.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
@@ -36,7 +36,7 @@ public val TablerIcons.Hierarchy2: ImageVector
                 horizontalLineToRelative(4.0f)
                 verticalLineToRelative(4.0f)
                 horizontalLineToRelative(-4.0f)
-                close()
+                lineToRelative(0.0f, -4.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
@@ -45,7 +45,7 @@ public val TablerIcons.Hierarchy2: ImageVector
                 horizontalLineToRelative(4.0f)
                 verticalLineToRelative(4.0f)
                 horizontalLineToRelative(-4.0f)
-                close()
+                lineToRelative(0.0f, -4.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
@@ -58,7 +58,7 @@ public val TablerIcons.Hierarchy2: ImageVector
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(12.0f, 7.0f)
-                lineTo(12.0f, 13.0f)
+                lineToRelative(0.0f, 6.0f)
             }
         }
         .build()

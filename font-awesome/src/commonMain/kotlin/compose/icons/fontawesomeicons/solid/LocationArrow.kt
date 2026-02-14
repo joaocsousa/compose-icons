@@ -21,14 +21,17 @@ public val SolidGroup.LocationArrow: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(444.52f, 3.52f)
-                lineTo(28.74f, 195.42f)
-                curveToRelative(-47.97f, 22.39f, -31.98f, 92.75f, 19.19f, 92.75f)
-                horizontalLineToRelative(175.91f)
-                verticalLineToRelative(175.91f)
-                curveToRelative(0.0f, 51.17f, 70.36f, 67.17f, 92.75f, 19.19f)
-                lineToRelative(191.9f, -415.78f)
-                curveToRelative(15.99f, -38.39f, -25.59f, -79.97f, -63.97f, -63.97f)
+                moveTo(477.9f, 75.5f)
+                curveToRelative(4.5f, -11.8f, 1.7f, -25.2f, -7.2f, -34.1f)
+                reflectiveCurveToRelative(-22.3f, -11.8f, -34.1f, -7.2f)
+                lineToRelative(-416.0f, 160.0f)
+                curveTo(7.9f, 199.0f, -0.3f, 211.2f, 0.0f, 224.7f)
+                reflectiveCurveToRelative(9.1f, 25.4f, 21.9f, 29.6f)
+                lineToRelative(176.8f, 58.9f)
+                lineToRelative(58.9f, 176.8f)
+                curveToRelative(4.3f, 12.8f, 16.1f, 21.6f, 29.6f, 21.9f)
+                reflectiveCurveToRelative(25.7f, -7.9f, 30.6f, -20.5f)
+                lineToRelative(160.0f, -416.0f)
                 close()
             }
         }

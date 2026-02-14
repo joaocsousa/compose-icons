@@ -21,16 +21,14 @@ public val SolidGroup.Adjust: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(8.0f, 256.0f)
-                curveToRelative(0.0f, 136.97f, 111.03f, 248.0f, 248.0f, 248.0f)
-                reflectiveCurveToRelative(248.0f, -111.03f, 248.0f, -248.0f)
-                reflectiveCurveTo(392.97f, 8.0f, 256.0f, 8.0f)
-                reflectiveCurveTo(8.0f, 119.03f, 8.0f, 256.0f)
+                moveTo(448.0f, 256.0f)
+                curveToRelative(0.0f, -106.0f, -86.0f, -192.0f, -192.0f, -192.0f)
+                lineToRelative(0.0f, 384.0f)
+                curveToRelative(106.0f, 0.0f, 192.0f, -86.0f, 192.0f, -192.0f)
                 close()
-                moveTo(256.0f, 440.0f)
-                lineTo(256.0f, 72.0f)
-                curveToRelative(101.71f, 0.0f, 184.0f, 82.31f, 184.0f, 184.0f)
-                curveToRelative(0.0f, 101.71f, -82.31f, 184.0f, -184.0f, 184.0f)
+                moveTo(0.0f, 256.0f)
+                arcToRelative(256.0f, 256.0f, 0.0f, true, true, 512.0f, 0.0f)
+                arcToRelative(256.0f, 256.0f, 0.0f, true, true, -512.0f, 0.0f)
                 close()
             }
         }

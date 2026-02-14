@@ -1,8 +1,10 @@
 package compose.icons.tablericons
 
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType
 import androidx.compose.ui.graphics.PathFillType.Companion.NonZero
 import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeCap.Companion.Round
 import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
@@ -21,19 +23,23 @@ public val TablerIcons.RotateRectangle: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(10.091f, 4.01f)
-                lineToRelative(0.495f, -0.495f)
-                arcToRelative(2.0f, 2.0f, 101.018f, false, true, 2.828f, 0.0f)
-                lineToRelative(7.071f, 7.071f)
-                arcToRelative(2.0f, 2.0f, 89.714f, false, true, -0.0f, 2.828f)
-                lineToRelative(-7.071f, 7.071f)
-                arcToRelative(2.0f, 2.0f, 80.394f, false, true, -2.828f, -0.0f)
-                lineToRelative(-7.071f, -7.071f)
-                arcToRelative(2.0f, 2.0f, 0.0f, false, true, 0.0f, -2.828f)
-                lineToRelative(3.536f, -3.536f)
-                lineToRelative(-3.988f, -0.0f)
-                moveToRelative(3.988f, 3.988f)
-                lineToRelative(0.0f, -3.988f)
+                moveTo(10.09f, 4.01f)
+                lineToRelative(0.496f, -0.495f)
+                arcToRelative(2.0f, 2.0f, 0.0f, false, true, 2.828f, 0.0f)
+                lineToRelative(7.071f, 7.07f)
+                arcToRelative(2.0f, 2.0f, 0.0f, false, true, 0.0f, 2.83f)
+                lineToRelative(-7.07f, 7.07f)
+                arcToRelative(2.0f, 2.0f, 0.0f, false, true, -2.83f, 0.0f)
+                lineToRelative(-7.07f, -7.07f)
+                arcToRelative(2.0f, 2.0f, 0.0f, false, true, 0.0f, -2.83f)
+                lineToRelative(3.535f, -3.535f)
+                horizontalLineToRelative(-3.988f)
+            }
+            path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
+                    strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
+                    StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
+                moveTo(7.05f, 11.038f)
+                verticalLineToRelative(-3.988f)
             }
         }
         .build()

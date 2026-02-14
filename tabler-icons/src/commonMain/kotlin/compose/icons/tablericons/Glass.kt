@@ -24,24 +24,29 @@ public val TablerIcons.Glass: ImageVector
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(8.0f, 21.0f)
-                lineTo(16.0f, 21.0f)
+                horizontalLineToRelative(8.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(12.0f, 15.0f)
-                lineTo(12.0f, 21.0f)
+                moveTo(12.0f, 16.0f)
+                verticalLineToRelative(5.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(17.0f, 3.0f)
-                lineToRelative(1.0f, 7.0f)
+                moveTo(17.0f, 5.0f)
+                lineToRelative(1.0f, 6.0f)
                 curveToRelative(0.0f, 3.012f, -2.686f, 5.0f, -6.0f, 5.0f)
                 reflectiveCurveToRelative(-6.0f, -1.988f, -6.0f, -5.0f)
-                lineToRelative(1.0f, -7.0f)
-                horizontalLineToRelative(10.0f)
-                close()
+                lineToRelative(1.0f, -6.0f)
+            }
+            path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
+                    strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
+                    StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
+                moveTo(7.0f, 5.0f)
+                arcToRelative(5.0f, 2.0f, 0.0f, true, false, 10.0f, 0.0f)
+                arcToRelative(5.0f, 2.0f, 0.0f, true, false, -10.0f, 0.0f)
             }
         }
         .build()

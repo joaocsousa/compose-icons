@@ -21,13 +21,16 @@ public val SolidGroup.Play: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(424.4f, 214.7f)
-                lineTo(72.4f, 6.6f)
-                curveTo(43.8f, -10.3f, 0.0f, 6.1f, 0.0f, 47.9f)
-                verticalLineTo(464.0f)
-                curveToRelative(0.0f, 37.5f, 40.7f, 60.1f, 72.4f, 41.3f)
-                lineToRelative(352.0f, -208.0f)
-                curveToRelative(31.4f, -18.5f, 31.5f, -64.1f, 0.0f, -82.6f)
+                moveTo(91.2f, 36.9f)
+                curveToRelative(-12.4f, -6.8f, -27.4f, -6.5f, -39.6f, 0.7f)
+                reflectiveCurveTo(32.0f, 57.9f, 32.0f, 72.0f)
+                lineToRelative(0.0f, 368.0f)
+                curveToRelative(0.0f, 14.1f, 7.5f, 27.2f, 19.6f, 34.4f)
+                reflectiveCurveToRelative(27.2f, 7.5f, 39.6f, 0.7f)
+                lineToRelative(336.0f, -184.0f)
+                curveToRelative(12.8f, -7.0f, 20.8f, -20.5f, 20.8f, -35.1f)
+                reflectiveCurveToRelative(-8.0f, -28.1f, -20.8f, -35.1f)
+                lineToRelative(-336.0f, -184.0f)
                 close()
             }
         }

@@ -23,26 +23,25 @@ public val TablerIcons.Award: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(12.0f, 9.0f)
-                moveToRelative(-6.0f, 0.0f)
-                arcToRelative(6.0f, 6.0f, 0.0f, true, true, 12.0f, 0.0f)
-                arcToRelative(6.0f, 6.0f, 0.0f, true, true, -12.0f, 0.0f)
+                moveTo(6.0f, 9.0f)
+                arcToRelative(6.0f, 6.0f, 0.0f, true, false, 12.0f, 0.0f)
+                arcToRelative(6.0f, 6.0f, 0.0f, true, false, -12.0f, 0.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(12.002f, 15.003f)
-                lineToRelative(3.4f, 5.889f)
-                lineToRelative(1.598f, -3.232f)
+                moveTo(12.0f, 15.0f)
+                lineToRelative(3.4f, 5.89f)
+                lineToRelative(1.598f, -3.233f)
                 lineToRelative(3.598f, 0.232f)
                 lineToRelative(-3.4f, -5.889f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(6.802f, 12.003f)
-                lineToRelative(-3.4f, 5.889f)
-                lineToRelative(3.598f, -0.232f)
+                moveTo(6.802f, 12.0f)
+                lineToRelative(-3.4f, 5.89f)
+                lineToRelative(3.598f, -0.233f)
                 lineToRelative(1.598f, 3.232f)
                 lineToRelative(3.4f, -5.889f)
             }
