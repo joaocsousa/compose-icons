@@ -684,6 +684,7 @@ import compose.icons.cssggicons.UserAdd
 import compose.icons.cssggicons.UserList
 import compose.icons.cssggicons.UserRemove
 import compose.icons.cssggicons.Userlane
+import compose.icons.cssggicons.Vercel
 import compose.icons.cssggicons.ViewCols
 import compose.icons.cssggicons.ViewComfortable
 import compose.icons.cssggicons.ViewDay
@@ -702,7 +703,6 @@ import compose.icons.cssggicons.Windows
 import compose.icons.cssggicons.WorkAlt
 import compose.icons.cssggicons.Yinyang
 import compose.icons.cssggicons.Youtube
-import compose.icons.cssggicons.Zeit
 import compose.icons.cssggicons.ZoomIn
 import compose.icons.cssggicons.ZoomOut
 import kotlin.String
@@ -809,9 +809,9 @@ public val CssGgIcons.AllIcons: ____KtList<ImageVector>
         ToolbarBottom, ToolbarLeft, ToolbarRight, ToolbarTop, Toolbox, Touchpad, Track, Transcript,
         Trash, TrashEmpty, Tree, Trees, Trello, Trending, TrendingDown, Trophy, Tv, Twilio, Twitter,
         UiKit, Umbrella, Unavailable, Unblock, Undo, Unfold, Unsplash, Usb, UsbC, User, UserAdd,
-        UserList, UserRemove, Userlane, ViewCols, ViewComfortable, ViewDay, ViewGrid, ViewList,
-        ViewMonth, ViewSplit, Vinyl, Voicemail, VoicemailO, VoicemailR, Volume, Webcam, Website,
-        Windows, WorkAlt, Yinyang, Youtube, Zeit, ZoomIn, ZoomOut)
+        UserList, UserRemove, Userlane, Vercel, ViewCols, ViewComfortable, ViewDay, ViewGrid,
+        ViewList, ViewMonth, ViewSplit, Vinyl, Voicemail, VoicemailO, VoicemailR, Volume, Webcam,
+        Website, Windows, WorkAlt, Yinyang, Youtube, ZoomIn, ZoomOut)
     return __AllIcons!!
   }
 
@@ -1033,12 +1033,12 @@ public val CssGgIcons.AllIconsNamed: ____KtMap<String, ImageVector>
         "uikit" to UiKit, "umbrella" to Umbrella, "unavailable" to Unavailable, "unblock" to
         Unblock, "undo" to Undo, "unfold" to Unfold, "unsplash" to Unsplash, "usb" to Usb, "usbc" to
         UsbC, "user" to User, "useradd" to UserAdd, "userlist" to UserList, "userremove" to
-        UserRemove, "userlane" to Userlane, "viewcols" to ViewCols, "viewcomfortable" to
-        ViewComfortable, "viewday" to ViewDay, "viewgrid" to ViewGrid, "viewlist" to ViewList,
-        "viewmonth" to ViewMonth, "viewsplit" to ViewSplit, "vinyl" to Vinyl, "voicemail" to
-        Voicemail, "voicemailo" to VoicemailO, "voicemailr" to VoicemailR, "volume" to Volume,
-        "webcam" to Webcam, "website" to Website, "windows" to Windows, "workalt" to WorkAlt,
-        "yinyang" to Yinyang, "youtube" to Youtube, "zeit" to Zeit, "zoomin" to ZoomIn, "zoomout" to
-        ZoomOut)
+        UserRemove, "userlane" to Userlane, "vercel" to Vercel, "viewcols" to ViewCols,
+        "viewcomfortable" to ViewComfortable, "viewday" to ViewDay, "viewgrid" to ViewGrid,
+        "viewlist" to ViewList, "viewmonth" to ViewMonth, "viewsplit" to ViewSplit, "vinyl" to
+        Vinyl, "voicemail" to Voicemail, "voicemailo" to VoicemailO, "voicemailr" to VoicemailR,
+        "volume" to Volume, "webcam" to Webcam, "website" to Website, "windows" to Windows,
+        "workalt" to WorkAlt, "yinyang" to Yinyang, "youtube" to Youtube, "zoomin" to ZoomIn,
+        "zoomout" to ZoomOut)
     return __AllIconsNamed!!
   }

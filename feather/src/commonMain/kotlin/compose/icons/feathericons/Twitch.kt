@@ -22,19 +22,19 @@ public val FeatherIcons.Twitch: ImageVector
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(21.0f, 2.0f)
-                horizontalLineTo(3.0f)
+                lineTo(3.0f, 2.0f)
                 verticalLineToRelative(16.0f)
                 horizontalLineToRelative(5.0f)
                 verticalLineToRelative(4.0f)
                 lineToRelative(4.0f, -4.0f)
                 horizontalLineToRelative(5.0f)
                 lineToRelative(4.0f, -4.0f)
-                verticalLineTo(2.0f)
+                lineTo(21.0f, 2.0f)
                 close()
                 moveTo(11.0f, 11.0f)
-                verticalLineTo(7.0f)
-                moveTo(16.0f, 11.0f)
-                verticalLineTo(7.0f)
+                lineTo(11.0f, 7.0f)
+                moveToRelative(5.0f, 4.0f)
+                lineTo(16.0f, 7.0f)
             }
         }
         .build()

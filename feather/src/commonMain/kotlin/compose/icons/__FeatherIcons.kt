@@ -235,6 +235,7 @@ import compose.icons.feathericons.StopCircle
 import compose.icons.feathericons.Sun
 import compose.icons.feathericons.Sunrise
 import compose.icons.feathericons.Sunset
+import compose.icons.feathericons.Table
 import compose.icons.feathericons.Tablet
 import compose.icons.feathericons.Tag
 import compose.icons.feathericons.Target
@@ -326,7 +327,7 @@ public val FeatherIcons.AllIcons: ____KtList<ImageVector>
         Printer, Radio, RefreshCcw, RefreshCw, Repeat, Rewind, RotateCcw, RotateCw, Rss, Save,
         Scissors, Search, Send, Server, Settings, Share, Share2, Shield, ShieldOff, ShoppingBag,
         ShoppingCart, Shuffle, Sidebar, SkipBack, SkipForward, Slack, Slash, Sliders, Smartphone,
-        Smile, Speaker, Square, Star, StopCircle, Sun, Sunrise, Sunset, Tablet, Tag, Target,
+        Smile, Speaker, Square, Star, StopCircle, Sun, Sunrise, Sunset, Table, Tablet, Tag, Target,
         Terminal, Thermometer, ThumbsDown, ThumbsUp, ToggleLeft, ToggleRight, Tool, Trash, Trash2,
         Trello, TrendingDown, TrendingUp, Triangle, Truck, Tv, Twitch, Twitter, Type, Umbrella,
         Underline, Unlock, Upload, UploadCloud, User, UserCheck, UserMinus, UserPlus, UserX, Users,
@@ -405,14 +406,14 @@ public val FeatherIcons.AllIconsNamed: ____KtMap<String, ImageVector>
         "skipforward" to SkipForward, "slack" to Slack, "slash" to Slash, "sliders" to Sliders,
         "smartphone" to Smartphone, "smile" to Smile, "speaker" to Speaker, "square" to Square,
         "star" to Star, "stopcircle" to StopCircle, "sun" to Sun, "sunrise" to Sunrise, "sunset" to
-        Sunset, "tablet" to Tablet, "tag" to Tag, "target" to Target, "terminal" to Terminal,
-        "thermometer" to Thermometer, "thumbsdown" to ThumbsDown, "thumbsup" to ThumbsUp,
-        "toggleleft" to ToggleLeft, "toggleright" to ToggleRight, "tool" to Tool, "trash" to Trash,
-        "trash2" to Trash2, "trello" to Trello, "trendingdown" to TrendingDown, "trendingup" to
-        TrendingUp, "triangle" to Triangle, "truck" to Truck, "tv" to Tv, "twitch" to Twitch,
-        "twitter" to Twitter, "type" to Type, "umbrella" to Umbrella, "underline" to Underline,
-        "unlock" to Unlock, "upload" to Upload, "uploadcloud" to UploadCloud, "user" to User,
-        "usercheck" to UserCheck, "userminus" to UserMinus, "userplus" to UserPlus, "userx" to
+        Sunset, "table" to Table, "tablet" to Tablet, "tag" to Tag, "target" to Target, "terminal"
+        to Terminal, "thermometer" to Thermometer, "thumbsdown" to ThumbsDown, "thumbsup" to
+        ThumbsUp, "toggleleft" to ToggleLeft, "toggleright" to ToggleRight, "tool" to Tool, "trash"
+        to Trash, "trash2" to Trash2, "trello" to Trello, "trendingdown" to TrendingDown,
+        "trendingup" to TrendingUp, "triangle" to Triangle, "truck" to Truck, "tv" to Tv, "twitch"
+        to Twitch, "twitter" to Twitter, "type" to Type, "umbrella" to Umbrella, "underline" to
+        Underline, "unlock" to Unlock, "upload" to Upload, "uploadcloud" to UploadCloud, "user" to
+        User, "usercheck" to UserCheck, "userminus" to UserMinus, "userplus" to UserPlus, "userx" to
         UserX, "users" to Users, "video" to Video, "videooff" to VideoOff, "voicemail" to Voicemail,
         "volume" to Volume, "volume1" to Volume1, "volume2" to Volume2, "volumex" to VolumeX,
         "watch" to Watch, "wifi" to Wifi, "wifioff" to WifiOff, "wind" to Wind, "x" to X, "xcircle"
