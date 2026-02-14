@@ -21,17 +21,13 @@ public val SimpleIcons.Accenture: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(23.297f, 14.74f)
-                lineTo(0.434f, 24.0f)
-                verticalLineToRelative(-5.263f)
-                lineTo(16.8f, 12.11f)
-                lineToRelative(6.497f, 2.631f)
-                close()
-                moveTo(23.567f, 9.369f)
-                lineTo(0.433f, 0.0f)
-                verticalLineToRelative(5.263f)
-                lineToRelative(23.132f, 9.368f)
-                lineTo(23.565f, 9.37f)
+                moveToRelative(0.66f, 16.95f)
+                lineToRelative(13.242f, -4.926f)
+                lineTo(0.66f, 6.852f)
+                verticalLineTo(0.0f)
+                lineToRelative(22.68f, 9.132f)
+                verticalLineToRelative(5.682f)
+                lineTo(0.66f, 24.0f)
                 close()
             }
         }

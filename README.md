@@ -43,7 +43,7 @@ You can find all code reference in the docs of the icon packs bellow.
 
 | Icon pack | Icon Version | Dependency | All Icons Docs |
 | --- | --- | --- | --- |
-| [Simple-Icons](https://simpleicons.org/) | 4.14.0 | `simple-icons` | [docs](simple-icons/DOCUMENTATION.md) |
+| [Simple-Icons](https://simpleicons.org/) | 16.8.0 | `simple-icons` | [docs](simple-icons/DOCUMENTATION.md) |
 | [Feather](https://feathericons.com/) | 4.28.0 | `feather` | [docs](feather/DOCUMENTATION.md) |
 | [Tabler Icons](https://tabler-icons.io/) | 3.36.1 | `tabler-icons` | [docs](tabler-icons/DOCUMENTATION.md) |
 | [Eva Icons](https://akveo.github.io/eva-icons/#/) | 1.1.3 | `eva-icons` | [docs](eva-icons/DOCUMENTATION.md) |
