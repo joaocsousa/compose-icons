@@ -21,20 +21,17 @@ public val SimpleIcons.Fastapi: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(12.0f, 0.0f)
-                curveTo(5.375f, 0.0f, 0.0f, 5.375f, 0.0f, 12.0f)
-                curveToRelative(0.0f, 6.627f, 5.375f, 12.0f, 12.0f, 12.0f)
-                curveToRelative(6.626f, 0.0f, 12.0f, -5.373f, 12.0f, -12.0f)
-                curveToRelative(0.0f, -6.625f, -5.373f, -12.0f, -12.0f, -12.0f)
-                close()
-                moveTo(11.376f, 21.62f)
-                verticalLineToRelative(-7.528f)
-                lineTo(7.19f, 14.092f)
-                lineTo(13.203f, 2.38f)
-                verticalLineToRelative(7.528f)
-                horizontalLineToRelative(4.029f)
-                lineTo(11.376f, 21.62f)
-                close()
+                moveTo(12.0f, 0.039f)
+                curveTo(5.373f, 0.038f, 0.0f, 5.393f, 0.0f, 11.999f)
+                curveToRelative(-0.001f, 6.607f, 5.372f, 11.963f, 12.0f, 11.962f)
+                curveToRelative(6.628f, 0.0f, 12.001f, -5.356f, 12.0f, -11.962f)
+                curveToRelative(-0.0f, -6.606f, -5.373f, -11.96f, -12.0f, -11.96f)
+                moveToRelative(-0.829f, 5.415f)
+                horizontalLineToRelative(7.55f)
+                lineToRelative(-7.581f, 5.328f)
+                horizontalLineToRelative(5.183f)
+                lineTo(5.279f, 18.544f)
+                quadToRelative(2.947f, -6.544f, 5.892f, -13.09f)
             }
         }
         .build()
