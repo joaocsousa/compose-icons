@@ -16,43 +16,30 @@ public val SolidGroup.UmbrellaBeach: ImageVector
         if (_umbrellaBeach != null) {
             return _umbrellaBeach!!
         }
-        _umbrellaBeach = Builder(name = "UmbrellaBeach", defaultWidth = 640.0.dp, defaultHeight =
-                512.0.dp, viewportWidth = 640.0f, viewportHeight = 512.0f).apply {
+        _umbrellaBeach = Builder(name = "UmbrellaBeach", defaultWidth = 512.0.dp, defaultHeight =
+                512.0.dp, viewportWidth = 512.0f, viewportHeight = 512.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(115.38f, 136.9f)
-                lineToRelative(102.11f, 37.18f)
-                curveToRelative(35.19f, -81.54f, 86.21f, -144.29f, 139.0f, -173.7f)
-                curveToRelative(-95.88f, -4.89f, -188.78f, 36.96f, -248.53f, 111.8f)
-                curveToRelative(-6.69f, 8.4f, -2.66f, 21.05f, 7.42f, 24.72f)
-                close()
-                moveTo(247.63f, 185.06f)
-                lineToRelative(238.48f, 86.83f)
-                curveToRelative(35.76f, -121.38f, 18.7f, -231.66f, -42.63f, -253.98f)
-                curveToRelative(-7.4f, -2.7f, -15.13f, -4.0f, -23.09f, -4.0f)
-                curveToRelative(-58.02f, 0.01f, -128.27f, 69.17f, -172.76f, 171.15f)
-                close()
-                moveTo(521.48f, 60.5f)
-                curveToRelative(6.22f, 16.3f, 10.83f, 34.6f, 13.2f, 55.19f)
-                curveToRelative(5.74f, 49.89f, -1.42f, 108.23f, -18.95f, 166.98f)
-                lineToRelative(102.62f, 37.36f)
-                curveToRelative(10.09f, 3.67f, 21.31f, -3.43f, 21.57f, -14.17f)
-                curveToRelative(2.32f, -95.69f, -41.91f, -187.44f, -118.44f, -245.36f)
-                close()
-                moveTo(560.0f, 447.98f)
-                lineTo(321.06f, 447.98f)
-                lineTo(386.0f, 269.5f)
-                lineToRelative(-60.14f, -21.9f)
-                lineToRelative(-72.9f, 200.37f)
-                lineTo(16.0f, 447.97f)
-                curveToRelative(-8.84f, 0.0f, -16.0f, 7.16f, -16.0f, 16.01f)
-                verticalLineToRelative(32.01f)
-                curveTo(0.0f, 504.83f, 7.16f, 512.0f, 16.0f, 512.0f)
-                horizontalLineToRelative(544.0f)
-                curveToRelative(8.84f, 0.0f, 16.0f, -7.17f, 16.0f, -16.01f)
-                verticalLineToRelative(-32.01f)
-                curveToRelative(0.0f, -8.84f, -7.16f, -16.0f, -16.0f, -16.0f)
+                moveTo(497.5f, 341.1f)
+                curveToRelative(-5.9f, 16.7f, -25.3f, 23.0f, -41.1f, 15.1f)
+                lineToRelative(-178.2f, -89.1f)
+                lineToRelative(-1.6f, 3.2f)
+                lineToRelative(-88.8f, 177.7f)
+                lineToRelative(292.2f, 0.0f)
+                curveToRelative(17.7f, 0.0f, 32.0f, 14.3f, 32.0f, 32.0f)
+                reflectiveCurveToRelative(-14.3f, 32.0f, -32.0f, 32.0f)
+                lineTo(32.0f, 512.0f)
+                curveToRelative(-17.7f, 0.0f, -32.0f, -14.3f, -32.0f, -32.0f)
+                reflectiveCurveToRelative(14.3f, -32.0f, 32.0f, -32.0f)
+                lineToRelative(84.2f, 0.0f)
+                lineToRelative(103.2f, -206.3f)
+                lineToRelative(1.6f, -3.2f)
+                lineToRelative(-165.4f, -82.7f)
+                curveToRelative(-15.8f, -7.9f, -22.4f, -27.3f, -12.5f, -42.0f)
+                curveToRelative(45.9f, -68.6f, 124.1f, -113.8f, 212.9f, -113.8f)
+                curveToRelative(141.4f, 0.0f, 256.0f, 114.6f, 256.0f, 256.0f)
+                curveToRelative(0.0f, 29.8f, -5.1f, 58.5f, -14.5f, 85.1f)
                 close()
             }
         }

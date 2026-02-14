@@ -16,31 +16,32 @@ public val SolidGroup.ShareAlt: ImageVector
         if (_shareAlt != null) {
             return _shareAlt!!
         }
-        _shareAlt = Builder(name = "ShareAlt", defaultWidth = 448.0.dp, defaultHeight = 512.0.dp,
-                viewportWidth = 448.0f, viewportHeight = 512.0f).apply {
+        _shareAlt = Builder(name = "ShareAlt", defaultWidth = 512.0.dp, defaultHeight = 512.0.dp,
+                viewportWidth = 512.0f, viewportHeight = 512.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(352.0f, 320.0f)
-                curveToRelative(-22.61f, 0.0f, -43.39f, 7.82f, -59.79f, 20.9f)
-                lineToRelative(-102.49f, -64.05f)
-                arcToRelative(96.55f, 96.55f, 0.0f, false, false, 0.0f, -41.68f)
-                lineToRelative(102.49f, -64.05f)
-                curveTo(308.61f, 184.18f, 329.39f, 192.0f, 352.0f, 192.0f)
-                curveToRelative(53.02f, 0.0f, 96.0f, -42.98f, 96.0f, -96.0f)
-                reflectiveCurveTo(405.02f, 0.0f, 352.0f, 0.0f)
-                reflectiveCurveToRelative(-96.0f, 42.98f, -96.0f, 96.0f)
-                curveToRelative(0.0f, 7.16f, 0.79f, 14.13f, 2.28f, 20.84f)
-                lineTo(155.79f, 180.9f)
-                curveTo(139.39f, 167.82f, 118.61f, 160.0f, 96.0f, 160.0f)
-                curveToRelative(-53.02f, 0.0f, -96.0f, 42.98f, -96.0f, 96.0f)
-                reflectiveCurveToRelative(42.98f, 96.0f, 96.0f, 96.0f)
-                curveToRelative(22.61f, 0.0f, 43.39f, -7.82f, 59.79f, -20.9f)
-                lineToRelative(102.49f, 64.05f)
-                arcTo(96.3f, 96.3f, 0.0f, false, false, 256.0f, 416.0f)
-                curveToRelative(0.0f, 53.02f, 42.98f, 96.0f, 96.0f, 96.0f)
-                reflectiveCurveToRelative(96.0f, -42.98f, 96.0f, -96.0f)
-                reflectiveCurveToRelative(-42.98f, -96.0f, -96.0f, -96.0f)
+                moveTo(384.0f, 192.0f)
+                curveToRelative(53.0f, 0.0f, 96.0f, -43.0f, 96.0f, -96.0f)
+                reflectiveCurveToRelative(-43.0f, -96.0f, -96.0f, -96.0f)
+                reflectiveCurveToRelative(-96.0f, 43.0f, -96.0f, 96.0f)
+                curveToRelative(0.0f, 5.4f, 0.5f, 10.8f, 1.3f, 16.0f)
+                lineTo(159.6f, 184.1f)
+                curveToRelative(-16.9f, -15.0f, -39.2f, -24.1f, -63.6f, -24.1f)
+                curveToRelative(-53.0f, 0.0f, -96.0f, 43.0f, -96.0f, 96.0f)
+                reflectiveCurveToRelative(43.0f, 96.0f, 96.0f, 96.0f)
+                curveToRelative(24.4f, 0.0f, 46.6f, -9.1f, 63.6f, -24.1f)
+                lineTo(289.3f, 400.0f)
+                curveToRelative(-0.9f, 5.2f, -1.3f, 10.5f, -1.3f, 16.0f)
+                curveToRelative(0.0f, 53.0f, 43.0f, 96.0f, 96.0f, 96.0f)
+                reflectiveCurveToRelative(96.0f, -43.0f, 96.0f, -96.0f)
+                reflectiveCurveToRelative(-43.0f, -96.0f, -96.0f, -96.0f)
+                curveToRelative(-24.4f, 0.0f, -46.6f, 9.1f, -63.6f, 24.1f)
+                lineTo(190.7f, 272.0f)
+                curveToRelative(0.9f, -5.2f, 1.3f, -10.5f, 1.3f, -16.0f)
+                reflectiveCurveToRelative(-0.5f, -10.8f, -1.3f, -16.0f)
+                lineToRelative(129.7f, -72.1f)
+                curveToRelative(16.9f, 15.0f, 39.2f, 24.1f, 63.6f, 24.1f)
                 close()
             }
         }

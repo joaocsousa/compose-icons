@@ -16,32 +16,32 @@ public val SolidGroup.Columns: ImageVector
         if (_columns != null) {
             return _columns!!
         }
-        _columns = Builder(name = "Columns", defaultWidth = 512.0.dp, defaultHeight = 512.0.dp,
-                viewportWidth = 512.0f, viewportHeight = 512.0f).apply {
+        _columns = Builder(name = "Columns", defaultWidth = 448.0.dp, defaultHeight = 512.0.dp,
+                viewportWidth = 448.0f, viewportHeight = 512.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(464.0f, 32.0f)
-                lineTo(48.0f, 32.0f)
-                curveTo(21.49f, 32.0f, 0.0f, 53.49f, 0.0f, 80.0f)
-                verticalLineToRelative(352.0f)
-                curveToRelative(0.0f, 26.51f, 21.49f, 48.0f, 48.0f, 48.0f)
-                horizontalLineToRelative(416.0f)
-                curveToRelative(26.51f, 0.0f, 48.0f, -21.49f, 48.0f, -48.0f)
-                lineTo(512.0f, 80.0f)
-                curveToRelative(0.0f, -26.51f, -21.49f, -48.0f, -48.0f, -48.0f)
+                moveTo(0.0f, 96.0f)
+                curveTo(0.0f, 60.7f, 28.7f, 32.0f, 64.0f, 32.0f)
+                lineToRelative(320.0f, 0.0f)
+                curveToRelative(35.3f, 0.0f, 64.0f, 28.7f, 64.0f, 64.0f)
+                lineToRelative(0.0f, 320.0f)
+                curveToRelative(0.0f, 35.3f, -28.7f, 64.0f, -64.0f, 64.0f)
+                lineTo(64.0f, 480.0f)
+                curveToRelative(-35.3f, 0.0f, -64.0f, -28.7f, -64.0f, -64.0f)
+                lineTo(0.0f, 96.0f)
                 close()
-                moveTo(224.0f, 416.0f)
-                lineTo(64.0f, 416.0f)
-                lineTo(64.0f, 160.0f)
-                horizontalLineToRelative(160.0f)
-                verticalLineToRelative(256.0f)
+                moveTo(64.0f, 160.0f)
+                lineToRelative(0.0f, 256.0f)
+                lineToRelative(128.0f, 0.0f)
+                lineToRelative(0.0f, -256.0f)
+                lineToRelative(-128.0f, 0.0f)
                 close()
-                moveTo(448.0f, 416.0f)
-                lineTo(288.0f, 416.0f)
-                lineTo(288.0f, 160.0f)
-                horizontalLineToRelative(160.0f)
-                verticalLineToRelative(256.0f)
+                moveTo(384.0f, 160.0f)
+                lineToRelative(-128.0f, 0.0f)
+                lineToRelative(0.0f, 256.0f)
+                lineToRelative(128.0f, 0.0f)
+                lineToRelative(0.0f, -256.0f)
                 close()
             }
         }

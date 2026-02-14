@@ -11,39 +11,41 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.fontawesomeicons.SolidGroup
 
-public val SolidGroup.PaintBrush: ImageVector
+public val SolidGroup.Paintbrush: ImageVector
     get() {
-        if (_paintBrush != null) {
-            return _paintBrush!!
+        if (_paintbrush != null) {
+            return _paintbrush!!
         }
-        _paintBrush = Builder(name = "PaintBrush", defaultWidth = 512.0.dp, defaultHeight =
-                512.0.dp, viewportWidth = 512.0f, viewportHeight = 512.0f).apply {
+        _paintbrush = Builder(name = "Paintbrush", defaultWidth = 576.0.dp, defaultHeight =
+                512.0.dp, viewportWidth = 576.0f, viewportHeight = 512.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(167.02f, 309.34f)
-                curveToRelative(-40.12f, 2.58f, -76.53f, 17.86f, -97.19f, 72.3f)
-                curveToRelative(-2.35f, 6.21f, -8.0f, 9.98f, -14.59f, 9.98f)
-                curveToRelative(-11.11f, 0.0f, -45.46f, -27.67f, -55.25f, -34.35f)
-                curveTo(0.0f, 439.62f, 37.93f, 512.0f, 128.0f, 512.0f)
-                curveToRelative(75.86f, 0.0f, 128.0f, -43.77f, 128.0f, -120.19f)
-                curveToRelative(0.0f, -3.11f, -0.65f, -6.08f, -0.97f, -9.13f)
-                lineToRelative(-88.01f, -73.34f)
+                moveTo(480.5f, 10.3f)
+                lineTo(259.1f, 158.0f)
+                curveToRelative(-29.1f, 19.4f, -47.6f, 50.9f, -50.6f, 85.3f)
+                curveToRelative(62.3f, 12.8f, 111.4f, 61.9f, 124.3f, 124.3f)
+                curveToRelative(34.5f, -3.0f, 65.9f, -21.5f, 85.3f, -50.6f)
+                lineTo(565.7f, 95.5f)
+                curveToRelative(6.7f, -10.1f, 10.3f, -21.9f, 10.3f, -34.1f)
+                curveToRelative(0.0f, -33.9f, -27.5f, -61.4f, -61.4f, -61.4f)
+                curveToRelative(-12.1f, 0.0f, -24.0f, 3.6f, -34.1f, 10.3f)
                 close()
-                moveTo(457.89f, 0.0f)
-                curveToRelative(-15.16f, 0.0f, -29.37f, 6.71f, -40.21f, 16.45f)
-                curveTo(213.27f, 199.05f, 192.0f, 203.34f, 192.0f, 257.09f)
-                curveToRelative(0.0f, 13.7f, 3.25f, 26.76f, 8.73f, 38.7f)
-                lineToRelative(63.82f, 53.18f)
-                curveToRelative(7.21f, 1.8f, 14.64f, 3.03f, 22.39f, 3.03f)
-                curveToRelative(62.11f, 0.0f, 98.11f, -45.47f, 211.16f, -256.46f)
-                curveToRelative(7.38f, -14.35f, 13.9f, -29.85f, 13.9f, -45.99f)
-                curveTo(512.0f, 20.64f, 486.0f, 0.0f, 457.89f, 0.0f)
+                moveTo(288.0f, 400.0f)
+                curveToRelative(0.0f, -61.9f, -50.1f, -112.0f, -112.0f, -112.0f)
+                reflectiveCurveTo(64.0f, 338.1f, 64.0f, 400.0f)
+                curveToRelative(0.0f, 3.9f, 0.2f, 7.8f, 0.6f, 11.6f)
+                curveToRelative(1.8f, 17.5f, -10.2f, 36.4f, -27.8f, 36.4f)
+                lineTo(32.0f, 448.0f)
+                curveToRelative(-17.7f, 0.0f, -32.0f, 14.3f, -32.0f, 32.0f)
+                reflectiveCurveToRelative(14.3f, 32.0f, 32.0f, 32.0f)
+                lineToRelative(144.0f, 0.0f)
+                curveToRelative(61.9f, 0.0f, 112.0f, -50.1f, 112.0f, -112.0f)
                 close()
             }
         }
         .build()
-        return _paintBrush!!
+        return _paintbrush!!
     }
 
-private var _paintBrush: ImageVector? = null
+private var _paintbrush: ImageVector? = null

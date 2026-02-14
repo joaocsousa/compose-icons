@@ -1,0 +1,75 @@
+package compose.icons.fontawesomeicons.solid
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType.Companion.NonZero
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.StrokeCap.Companion.Butt
+import androidx.compose.ui.graphics.StrokeJoin.Companion.Miter
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+import compose.icons.fontawesomeicons.SolidGroup
+
+public val SolidGroup.HouseMedicalCircleExclamation: ImageVector
+    get() {
+        if (_houseMedicalCircleExclamation != null) {
+            return _houseMedicalCircleExclamation!!
+        }
+        _houseMedicalCircleExclamation = Builder(name = "HouseMedicalCircleExclamation",
+                defaultWidth = 640.0.dp, defaultHeight = 512.0.dp, viewportWidth = 640.0f,
+                viewportHeight = 512.0f).apply {
+            path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
+                    strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
+                    pathFillType = NonZero) {
+                moveTo(309.8f, 8.6f)
+                curveToRelative(-12.3f, -11.4f, -31.3f, -11.4f, -43.5f, 0.0f)
+                lineToRelative(-224.0f, 208.0f)
+                curveToRelative(-9.6f, 9.0f, -12.8f, 22.9f, -8.0f, 35.1f)
+                reflectiveCurveTo(50.8f, 272.0f, 64.0f, 272.0f)
+                lineToRelative(16.0f, 0.0f)
+                lineToRelative(0.0f, 176.0f)
+                curveToRelative(0.0f, 35.3f, 28.7f, 64.0f, 64.0f, 64.0f)
+                lineToRelative(196.0f, 0.0f)
+                curveToRelative(-21.2f, -29.5f, -34.3f, -65.3f, -35.9f, -104.0f)
+                lineTo(272.0f, 408.0f)
+                curveToRelative(-8.8f, 0.0f, -16.0f, -7.2f, -16.0f, -16.0f)
+                lineToRelative(0.0f, -40.0f)
+                lineToRelative(-40.0f, 0.0f)
+                curveToRelative(-8.8f, 0.0f, -16.0f, -7.2f, -16.0f, -16.0f)
+                lineToRelative(0.0f, -32.0f)
+                curveToRelative(0.0f, -8.8f, 7.2f, -16.0f, 16.0f, -16.0f)
+                lineToRelative(40.0f, 0.0f)
+                lineToRelative(0.0f, -40.0f)
+                curveToRelative(0.0f, -8.8f, 7.2f, -16.0f, 16.0f, -16.0f)
+                lineToRelative(32.0f, 0.0f)
+                curveToRelative(8.8f, 0.0f, 16.0f, 7.2f, 16.0f, 16.0f)
+                lineToRelative(0.0f, 40.0f)
+                lineToRelative(20.0f, 0.0f)
+                curveToRelative(34.9f, -48.5f, 91.7f, -80.0f, 156.0f, -80.0f)
+                curveToRelative(10.7f, 0.0f, 21.1f, 0.9f, 31.3f, 2.5f)
+                lineTo(309.8f, 8.6f)
+                close()
+                moveTo(496.0f, 544.0f)
+                arcToRelative(144.0f, 144.0f, 0.0f, true, false, 0.0f, -288.0f)
+                arcToRelative(144.0f, 144.0f, 0.0f, true, false, 0.0f, 288.0f)
+                close()
+                moveTo(496.0f, 444.0f)
+                arcToRelative(20.0f, 20.0f, 0.0f, true, true, 0.0f, 40.0f)
+                arcToRelative(20.0f, 20.0f, 0.0f, true, true, 0.0f, -40.0f)
+                close()
+                moveTo(496.0f, 304.0f)
+                curveToRelative(8.8f, 0.0f, 16.0f, 7.2f, 16.0f, 16.0f)
+                lineToRelative(0.0f, 80.0f)
+                curveToRelative(0.0f, 8.8f, -7.2f, 16.0f, -16.0f, 16.0f)
+                reflectiveCurveToRelative(-16.0f, -7.2f, -16.0f, -16.0f)
+                lineToRelative(0.0f, -80.0f)
+                curveToRelative(0.0f, -8.8f, 7.2f, -16.0f, 16.0f, -16.0f)
+                close()
+            }
+        }
+        .build()
+        return _houseMedicalCircleExclamation!!
+    }
+
+private var _houseMedicalCircleExclamation: ImageVector? = null

@@ -16,20 +16,18 @@ public val SolidGroup.Slash: ImageVector
         if (_slash != null) {
             return _slash!!
         }
-        _slash = Builder(name = "Slash", defaultWidth = 640.0.dp, defaultHeight = 512.0.dp,
-                viewportWidth = 640.0f, viewportHeight = 512.0f).apply {
+        _slash = Builder(name = "Slash", defaultWidth = 576.0.dp, defaultHeight = 512.0.dp,
+                viewportWidth = 576.0f, viewportHeight = 512.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(594.53f, 508.63f)
-                lineTo(6.18f, 53.9f)
-                curveToRelative(-6.97f, -5.42f, -8.23f, -15.47f, -2.81f, -22.45f)
-                lineTo(23.01f, 6.18f)
-                curveTo(28.43f, -0.8f, 38.49f, -2.06f, 45.47f, 3.37f)
-                lineTo(633.82f, 458.1f)
-                curveToRelative(6.97f, 5.42f, 8.23f, 15.47f, 2.81f, 22.45f)
-                lineToRelative(-19.64f, 25.27f)
-                curveToRelative(-5.42f, 6.98f, -15.48f, 8.23f, -22.46f, 2.81f)
+                moveTo(7.0f, -25.0f)
+                curveToRelative(9.4f, -9.4f, 24.6f, -9.4f, 33.9f, 0.0f)
+                lineTo(569.0f, 503.0f)
+                curveToRelative(9.4f, 9.4f, 9.4f, 24.6f, 0.0f, 33.9f)
+                reflectiveCurveToRelative(-24.6f, 9.4f, -33.9f, 0.0f)
+                lineTo(7.0f, 9.0f)
+                curveTo(-2.3f, -0.4f, -2.3f, -15.6f, 7.0f, -25.0f)
                 close()
             }
         }
