@@ -21,17 +21,19 @@ public val SolidGroup.Folder: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(464.0f, 128.0f)
-                horizontalLineTo(272.0f)
-                lineToRelative(-64.0f, -64.0f)
-                horizontalLineTo(48.0f)
-                curveTo(21.49f, 64.0f, 0.0f, 85.49f, 0.0f, 112.0f)
-                verticalLineToRelative(288.0f)
-                curveToRelative(0.0f, 26.51f, 21.49f, 48.0f, 48.0f, 48.0f)
-                horizontalLineToRelative(416.0f)
-                curveToRelative(26.51f, 0.0f, 48.0f, -21.49f, 48.0f, -48.0f)
-                verticalLineTo(176.0f)
-                curveToRelative(0.0f, -26.51f, -21.49f, -48.0f, -48.0f, -48.0f)
+                moveTo(64.0f, 448.0f)
+                lineToRelative(384.0f, 0.0f)
+                curveToRelative(35.3f, 0.0f, 64.0f, -28.7f, 64.0f, -64.0f)
+                lineToRelative(0.0f, -240.0f)
+                curveToRelative(0.0f, -35.3f, -28.7f, -64.0f, -64.0f, -64.0f)
+                lineTo(298.7f, 80.0f)
+                curveToRelative(-6.9f, 0.0f, -13.7f, -2.2f, -19.2f, -6.4f)
+                lineTo(241.1f, 44.8f)
+                curveTo(230.0f, 36.5f, 216.5f, 32.0f, 202.7f, 32.0f)
+                lineTo(64.0f, 32.0f)
+                curveTo(28.7f, 32.0f, 0.0f, 60.7f, 0.0f, 96.0f)
+                lineTo(0.0f, 384.0f)
+                curveToRelative(0.0f, 35.3f, 28.7f, 64.0f, 64.0f, 64.0f)
                 close()
             }
         }

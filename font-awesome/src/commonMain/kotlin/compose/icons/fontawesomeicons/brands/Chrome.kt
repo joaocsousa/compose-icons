@@ -16,38 +16,37 @@ public val BrandsGroup.Chrome: ImageVector
         if (_chrome != null) {
             return _chrome!!
         }
-        _chrome = Builder(name = "Chrome", defaultWidth = 496.0.dp, defaultHeight = 512.0.dp,
-                viewportWidth = 496.0f, viewportHeight = 512.0f).apply {
+        _chrome = Builder(name = "Chrome", defaultWidth = 512.0.dp, defaultHeight = 512.0.dp,
+                viewportWidth = 512.0f, viewportHeight = 512.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(131.5f, 217.5f)
-                lineTo(55.1f, 100.1f)
-                curveToRelative(47.6f, -59.2f, 119.0f, -91.8f, 192.0f, -92.1f)
-                curveToRelative(42.3f, -0.3f, 85.5f, 10.5f, 124.8f, 33.2f)
-                curveToRelative(43.4f, 25.2f, 76.4f, 61.4f, 97.4f, 103.0f)
-                lineTo(264.0f, 133.4f)
-                curveToRelative(-58.1f, -3.4f, -113.4f, 29.3f, -132.5f, 84.1f)
+                moveTo(0.0f, 256.0f)
+                curveToRelative(0.0f, -46.6f, 12.5f, -90.4f, 34.3f, -128.9f)
+                lineTo(144.1f, 318.3f)
+                curveToRelative(21.9f, 39.2f, 63.8f, 65.7f, 111.9f, 65.7f)
+                curveToRelative(14.3f, 0.0f, 27.1f, -2.3f, 40.8f, -6.6f)
+                lineTo(220.5f, 509.6f)
+                curveTo(95.9f, 492.3f, 0.0f, 385.3f, 0.0f, 256.0f)
                 close()
-                moveTo(164.4f, 256.0f)
-                curveToRelative(0.0f, 46.2f, 37.4f, 83.6f, 83.6f, 83.6f)
-                reflectiveCurveToRelative(83.6f, -37.4f, 83.6f, -83.6f)
-                reflectiveCurveToRelative(-37.4f, -83.6f, -83.6f, -83.6f)
-                reflectiveCurveToRelative(-83.6f, 37.3f, -83.6f, 83.6f)
+                moveTo(365.1f, 321.6f)
+                curveToRelative(12.3f, -19.2f, 18.9f, -42.5f, 18.9f, -65.6f)
+                curveToRelative(0.0f, -38.2f, -16.8f, -72.5f, -43.3f, -96.0f)
+                lineToRelative(152.7f, 0.0f)
+                curveToRelative(12.0f, 29.6f, 18.6f, 62.1f, 18.6f, 96.0f)
+                curveToRelative(0.0f, 141.4f, -114.6f, 255.1f, -256.0f, 256.0f)
+                lineTo(365.1f, 321.6f)
                 close()
-                moveTo(479.3f, 166.8f)
-                lineTo(339.6f, 174.0f)
-                curveToRelative(37.9f, 44.3f, 38.5f, 108.2f, 6.6f, 157.2f)
-                lineTo(234.1f, 503.6f)
-                curveToRelative(46.5f, 2.5f, 94.4f, -7.7f, 137.8f, -32.9f)
-                curveToRelative(107.4f, -62.0f, 150.9f, -192.0f, 107.4f, -303.9f)
+                moveTo(477.8f, 128.0f)
+                lineTo(256.0f, 128.0f)
+                curveToRelative(-62.9f, 0.0f, -113.7f, 44.1f, -125.5f, 102.7f)
+                lineTo(54.2f, 98.5f)
+                curveTo(101.0f, 38.5f, 174.0f, 0.0f, 256.0f, 0.0f)
+                curveTo(350.8f, 0.0f, 433.5f, 51.5f, 477.8f, 128.0f)
                 close()
-                moveTo(133.7f, 303.6f)
-                lineTo(40.4f, 120.1f)
-                curveTo(14.9f, 159.1f, 0.0f, 205.9f, 0.0f, 256.0f)
-                curveToRelative(0.0f, 124.0f, 90.8f, 226.7f, 209.5f, 244.9f)
-                lineToRelative(63.7f, -124.8f)
-                curveToRelative(-57.6f, 10.8f, -113.2f, -20.8f, -139.5f, -72.5f)
+                moveTo(344.0f, 256.0f)
+                arcToRelative(88.0f, 88.0f, 0.0f, true, true, -176.0f, 0.0f)
+                arcToRelative(88.0f, 88.0f, 0.0f, true, true, 176.0f, 0.0f)
                 close()
             }
         }

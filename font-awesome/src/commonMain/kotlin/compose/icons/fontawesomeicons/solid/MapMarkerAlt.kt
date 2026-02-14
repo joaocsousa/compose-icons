@@ -21,18 +21,16 @@ public val SolidGroup.MapMarkerAlt: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(172.27f, 501.67f)
-                curveTo(26.97f, 291.03f, 0.0f, 269.41f, 0.0f, 192.0f)
-                curveTo(0.0f, 85.96f, 85.96f, 0.0f, 192.0f, 0.0f)
-                reflectiveCurveToRelative(192.0f, 85.96f, 192.0f, 192.0f)
-                curveToRelative(0.0f, 77.41f, -26.97f, 99.03f, -172.27f, 309.67f)
-                curveToRelative(-9.53f, 13.77f, -29.93f, 13.77f, -39.46f, 0.0f)
+                moveTo(0.0f, 188.6f)
+                curveTo(0.0f, 84.4f, 86.0f, 0.0f, 192.0f, 0.0f)
+                reflectiveCurveTo(384.0f, 84.4f, 384.0f, 188.6f)
+                curveToRelative(0.0f, 119.3f, -120.2f, 262.3f, -170.4f, 316.8f)
+                curveToRelative(-11.8f, 12.8f, -31.5f, 12.8f, -43.3f, 0.0f)
+                curveToRelative(-50.2f, -54.5f, -170.4f, -197.5f, -170.4f, -316.8f)
                 close()
-                moveTo(192.0f, 272.0f)
-                curveToRelative(44.18f, 0.0f, 80.0f, -35.82f, 80.0f, -80.0f)
-                reflectiveCurveToRelative(-35.82f, -80.0f, -80.0f, -80.0f)
-                reflectiveCurveToRelative(-80.0f, 35.82f, -80.0f, 80.0f)
-                reflectiveCurveToRelative(35.82f, 80.0f, 80.0f, 80.0f)
+                moveTo(192.0f, 256.0f)
+                arcToRelative(64.0f, 64.0f, 0.0f, true, false, 0.0f, -128.0f)
+                arcToRelative(64.0f, 64.0f, 0.0f, true, false, 0.0f, 128.0f)
                 close()
             }
         }

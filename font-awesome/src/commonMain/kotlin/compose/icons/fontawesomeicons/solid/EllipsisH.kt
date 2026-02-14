@@ -16,28 +16,22 @@ public val SolidGroup.EllipsisH: ImageVector
         if (_ellipsisH != null) {
             return _ellipsisH!!
         }
-        _ellipsisH = Builder(name = "EllipsisH", defaultWidth = 512.0.dp, defaultHeight = 512.0.dp,
-                viewportWidth = 512.0f, viewportHeight = 512.0f).apply {
+        _ellipsisH = Builder(name = "EllipsisH", defaultWidth = 448.0.dp, defaultHeight = 512.0.dp,
+                viewportWidth = 448.0f, viewportHeight = 512.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(328.0f, 256.0f)
-                curveToRelative(0.0f, 39.8f, -32.2f, 72.0f, -72.0f, 72.0f)
-                reflectiveCurveToRelative(-72.0f, -32.2f, -72.0f, -72.0f)
-                reflectiveCurveToRelative(32.2f, -72.0f, 72.0f, -72.0f)
-                reflectiveCurveToRelative(72.0f, 32.2f, 72.0f, 72.0f)
+                moveTo(0.0f, 256.0f)
+                arcToRelative(56.0f, 56.0f, 0.0f, true, true, 112.0f, 0.0f)
+                arcToRelative(56.0f, 56.0f, 0.0f, true, true, -112.0f, 0.0f)
                 close()
-                moveTo(432.0f, 184.0f)
-                curveToRelative(-39.8f, 0.0f, -72.0f, 32.2f, -72.0f, 72.0f)
-                reflectiveCurveToRelative(32.2f, 72.0f, 72.0f, 72.0f)
-                reflectiveCurveToRelative(72.0f, -32.2f, 72.0f, -72.0f)
-                reflectiveCurveToRelative(-32.2f, -72.0f, -72.0f, -72.0f)
+                moveTo(168.0f, 256.0f)
+                arcToRelative(56.0f, 56.0f, 0.0f, true, true, 112.0f, 0.0f)
+                arcToRelative(56.0f, 56.0f, 0.0f, true, true, -112.0f, 0.0f)
                 close()
-                moveTo(80.0f, 184.0f)
-                curveToRelative(-39.8f, 0.0f, -72.0f, 32.2f, -72.0f, 72.0f)
-                reflectiveCurveToRelative(32.2f, 72.0f, 72.0f, 72.0f)
-                reflectiveCurveToRelative(72.0f, -32.2f, 72.0f, -72.0f)
-                reflectiveCurveToRelative(-32.2f, -72.0f, -72.0f, -72.0f)
+                moveTo(392.0f, 200.0f)
+                arcToRelative(56.0f, 56.0f, 0.0f, true, true, 0.0f, 112.0f)
+                arcToRelative(56.0f, 56.0f, 0.0f, true, true, 0.0f, -112.0f)
                 close()
             }
         }

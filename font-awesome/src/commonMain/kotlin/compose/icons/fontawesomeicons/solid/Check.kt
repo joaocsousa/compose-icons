@@ -16,23 +16,22 @@ public val SolidGroup.Check: ImageVector
         if (_check != null) {
             return _check!!
         }
-        _check = Builder(name = "Check", defaultWidth = 512.0.dp, defaultHeight = 512.0.dp,
-                viewportWidth = 512.0f, viewportHeight = 512.0f).apply {
+        _check = Builder(name = "Check", defaultWidth = 448.0.dp, defaultHeight = 512.0.dp,
+                viewportWidth = 448.0f, viewportHeight = 512.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(173.9f, 439.4f)
-                lineToRelative(-166.4f, -166.4f)
-                curveToRelative(-10.0f, -10.0f, -10.0f, -26.21f, 0.0f, -36.2f)
-                lineToRelative(36.2f, -36.2f)
-                curveToRelative(10.0f, -10.0f, 26.21f, -10.0f, 36.2f, 0.0f)
-                lineTo(192.0f, 312.69f)
-                lineTo(432.1f, 72.6f)
-                curveToRelative(10.0f, -10.0f, 26.21f, -10.0f, 36.2f, 0.0f)
-                lineToRelative(36.2f, 36.2f)
-                curveToRelative(10.0f, 10.0f, 10.0f, 26.21f, 0.0f, 36.2f)
-                lineToRelative(-294.4f, 294.4f)
-                curveToRelative(-10.0f, 10.0f, -26.21f, 10.0f, -36.2f, -0.0f)
+                moveTo(434.8f, 70.1f)
+                curveToRelative(14.3f, 10.4f, 17.5f, 30.4f, 7.1f, 44.7f)
+                lineToRelative(-256.0f, 352.0f)
+                curveToRelative(-5.5f, 7.6f, -14.0f, 12.3f, -23.4f, 13.1f)
+                reflectiveCurveToRelative(-18.5f, -2.7f, -25.1f, -9.3f)
+                lineToRelative(-128.0f, -128.0f)
+                curveToRelative(-12.5f, -12.5f, -12.5f, -32.8f, 0.0f, -45.3f)
+                reflectiveCurveToRelative(32.8f, -12.5f, 45.3f, 0.0f)
+                lineToRelative(101.5f, 101.5f)
+                lineToRelative(234.0f, -321.7f)
+                curveToRelative(10.4f, -14.3f, 30.4f, -17.5f, 44.7f, -7.1f)
                 close()
             }
         }

@@ -21,16 +21,16 @@ public val SolidGroup.UtensilSpoon: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(480.1f, 31.9f)
-                curveToRelative(-55.0f, -55.1f, -164.9f, -34.5f, -227.8f, 28.5f)
-                curveToRelative(-49.3f, 49.3f, -55.1f, 110.0f, -28.8f, 160.4f)
-                lineTo(9.0f, 413.2f)
-                curveToRelative(-11.6f, 10.5f, -12.1f, 28.5f, -1.0f, 39.5f)
-                lineTo(59.3f, 504.0f)
-                curveToRelative(11.0f, 11.0f, 29.1f, 10.5f, 39.5f, -1.1f)
-                lineToRelative(192.4f, -214.4f)
-                curveToRelative(50.4f, 26.3f, 111.1f, 20.5f, 160.4f, -28.8f)
-                curveToRelative(63.0f, -62.9f, 83.6f, -172.8f, 28.5f, -227.8f)
+                moveTo(245.8f, 220.9f)
+                curveToRelative(-14.5f, -17.6f, -21.8f, -39.2f, -21.8f, -60.8f)
+                curveToRelative(0.0f, -80.2f, 96.0f, -160.2f, 192.0f, -160.2f)
+                curveToRelative(53.0f, 0.0f, 96.0f, 43.0f, 96.0f, 96.0f)
+                curveToRelative(0.0f, 96.0f, -80.0f, 192.0f, -160.2f, 192.0f)
+                curveToRelative(-21.6f, 0.0f, -43.2f, -7.3f, -60.8f, -21.8f)
+                lineTo(54.6f, 502.6f)
+                curveToRelative(-12.5f, 12.5f, -32.8f, 12.5f, -45.3f, 0.0f)
+                reflectiveCurveToRelative(-12.5f, -32.8f, 0.0f, -45.3f)
+                lineTo(245.8f, 220.9f)
                 close()
             }
         }

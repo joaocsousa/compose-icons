@@ -16,38 +16,36 @@ public val SolidGroup.WaveSquare: ImageVector
         if (_waveSquare != null) {
             return _waveSquare!!
         }
-        _waveSquare = Builder(name = "WaveSquare", defaultWidth = 640.0.dp, defaultHeight =
-                512.0.dp, viewportWidth = 640.0f, viewportHeight = 512.0f).apply {
+        _waveSquare = Builder(name = "WaveSquare", defaultWidth = 512.0.dp, defaultHeight =
+                512.0.dp, viewportWidth = 512.0f, viewportHeight = 512.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(476.0f, 480.0f)
-                horizontalLineTo(324.0f)
-                arcToRelative(36.0f, 36.0f, 0.0f, false, true, -36.0f, -36.0f)
-                verticalLineTo(96.0f)
-                horizontalLineToRelative(-96.0f)
-                verticalLineToRelative(156.0f)
-                arcToRelative(36.0f, 36.0f, 0.0f, false, true, -36.0f, 36.0f)
-                horizontalLineTo(16.0f)
-                arcToRelative(16.0f, 16.0f, 0.0f, false, true, -16.0f, -16.0f)
-                verticalLineToRelative(-32.0f)
-                arcToRelative(16.0f, 16.0f, 0.0f, false, true, 16.0f, -16.0f)
-                horizontalLineToRelative(112.0f)
-                verticalLineTo(68.0f)
-                arcToRelative(36.0f, 36.0f, 0.0f, false, true, 36.0f, -36.0f)
-                horizontalLineToRelative(152.0f)
-                arcToRelative(36.0f, 36.0f, 0.0f, false, true, 36.0f, 36.0f)
-                verticalLineToRelative(348.0f)
-                horizontalLineToRelative(96.0f)
-                verticalLineTo(260.0f)
-                arcToRelative(36.0f, 36.0f, 0.0f, false, true, 36.0f, -36.0f)
-                horizontalLineToRelative(140.0f)
-                arcToRelative(16.0f, 16.0f, 0.0f, false, true, 16.0f, 16.0f)
-                verticalLineToRelative(32.0f)
-                arcToRelative(16.0f, 16.0f, 0.0f, false, true, -16.0f, 16.0f)
-                horizontalLineTo(512.0f)
-                verticalLineToRelative(156.0f)
-                arcToRelative(36.0f, 36.0f, 0.0f, false, true, -36.0f, 36.0f)
+                moveTo(64.0f, 96.0f)
+                curveToRelative(0.0f, -17.7f, 14.3f, -32.0f, 32.0f, -32.0f)
+                lineToRelative(160.0f, 0.0f)
+                curveToRelative(17.7f, 0.0f, 32.0f, 14.3f, 32.0f, 32.0f)
+                lineToRelative(0.0f, 288.0f)
+                lineToRelative(96.0f, 0.0f)
+                lineToRelative(0.0f, -128.0f)
+                curveToRelative(0.0f, -17.7f, 14.3f, -32.0f, 32.0f, -32.0f)
+                lineToRelative(64.0f, 0.0f)
+                curveToRelative(17.7f, 0.0f, 32.0f, 14.3f, 32.0f, 32.0f)
+                reflectiveCurveToRelative(-14.3f, 32.0f, -32.0f, 32.0f)
+                lineToRelative(-32.0f, 0.0f)
+                lineToRelative(0.0f, 128.0f)
+                curveToRelative(0.0f, 17.7f, -14.3f, 32.0f, -32.0f, 32.0f)
+                lineToRelative(-160.0f, 0.0f)
+                curveToRelative(-17.7f, 0.0f, -32.0f, -14.3f, -32.0f, -32.0f)
+                lineToRelative(0.0f, -288.0f)
+                lineToRelative(-96.0f, 0.0f)
+                lineToRelative(0.0f, 128.0f)
+                curveToRelative(0.0f, 17.7f, -14.3f, 32.0f, -32.0f, 32.0f)
+                lineToRelative(-64.0f, 0.0f)
+                curveToRelative(-17.7f, 0.0f, -32.0f, -14.3f, -32.0f, -32.0f)
+                reflectiveCurveToRelative(14.3f, -32.0f, 32.0f, -32.0f)
+                lineToRelative(32.0f, 0.0f)
+                lineToRelative(0.0f, -128.0f)
                 close()
             }
         }

@@ -16,40 +16,31 @@ public val SolidGroup.ChessPawn: ImageVector
         if (_chessPawn != null) {
             return _chessPawn!!
         }
-        _chessPawn = Builder(name = "ChessPawn", defaultWidth = 320.0.dp, defaultHeight = 512.0.dp,
-                viewportWidth = 320.0f, viewportHeight = 512.0f).apply {
+        _chessPawn = Builder(name = "ChessPawn", defaultWidth = 384.0.dp, defaultHeight = 512.0.dp,
+                viewportWidth = 384.0f, viewportHeight = 512.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(105.1f, 224.0f)
-                horizontalLineTo(80.0f)
-                arcToRelative(16.0f, 16.0f, 0.0f, false, false, -16.0f, 16.0f)
-                verticalLineToRelative(32.0f)
-                arcToRelative(16.0f, 16.0f, 0.0f, false, false, 16.0f, 16.0f)
-                horizontalLineToRelative(16.0f)
-                verticalLineToRelative(5.49f)
-                curveToRelative(0.0f, 44.0f, -4.14f, 86.6f, -24.0f, 122.51f)
-                horizontalLineToRelative(176.0f)
-                curveToRelative(-19.89f, -35.91f, -24.0f, -78.51f, -24.0f, -122.51f)
-                verticalLineTo(288.0f)
-                horizontalLineToRelative(16.0f)
-                arcToRelative(16.0f, 16.0f, 0.0f, false, false, 16.0f, -16.0f)
-                verticalLineToRelative(-32.0f)
-                arcToRelative(16.0f, 16.0f, 0.0f, false, false, -16.0f, -16.0f)
-                horizontalLineToRelative(-25.1f)
-                curveToRelative(29.39f, -18.38f, 49.1f, -50.78f, 49.1f, -88.0f)
-                arcToRelative(104.0f, 104.0f, 0.0f, false, false, -208.0f, 0.0f)
-                curveToRelative(0.0f, 37.22f, 19.71f, 69.62f, 49.1f, 88.0f)
-                close()
-                moveTo(304.0f, 448.0f)
-                horizontalLineTo(16.0f)
-                arcToRelative(16.0f, 16.0f, 0.0f, false, false, -16.0f, 16.0f)
-                verticalLineToRelative(32.0f)
-                arcToRelative(16.0f, 16.0f, 0.0f, false, false, 16.0f, 16.0f)
-                horizontalLineToRelative(288.0f)
-                arcToRelative(16.0f, 16.0f, 0.0f, false, false, 16.0f, -16.0f)
-                verticalLineToRelative(-32.0f)
-                arcToRelative(16.0f, 16.0f, 0.0f, false, false, -16.0f, -16.0f)
+                moveTo(192.0f, -32.0f)
+                curveToRelative(66.3f, 0.0f, 120.0f, 53.7f, 120.0f, 120.0f)
+                curveToRelative(0.0f, 27.0f, -8.9f, 51.9f, -24.0f, 72.0f)
+                curveToRelative(17.7f, 0.0f, 32.0f, 14.3f, 32.0f, 32.0f)
+                reflectiveCurveToRelative(-14.3f, 32.0f, -32.0f, 32.0f)
+                lineToRelative(-10.7f, 0.0f)
+                lineToRelative(26.7f, 160.0f)
+                lineToRelative(56.2f, 70.3f)
+                curveToRelative(5.0f, 6.3f, 7.8f, 14.1f, 7.8f, 22.2f)
+                curveToRelative(0.0f, 19.6f, -15.9f, 35.5f, -35.5f, 35.5f)
+                lineTo(51.5f, 512.0f)
+                curveToRelative(-19.6f, 0.0f, -35.5f, -15.9f, -35.5f, -35.5f)
+                curveToRelative(0.0f, -8.1f, 2.7f, -15.9f, 7.8f, -22.2f)
+                lineTo(80.0f, 384.0f)
+                lineTo(106.7f, 224.0f)
+                lineTo(96.0f, 224.0f)
+                curveToRelative(-17.7f, 0.0f, -32.0f, -14.3f, -32.0f, -32.0f)
+                reflectiveCurveToRelative(14.3f, -32.0f, 32.0f, -32.0f)
+                curveToRelative(-15.1f, -20.1f, -24.0f, -45.0f, -24.0f, -72.0f)
+                curveToRelative(0.0f, -66.3f, 53.7f, -120.0f, 120.0f, -120.0f)
                 close()
             }
         }

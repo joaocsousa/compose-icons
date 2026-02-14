@@ -16,38 +16,32 @@ public val RegularGroup.PaperPlane: ImageVector
         if (_paperPlane != null) {
             return _paperPlane!!
         }
-        _paperPlane = Builder(name = "PaperPlane", defaultWidth = 512.0.dp, defaultHeight =
-                512.0.dp, viewportWidth = 512.0f, viewportHeight = 512.0f).apply {
+        _paperPlane = Builder(name = "PaperPlane", defaultWidth = 576.0.dp, defaultHeight =
+                512.0.dp, viewportWidth = 576.0f, viewportHeight = 512.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(440.0f, 6.5f)
-                lineTo(24.0f, 246.4f)
-                curveToRelative(-34.4f, 19.9f, -31.1f, 70.8f, 5.7f, 85.9f)
-                lineTo(144.0f, 379.6f)
-                lineTo(144.0f, 464.0f)
-                curveToRelative(0.0f, 46.4f, 59.2f, 65.5f, 86.6f, 28.6f)
-                lineToRelative(43.8f, -59.1f)
-                lineToRelative(111.9f, 46.2f)
-                curveToRelative(5.9f, 2.4f, 12.1f, 3.6f, 18.3f, 3.6f)
-                curveToRelative(8.2f, 0.0f, 16.3f, -2.1f, 23.6f, -6.2f)
-                curveToRelative(12.8f, -7.2f, 21.6f, -20.0f, 23.9f, -34.5f)
-                lineToRelative(59.4f, -387.2f)
-                curveToRelative(6.1f, -40.1f, -36.9f, -68.8f, -71.5f, -48.9f)
+                moveTo(290.5f, 287.7f)
+                lineTo(491.4f, 86.9f)
+                lineTo(359.0f, 456.3f)
+                lineTo(290.5f, 287.7f)
                 close()
-                moveTo(192.0f, 464.0f)
-                verticalLineToRelative(-64.6f)
-                lineToRelative(36.6f, 15.1f)
-                lineTo(192.0f, 464.0f)
+                moveTo(457.4f, 53.0f)
+                lineTo(256.6f, 253.8f)
+                lineTo(88.0f, 185.3f)
+                lineTo(457.4f, 53.0f)
                 close()
-                moveTo(404.6f, 435.3f)
-                lineToRelative(-153.8f, -63.5f)
-                lineTo(391.0f, 169.5f)
-                curveToRelative(10.7f, -15.5f, -9.5f, -33.5f, -23.7f, -21.2f)
-                lineTo(155.8f, 332.6f)
-                lineTo(48.0f, 288.0f)
-                lineTo(464.0f, 48.0f)
-                lineToRelative(-59.4f, 387.3f)
+                moveTo(38.1f, 216.8f)
+                lineToRelative(205.8f, 83.6f)
+                lineToRelative(83.6f, 205.8f)
+                curveToRelative(5.3f, 13.1f, 18.1f, 21.7f, 32.3f, 21.7f)
+                curveToRelative(14.7f, 0.0f, 27.8f, -9.2f, 32.8f, -23.1f)
+                lineTo(570.6f, 8.0f)
+                curveToRelative(3.5f, -9.8f, 1.0f, -20.6f, -6.3f, -28.0f)
+                reflectiveCurveToRelative(-18.2f, -9.8f, -28.0f, -6.3f)
+                lineTo(39.4f, 151.7f)
+                curveToRelative(-13.9f, 5.0f, -23.1f, 18.1f, -23.1f, 32.8f)
+                curveToRelative(0.0f, 14.2f, 8.6f, 27.0f, 21.7f, 32.3f)
                 close()
             }
         }

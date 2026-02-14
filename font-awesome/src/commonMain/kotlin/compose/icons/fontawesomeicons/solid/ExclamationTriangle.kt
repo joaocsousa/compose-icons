@@ -16,34 +16,33 @@ public val SolidGroup.ExclamationTriangle: ImageVector
         if (_exclamationTriangle != null) {
             return _exclamationTriangle!!
         }
-        _exclamationTriangle = Builder(name = "ExclamationTriangle", defaultWidth = 576.0.dp,
-                defaultHeight = 512.0.dp, viewportWidth = 576.0f, viewportHeight = 512.0f).apply {
+        _exclamationTriangle = Builder(name = "ExclamationTriangle", defaultWidth = 512.0.dp,
+                defaultHeight = 512.0.dp, viewportWidth = 512.0f, viewportHeight = 512.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(569.52f, 440.01f)
-                curveTo(587.97f, 472.01f, 564.81f, 512.0f, 527.94f, 512.0f)
-                lineTo(48.05f, 512.0f)
-                curveToRelative(-36.94f, 0.0f, -60.0f, -40.06f, -41.58f, -71.99f)
-                lineTo(246.42f, 23.99f)
-                curveToRelative(18.47f, -32.01f, 64.72f, -31.95f, 83.15f, 0.0f)
-                lineToRelative(239.94f, 416.03f)
+                moveTo(256.0f, 0.0f)
+                curveToRelative(14.7f, 0.0f, 28.2f, 8.1f, 35.2f, 21.0f)
+                lineToRelative(216.0f, 400.0f)
+                curveToRelative(6.7f, 12.4f, 6.4f, 27.4f, -0.8f, 39.5f)
+                reflectiveCurveTo(486.1f, 480.0f, 472.0f, 480.0f)
+                lineTo(40.0f, 480.0f)
+                curveToRelative(-14.1f, 0.0f, -27.2f, -7.4f, -34.4f, -19.5f)
+                reflectiveCurveToRelative(-7.5f, -27.1f, -0.8f, -39.5f)
+                lineToRelative(216.0f, -400.0f)
+                curveToRelative(7.0f, -12.9f, 20.5f, -21.0f, 35.2f, -21.0f)
                 close()
-                moveTo(288.0f, 354.0f)
-                curveToRelative(-25.41f, 0.0f, -46.0f, 20.59f, -46.0f, 46.0f)
-                reflectiveCurveToRelative(20.59f, 46.0f, 46.0f, 46.0f)
-                reflectiveCurveToRelative(46.0f, -20.59f, 46.0f, -46.0f)
-                reflectiveCurveToRelative(-20.59f, -46.0f, -46.0f, -46.0f)
+                moveTo(256.0f, 352.0f)
+                arcToRelative(32.0f, 32.0f, 0.0f, true, false, 0.0f, 64.0f)
+                arcToRelative(32.0f, 32.0f, 0.0f, true, false, 0.0f, -64.0f)
                 close()
-                moveTo(244.33f, 188.65f)
-                lineToRelative(7.42f, 136.0f)
-                curveToRelative(0.35f, 6.36f, 5.61f, 11.35f, 11.98f, 11.35f)
-                horizontalLineToRelative(48.55f)
-                curveToRelative(6.37f, 0.0f, 11.64f, -4.98f, 11.98f, -11.35f)
-                lineToRelative(7.42f, -136.0f)
-                curveToRelative(0.38f, -6.87f, -5.1f, -12.65f, -11.98f, -12.65f)
-                horizontalLineToRelative(-63.38f)
-                curveToRelative(-6.88f, 0.0f, -12.36f, 5.78f, -11.98f, 12.65f)
+                moveTo(256.0f, 160.0f)
+                curveToRelative(-18.2f, 0.0f, -32.7f, 15.5f, -31.4f, 33.7f)
+                lineToRelative(7.4f, 104.0f)
+                curveToRelative(0.9f, 12.5f, 11.4f, 22.3f, 23.9f, 22.3f)
+                curveToRelative(12.6f, 0.0f, 23.0f, -9.7f, 23.9f, -22.3f)
+                lineToRelative(7.4f, -104.0f)
+                curveToRelative(1.3f, -18.2f, -13.1f, -33.7f, -31.4f, -33.7f)
                 close()
             }
         }
