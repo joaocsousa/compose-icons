@@ -1,6 +1,8 @@
 
 import androidx.compose.ui.window.ComposeUIViewController
 import compose.icons.sample.SampleApplication
+import kotlinx.cinterop.BetaInteropApi
+import kotlinx.cinterop.ExperimentalForeignApi
 import kotlinx.cinterop.ObjCObjectBase
 import kotlinx.cinterop.autoreleasepool
 import kotlinx.cinterop.cstr
@@ -17,6 +19,7 @@ import platform.UIKit.UIScreen
 import platform.UIKit.UIWindow
 import platform.UIKit.additionalSafeAreaInsets
 
+@OptIn(BetaInteropApi::class, ExperimentalForeignApi::class)
 fun main() {
     val args = emptyArray<String>()
     memScoped {
@@ -31,6 +34,7 @@ fun main() {
 class SkikoAppDelegate : UIResponder, UIApplicationDelegateProtocol {
     companion object : UIResponderMeta(), UIApplicationDelegateProtocolMeta
 
+    @OptIn(BetaInteropApi::class)
     @ObjCObjectBase.OverrideInit
     constructor() : super()
 
@@ -40,6 +44,7 @@ class SkikoAppDelegate : UIResponder, UIApplicationDelegateProtocol {
         _window = window
     }
 
+    @OptIn(ExperimentalForeignApi::class)
     override fun application(application: UIApplication, didFinishLaunchingWithOptions: Map<Any?, *>?): Boolean {
         window = UIWindow(frame = UIScreen.mainScreen.bounds)
         window!!.rootViewController = ComposeUIViewController {

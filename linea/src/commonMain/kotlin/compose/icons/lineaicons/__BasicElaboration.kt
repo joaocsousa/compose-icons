@@ -147,17 +147,12 @@ import compose.icons.lineaicons.basicelaboration.TodolistRemove
 import compose.icons.lineaicons.basicelaboration.TodolistSearch
 import compose.icons.lineaicons.basicelaboration.TodolistStar
 import compose.icons.lineaicons.basicelaboration.TodolistUpload
-import kotlin.String
 import kotlin.collections.List as ____KtList
-import kotlin.collections.Map as ____KtMap
 
 public object BasicElaborationGroup
 
 public val LineaIcons.BasicElaboration: BasicElaborationGroup
   get() = BasicElaborationGroup
-
-public val BasicElaborationGroup.groupName: String
-  get() = "basicelaboration"
 
 private var __AllIcons: ____KtList<ImageVector>? = null
 
@@ -193,71 +188,4 @@ public val BasicElaborationGroup.AllIcons: ____KtList<ImageVector>
         TodolistPencil, TodolistPlus, TodolistRefresh, TodolistRemove, TodolistSearch, TodolistStar,
         TodolistUpload)
     return __AllIcons!!
-  }
-
-private var __AllIconsNamed: ____KtMap<String, ImageVector>? = null
-
-public val BasicElaborationGroup.AllIconsNamed: ____KtMap<String, ImageVector>
-  get() {
-    if (__AllIconsNamed != null) {
-      return __AllIconsNamed!!
-    }
-    __AllIconsNamed= mapOf("bookmarkchecck" to BookmarkChecck, "bookmarkminus" to BookmarkMinus,
-        "bookmarkplus" to BookmarkPlus, "bookmarkremove" to BookmarkRemove, "briefcasecheck" to
-        BriefcaseCheck, "briefcasedownload" to BriefcaseDownload, "briefcaseflagged" to
-        BriefcaseFlagged, "briefcaseminus" to BriefcaseMinus, "briefcaseplus" to BriefcasePlus,
-        "briefcaserefresh" to BriefcaseRefresh, "briefcaseremove" to BriefcaseRemove,
-        "briefcasesearch" to BriefcaseSearch, "briefcasestar" to BriefcaseStar, "briefcaseupload" to
-        BriefcaseUpload, "browsercheck" to BrowserCheck, "browserdownload" to BrowserDownload,
-        "browserminus" to BrowserMinus, "browserplus" to BrowserPlus, "browserrefresh" to
-        BrowserRefresh, "browserremove" to BrowserRemove, "browsersearch" to BrowserSearch,
-        "browserstar" to BrowserStar, "browserupload" to BrowserUpload, "calendarcheck" to
-        CalendarCheck, "calendarcloud" to CalendarCloud, "calendardownload" to CalendarDownload,
-        "calendarempty" to CalendarEmpty, "calendarflagged" to CalendarFlagged, "calendarheart" to
-        CalendarHeart, "calendarminus" to CalendarMinus, "calendarnext" to CalendarNext,
-        "calendarnoaccess" to CalendarNoaccess, "calendarpencil" to CalendarPencil, "calendarplus"
-        to CalendarPlus, "calendarprevious" to CalendarPrevious, "calendarrefresh" to
-        CalendarRefresh, "calendarremove" to CalendarRemove, "calendarsearch" to CalendarSearch,
-        "calendarstar" to CalendarStar, "calendarupload" to CalendarUpload, "cloudcheck" to
-        CloudCheck, "clouddownload" to CloudDownload, "cloudminus" to CloudMinus, "cloudnoaccess" to
-        CloudNoaccess, "cloudplus" to CloudPlus, "cloudrefresh" to CloudRefresh, "cloudremove" to
-        CloudRemove, "cloudsearch" to CloudSearch, "cloudupload" to CloudUpload, "documentcheck" to
-        DocumentCheck, "documentcloud" to DocumentCloud, "documentdownload" to DocumentDownload,
-        "documentflagged" to DocumentFlagged, "documentgraph" to DocumentGraph, "documentheart" to
-        DocumentHeart, "documentminus" to DocumentMinus, "documentnext" to DocumentNext,
-        "documentnoaccess" to DocumentNoaccess, "documentnote" to DocumentNote, "documentpencil" to
-        DocumentPencil, "documentpicture" to DocumentPicture, "documentplus" to DocumentPlus,
-        "documentprevious" to DocumentPrevious, "documentrefresh" to DocumentRefresh,
-        "documentremove" to DocumentRemove, "documentsearch" to DocumentSearch, "documentstar" to
-        DocumentStar, "documentupload" to DocumentUpload, "foldercheck" to FolderCheck,
-        "foldercloud" to FolderCloud, "folderdocument" to FolderDocument, "folderdownload" to
-        FolderDownload, "folderflagged" to FolderFlagged, "foldergraph" to FolderGraph,
-        "folderheart" to FolderHeart, "folderminus" to FolderMinus, "foldernext" to FolderNext,
-        "foldernoaccess" to FolderNoaccess, "foldernote" to FolderNote, "folderpencil" to
-        FolderPencil, "folderpicture" to FolderPicture, "folderplus" to FolderPlus, "folderprevious"
-        to FolderPrevious, "folderrefresh" to FolderRefresh, "folderremove" to FolderRemove,
-        "foldersearch" to FolderSearch, "folderstar" to FolderStar, "folderupload" to FolderUpload,
-        "mailcheck" to MailCheck, "mailcloud" to MailCloud, "maildocument" to MailDocument,
-        "maildownload" to MailDownload, "mailflagged" to MailFlagged, "mailheart" to MailHeart,
-        "mailnext" to MailNext, "mailnoaccess" to MailNoaccess, "mailnote" to MailNote, "mailpencil"
-        to MailPencil, "mailpicture" to MailPicture, "mailprevious" to MailPrevious, "mailrefresh"
-        to MailRefresh, "mailremove" to MailRemove, "mailsearch" to MailSearch, "mailstar" to
-        MailStar, "mailupload" to MailUpload, "messagecheck" to MessageCheck, "messagedots" to
-        MessageDots, "messagehappy" to MessageHappy, "messageheart" to MessageHeart, "messageminus"
-        to MessageMinus, "messagenote" to MessageNote, "messageplus" to MessagePlus,
-        "messagerefresh" to MessageRefresh, "messageremove" to MessageRemove, "messagesad" to
-        MessageSad, "smartphonecloud" to SmartphoneCloud, "smartphoneheart" to SmartphoneHeart,
-        "smartphonenoaccess" to SmartphoneNoaccess, "smartphonenote" to SmartphoneNote,
-        "smartphonepencil" to SmartphonePencil, "smartphonepicture" to SmartphonePicture,
-        "smartphonerefresh" to SmartphoneRefresh, "smartphonesearch" to SmartphoneSearch,
-        "tabletcloud" to TabletCloud, "tabletheart" to TabletHeart, "tabletnoaccess" to
-        TabletNoaccess, "tabletnote" to TabletNote, "tabletpencil" to TabletPencil, "tabletpicture"
-        to TabletPicture, "tabletrefresh" to TabletRefresh, "tabletsearch" to TabletSearch,
-        "todolist2" to Todolist2, "todolistcheck" to TodolistCheck, "todolistcloud" to
-        TodolistCloud, "todolistdownload" to TodolistDownload, "todolistflagged" to TodolistFlagged,
-        "todolistminus" to TodolistMinus, "todolistnoaccess" to TodolistNoaccess, "todolistpencil"
-        to TodolistPencil, "todolistplus" to TodolistPlus, "todolistrefresh" to TodolistRefresh,
-        "todolistremove" to TodolistRemove, "todolistsearch" to TodolistSearch, "todoliststar" to
-        TodolistStar, "todolistupload" to TodolistUpload)
-    return __AllIconsNamed!!
   }

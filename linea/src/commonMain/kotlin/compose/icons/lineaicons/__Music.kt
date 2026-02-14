@@ -32,17 +32,12 @@ import compose.icons.lineaicons.music.StopButton
 import compose.icons.lineaicons.music.Tape
 import compose.icons.lineaicons.music.VolumeDown
 import compose.icons.lineaicons.music.VolumeUp
-import kotlin.String
 import kotlin.collections.List as ____KtList
-import kotlin.collections.Map as ____KtMap
 
 public object MusicGroup
 
 public val LineaIcons.Music: MusicGroup
   get() = MusicGroup
-
-public val MusicGroup.groupName: String
-  get() = "music"
 
 private var __AllIcons: ____KtList<ImageVector>? = null
 
@@ -57,24 +52,4 @@ public val MusicGroup.AllIcons: ____KtList<ImageVector>
         RadioPortable, Record, Recordplayer, RepeatButton, RewindButton, ShuffleButton, StopButton,
         Tape, VolumeDown, VolumeUp)
     return __AllIcons!!
-  }
-
-private var __AllIconsNamed: ____KtMap<String, ImageVector>? = null
-
-public val MusicGroup.AllIconsNamed: ____KtMap<String, ImageVector>
-  get() {
-    if (__AllIconsNamed != null) {
-      return __AllIconsNamed!!
-    }
-    __AllIconsNamed= mapOf("beginningbutton" to BeginningButton, "bell" to Bell, "cd" to Cd,
-        "diapason" to Diapason, "ejectbutton" to EjectButton, "endbutton" to EndButton,
-        "fastforwardbutton" to FastforwardButton, "headphones" to Headphones, "ipod" to Ipod,
-        "loudspeaker" to Loudspeaker, "microphone" to Microphone, "microphoneold" to MicrophoneOld,
-        "mixer" to Mixer, "mute" to Mute, "notemultiple" to NoteMultiple, "notesingle" to
-        NoteSingle, "pausebutton" to PauseButton, "playbutton" to PlayButton, "playlist" to
-        Playlist, "radioghettoblaster" to RadioGhettoblaster, "radioportable" to RadioPortable,
-        "record" to Record, "recordplayer" to Recordplayer, "repeatbutton" to RepeatButton,
-        "rewindbutton" to RewindButton, "shufflebutton" to ShuffleButton, "stopbutton" to
-        StopButton, "tape" to Tape, "volumedown" to VolumeDown, "volumeup" to VolumeUp)
-    return __AllIconsNamed!!
   }

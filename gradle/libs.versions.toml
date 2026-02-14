@@ -7,13 +7,14 @@ coroutines = "1.6.4"
 appCompat = "1.5.1"
 composeActivity = "1.6.1"
 
-kotlin = "1.9.20"
+kotlin = "2.0.0"
 
 [libraries]
 plugin-android = { module = "com.android.tools.build:gradle", version.ref = "plugin-android" }
 plugin-kotlin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
 plugin-maven = { module = "com.vanniktech:gradle-maven-publish-plugin", version.ref = "plugin-maven" }
 plugin-composeMultiplatform = { module = "org.jetbrains.compose:compose-gradle-plugin", version.ref = "plugin-composeMultiplatform" }
+plugin-composeCompiler = { module = "org.jetbrains.kotlin:compose-compiler-gradle-plugin", version.ref = "kotlin" }
 generator-svgToCompose = { module = "com.github.DevSrSouza:svg-to-compose", version = "0.11.0" }
 generator-jgit = { module = "org.eclipse.jgit:org.eclipse.jgit", version = "7.0.0.202409031743-r" }
 generator-kotlinpoet = { module = "com.squareup:kotlinpoet", version = "1.7.2" }

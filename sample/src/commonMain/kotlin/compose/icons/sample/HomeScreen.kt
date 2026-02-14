@@ -35,8 +35,7 @@ object HomeScreen : Screen {
             Text(
                 text = "Compose Icons",
                 modifier = Modifier.fillMaxWidth()
-                    .weight(1f)
-                    .padding(top = 32.dp, bottom = 32.dp),
+                    .padding(top = 16.dp),
                 textAlign = TextAlign.Center,
                 fontSize = 32.sp,
                 fontWeight = FontWeight.Bold,

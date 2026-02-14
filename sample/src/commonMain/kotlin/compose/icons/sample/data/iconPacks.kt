@@ -1,7 +1,7 @@
 package compose.icons.sample.data
 
+import androidx.compose.ui.graphics.vector.ImageVector
 import compose.icons.AllIcons
-import compose.icons.AllIconsNamed
 import compose.icons.CssGgIcons
 import compose.icons.EvaIcons
 import compose.icons.FeatherIcons
@@ -18,42 +18,44 @@ import compose.icons.WeatherIcons
 val iconPacks = listOf(
     IconPackModel(
         packName = "css.gg",
-        allIcons = CssGgIcons.AllIconsNamed,
+        allIcons = CssGgIcons.AllIcons.toMap(),
     ),
     IconPackModel(
         packName = "Weather Icons by Erik Flowers",
-        allIcons = WeatherIcons.AllIconsNamed,
+        allIcons = WeatherIcons.AllIcons.toMap(),
     ),
     IconPackModel(
         packName = "Eva Icons",
-        allIcons = EvaIcons.AllIconsNamed,
+        allIcons = EvaIcons.AllIcons.toMap(),
     ),
     IconPackModel(
         packName = "Feather",
-        allIcons = FeatherIcons.AllIconsNamed,
+        allIcons = FeatherIcons.AllIcons.toMap(),
     ),
     IconPackModel(
-        packName = "Font Awesome",
-        allIcons = FontAwesomeIcons.AllIconsNamed,
+        packName = "Font Awesome 2",
+        allIcons = FontAwesomeIcons.AllIcons.toMap(),
     ),
     IconPackModel(
         packName = "Line Awesome",
-        allIcons = LineAwesomeIcons.AllIconsNamed,
+        allIcons = LineAwesomeIcons.AllIcons.toMap(),
     ),
     IconPackModel(
         packName = "Linea",
-        allIcons = LineaIcons.AllIconsNamed,
+        allIcons = LineaIcons.AllIcons.toMap(),
     ),
     IconPackModel(
         packName = "Octicons",
-        allIcons = Octicons.AllIconsNamed,
+        allIcons = Octicons.AllIcons.toMap(),
     ),
     IconPackModel(
         packName = "Simple Icons",
-        allIcons = SimpleIcons.AllIconsNamed,
+        allIcons = SimpleIcons.AllIcons.toMap(),
     ),
     IconPackModel(
         packName = "Tabler Icons",
-        allIcons = TablerIcons.AllIconsNamed,
+        allIcons = TablerIcons.AllIcons.toMap(),
     ),
 )
+
+private fun List<ImageVector>.toMap() = this.associateBy { it.name.lowercase() }

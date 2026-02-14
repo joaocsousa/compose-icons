@@ -246,17 +246,12 @@ import compose.icons.evaicons.outline.VolumeOff
 import compose.icons.evaicons.outline.VolumeUp
 import compose.icons.evaicons.outline.Wifi
 import compose.icons.evaicons.outline.WifiOff
-import kotlin.String
 import kotlin.collections.List as ____KtList
-import kotlin.collections.Map as ____KtMap
 
 public object OutlineGroup
 
 public val EvaIcons.Outline: OutlineGroup
   get() = OutlineGroup
-
-public val OutlineGroup.groupName: String
-  get() = "outline"
 
 private var __AllIcons: ____KtList<ImageVector>? = null
 
@@ -295,84 +290,4 @@ public val OutlineGroup.AllIcons: ____KtList<ImageVector>
         Trash2, TrendingDown, TrendingUp, Tv, Twitter, Umbrella, Undo, Unlock, Upload, Video,
         VideoOff, VolumeDown, VolumeMute, VolumeOff, VolumeUp, Wifi, WifiOff)
     return __AllIcons!!
-  }
-
-private var __AllIconsNamed: ____KtMap<String, ImageVector>? = null
-
-public val OutlineGroup.AllIconsNamed: ____KtMap<String, ImageVector>
-  get() {
-    if (__AllIconsNamed != null) {
-      return __AllIconsNamed!!
-    }
-    __AllIconsNamed= mapOf("activity" to Activity, "alertcircle" to AlertCircle, "alerttriangle" to
-        AlertTriangle, "archive" to Archive, "arrowback" to ArrowBack, "arrowcircledown" to
-        ArrowCircleDown, "arrowcircleleft" to ArrowCircleLeft, "arrowcircleright" to
-        ArrowCircleRight, "arrowcircleup" to ArrowCircleUp, "arrowdown" to ArrowDown,
-        "arrowdownward" to ArrowDownward, "arrowforward" to ArrowForward, "arrowiosback" to
-        ArrowIosBack, "arrowiosdownward" to ArrowIosDownward, "arrowiosforward" to ArrowIosForward,
-        "arrowiosupward" to ArrowIosUpward, "arrowleft" to ArrowLeft, "arrowright" to ArrowRight,
-        "arrowup" to ArrowUp, "arrowupward" to ArrowUpward, "arrowheaddown" to ArrowheadDown,
-        "arrowheadleft" to ArrowheadLeft, "arrowheadright" to ArrowheadRight, "arrowheadup" to
-        ArrowheadUp, "at" to At, "attach" to Attach, "attach2" to Attach2, "award" to Award,
-        "backspace" to Backspace, "barchart" to BarChart, "barchart2" to BarChart2, "battery" to
-        Battery, "behance" to Behance, "bell" to Bell, "belloff" to BellOff, "bluetooth" to
-        Bluetooth, "book" to Book, "bookopen" to BookOpen, "bookmark" to Bookmark, "briefcase" to
-        Briefcase, "browser" to Browser, "brush" to Brush, "bulb" to Bulb, "calendar" to Calendar,
-        "camera" to Camera, "car" to Car, "cast" to Cast, "charging" to Charging, "checkmark" to
-        Checkmark, "checkmarkcircle" to CheckmarkCircle, "checkmarkcircle2" to CheckmarkCircle2,
-        "checkmarksquare" to CheckmarkSquare, "checkmarksquare2" to CheckmarkSquare2, "chevrondown"
-        to ChevronDown, "chevronleft" to ChevronLeft, "chevronright" to ChevronRight, "chevronup" to
-        ChevronUp, "clipboard" to Clipboard, "clock" to Clock, "close" to Close, "closecircle" to
-        CloseCircle, "closesquare" to CloseSquare, "clouddownload" to CloudDownload, "cloudupload"
-        to CloudUpload, "code" to Code, "codedownload" to CodeDownload, "collapse" to Collapse,
-        "colorpalette" to ColorPalette, "colorpicker" to ColorPicker, "compass" to Compass, "copy"
-        to Copy, "cornerdownleft" to CornerDownLeft, "cornerdownright" to CornerDownRight,
-        "cornerleftdown" to CornerLeftDown, "cornerleftup" to CornerLeftUp, "cornerrightdown" to
-        CornerRightDown, "cornerrightup" to CornerRightUp, "cornerupleft" to CornerUpLeft,
-        "cornerupright" to CornerUpRight, "creditcard" to CreditCard, "crop" to Crop, "cube" to
-        Cube, "diagonalarrowleftdown" to DiagonalArrowLeftDown, "diagonalarrowleftup" to
-        DiagonalArrowLeftUp, "diagonalarrowrightdown" to DiagonalArrowRightDown,
-        "diagonalarrowrightup" to DiagonalArrowRightUp, "doneall" to DoneAll, "download" to
-        Download, "droplet" to Droplet, "dropletoff" to DropletOff, "edit" to Edit, "edit2" to
-        Edit2, "email" to Email, "expand" to Expand, "externallink" to ExternalLink, "eye" to Eye,
-        "eyeoff" to EyeOff, "eyeoff2" to EyeOff2, "facebook" to Facebook, "file" to File, "fileadd"
-        to FileAdd, "fileremove" to FileRemove, "filetext" to FileText, "film" to Film, "flag" to
-        Flag, "flash" to Flash, "flashoff" to FlashOff, "flip" to Flip, "flip2" to Flip2, "folder"
-        to Folder, "folderadd" to FolderAdd, "folderremove" to FolderRemove, "funnel" to Funnel,
-        "gift" to Gift, "github" to Github, "globe" to Globe, "globe2" to Globe2, "google" to
-        Google, "grid" to Grid, "harddrive" to HardDrive, "hash" to Hash, "headphones" to
-        Headphones, "heart" to Heart, "home" to Home, "image" to Image, "inbox" to Inbox, "info" to
-        Info, "keypad" to Keypad, "layers" to Layers, "layout" to Layout, "link" to Link, "link2" to
-        Link2, "linkedin" to Linkedin, "list" to List, "loader" to Loader, "lock" to Lock, "login"
-        to LogIn, "logout" to LogOut, "map" to Map, "maximize" to Maximize, "menu" to Menu, "menu2"
-        to Menu2, "menuarrow" to MenuArrow, "messagecircle" to MessageCircle, "messagesquare" to
-        MessageSquare, "mic" to Mic, "micoff" to MicOff, "minimize" to Minimize, "minus" to Minus,
-        "minuscircle" to MinusCircle, "minussquare" to MinusSquare, "monitor" to Monitor, "moon" to
-        Moon, "morehorizontal" to MoreHorizontal, "morevertical" to MoreVertical, "move" to Move,
-        "music" to Music, "navigation" to Navigation, "navigation2" to Navigation2, "npm" to Npm,
-        "options" to Options, "options2" to Options2, "pantone" to Pantone, "paperplane" to
-        PaperPlane, "pausecircle" to PauseCircle, "people" to People, "percent" to Percent, "person"
-        to Person, "personadd" to PersonAdd, "persondelete" to PersonDelete, "persondone" to
-        PersonDone, "personremove" to PersonRemove, "phone" to Phone, "phonecall" to PhoneCall,
-        "phonemissed" to PhoneMissed, "phoneoff" to PhoneOff, "piechart" to PieChart, "pin" to Pin,
-        "playcircle" to PlayCircle, "plus" to Plus, "pluscircle" to PlusCircle, "plussquare" to
-        PlusSquare, "power" to Power, "pricetags" to Pricetags, "printer" to Printer, "questionmark"
-        to QuestionMark, "questionmarkcircle" to QuestionMarkCircle, "radio" to Radio,
-        "radiobuttonoff" to RadioButtonOff, "radiobuttonon" to RadioButtonOn, "recording" to
-        Recording, "refresh" to Refresh, "repeat" to Repeat, "rewindleft" to RewindLeft,
-        "rewindright" to RewindRight, "save" to Save, "scissors" to Scissors, "search" to Search,
-        "settings" to Settings, "settings2" to Settings2, "shake" to Shake, "share" to Share,
-        "shield" to Shield, "shieldoff" to ShieldOff, "shoppingbag" to ShoppingBag, "shoppingcart"
-        to ShoppingCart, "shuffle" to Shuffle, "shuffle2" to Shuffle2, "skipback" to SkipBack,
-        "skipforward" to SkipForward, "slash" to Slash, "smartphone" to Smartphone, "smilingface" to
-        SmilingFace, "speaker" to Speaker, "square" to Square, "star" to Star, "stopcircle" to
-        StopCircle, "sun" to Sun, "swap" to Swap, "sync" to Sync, "text" to Text, "thermometer" to
-        Thermometer, "thermometerminus" to ThermometerMinus, "thermometerplus" to ThermometerPlus,
-        "toggleleft" to ToggleLeft, "toggleright" to ToggleRight, "trash" to Trash, "trash2" to
-        Trash2, "trendingdown" to TrendingDown, "trendingup" to TrendingUp, "tv" to Tv, "twitter" to
-        Twitter, "umbrella" to Umbrella, "undo" to Undo, "unlock" to Unlock, "upload" to Upload,
-        "video" to Video, "videooff" to VideoOff, "volumedown" to VolumeDown, "volumemute" to
-        VolumeMute, "volumeoff" to VolumeOff, "volumeup" to VolumeUp, "wifi" to Wifi, "wifioff" to
-        WifiOff)
-    return __AllIconsNamed!!
   }

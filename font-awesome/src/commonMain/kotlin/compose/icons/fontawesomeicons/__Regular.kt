@@ -275,17 +275,12 @@ import compose.icons.fontawesomeicons.regular.WindowMaximize
 import compose.icons.fontawesomeicons.regular.WindowMinimize
 import compose.icons.fontawesomeicons.regular.WindowRestore
 import compose.icons.fontawesomeicons.regular.XmarkCircle
-import kotlin.String
 import kotlin.collections.List as ____KtList
-import kotlin.collections.Map as ____KtMap
 
 public object RegularGroup
 
 public val FontAwesomeIcons.Regular: RegularGroup
   get() = RegularGroup
-
-public val RegularGroup.groupName: String
-  get() = "regular"
 
 private var __AllIcons: ____KtList<ImageVector>? = null
 
@@ -334,102 +329,4 @@ public val RegularGroup.AllIcons: ____KtList<ImageVector>
         UserCircle, UserLarge, Vcard, WindowClose, WindowMaximize, WindowMinimize, WindowRestore,
         XmarkCircle)
     return __AllIcons!!
-  }
-
-private var __AllIconsNamed: ____KtMap<String, ImageVector>? = null
-
-public val RegularGroup.AllIconsNamed: ____KtMap<String, ImageVector>
-  get() {
-    if (__AllIconsNamed != null) {
-      return __AllIconsNamed!!
-    }
-    __AllIconsNamed= mapOf("addressbook" to AddressBook, "addresscard" to AddressCard, "alarmclock"
-        to AlarmClock, "angry" to Angry, "arrowaltcircledown" to ArrowAltCircleDown,
-        "arrowaltcircleleft" to ArrowAltCircleLeft, "arrowaltcircleright" to ArrowAltCircleRight,
-        "arrowaltcircleup" to ArrowAltCircleUp, "barchart" to BarChart, "bell" to Bell, "bellslash"
-        to BellSlash, "bookmark" to Bookmark, "building" to Building, "calendar" to Calendar,
-        "calendaralt" to CalendarAlt, "calendarcheck" to CalendarCheck, "calendardays" to
-        CalendarDays, "calendarminus" to CalendarMinus, "calendarplus" to CalendarPlus,
-        "calendartimes" to CalendarTimes, "calendarxmark" to CalendarXmark, "camera" to Camera,
-        "cameraalt" to CameraAlt, "caretsquaredown" to CaretSquareDown, "caretsquareleft" to
-        CaretSquareLeft, "caretsquareright" to CaretSquareRight, "caretsquareup" to CaretSquareUp,
-        "chartbar" to ChartBar, "checkcircle" to CheckCircle, "checksquare" to CheckSquare,
-        "chessbishop" to ChessBishop, "chessking" to ChessKing, "chessknight" to ChessKnight,
-        "chesspawn" to ChessPawn, "chessqueen" to ChessQueen, "chessrook" to ChessRook, "circle" to
-        Circle, "circlecheck" to CircleCheck, "circledot" to CircleDot, "circledown" to CircleDown,
-        "circleleft" to CircleLeft, "circlepause" to CirclePause, "circleplay" to CirclePlay,
-        "circlequestion" to CircleQuestion, "circleright" to CircleRight, "circlestop" to
-        CircleStop, "circleup" to CircleUp, "circleuser" to CircleUser, "circlexmark" to
-        CircleXmark, "clipboard" to Clipboard, "clock" to Clock, "clockfour" to ClockFour, "clone"
-        to Clone, "closedcaptioning" to ClosedCaptioning, "cloud" to Cloud, "comment" to Comment,
-        "commentalt" to CommentAlt, "commentdots" to CommentDots, "commenting" to Commenting,
-        "comments" to Comments, "compass" to Compass, "contactbook" to ContactBook, "contactcard" to
-        ContactCard, "copy" to Copy, "copyright" to Copyright, "creditcard" to CreditCard,
-        "creditcardalt" to CreditCardAlt, "dizzy" to Dizzy, "dotcircle" to DotCircle,
-        "driverslicense" to DriversLicense, "edit" to Edit, "envelope" to Envelope, "envelopeopen"
-        to EnvelopeOpen, "eye" to Eye, "eyeslash" to EyeSlash, "faceangry" to FaceAngry, "facedizzy"
-        to FaceDizzy, "faceflushed" to FaceFlushed, "facefrown" to FaceFrown, "facefrownopen" to
-        FaceFrownOpen, "facegrimace" to FaceGrimace, "facegrin" to FaceGrin, "facegrinbeam" to
-        FaceGrinBeam, "facegrinbeamsweat" to FaceGrinBeamSweat, "facegrinhearts" to FaceGrinHearts,
-        "facegrinsquint" to FaceGrinSquint, "facegrinsquinttears" to FaceGrinSquintTears,
-        "facegrinstars" to FaceGrinStars, "facegrintears" to FaceGrinTears, "facegrintongue" to
-        FaceGrinTongue, "facegrintonguesquint" to FaceGrinTongueSquint, "facegrintonguewink" to
-        FaceGrinTongueWink, "facegrinwide" to FaceGrinWide, "facegrinwink" to FaceGrinWink,
-        "facekiss" to FaceKiss, "facekissbeam" to FaceKissBeam, "facekisswinkheart" to
-        FaceKissWinkHeart, "facelaugh" to FaceLaugh, "facelaughbeam" to FaceLaughBeam,
-        "facelaughsquint" to FaceLaughSquint, "facelaughwink" to FaceLaughWink, "facemeh" to
-        FaceMeh, "facemehblank" to FaceMehBlank, "facerollingeyes" to FaceRollingEyes, "facesadcry"
-        to FaceSadCry, "facesadtear" to FaceSadTear, "facesmile" to FaceSmile, "facesmilebeam" to
-        FaceSmileBeam, "facesmilewink" to FaceSmileWink, "facesurprise" to FaceSurprise, "facetired"
-        to FaceTired, "file" to File, "filealt" to FileAlt, "filearchive" to FileArchive,
-        "fileaudio" to FileAudio, "fileclipboard" to FileClipboard, "filecode" to FileCode,
-        "fileexcel" to FileExcel, "fileimage" to FileImage, "filelines" to FileLines, "filepdf" to
-        FilePdf, "filepowerpoint" to FilePowerpoint, "filetext" to FileText, "filevideo" to
-        FileVideo, "fileword" to FileWord, "filezipper" to FileZipper, "flag" to Flag, "floppydisk"
-        to FloppyDisk, "flushed" to Flushed, "folder" to Folder, "folderblank" to FolderBlank,
-        "folderclosed" to FolderClosed, "folderopen" to FolderOpen, "fontawesome" to FontAwesome,
-        "fontawesomeflag" to FontAwesomeFlag, "fontawesomelogofull" to FontAwesomeLogoFull, "frown"
-        to Frown, "frownopen" to FrownOpen, "futbol" to Futbol, "futbolball" to FutbolBall, "gem" to
-        Gem, "grimace" to Grimace, "grin" to Grin, "grinalt" to GrinAlt, "grinbeam" to GrinBeam,
-        "grinbeamsweat" to GrinBeamSweat, "grinhearts" to GrinHearts, "grinsquint" to GrinSquint,
-        "grinsquinttears" to GrinSquintTears, "grinstars" to GrinStars, "grintears" to GrinTears,
-        "grintongue" to GrinTongue, "grintonguesquint" to GrinTongueSquint, "grintonguewink" to
-        GrinTongueWink, "grinwink" to GrinWink, "hand" to Hand, "handbackfist" to HandBackFist,
-        "handlizard" to HandLizard, "handpaper" to HandPaper, "handpeace" to HandPeace,
-        "handpointdown" to HandPointDown, "handpointleft" to HandPointLeft, "handpointright" to
-        HandPointRight, "handpointup" to HandPointUp, "handpointer" to HandPointer, "handrock" to
-        HandRock, "handscissors" to HandScissors, "handspock" to HandSpock, "handshake" to
-        Handshake, "handshakealt" to HandshakeAlt, "handshakesimple" to HandshakeSimple, "harddrive"
-        to HardDrive, "hdd" to Hdd, "headphones" to Headphones, "headphonesalt" to HeadphonesAlt,
-        "headphonessimple" to HeadphonesSimple, "heart" to Heart, "home" to Home, "homealt" to
-        HomeAlt, "homelgalt" to HomeLgAlt, "hospital" to Hospital, "hospitalalt" to HospitalAlt,
-        "hospitalwide" to HospitalWide, "hourglass" to Hourglass, "hourglass2" to Hourglass2,
-        "hourglassempty" to HourglassEmpty, "hourglasshalf" to HourglassHalf, "house" to House,
-        "idbadge" to IdBadge, "idcard" to IdCard, "image" to Image, "images" to Images, "keyboard"
-        to Keyboard, "kiss" to Kiss, "kissbeam" to KissBeam, "kisswinkheart" to KissWinkHeart,
-        "laugh" to Laugh, "laughbeam" to LaughBeam, "laughsquint" to LaughSquint, "laughwink" to
-        LaughWink, "lemon" to Lemon, "lifering" to LifeRing, "lightbulb" to Lightbulb, "listalt" to
-        ListAlt, "map" to Map, "meh" to Meh, "mehblank" to MehBlank, "mehrollingeyes" to
-        MehRollingEyes, "message" to Message, "minussquare" to MinusSquare, "moneybill1" to
-        MoneyBill1, "moneybillalt" to MoneyBillAlt, "moon" to Moon, "newspaper" to Newspaper,
-        "notesticky" to NoteSticky, "objectgroup" to ObjectGroup, "objectungroup" to ObjectUngroup,
-        "paperplane" to PaperPlane, "paste" to Paste, "pausecircle" to PauseCircle, "pentosquare" to
-        PenToSquare, "playcircle" to PlayCircle, "plussquare" to PlusSquare, "questioncircle" to
-        QuestionCircle, "rectanglelist" to RectangleList, "rectangletimes" to RectangleTimes,
-        "rectanglexmark" to RectangleXmark, "registered" to Registered, "sadcry" to SadCry,
-        "sadtear" to SadTear, "save" to Save, "sharefromsquare" to ShareFromSquare, "sharesquare" to
-        ShareSquare, "smile" to Smile, "smilebeam" to SmileBeam, "smilewink" to SmileWink,
-        "snowflake" to Snowflake, "soccerball" to SoccerBall, "square" to Square, "squarecaretdown"
-        to SquareCaretDown, "squarecaretleft" to SquareCaretLeft, "squarecaretright" to
-        SquareCaretRight, "squarecaretup" to SquareCaretUp, "squarecheck" to SquareCheck,
-        "squarefull" to SquareFull, "squareminus" to SquareMinus, "squareplus" to SquarePlus, "star"
-        to Star, "starhalf" to StarHalf, "starhalfalt" to StarHalfAlt, "starhalfstroke" to
-        StarHalfStroke, "stickynote" to StickyNote, "stopcircle" to StopCircle, "sun" to Sun,
-        "surprise" to Surprise, "thumbsdown" to ThumbsDown, "thumbsup" to ThumbsUp, "timescircle" to
-        TimesCircle, "timesrectangle" to TimesRectangle, "tired" to Tired, "trashalt" to TrashAlt,
-        "trashcan" to TrashCan, "truck" to Truck, "user" to User, "useralt" to UserAlt, "usercircle"
-        to UserCircle, "userlarge" to UserLarge, "vcard" to Vcard, "windowclose" to WindowClose,
-        "windowmaximize" to WindowMaximize, "windowminimize" to WindowMinimize, "windowrestore" to
-        WindowRestore, "xmarkcircle" to XmarkCircle)
-    return __AllIconsNamed!!
   }
