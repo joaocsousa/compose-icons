@@ -27,13 +27,12 @@ public val TablerIcons.MapPins: ImageVector
                 arcToRelative(4.0f, 4.0f, 0.0f, true, false, -5.656f, 0.0f)
                 lineToRelative(2.828f, 2.829f)
                 lineToRelative(2.828f, -2.829f)
-                close()
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(8.0f, 7.0f)
-                lineTo(8.0f, 7.01f)
+                lineToRelative(0.0f, 0.01f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
@@ -42,13 +41,12 @@ public val TablerIcons.MapPins: ImageVector
                 arcToRelative(4.0f, 4.0f, 0.0f, true, false, -5.656f, 0.0f)
                 lineToRelative(2.828f, 2.829f)
                 lineToRelative(2.828f, -2.829f)
-                close()
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(16.0f, 15.0f)
-                lineTo(16.0f, 15.01f)
+                lineToRelative(0.0f, 0.01f)
             }
         }
         .build()

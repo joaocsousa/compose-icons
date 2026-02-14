@@ -23,10 +23,9 @@ public val TablerIcons.LetterCaseLower: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(6.5f, 15.5f)
-                moveToRelative(-3.5f, 0.0f)
-                arcToRelative(3.5f, 3.5f, 0.0f, true, true, 7.0f, 0.0f)
-                arcToRelative(3.5f, 3.5f, 0.0f, true, true, -7.0f, 0.0f)
+                moveTo(3.0f, 15.5f)
+                arcToRelative(3.5f, 3.5f, 0.0f, true, false, 7.0f, 0.0f)
+                arcToRelative(3.5f, 3.5f, 0.0f, true, false, -7.0f, 0.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
@@ -37,10 +36,9 @@ public val TablerIcons.LetterCaseLower: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(17.5f, 15.5f)
-                moveToRelative(-3.5f, 0.0f)
-                arcToRelative(3.5f, 3.5f, 0.0f, true, true, 7.0f, 0.0f)
-                arcToRelative(3.5f, 3.5f, 0.0f, true, true, -7.0f, 0.0f)
+                moveTo(14.0f, 15.5f)
+                arcToRelative(3.5f, 3.5f, 0.0f, true, false, 7.0f, 0.0f)
+                arcToRelative(3.5f, 3.5f, 0.0f, true, false, -7.0f, 0.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =

@@ -2,6 +2,7 @@ import generator.MapIconsToSvgComposeFolderResult
 import generator.SvgToComposeConfig
 import generator.putRelocatedRelativeTo
 import generator.registerGeneratorTask
+import java.io.File
 
 plugins {
     kotlin("multiplatform")
@@ -18,14 +19,25 @@ android {
 
 registerGeneratorTask(
     githubId = "tabler/tabler-icons",
-    version = "v1.39.1",
+    version = "v3.36.1",
     mapSourceCodeIconsToSvgComposeFolder = { repoCloneDir ->
-        val iconsDir = File(repoCloneDir, "icons")
+        // In newer versions, icons might be in icons/outline or src/icons
+        fun findIconsDir(root: File): File {
+            val candidates = listOf("icons/outline", "icons", "src/icons/outline", "src/icons")
+            for (path in candidates) {
+                val dir = File(root, path)
+                if (dir.exists() && dir.isDirectory) return dir
+            }
+            return File(root, "icons")
+        }
+
+        val iconsDir = findIconsDir(repoCloneDir)
 
         val relocatedNames = mutableMapOf<String, String>()
 
         // renaming to match to svg-to-compose
-        iconsDir.listFiles().filter { it.extension == "svg" }
+        // using walkTopDown to avoid NPE if dir doesn't exist and to find recursive SVGs
+        iconsDir.walkTopDown().filter { it.extension == "svg" }
             .forEach {
                 val newFile = File(it.parentFile, it.name.replace("-", "_"))
 

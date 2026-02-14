@@ -32,7 +32,6 @@ public val TablerIcons.BrandBooking: ImageVector
                 arcToRelative(4.5f, 4.5f, 0.0f, false, true, -4.5f, 4.5f)
                 horizontalLineToRelative(-9.5f)
                 arcToRelative(2.0f, 2.0f, 0.0f, false, true, -2.0f, -2.0f)
-                close()
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
@@ -51,7 +50,7 @@ public val TablerIcons.BrandBooking: ImageVector
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(16.0f, 16.0f)
-                lineTo(16.01f, 16.0f)
+                lineToRelative(0.01f, 0.0f)
             }
         }
         .build()

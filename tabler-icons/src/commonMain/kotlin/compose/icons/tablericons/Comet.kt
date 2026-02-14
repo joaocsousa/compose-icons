@@ -33,25 +33,25 @@ public val TablerIcons.Comet: ImageVector
                 lineToRelative(3.0f, 0.5f)
                 lineToRelative(-2.0f, 2.0f)
                 lineToRelative(0.5f, 3.5f)
-                close()
+                lineToRelative(-3.0f, -1.5f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(4.0f, 4.0f)
-                lineTo(11.0f, 11.0f)
+                lineToRelative(7.0f, 7.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(9.0f, 4.0f)
-                lineTo(12.5f, 7.5f)
+                lineToRelative(3.5f, 3.5f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(4.0f, 9.0f)
-                lineTo(7.5f, 12.5f)
+                lineToRelative(3.5f, 3.5f)
             }
         }
         .build()
