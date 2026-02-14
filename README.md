@@ -44,7 +44,7 @@ You can find all code reference in the docs of the icon packs bellow.
 | Icon pack | Icon Version | Dependency | All Icons Docs |
 | --- | --- | --- | --- |
 | [Simple-Icons](https://simpleicons.org/) | 16.8.0 | `simple-icons` | [docs](simple-icons/DOCUMENTATION.md) |
-| [Feather](https://feathericons.com/) | 4.28.0 | `feather` | [docs](feather/DOCUMENTATION.md) |
+| [Feather](https://feathericons.com/) | 4.29.2 | `feather` | [docs](feather/DOCUMENTATION.md) |
 | [Tabler Icons](https://tabler-icons.io/) | 3.36.1 | `tabler-icons` | [docs](tabler-icons/DOCUMENTATION.md) |
 | [Eva Icons](https://akveo.github.io/eva-icons/#/) | 1.1.3 | `eva-icons` | [docs](eva-icons/DOCUMENTATION.md) |
 | [Font Awesome](https://fontawesome.com/) | 7.2.0 | `font-awesome` | [docs](font-awesome/DOCUMENTATION.md) |
@@ -52,7 +52,7 @@ You can find all code reference in the docs of the icon packs bellow.
 | [Linea](http://www.linea.io/) | 1.0 | `linea` | [docs](linea/DOCUMENTATION.md) |
 | [Line Awesome](https://icons8.com/line-awesome) | 1.3.0 (a60f113) | `line-awesome` | [docs](line-awesome/DOCUMENTATION.md) |
 | [Weather Icons by Erik Flowers](https://github.com/erikflowers/weather-icons) | 2.0.12 | `erikflowers-weather-icons` | [docs](erikflowers-weather-icons/DOCUMENTATION.md) |
-| [css.gg](https://css.gg/) | 2.0.0 | `css-gg` | [docs](css-gg/DOCUMENTATION.md) |
+| [css.gg](https://css.gg/) | 2.1.1 | `css-gg` | [docs](css-gg/DOCUMENTATION.md) |
 
 ## Version Catalog
 
