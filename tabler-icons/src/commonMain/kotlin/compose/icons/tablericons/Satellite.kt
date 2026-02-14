@@ -32,7 +32,6 @@ public val TablerIcons.Satellite: ImageVector
                 arcToRelative(1.0f, 1.0f, 0.0f, false, true, -1.414f, 0.0f)
                 lineToRelative(-5.586f, -5.586f)
                 arcToRelative(1.0f, 1.0f, 0.0f, false, true, 0.0f, -1.414f)
-                close()
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
@@ -54,7 +53,7 @@ public val TablerIcons.Satellite: ImageVector
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(12.0f, 12.0f)
-                lineTo(13.5f, 13.5f)
+                lineToRelative(1.5f, 1.5f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =

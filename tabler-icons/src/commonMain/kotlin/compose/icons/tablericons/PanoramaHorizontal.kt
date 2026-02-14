@@ -22,7 +22,7 @@ public val TablerIcons.PanoramaHorizontal: ImageVector
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(4.338f, 5.53f)
-                curveToRelative(5.106f, 1.932f, 10.211f, 1.932f, 15.317f, 0.002f)
+                curveToRelative(5.106f, 1.932f, 10.211f, 1.932f, 15.317f, 0.0f)
                 arcToRelative(1.0f, 1.0f, 0.0f, false, true, 1.345f, 0.934f)
                 verticalLineToRelative(11.0f)
                 curveToRelative(0.0f, 0.692f, -0.692f, 1.2f, -1.34f, 0.962f)
@@ -30,7 +30,7 @@ public val TablerIcons.PanoramaHorizontal: ImageVector
                 curveToRelative(-0.648f, 0.246f, -1.339f, -0.242f, -1.339f, -0.935f)
                 verticalLineToRelative(-11.027f)
                 arcToRelative(1.0f, 1.0f, 0.0f, false, true, 1.338f, -0.935f)
-                close()
+                lineToRelative(0.0f, 0.001f)
             }
         }
         .build()

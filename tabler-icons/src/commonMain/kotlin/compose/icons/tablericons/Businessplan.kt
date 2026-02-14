@@ -26,7 +26,6 @@ public val TablerIcons.Businessplan: ImageVector
                 moveTo(11.0f, 6.0f)
                 arcToRelative(5.0f, 3.0f, 0.0f, true, false, 10.0f, 0.0f)
                 arcToRelative(5.0f, 3.0f, 0.0f, true, false, -10.0f, 0.0f)
-                close()
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
