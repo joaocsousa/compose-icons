@@ -20,6 +20,10 @@ plugins {
     id("org.jetbrains.kotlinx.binary-compatibility-validator") version "0.16.3"
 }
 
+apiValidation {
+    ignoredProjects.add("sample")
+}
+
 // Fix for JitPack GLIBC incompatibility: Force Node 16.13.0 which works on older Linux
 rootProject.plugins.withType<NodeJsRootPlugin> {
     rootProject.the<NodeJsRootExtension>().nodeVersion = "16.13.0"
