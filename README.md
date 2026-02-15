@@ -23,12 +23,12 @@ repositories {
 ```
 
 ```kotlin
-implementation("com.github.joaocsousa.compose-icons:{ICON_PACK}:1.1.1")
+implementation("com.github.joaocsousa.compose.icons:{ICON_PACK}:1.1.1")
 ```
 
 ** `{ICON_PACK}` is a placeholder, you should replace it with your icon pack of choose.
 
-example: `com.github.joaocsousa.compose-icons:font-awesome:1.1.1`
+example: `com.github.joaocsousa.compose.icons:font-awesome:1.1.1`
 
 ## Example
 
@@ -62,16 +62,16 @@ You can find all code reference in the docs of the icon packs bellow.
 composeIcons = "1.1.1"
 
 [libraries]
-composeIcons-cssGg = { module = "com.github.joaocsousa.compose-icons:css-gg", version.ref = "composeIcons" }
-composeIcons-weatherIcons = { module = "com.github.joaocsousa.compose-icons:erikflowers-weather-icons", version.ref = "composeIcons" }
-composeIcons-evaIcons = { module = "com.github.joaocsousa.compose-icons:eva-icons", version.ref = "composeIcons" }
-composeIcons-feather = { module = "com.github.joaocsousa.compose-icons:feather", version.ref = "composeIcons" }
-composeIcons-fontAwesome = { module = "com.github.joaocsousa.compose-icons:font-awesome", version.ref = "composeIcons" }
-composeIcons-lineAwesome = { module = "com.github.joaocsousa.compose-icons:line-awesome", version.ref = "composeIcons" }
-composeIcons-linea = { module = "com.github.joaocsousa.compose-icons:linea", version.ref = "composeIcons" }
-composeIcons-octicons = { module = "com.github.joaocsousa.compose-icons:octicons", version.ref = "composeIcons" }
-composeIcons-simpleIcons = { module = "com.github.joaocsousa.compose-icons:simple-icons", version.ref = "composeIcons" }
-composeIcons-tablerIcons = { module = "com.github.joaocsousa.compose-icons:tabler-icons", version.ref = "composeIcons" }
+composeIcons-cssGg = { module = "com.github.joaocsousa.compose.icons:css-gg", version.ref = "composeIcons" }
+composeIcons-weatherIcons = { module = "com.github.joaocsousa.compose.icons:erikflowers-weather-icons", version.ref = "composeIcons" }
+composeIcons-evaIcons = { module = "com.github.joaocsousa.compose.icons:eva-icons", version.ref = "composeIcons" }
+composeIcons-feather = { module = "com.github.joaocsousa.compose.icons:feather", version.ref = "composeIcons" }
+composeIcons-fontAwesome = { module = "com.github.joaocsousa.compose.icons:font-awesome", version.ref = "composeIcons" }
+composeIcons-lineAwesome = { module = "com.github.joaocsousa.compose.icons:line-awesome", version.ref = "composeIcons" }
+composeIcons-linea = { module = "com.github.joaocsousa.compose.icons:linea", version.ref = "composeIcons" }
+composeIcons-octicons = { module = "com.github.joaocsousa.compose.icons:octicons", version.ref = "composeIcons" }
+composeIcons-simpleIcons = { module = "com.github.joaocsousa.compose.icons:simple-icons", version.ref = "composeIcons" }
+composeIcons-tablerIcons = { module = "com.github.joaocsousa.compose.icons:tabler-icons", version.ref = "composeIcons" }
 ```
 
 ## Roadmap
