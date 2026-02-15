@@ -5901,10 +5901,6 @@ public final class compose/icons/fontawesomeicons/solid/EyeDropperEmptyKt {
 	public static final fun getEyeDropperEmpty (Lcompose/icons/fontawesomeicons/SolidGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
-public final class compose/icons/fontawesomeicons/solid/EyeDropperKt {
-	public static final fun getEyedropper (Lcompose/icons/fontawesomeicons/SolidGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
-}
-
 public final class compose/icons/fontawesomeicons/solid/EyeKt {
 	public static final fun getEye (Lcompose/icons/fontawesomeicons/SolidGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -5915,6 +5911,10 @@ public final class compose/icons/fontawesomeicons/solid/EyeLowVisionKt {
 
 public final class compose/icons/fontawesomeicons/solid/EyeSlashKt {
 	public static final fun getEyeSlash (Lcompose/icons/fontawesomeicons/SolidGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/fontawesomeicons/solid/EyedropperKt {
+	public static final fun getEyedropper (Lcompose/icons/fontawesomeicons/SolidGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/fontawesomeicons/solid/FKt {
