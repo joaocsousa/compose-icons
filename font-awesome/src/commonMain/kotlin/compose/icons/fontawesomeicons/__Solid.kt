@@ -608,7 +608,6 @@ import compose.icons.fontawesomeicons.solid.ExternalLinkAlt
 import compose.icons.fontawesomeicons.solid.ExternalLinkSquare
 import compose.icons.fontawesomeicons.solid.ExternalLinkSquareAlt
 import compose.icons.fontawesomeicons.solid.Eye
-import compose.icons.fontawesomeicons.solid.EyeDropper
 import compose.icons.fontawesomeicons.solid.EyeDropperEmpty
 import compose.icons.fontawesomeicons.solid.EyeLowVision
 import compose.icons.fontawesomeicons.solid.EyeSlash
@@ -1219,7 +1218,6 @@ import compose.icons.fontawesomeicons.solid.Otter
 import compose.icons.fontawesomeicons.solid.Outdent
 import compose.icons.fontawesomeicons.solid.P
 import compose.icons.fontawesomeicons.solid.Pager
-import compose.icons.fontawesomeicons.solid.PaintBrush
 import compose.icons.fontawesomeicons.solid.PaintRoller
 import compose.icons.fontawesomeicons.solid.Paintbrush
 import compose.icons.fontawesomeicons.solid.Palette
@@ -1674,7 +1672,6 @@ import compose.icons.fontawesomeicons.solid.Sync
 import compose.icons.fontawesomeicons.solid.SyncAlt
 import compose.icons.fontawesomeicons.solid.Syringe
 import compose.icons.fontawesomeicons.solid.T
-import compose.icons.fontawesomeicons.solid.TShirt
 import compose.icons.fontawesomeicons.solid.Table
 import compose.icons.fontawesomeicons.solid.TableCells
 import compose.icons.fontawesomeicons.solid.TableCellsColumnLock
@@ -1755,8 +1752,6 @@ import compose.icons.fontawesomeicons.solid.ThermometerFull
 import compose.icons.fontawesomeicons.solid.ThermometerHalf
 import compose.icons.fontawesomeicons.solid.ThermometerQuarter
 import compose.icons.fontawesomeicons.solid.ThermometerThreeQuarters
-import compose.icons.fontawesomeicons.solid.ThumbTack
-import compose.icons.fontawesomeicons.solid.ThumbTackSlash
 import compose.icons.fontawesomeicons.solid.ThumbsDown
 import compose.icons.fontawesomeicons.solid.ThumbsUp
 import compose.icons.fontawesomeicons.solid.Thumbtack
@@ -2002,17 +1997,12 @@ import compose.icons.fontawesomeicons.solid._6
 import compose.icons.fontawesomeicons.solid._7
 import compose.icons.fontawesomeicons.solid._8
 import compose.icons.fontawesomeicons.solid._9
-import kotlin.String
 import kotlin.collections.List as ____KtList
-import kotlin.collections.Map as ____KtMap
 
 public object SolidGroup
 
 public val FontAwesomeIcons.Solid: SolidGroup
   get() = SolidGroup
-
-public val SolidGroup.groupName: String
-  get() = "solid"
 
 private var __AllIcons: ____KtList<ImageVector>? = null
 
@@ -2108,45 +2098,45 @@ public val SolidGroup.AllIcons: ____KtList<ImageVector>
         EnvelopesBulk, Equals, Eraser, Ethernet, Eur, Euro, EuroSign, Exchange, ExchangeAlt,
         Exclamation, ExclamationCircle, ExclamationTriangle, Expand, ExpandAlt, ExpandArrowsAlt,
         Explosion, ExternalLink, ExternalLinkAlt, ExternalLinkSquare, ExternalLinkSquareAlt, Eye,
-        EyeDropper, EyeDropperEmpty, EyeLowVision, EyeSlash, Eyedropper, F, FaceAngry, FaceDizzy,
-        FaceFlushed, FaceFrown, FaceFrownOpen, FaceGrimace, FaceGrin, FaceGrinBeam,
-        FaceGrinBeamSweat, FaceGrinHearts, FaceGrinSquint, FaceGrinSquintTears, FaceGrinStars,
-        FaceGrinTears, FaceGrinTongue, FaceGrinTongueSquint, FaceGrinTongueWink, FaceGrinWide,
-        FaceGrinWink, FaceKiss, FaceKissBeam, FaceKissWinkHeart, FaceLaugh, FaceLaughBeam,
-        FaceLaughSquint, FaceLaughWink, FaceMeh, FaceMehBlank, FaceRollingEyes, FaceSadCry,
-        FaceSadTear, FaceSmile, FaceSmileBeam, FaceSmileWink, FaceSurprise, FaceTired, Fan,
-        FastBackward, FastForward, Faucet, FaucetDrip, Fax, Feather, FeatherAlt, FeatherPointed,
-        Feed, Female, Ferry, FighterJet, File, FileAlt, FileArchive, FileArrowDown, FileArrowUp,
-        FileAudio, FileCircleCheck, FileCircleExclamation, FileCircleMinus, FileCirclePlus,
-        FileCircleQuestion, FileCircleXmark, FileClipboard, FileCode, FileContract, FileCsv,
-        FileDownload, FileEdit, FileExcel, FileExport, FileFragment, FileHalfDashed, FileImage,
-        FileImport, FileInvoice, FileInvoiceDollar, FileLines, FileMedical, FileMedicalAlt, FilePdf,
-        FilePen, FilePowerpoint, FilePrescription, FileShield, FileSignature, FileText, FileUpload,
-        FileVideo, FileWaveform, FileWord, FileZipper, Fill, FillDrip, Film, FilmAlt, FilmSimple,
-        Filter, FilterCircleDollar, FilterCircleXmark, Fingerprint, Fire, FireAlt, FireBurner,
-        FireExtinguisher, FireFlameCurved, FireFlameSimple, FirstAid, Fish, FishFins, FistRaised,
-        Flag, FlagCheckered, FlagUsa, Flask, FlaskVial, FloppyDisk, FlorinSign, Flushed, Folder,
-        FolderBlank, FolderClosed, FolderMinus, FolderOpen, FolderPlus, FolderTree, Font,
-        FontAwesome, FontAwesomeFlag, FontAwesomeLogoFull, Football, FootballBall, Forward,
-        ForwardFast, ForwardStep, FrancSign, Frog, Frown, FrownOpen, FunnelDollar, Futbol,
-        FutbolBall, G, Gamepad, GasPump, Gauge, GaugeHigh, GaugeMed, GaugeSimple, GaugeSimpleHigh,
-        GaugeSimpleMed, Gavel, Gbp, Gear, Gears, Gem, Gemini, Genderless, Ghost, Gift, Gifts,
-        GlassCheers, GlassMartini, GlassMartiniAlt, GlassWater, GlassWaterDroplet, GlassWhiskey,
-        Glasses, Globe, GlobeAfrica, GlobeAmericas, GlobeAsia, GlobeEurope, GlobeOceania, GolfBall,
-        GolfBallTee, Gopuram, GraduationCap, GreaterThan, GreaterThanEqual, GridHorizontal,
-        GridVertical, Grimace, Grin, GrinAlt, GrinBeam, GrinBeamSweat, GrinHearts, GrinSquint,
-        GrinSquintTears, GrinStars, GrinTears, GrinTongue, GrinTongueSquint, GrinTongueWink,
-        GrinWink, Grip, GripHorizontal, GripLines, GripLinesVertical, GripVertical,
-        GroupArrowsRotate, GuaraniSign, Guitar, Gun, H, HSquare, Hamburger, Hammer, Hamsa, Hand,
-        HandBackFist, HandDots, HandFist, HandHolding, HandHoldingDollar, HandHoldingDroplet,
-        HandHoldingHand, HandHoldingHeart, HandHoldingMedical, HandHoldingUsd, HandHoldingWater,
-        HandLizard, HandMiddleFinger, HandPaper, HandPeace, HandPointDown, HandPointLeft,
-        HandPointRight, HandPointUp, HandPointer, HandRock, HandScissors, HandSparkles, HandSpock,
-        Handcuffs, Hands, HandsAmericanSignLanguageInterpreting, HandsAslInterpreting, HandsBound,
-        HandsBubbles, HandsClapping, HandsHelping, HandsHolding, HandsHoldingChild,
-        HandsHoldingCircle, HandsPraying, HandsWash, Handshake, HandshakeAlt, HandshakeAltSlash,
-        HandshakeAngle, HandshakeSimple, HandshakeSimpleSlash, HandshakeSlash, Hanukiah, HardDrive,
-        HardHat, HardOfHearing, Hashtag, HatCowboy, HatCowboySide, HatHard, HatWizard, Haykal, Hdd,
+        EyeDropperEmpty, EyeLowVision, EyeSlash, Eyedropper, F, FaceAngry, FaceDizzy, FaceFlushed,
+        FaceFrown, FaceFrownOpen, FaceGrimace, FaceGrin, FaceGrinBeam, FaceGrinBeamSweat,
+        FaceGrinHearts, FaceGrinSquint, FaceGrinSquintTears, FaceGrinStars, FaceGrinTears,
+        FaceGrinTongue, FaceGrinTongueSquint, FaceGrinTongueWink, FaceGrinWide, FaceGrinWink,
+        FaceKiss, FaceKissBeam, FaceKissWinkHeart, FaceLaugh, FaceLaughBeam, FaceLaughSquint,
+        FaceLaughWink, FaceMeh, FaceMehBlank, FaceRollingEyes, FaceSadCry, FaceSadTear, FaceSmile,
+        FaceSmileBeam, FaceSmileWink, FaceSurprise, FaceTired, Fan, FastBackward, FastForward,
+        Faucet, FaucetDrip, Fax, Feather, FeatherAlt, FeatherPointed, Feed, Female, Ferry,
+        FighterJet, File, FileAlt, FileArchive, FileArrowDown, FileArrowUp, FileAudio,
+        FileCircleCheck, FileCircleExclamation, FileCircleMinus, FileCirclePlus, FileCircleQuestion,
+        FileCircleXmark, FileClipboard, FileCode, FileContract, FileCsv, FileDownload, FileEdit,
+        FileExcel, FileExport, FileFragment, FileHalfDashed, FileImage, FileImport, FileInvoice,
+        FileInvoiceDollar, FileLines, FileMedical, FileMedicalAlt, FilePdf, FilePen, FilePowerpoint,
+        FilePrescription, FileShield, FileSignature, FileText, FileUpload, FileVideo, FileWaveform,
+        FileWord, FileZipper, Fill, FillDrip, Film, FilmAlt, FilmSimple, Filter, FilterCircleDollar,
+        FilterCircleXmark, Fingerprint, Fire, FireAlt, FireBurner, FireExtinguisher,
+        FireFlameCurved, FireFlameSimple, FirstAid, Fish, FishFins, FistRaised, Flag, FlagCheckered,
+        FlagUsa, Flask, FlaskVial, FloppyDisk, FlorinSign, Flushed, Folder, FolderBlank,
+        FolderClosed, FolderMinus, FolderOpen, FolderPlus, FolderTree, Font, FontAwesome,
+        FontAwesomeFlag, FontAwesomeLogoFull, Football, FootballBall, Forward, ForwardFast,
+        ForwardStep, FrancSign, Frog, Frown, FrownOpen, FunnelDollar, Futbol, FutbolBall, G,
+        Gamepad, GasPump, Gauge, GaugeHigh, GaugeMed, GaugeSimple, GaugeSimpleHigh, GaugeSimpleMed,
+        Gavel, Gbp, Gear, Gears, Gem, Gemini, Genderless, Ghost, Gift, Gifts, GlassCheers,
+        GlassMartini, GlassMartiniAlt, GlassWater, GlassWaterDroplet, GlassWhiskey, Glasses, Globe,
+        GlobeAfrica, GlobeAmericas, GlobeAsia, GlobeEurope, GlobeOceania, GolfBall, GolfBallTee,
+        Gopuram, GraduationCap, GreaterThan, GreaterThanEqual, GridHorizontal, GridVertical,
+        Grimace, Grin, GrinAlt, GrinBeam, GrinBeamSweat, GrinHearts, GrinSquint, GrinSquintTears,
+        GrinStars, GrinTears, GrinTongue, GrinTongueSquint, GrinTongueWink, GrinWink, Grip,
+        GripHorizontal, GripLines, GripLinesVertical, GripVertical, GroupArrowsRotate, GuaraniSign,
+        Guitar, Gun, H, HSquare, Hamburger, Hammer, Hamsa, Hand, HandBackFist, HandDots, HandFist,
+        HandHolding, HandHoldingDollar, HandHoldingDroplet, HandHoldingHand, HandHoldingHeart,
+        HandHoldingMedical, HandHoldingUsd, HandHoldingWater, HandLizard, HandMiddleFinger,
+        HandPaper, HandPeace, HandPointDown, HandPointLeft, HandPointRight, HandPointUp,
+        HandPointer, HandRock, HandScissors, HandSparkles, HandSpock, Handcuffs, Hands,
+        HandsAmericanSignLanguageInterpreting, HandsAslInterpreting, HandsBound, HandsBubbles,
+        HandsClapping, HandsHelping, HandsHolding, HandsHoldingChild, HandsHoldingCircle,
+        HandsPraying, HandsWash, Handshake, HandshakeAlt, HandshakeAltSlash, HandshakeAngle,
+        HandshakeSimple, HandshakeSimpleSlash, HandshakeSlash, Hanukiah, HardDrive, HardHat,
+        HardOfHearing, Hashtag, HatCowboy, HatCowboySide, HatHard, HatWizard, Haykal, Hdd,
         HeadSideCough, HeadSideCoughSlash, HeadSideMask, HeadSideVirus, Header, Heading, Headphones,
         HeadphonesAlt, HeadphonesSimple, Headset, Heart, HeartBroken, HeartCircleBolt,
         HeartCircleCheck, HeartCircleExclamation, HeartCircleMinus, HeartCirclePlus,
@@ -2194,13 +2184,13 @@ public val SolidGroup.AllIcons: ____KtList<ImageVector>
         Motorcycle, Mound, Mountain, MountainCity, MountainSun, Mouse, MousePointer, MugHot,
         MugSaucer, Multiply, Museum, Music, N, NairaSign, Navicon, NetworkWired, Neuter, Newspaper,
         NonBinary, NotEqual, Notdef, NoteSticky, NotesMedical, O, ObjectGroup, ObjectUngroup,
-        Octagon, OilCan, OilWell, Om, Otter, Outdent, P, Pager, PaintBrush, PaintRoller, Paintbrush,
-        Palette, Pallet, Panorama, PaperPlane, Paperclip, ParachuteBox, Paragraph, Parking,
-        Passport, Pastafarianism, Paste, Pause, PauseCircle, Paw, Peace, Pen, PenAlt, PenClip,
-        PenFancy, PenNib, PenRuler, PenSquare, PenToSquare, Pencil, PencilAlt, PencilRuler,
-        PencilSquare, Pentagon, PeopleArrows, PeopleArrowsLeftRight, PeopleCarry, PeopleCarryBox,
-        PeopleGroup, PeopleLine, PeoplePulling, PeopleRobbery, PeopleRoof, PepperHot, Percent,
-        Percentage, Person, PersonArrowDownToLine, PersonArrowUpFromLine, PersonBiking, PersonBooth,
+        Octagon, OilCan, OilWell, Om, Otter, Outdent, P, Pager, PaintRoller, Paintbrush, Palette,
+        Pallet, Panorama, PaperPlane, Paperclip, ParachuteBox, Paragraph, Parking, Passport,
+        Pastafarianism, Paste, Pause, PauseCircle, Paw, Peace, Pen, PenAlt, PenClip, PenFancy,
+        PenNib, PenRuler, PenSquare, PenToSquare, Pencil, PencilAlt, PencilRuler, PencilSquare,
+        Pentagon, PeopleArrows, PeopleArrowsLeftRight, PeopleCarry, PeopleCarryBox, PeopleGroup,
+        PeopleLine, PeoplePulling, PeopleRobbery, PeopleRoof, PepperHot, Percent, Percentage,
+        Person, PersonArrowDownToLine, PersonArrowUpFromLine, PersonBiking, PersonBooth,
         PersonBreastfeeding, PersonBurst, PersonCane, PersonChalkboard, PersonCircleCheck,
         PersonCircleExclamation, PersonCircleMinus, PersonCirclePlus, PersonCircleQuestion,
         PersonCircleXmark, PersonDigging, PersonDotsFromLine, PersonDress, PersonDressBurst,
@@ -2260,7 +2250,7 @@ public val SolidGroup.AllIcons: ____KtList<ImageVector>
         StoreAlt, StoreAltSlash, StoreSlash, Stream, StreetView, Strikethrough, Stroopwafel,
         Subscript, Subtract, Subway, Suitcase, SuitcaseMedical, SuitcaseRolling, Sun, SunPlantWilt,
         Superscript, Surprise, Swatchbook, Swimmer, SwimmingPool, Synagogue, Sync, SyncAlt, Syringe,
-        T, TShirt, Table, TableCells, TableCellsColumnLock, TableCellsLarge, TableCellsRowLock,
+        T, Table, TableCells, TableCellsColumnLock, TableCellsLarge, TableCellsRowLock,
         TableCellsRowUnlock, TableColumns, TableList, TableTennis, TableTennisPaddleBall, Tablet,
         TabletAlt, TabletAndroid, TabletButton, TabletScreenButton, Tablets, TachographDigital,
         Tachometer, TachometerAlt, TachometerAltAverage, TachometerAltFast, TachometerAverage,
@@ -2272,16 +2262,16 @@ public val SolidGroup.AllIcons: ____KtList<ImageVector>
         TentArrowDownToLine, TentArrowLeftRight, TentArrowTurnLeft, TentArrowsDown, Tents, Terminal,
         TextHeight, TextSlash, TextWidth, Th, ThLarge, ThList, TheaterMasks, Thermometer,
         Thermometer0, Thermometer1, Thermometer2, Thermometer3, Thermometer4, ThermometerEmpty,
-        ThermometerFull, ThermometerHalf, ThermometerQuarter, ThermometerThreeQuarters, ThumbTack,
-        ThumbTackSlash, ThumbsDown, ThumbsUp, Thumbtack, ThumbtackSlash, Thunderstorm, Ticket,
-        TicketAlt, TicketSimple, Timeline, Times, TimesCircle, TimesRectangle, TimesSquare, Tint,
-        TintSlash, Tired, ToggleOff, ToggleOn, Toilet, ToiletPaper, ToiletPaperAlt,
-        ToiletPaperBlank, ToiletPaperSlash, ToiletPortable, ToiletsPortable, Toolbox, Tools, Tooth,
-        Torah, ToriiGate, Tornado, TowerBroadcast, TowerCell, TowerObservation, Tractor, Trademark,
-        TrafficLight, Trailer, Train, TrainSubway, TrainTram, Tram, Transgender, TransgenderAlt,
-        Trash, TrashAlt, TrashArrowUp, TrashCan, TrashCanArrowUp, TrashRestore, TrashRestoreAlt,
-        Tree, TreeCity, TriangleCircleSquare, TriangleExclamation, Trophy, Trowel, TrowelBricks,
-        Truck, TruckArrowRight, TruckDroplet, TruckFast, TruckField, TruckFieldUn, TruckFront,
+        ThermometerFull, ThermometerHalf, ThermometerQuarter, ThermometerThreeQuarters, ThumbsDown,
+        ThumbsUp, Thumbtack, ThumbtackSlash, Thunderstorm, Ticket, TicketAlt, TicketSimple,
+        Timeline, Times, TimesCircle, TimesRectangle, TimesSquare, Tint, TintSlash, Tired,
+        ToggleOff, ToggleOn, Toilet, ToiletPaper, ToiletPaperAlt, ToiletPaperBlank,
+        ToiletPaperSlash, ToiletPortable, ToiletsPortable, Toolbox, Tools, Tooth, Torah, ToriiGate,
+        Tornado, TowerBroadcast, TowerCell, TowerObservation, Tractor, Trademark, TrafficLight,
+        Trailer, Train, TrainSubway, TrainTram, Tram, Transgender, TransgenderAlt, Trash, TrashAlt,
+        TrashArrowUp, TrashCan, TrashCanArrowUp, TrashRestore, TrashRestoreAlt, Tree, TreeCity,
+        TriangleCircleSquare, TriangleExclamation, Trophy, Trowel, TrowelBricks, Truck,
+        TruckArrowRight, TruckDroplet, TruckFast, TruckField, TruckFieldUn, TruckFront,
         TruckLoading, TruckMedical, TruckMonster, TruckMoving, TruckPickup, TruckPlane,
         TruckRampBox, Try, Tshirt, Tty, TurkishLira, TurkishLiraSign, TurnDown, TurnUp, Tv, TvAlt,
         U, Umbrella, UmbrellaBeach, Underline, Undo, UndoAlt, UniversalAccess, University, Unlink,
@@ -2305,673 +2295,4 @@ public val SolidGroup.AllIcons: ____KtList<ImageVector>
         WonSign, Worm, Wrench, X, XRay, Xmark, XmarkCircle, XmarkSquare, XmarksLines, Y, Yen,
         YenSign, YinYang, Z, Zap, _0, _1, _2, _3, _4, _5, _6, _7, _8, _9)
     return __AllIcons!!
-  }
-
-private var __AllIconsNamed: ____KtMap<String, ImageVector>? = null
-
-public val SolidGroup.AllIconsNamed: ____KtMap<String, ImageVector>
-  get() {
-    if (__AllIconsNamed != null) {
-      return __AllIconsNamed!!
-    }
-    __AllIconsNamed= mapOf("a" to A, "ad" to Ad, "add" to Add, "addressbook" to AddressBook,
-        "addresscard" to AddressCard, "adjust" to Adjust, "airfreshener" to AirFreshener,
-        "alarmclock" to AlarmClock, "aligncenter" to AlignCenter, "alignjustify" to AlignJustify,
-        "alignleft" to AlignLeft, "alignright" to AlignRight, "allergies" to Allergies, "ambulance"
-        to Ambulance, "americansignlanguageinterpreting" to AmericanSignLanguageInterpreting,
-        "anchor" to Anchor, "anchorcirclecheck" to AnchorCircleCheck, "anchorcircleexclamation" to
-        AnchorCircleExclamation, "anchorcirclexmark" to AnchorCircleXmark, "anchorlock" to
-        AnchorLock, "angledoubledown" to AngleDoubleDown, "angledoubleleft" to AngleDoubleLeft,
-        "angledoubleright" to AngleDoubleRight, "angledoubleup" to AngleDoubleUp, "angledown" to
-        AngleDown, "angleleft" to AngleLeft, "angleright" to AngleRight, "angleup" to AngleUp,
-        "anglesdown" to AnglesDown, "anglesleft" to AnglesLeft, "anglesright" to AnglesRight,
-        "anglesup" to AnglesUp, "angry" to Angry, "ankh" to Ankh, "applealt" to AppleAlt,
-        "applewhole" to AppleWhole, "aquarius" to Aquarius, "archive" to Archive, "archway" to
-        Archway, "areachart" to AreaChart, "aries" to Aries, "arrowaltcircledown" to
-        ArrowAltCircleDown, "arrowaltcircleleft" to ArrowAltCircleLeft, "arrowaltcircleright" to
-        ArrowAltCircleRight, "arrowaltcircleup" to ArrowAltCircleUp, "arrowcircledown" to
-        ArrowCircleDown, "arrowcircleleft" to ArrowCircleLeft, "arrowcircleright" to
-        ArrowCircleRight, "arrowcircleup" to ArrowCircleUp, "arrowdown" to ArrowDown, "arrowdown19"
-        to ArrowDown19, "arrowdown91" to ArrowDown91, "arrowdownaz" to ArrowDownAZ, "arrowdownlong"
-        to ArrowDownLong, "arrowdownshortwide" to ArrowDownShortWide, "arrowdownupacrossline" to
-        ArrowDownUpAcrossLine, "arrowdownuplock" to ArrowDownUpLock, "arrowdownwideshort" to
-        ArrowDownWideShort, "arrowdownza" to ArrowDownZA, "arrowleft" to ArrowLeft, "arrowleftlong"
-        to ArrowLeftLong, "arrowleftrotate" to ArrowLeftRotate, "arrowpointer" to ArrowPointer,
-        "arrowright" to ArrowRight, "arrowrightarrowleft" to ArrowRightArrowLeft,
-        "arrowrightfrombracket" to ArrowRightFromBracket, "arrowrightfromfile" to
-        ArrowRightFromFile, "arrowrightlong" to ArrowRightLong, "arrowrightrotate" to
-        ArrowRightRotate, "arrowrighttobracket" to ArrowRightToBracket, "arrowrighttocity" to
-        ArrowRightToCity, "arrowrighttofile" to ArrowRightToFile, "arrowrotateback" to
-        ArrowRotateBack, "arrowrotatebackward" to ArrowRotateBackward, "arrowrotateforward" to
-        ArrowRotateForward, "arrowrotateleft" to ArrowRotateLeft, "arrowrotateright" to
-        ArrowRotateRight, "arrowtrenddown" to ArrowTrendDown, "arrowtrendup" to ArrowTrendUp,
-        "arrowturndown" to ArrowTurnDown, "arrowturnup" to ArrowTurnUp, "arrowup" to ArrowUp,
-        "arrowup19" to ArrowUp19, "arrowup91" to ArrowUp91, "arrowupaz" to ArrowUpAZ,
-        "arrowupfrombracket" to ArrowUpFromBracket, "arrowupfromgroundwater" to
-        ArrowUpFromGroundWater, "arrowupfromwaterpump" to ArrowUpFromWaterPump, "arrowuplong" to
-        ArrowUpLong, "arrowuprightdots" to ArrowUpRightDots, "arrowuprightfromsquare" to
-        ArrowUpRightFromSquare, "arrowupshortwide" to ArrowUpShortWide, "arrowupwideshort" to
-        ArrowUpWideShort, "arrowupza" to ArrowUpZA, "arrows" to Arrows, "arrowsalt" to ArrowsAlt,
-        "arrowsalth" to ArrowsAltH, "arrowsaltv" to ArrowsAltV, "arrowsdowntoline" to
-        ArrowsDownToLine, "arrowsdowntopeople" to ArrowsDownToPeople, "arrowsh" to ArrowsH,
-        "arrowsleftright" to ArrowsLeftRight, "arrowsleftrighttoline" to ArrowsLeftRightToLine,
-        "arrowsrotate" to ArrowsRotate, "arrowsspin" to ArrowsSpin, "arrowssplitupandleft" to
-        ArrowsSplitUpAndLeft, "arrowstocircle" to ArrowsToCircle, "arrowstodot" to ArrowsToDot,
-        "arrowstoeye" to ArrowsToEye, "arrowsturnright" to ArrowsTurnRight, "arrowsturntodots" to
-        ArrowsTurnToDots, "arrowsupdown" to ArrowsUpDown, "arrowsupdownleftright" to
-        ArrowsUpDownLeftRight, "arrowsuptoline" to ArrowsUpToLine, "arrowsv" to ArrowsV,
-        "aslinterpreting" to AslInterpreting, "assistivelisteningsystems" to
-        AssistiveListeningSystems, "asterisk" to Asterisk, "at" to At, "atlas" to Atlas, "atom" to
-        Atom, "audiodescription" to AudioDescription, "australsign" to AustralSign, "automobile" to
-        Automobile, "award" to Award, "b" to B, "baby" to Baby, "babycarriage" to BabyCarriage,
-        "backspace" to Backspace, "backward" to Backward, "backwardfast" to BackwardFast,
-        "backwardstep" to BackwardStep, "bacon" to Bacon, "bacteria" to Bacteria, "bacterium" to
-        Bacterium, "bagshopping" to BagShopping, "bahai" to Bahai, "bahtsign" to BahtSign,
-        "balancescale" to BalanceScale, "balancescaleleft" to BalanceScaleLeft, "balancescaleright"
-        to BalanceScaleRight, "ban" to Ban, "bansmoking" to BanSmoking, "bandaid" to BandAid,
-        "bandage" to Bandage, "bangladeshitakasign" to BangladeshiTakaSign, "bank" to Bank,
-        "barchart" to BarChart, "barcode" to Barcode, "bars" to Bars, "barsprogress" to
-        BarsProgress, "barsstaggered" to BarsStaggered, "baseball" to Baseball, "baseballball" to
-        BaseballBall, "baseballbatball" to BaseballBatBall, "basketshopping" to BasketShopping,
-        "basketball" to Basketball, "basketballball" to BasketballBall, "bath" to Bath, "bathtub" to
-        Bathtub, "battery" to Battery, "battery0" to Battery0, "battery2" to Battery2, "battery3" to
-        Battery3, "battery4" to Battery4, "battery5" to Battery5, "batterycar" to BatteryCar,
-        "batteryempty" to BatteryEmpty, "batteryfull" to BatteryFull, "batteryhalf" to BatteryHalf,
-        "batteryquarter" to BatteryQuarter, "batterythreequarters" to BatteryThreeQuarters, "bed" to
-        Bed, "bedpulse" to BedPulse, "beer" to Beer, "beermugempty" to BeerMugEmpty, "bell" to Bell,
-        "bellconcierge" to BellConcierge, "bellslash" to BellSlash, "beziercurve" to BezierCurve,
-        "bible" to Bible, "bicycle" to Bicycle, "biking" to Biking, "binoculars" to Binoculars,
-        "biohazard" to Biohazard, "birthdaycake" to BirthdayCake, "bitcoinsign" to BitcoinSign,
-        "blackboard" to Blackboard, "blender" to Blender, "blenderphone" to BlenderPhone, "blind" to
-        Blind, "blog" to Blog, "bold" to Bold, "bolt" to Bolt, "boltlightning" to BoltLightning,
-        "bomb" to Bomb, "bone" to Bone, "bong" to Bong, "book" to Book, "bookatlas" to BookAtlas,
-        "bookbible" to BookBible, "bookbookmark" to BookBookmark, "bookdead" to BookDead,
-        "bookjournalwhills" to BookJournalWhills, "bookmedical" to BookMedical, "bookopen" to
-        BookOpen, "bookopenreader" to BookOpenReader, "bookquran" to BookQuran, "bookreader" to
-        BookReader, "bookskull" to BookSkull, "booktanakh" to BookTanakh, "bookmark" to Bookmark,
-        "borderall" to BorderAll, "bordernone" to BorderNone, "borderstyle" to BorderStyle,
-        "bordertopleft" to BorderTopLeft, "borehole" to BoreHole, "bottledroplet" to BottleDroplet,
-        "bottlewater" to BottleWater, "bowlfood" to BowlFood, "bowlrice" to BowlRice, "bowlingball"
-        to BowlingBall, "box" to Box, "boxarchive" to BoxArchive, "boxopen" to BoxOpen, "boxtissue"
-        to BoxTissue, "boxes" to Boxes, "boxesalt" to BoxesAlt, "boxespacking" to BoxesPacking,
-        "boxesstacked" to BoxesStacked, "braille" to Braille, "brain" to Brain, "brazilianrealsign"
-        to BrazilianRealSign, "breadslice" to BreadSlice, "bridge" to Bridge, "bridgecirclecheck" to
-        BridgeCircleCheck, "bridgecircleexclamation" to BridgeCircleExclamation, "bridgecirclexmark"
-        to BridgeCircleXmark, "bridgelock" to BridgeLock, "bridgewater" to BridgeWater, "briefcase"
-        to Briefcase, "briefcaseclock" to BriefcaseClock, "briefcasemedical" to BriefcaseMedical,
-        "broadcasttower" to BroadcastTower, "broom" to Broom, "broomball" to BroomBall, "brush" to
-        Brush, "bucket" to Bucket, "bug" to Bug, "bugslash" to BugSlash, "bugs" to Bugs, "building"
-        to Building, "buildingcirclearrowright" to BuildingCircleArrowRight, "buildingcirclecheck"
-        to BuildingCircleCheck, "buildingcircleexclamation" to BuildingCircleExclamation,
-        "buildingcirclexmark" to BuildingCircleXmark, "buildingcolumns" to BuildingColumns,
-        "buildingflag" to BuildingFlag, "buildinglock" to BuildingLock, "buildingngo" to
-        BuildingNgo, "buildingshield" to BuildingShield, "buildingun" to BuildingUn, "buildinguser"
-        to BuildingUser, "buildingwheat" to BuildingWheat, "bullhorn" to Bullhorn, "bullseye" to
-        Bullseye, "burger" to Burger, "burn" to Burn, "burst" to Burst, "bus" to Bus, "busalt" to
-        BusAlt, "busside" to BusSide, "bussimple" to BusSimple, "businesstime" to BusinessTime, "c"
-        to C, "cab" to Cab, "cablecar" to CableCar, "cake" to Cake, "cakecandles" to CakeCandles,
-        "calculator" to Calculator, "calendar" to Calendar, "calendaralt" to CalendarAlt,
-        "calendarcheck" to CalendarCheck, "calendarday" to CalendarDay, "calendardays" to
-        CalendarDays, "calendarminus" to CalendarMinus, "calendarplus" to CalendarPlus,
-        "calendartimes" to CalendarTimes, "calendarweek" to CalendarWeek, "calendarxmark" to
-        CalendarXmark, "camera" to Camera, "cameraalt" to CameraAlt, "cameraretro" to CameraRetro,
-        "camerarotate" to CameraRotate, "campground" to Campground, "cancel" to Cancel, "cancer" to
-        Cancer, "candycane" to CandyCane, "cannabis" to Cannabis, "capricorn" to Capricorn,
-        "capsules" to Capsules, "car" to Car, "caralt" to CarAlt, "carbattery" to CarBattery,
-        "carburst" to CarBurst, "carcrash" to CarCrash, "caron" to CarOn, "carrear" to CarRear,
-        "carside" to CarSide, "cartunnel" to CarTunnel, "caravan" to Caravan, "caretdown" to
-        CaretDown, "caretleft" to CaretLeft, "caretright" to CaretRight, "caretsquaredown" to
-        CaretSquareDown, "caretsquareleft" to CaretSquareLeft, "caretsquareright" to
-        CaretSquareRight, "caretsquareup" to CaretSquareUp, "caretup" to CaretUp, "carriagebaby" to
-        CarriageBaby, "carrot" to Carrot, "cartarrowdown" to CartArrowDown, "cartflatbed" to
-        CartFlatbed, "cartflatbedsuitcase" to CartFlatbedSuitcase, "cartplus" to CartPlus,
-        "cartshopping" to CartShopping, "cashregister" to CashRegister, "cat" to Cat, "cedisign" to
-        CediSign, "centsign" to CentSign, "certificate" to Certificate, "chain" to Chain,
-        "chainbroken" to ChainBroken, "chainslash" to ChainSlash, "chair" to Chair, "chalkboard" to
-        Chalkboard, "chalkboardteacher" to ChalkboardTeacher, "chalkboarduser" to ChalkboardUser,
-        "champagneglasses" to ChampagneGlasses, "chargingstation" to ChargingStation, "chartarea" to
-        ChartArea, "chartbar" to ChartBar, "chartcolumn" to ChartColumn, "chartdiagram" to
-        ChartDiagram, "chartgantt" to ChartGantt, "chartline" to ChartLine, "chartpie" to ChartPie,
-        "chartsimple" to ChartSimple, "check" to Check, "checkcircle" to CheckCircle, "checkdouble"
-        to CheckDouble, "checksquare" to CheckSquare, "checktoslot" to CheckToSlot, "cheese" to
-        Cheese, "chess" to Chess, "chessbishop" to ChessBishop, "chessboard" to ChessBoard,
-        "chessking" to ChessKing, "chessknight" to ChessKnight, "chesspawn" to ChessPawn,
-        "chessqueen" to ChessQueen, "chessrook" to ChessRook, "chevroncircledown" to
-        ChevronCircleDown, "chevroncircleleft" to ChevronCircleLeft, "chevroncircleright" to
-        ChevronCircleRight, "chevroncircleup" to ChevronCircleUp, "chevrondown" to ChevronDown,
-        "chevronleft" to ChevronLeft, "chevronright" to ChevronRight, "chevronup" to ChevronUp,
-        "child" to Child, "childcombatant" to ChildCombatant, "childdress" to ChildDress,
-        "childreaching" to ChildReaching, "childrifle" to ChildRifle, "children" to Children,
-        "church" to Church, "circle" to Circle, "circlearrowdown" to CircleArrowDown,
-        "circlearrowleft" to CircleArrowLeft, "circlearrowright" to CircleArrowRight,
-        "circlearrowup" to CircleArrowUp, "circlecheck" to CircleCheck, "circlechevrondown" to
-        CircleChevronDown, "circlechevronleft" to CircleChevronLeft, "circlechevronright" to
-        CircleChevronRight, "circlechevronup" to CircleChevronUp, "circledollartoslot" to
-        CircleDollarToSlot, "circledot" to CircleDot, "circledown" to CircleDown,
-        "circleexclamation" to CircleExclamation, "circleh" to CircleH, "circlehalfstroke" to
-        CircleHalfStroke, "circleinfo" to CircleInfo, "circleleft" to CircleLeft, "circleminus" to
-        CircleMinus, "circlenodes" to CircleNodes, "circlenotch" to CircleNotch, "circlepause" to
-        CirclePause, "circleplay" to CirclePlay, "circleplus" to CirclePlus, "circlequestion" to
-        CircleQuestion, "circleradiation" to CircleRadiation, "circleright" to CircleRight,
-        "circlestop" to CircleStop, "circleup" to CircleUp, "circleuser" to CircleUser,
-        "circlexmark" to CircleXmark, "city" to City, "clapperboard" to Clapperboard,
-        "clinicmedical" to ClinicMedical, "clipboard" to Clipboard, "clipboardcheck" to
-        ClipboardCheck, "clipboardlist" to ClipboardList, "clipboardquestion" to ClipboardQuestion,
-        "clipboarduser" to ClipboardUser, "clock" to Clock, "clockfour" to ClockFour,
-        "clockrotateleft" to ClockRotateLeft, "clone" to Clone, "close" to Close, "closedcaptioning"
-        to ClosedCaptioning, "closedcaptioningslash" to ClosedCaptioningSlash, "cloud" to Cloud,
-        "cloudarrowdown" to CloudArrowDown, "cloudarrowup" to CloudArrowUp, "cloudbolt" to
-        CloudBolt, "clouddownload" to CloudDownload, "clouddownloadalt" to CloudDownloadAlt,
-        "cloudmeatball" to CloudMeatball, "cloudmoon" to CloudMoon, "cloudmoonrain" to
-        CloudMoonRain, "cloudrain" to CloudRain, "cloudshowersheavy" to CloudShowersHeavy,
-        "cloudshowerswater" to CloudShowersWater, "cloudsun" to CloudSun, "cloudsunrain" to
-        CloudSunRain, "cloudupload" to CloudUpload, "clouduploadalt" to CloudUploadAlt, "clover" to
-        Clover, "cny" to Cny, "cocktail" to Cocktail, "code" to Code, "codebranch" to CodeBranch,
-        "codecommit" to CodeCommit, "codecompare" to CodeCompare, "codefork" to CodeFork,
-        "codemerge" to CodeMerge, "codepullrequest" to CodePullRequest, "coffee" to Coffee, "cog" to
-        Cog, "cogs" to Cogs, "coins" to Coins, "colonsign" to ColonSign, "columns" to Columns,
-        "comment" to Comment, "commentalt" to CommentAlt, "commentdollar" to CommentDollar,
-        "commentdots" to CommentDots, "commentmedical" to CommentMedical, "commentnodes" to
-        CommentNodes, "commentslash" to CommentSlash, "commentsms" to CommentSms, "commenting" to
-        Commenting, "comments" to Comments, "commentsdollar" to CommentsDollar, "compactdisc" to
-        CompactDisc, "compass" to Compass, "compassdrafting" to CompassDrafting, "compress" to
-        Compress, "compressalt" to CompressAlt, "compressarrowsalt" to CompressArrowsAlt, "computer"
-        to Computer, "computermouse" to ComputerMouse, "conciergebell" to ConciergeBell,
-        "contactbook" to ContactBook, "contactcard" to ContactCard, "cookie" to Cookie, "cookiebite"
-        to CookieBite, "copy" to Copy, "copyright" to Copyright, "couch" to Couch, "cow" to Cow,
-        "creditcard" to CreditCard, "creditcardalt" to CreditCardAlt, "crop" to Crop, "cropalt" to
-        CropAlt, "cropsimple" to CropSimple, "cross" to Cross, "crosshairs" to Crosshairs, "crow" to
-        Crow, "crown" to Crown, "crutch" to Crutch, "cruzeirosign" to CruzeiroSign, "cube" to Cube,
-        "cubes" to Cubes, "cubesstacked" to CubesStacked, "cut" to Cut, "cutlery" to Cutlery, "d" to
-        D, "dashboard" to Dashboard, "database" to Database, "deaf" to Deaf, "deafness" to Deafness,
-        "dedent" to Dedent, "deleteleft" to DeleteLeft, "democrat" to Democrat, "desktop" to
-        Desktop, "desktopalt" to DesktopAlt, "dharmachakra" to Dharmachakra, "diagnoses" to
-        Diagnoses, "diagramnext" to DiagramNext, "diagrampredecessor" to DiagramPredecessor,
-        "diagramproject" to DiagramProject, "diagramsuccessor" to DiagramSuccessor, "diamond" to
-        Diamond, "diamondturnright" to DiamondTurnRight, "dice" to Dice, "diced20" to DiceD20,
-        "diced6" to DiceD6, "dicefive" to DiceFive, "dicefour" to DiceFour, "diceone" to DiceOne,
-        "dicesix" to DiceSix, "dicethree" to DiceThree, "dicetwo" to DiceTwo, "digging" to Digging,
-        "digitaltachograph" to DigitalTachograph, "directions" to Directions, "disease" to Disease,
-        "display" to Display, "divide" to Divide, "dizzy" to Dizzy, "dna" to Dna, "dog" to Dog,
-        "dollar" to Dollar, "dollarsign" to DollarSign, "dolly" to Dolly, "dollybox" to DollyBox,
-        "dollyflatbed" to DollyFlatbed, "donate" to Donate, "dongsign" to DongSign, "doorclosed" to
-        DoorClosed, "dooropen" to DoorOpen, "dotcircle" to DotCircle, "dove" to Dove,
-        "downleftanduprighttocenter" to DownLeftAndUpRightToCenter, "downlong" to DownLong,
-        "download" to Download, "draftingcompass" to DraftingCompass, "dragon" to Dragon,
-        "drawpolygon" to DrawPolygon, "driverslicense" to DriversLicense, "droplet" to Droplet,
-        "dropletslash" to DropletSlash, "drum" to Drum, "drumsteelpan" to DrumSteelpan,
-        "drumstickbite" to DrumstickBite, "dumbbell" to Dumbbell, "dumpster" to Dumpster,
-        "dumpsterfire" to DumpsterFire, "dungeon" to Dungeon, "e" to E, "eardeaf" to EarDeaf,
-        "earlisten" to EarListen, "earth" to Earth, "earthafrica" to EarthAfrica, "earthamerica" to
-        EarthAmerica, "earthamericas" to EarthAmericas, "earthasia" to EarthAsia, "eartheurope" to
-        EarthEurope, "earthoceania" to EarthOceania, "edit" to Edit, "egg" to Egg, "eject" to Eject,
-        "elevator" to Elevator, "ellipsis" to Ellipsis, "ellipsish" to EllipsisH, "ellipsisv" to
-        EllipsisV, "ellipsisvertical" to EllipsisVertical, "envelope" to Envelope,
-        "envelopecirclecheck" to EnvelopeCircleCheck, "envelopeopen" to EnvelopeOpen,
-        "envelopeopentext" to EnvelopeOpenText, "envelopesquare" to EnvelopeSquare, "envelopesbulk"
-        to EnvelopesBulk, "equals" to Equals, "eraser" to Eraser, "ethernet" to Ethernet, "eur" to
-        Eur, "euro" to Euro, "eurosign" to EuroSign, "exchange" to Exchange, "exchangealt" to
-        ExchangeAlt, "exclamation" to Exclamation, "exclamationcircle" to ExclamationCircle,
-        "exclamationtriangle" to ExclamationTriangle, "expand" to Expand, "expandalt" to ExpandAlt,
-        "expandarrowsalt" to ExpandArrowsAlt, "explosion" to Explosion, "externallink" to
-        ExternalLink, "externallinkalt" to ExternalLinkAlt, "externallinksquare" to
-        ExternalLinkSquare, "externallinksquarealt" to ExternalLinkSquareAlt, "eye" to Eye,
-        "eyedropper" to EyeDropper, "eyedropperempty" to EyeDropperEmpty, "eyelowvision" to
-        EyeLowVision, "eyeslash" to EyeSlash, "eyedropper" to Eyedropper, "f" to F, "faceangry" to
-        FaceAngry, "facedizzy" to FaceDizzy, "faceflushed" to FaceFlushed, "facefrown" to FaceFrown,
-        "facefrownopen" to FaceFrownOpen, "facegrimace" to FaceGrimace, "facegrin" to FaceGrin,
-        "facegrinbeam" to FaceGrinBeam, "facegrinbeamsweat" to FaceGrinBeamSweat, "facegrinhearts"
-        to FaceGrinHearts, "facegrinsquint" to FaceGrinSquint, "facegrinsquinttears" to
-        FaceGrinSquintTears, "facegrinstars" to FaceGrinStars, "facegrintears" to FaceGrinTears,
-        "facegrintongue" to FaceGrinTongue, "facegrintonguesquint" to FaceGrinTongueSquint,
-        "facegrintonguewink" to FaceGrinTongueWink, "facegrinwide" to FaceGrinWide, "facegrinwink"
-        to FaceGrinWink, "facekiss" to FaceKiss, "facekissbeam" to FaceKissBeam, "facekisswinkheart"
-        to FaceKissWinkHeart, "facelaugh" to FaceLaugh, "facelaughbeam" to FaceLaughBeam,
-        "facelaughsquint" to FaceLaughSquint, "facelaughwink" to FaceLaughWink, "facemeh" to
-        FaceMeh, "facemehblank" to FaceMehBlank, "facerollingeyes" to FaceRollingEyes, "facesadcry"
-        to FaceSadCry, "facesadtear" to FaceSadTear, "facesmile" to FaceSmile, "facesmilebeam" to
-        FaceSmileBeam, "facesmilewink" to FaceSmileWink, "facesurprise" to FaceSurprise, "facetired"
-        to FaceTired, "fan" to Fan, "fastbackward" to FastBackward, "fastforward" to FastForward,
-        "faucet" to Faucet, "faucetdrip" to FaucetDrip, "fax" to Fax, "feather" to Feather,
-        "featheralt" to FeatherAlt, "featherpointed" to FeatherPointed, "feed" to Feed, "female" to
-        Female, "ferry" to Ferry, "fighterjet" to FighterJet, "file" to File, "filealt" to FileAlt,
-        "filearchive" to FileArchive, "filearrowdown" to FileArrowDown, "filearrowup" to
-        FileArrowUp, "fileaudio" to FileAudio, "filecirclecheck" to FileCircleCheck,
-        "filecircleexclamation" to FileCircleExclamation, "filecircleminus" to FileCircleMinus,
-        "filecircleplus" to FileCirclePlus, "filecirclequestion" to FileCircleQuestion,
-        "filecirclexmark" to FileCircleXmark, "fileclipboard" to FileClipboard, "filecode" to
-        FileCode, "filecontract" to FileContract, "filecsv" to FileCsv, "filedownload" to
-        FileDownload, "fileedit" to FileEdit, "fileexcel" to FileExcel, "fileexport" to FileExport,
-        "filefragment" to FileFragment, "filehalfdashed" to FileHalfDashed, "fileimage" to
-        FileImage, "fileimport" to FileImport, "fileinvoice" to FileInvoice, "fileinvoicedollar" to
-        FileInvoiceDollar, "filelines" to FileLines, "filemedical" to FileMedical, "filemedicalalt"
-        to FileMedicalAlt, "filepdf" to FilePdf, "filepen" to FilePen, "filepowerpoint" to
-        FilePowerpoint, "fileprescription" to FilePrescription, "fileshield" to FileShield,
-        "filesignature" to FileSignature, "filetext" to FileText, "fileupload" to FileUpload,
-        "filevideo" to FileVideo, "filewaveform" to FileWaveform, "fileword" to FileWord,
-        "filezipper" to FileZipper, "fill" to Fill, "filldrip" to FillDrip, "film" to Film,
-        "filmalt" to FilmAlt, "filmsimple" to FilmSimple, "filter" to Filter, "filtercircledollar"
-        to FilterCircleDollar, "filtercirclexmark" to FilterCircleXmark, "fingerprint" to
-        Fingerprint, "fire" to Fire, "firealt" to FireAlt, "fireburner" to FireBurner,
-        "fireextinguisher" to FireExtinguisher, "fireflamecurved" to FireFlameCurved,
-        "fireflamesimple" to FireFlameSimple, "firstaid" to FirstAid, "fish" to Fish, "fishfins" to
-        FishFins, "fistraised" to FistRaised, "flag" to Flag, "flagcheckered" to FlagCheckered,
-        "flagusa" to FlagUsa, "flask" to Flask, "flaskvial" to FlaskVial, "floppydisk" to
-        FloppyDisk, "florinsign" to FlorinSign, "flushed" to Flushed, "folder" to Folder,
-        "folderblank" to FolderBlank, "folderclosed" to FolderClosed, "folderminus" to FolderMinus,
-        "folderopen" to FolderOpen, "folderplus" to FolderPlus, "foldertree" to FolderTree, "font"
-        to Font, "fontawesome" to FontAwesome, "fontawesomeflag" to FontAwesomeFlag,
-        "fontawesomelogofull" to FontAwesomeLogoFull, "football" to Football, "footballball" to
-        FootballBall, "forward" to Forward, "forwardfast" to ForwardFast, "forwardstep" to
-        ForwardStep, "francsign" to FrancSign, "frog" to Frog, "frown" to Frown, "frownopen" to
-        FrownOpen, "funneldollar" to FunnelDollar, "futbol" to Futbol, "futbolball" to FutbolBall,
-        "g" to G, "gamepad" to Gamepad, "gaspump" to GasPump, "gauge" to Gauge, "gaugehigh" to
-        GaugeHigh, "gaugemed" to GaugeMed, "gaugesimple" to GaugeSimple, "gaugesimplehigh" to
-        GaugeSimpleHigh, "gaugesimplemed" to GaugeSimpleMed, "gavel" to Gavel, "gbp" to Gbp, "gear"
-        to Gear, "gears" to Gears, "gem" to Gem, "gemini" to Gemini, "genderless" to Genderless,
-        "ghost" to Ghost, "gift" to Gift, "gifts" to Gifts, "glasscheers" to GlassCheers,
-        "glassmartini" to GlassMartini, "glassmartinialt" to GlassMartiniAlt, "glasswater" to
-        GlassWater, "glasswaterdroplet" to GlassWaterDroplet, "glasswhiskey" to GlassWhiskey,
-        "glasses" to Glasses, "globe" to Globe, "globeafrica" to GlobeAfrica, "globeamericas" to
-        GlobeAmericas, "globeasia" to GlobeAsia, "globeeurope" to GlobeEurope, "globeoceania" to
-        GlobeOceania, "golfball" to GolfBall, "golfballtee" to GolfBallTee, "gopuram" to Gopuram,
-        "graduationcap" to GraduationCap, "greaterthan" to GreaterThan, "greaterthanequal" to
-        GreaterThanEqual, "gridhorizontal" to GridHorizontal, "gridvertical" to GridVertical,
-        "grimace" to Grimace, "grin" to Grin, "grinalt" to GrinAlt, "grinbeam" to GrinBeam,
-        "grinbeamsweat" to GrinBeamSweat, "grinhearts" to GrinHearts, "grinsquint" to GrinSquint,
-        "grinsquinttears" to GrinSquintTears, "grinstars" to GrinStars, "grintears" to GrinTears,
-        "grintongue" to GrinTongue, "grintonguesquint" to GrinTongueSquint, "grintonguewink" to
-        GrinTongueWink, "grinwink" to GrinWink, "grip" to Grip, "griphorizontal" to GripHorizontal,
-        "griplines" to GripLines, "griplinesvertical" to GripLinesVertical, "gripvertical" to
-        GripVertical, "grouparrowsrotate" to GroupArrowsRotate, "guaranisign" to GuaraniSign,
-        "guitar" to Guitar, "gun" to Gun, "h" to H, "hsquare" to HSquare, "hamburger" to Hamburger,
-        "hammer" to Hammer, "hamsa" to Hamsa, "hand" to Hand, "handbackfist" to HandBackFist,
-        "handdots" to HandDots, "handfist" to HandFist, "handholding" to HandHolding,
-        "handholdingdollar" to HandHoldingDollar, "handholdingdroplet" to HandHoldingDroplet,
-        "handholdinghand" to HandHoldingHand, "handholdingheart" to HandHoldingHeart,
-        "handholdingmedical" to HandHoldingMedical, "handholdingusd" to HandHoldingUsd,
-        "handholdingwater" to HandHoldingWater, "handlizard" to HandLizard, "handmiddlefinger" to
-        HandMiddleFinger, "handpaper" to HandPaper, "handpeace" to HandPeace, "handpointdown" to
-        HandPointDown, "handpointleft" to HandPointLeft, "handpointright" to HandPointRight,
-        "handpointup" to HandPointUp, "handpointer" to HandPointer, "handrock" to HandRock,
-        "handscissors" to HandScissors, "handsparkles" to HandSparkles, "handspock" to HandSpock,
-        "handcuffs" to Handcuffs, "hands" to Hands, "handsamericansignlanguageinterpreting" to
-        HandsAmericanSignLanguageInterpreting, "handsaslinterpreting" to HandsAslInterpreting,
-        "handsbound" to HandsBound, "handsbubbles" to HandsBubbles, "handsclapping" to
-        HandsClapping, "handshelping" to HandsHelping, "handsholding" to HandsHolding,
-        "handsholdingchild" to HandsHoldingChild, "handsholdingcircle" to HandsHoldingCircle,
-        "handspraying" to HandsPraying, "handswash" to HandsWash, "handshake" to Handshake,
-        "handshakealt" to HandshakeAlt, "handshakealtslash" to HandshakeAltSlash, "handshakeangle"
-        to HandshakeAngle, "handshakesimple" to HandshakeSimple, "handshakesimpleslash" to
-        HandshakeSimpleSlash, "handshakeslash" to HandshakeSlash, "hanukiah" to Hanukiah,
-        "harddrive" to HardDrive, "hardhat" to HardHat, "hardofhearing" to HardOfHearing, "hashtag"
-        to Hashtag, "hatcowboy" to HatCowboy, "hatcowboyside" to HatCowboySide, "hathard" to
-        HatHard, "hatwizard" to HatWizard, "haykal" to Haykal, "hdd" to Hdd, "headsidecough" to
-        HeadSideCough, "headsidecoughslash" to HeadSideCoughSlash, "headsidemask" to HeadSideMask,
-        "headsidevirus" to HeadSideVirus, "header" to Header, "heading" to Heading, "headphones" to
-        Headphones, "headphonesalt" to HeadphonesAlt, "headphonessimple" to HeadphonesSimple,
-        "headset" to Headset, "heart" to Heart, "heartbroken" to HeartBroken, "heartcirclebolt" to
-        HeartCircleBolt, "heartcirclecheck" to HeartCircleCheck, "heartcircleexclamation" to
-        HeartCircleExclamation, "heartcircleminus" to HeartCircleMinus, "heartcircleplus" to
-        HeartCirclePlus, "heartcirclexmark" to HeartCircleXmark, "heartcrack" to HeartCrack,
-        "heartmusiccamerabolt" to HeartMusicCameraBolt, "heartpulse" to HeartPulse, "heartbeat" to
-        Heartbeat, "helicopter" to Helicopter, "helicoptersymbol" to HelicopterSymbol,
-        "helmetsafety" to HelmetSafety, "helmetun" to HelmetUn, "heptagon" to Heptagon, "hexagon" to
-        Hexagon, "hexagonnodes" to HexagonNodes, "hexagonnodesbolt" to HexagonNodesBolt,
-        "highlighter" to Highlighter, "hiking" to Hiking, "hillavalanche" to HillAvalanche,
-        "hillrockslide" to HillRockslide, "hippo" to Hippo, "history" to History, "hockeypuck" to
-        HockeyPuck, "hollyberry" to HollyBerry, "home" to Home, "homealt" to HomeAlt, "homelg" to
-        HomeLg, "homelgalt" to HomeLgAlt, "homeuser" to HomeUser, "horse" to Horse, "horsehead" to
-        HorseHead, "hospital" to Hospital, "hospitalalt" to HospitalAlt, "hospitalsymbol" to
-        HospitalSymbol, "hospitaluser" to HospitalUser, "hospitalwide" to HospitalWide, "hottub" to
-        HotTub, "hottubperson" to HotTubPerson, "hotdog" to Hotdog, "hotel" to Hotel, "hourglass" to
-        Hourglass, "hourglass1" to Hourglass1, "hourglass2" to Hourglass2, "hourglass3" to
-        Hourglass3, "hourglassempty" to HourglassEmpty, "hourglassend" to HourglassEnd,
-        "hourglasshalf" to HourglassHalf, "hourglassstart" to HourglassStart, "house" to House,
-        "housechimney" to HouseChimney, "housechimneycrack" to HouseChimneyCrack,
-        "housechimneymedical" to HouseChimneyMedical, "housechimneyuser" to HouseChimneyUser,
-        "housechimneywindow" to HouseChimneyWindow, "housecirclecheck" to HouseCircleCheck,
-        "housecircleexclamation" to HouseCircleExclamation, "housecirclexmark" to HouseCircleXmark,
-        "housecrack" to HouseCrack, "housedamage" to HouseDamage, "housefire" to HouseFire,
-        "houseflag" to HouseFlag, "housefloodwater" to HouseFloodWater,
-        "housefloodwatercirclearrowright" to HouseFloodWaterCircleArrowRight, "houselaptop" to
-        HouseLaptop, "houselock" to HouseLock, "housemedical" to HouseMedical,
-        "housemedicalcirclecheck" to HouseMedicalCircleCheck, "housemedicalcircleexclamation" to
-        HouseMedicalCircleExclamation, "housemedicalcirclexmark" to HouseMedicalCircleXmark,
-        "housemedicalflag" to HouseMedicalFlag, "housesignal" to HouseSignal, "housetsunami" to
-        HouseTsunami, "houseuser" to HouseUser, "hryvnia" to Hryvnia, "hryvniasign" to HryvniaSign,
-        "hurricane" to Hurricane, "i" to I, "icursor" to ICursor, "icecream" to IceCream, "icicles"
-        to Icicles, "icons" to Icons, "idbadge" to IdBadge, "idcard" to IdCard, "idcardalt" to
-        IdCardAlt, "idcardclip" to IdCardClip, "igloo" to Igloo, "ils" to Ils, "image" to Image,
-        "imageportrait" to ImagePortrait, "images" to Images, "inbox" to Inbox, "indent" to Indent,
-        "indianrupee" to IndianRupee, "indianrupeesign" to IndianRupeeSign, "industry" to Industry,
-        "infinity" to Infinity, "info" to Info, "infocircle" to InfoCircle, "inr" to Inr,
-        "institution" to Institution, "italic" to Italic, "j" to J, "jar" to Jar, "jarwheat" to
-        JarWheat, "jedi" to Jedi, "jetfighter" to JetFighter, "jetfighterup" to JetFighterUp,
-        "joint" to Joint, "journalwhills" to JournalWhills, "jpy" to Jpy, "jugdetergent" to
-        JugDetergent, "k" to K, "kaaba" to Kaaba, "key" to Key, "keyboard" to Keyboard, "khanda" to
-        Khanda, "kipsign" to KipSign, "kiss" to Kiss, "kissbeam" to KissBeam, "kisswinkheart" to
-        KissWinkHeart, "kitmedical" to KitMedical, "kitchenset" to KitchenSet, "kiwibird" to
-        KiwiBird, "krw" to Krw, "l" to L, "ladderwater" to LadderWater, "landmineon" to LandMineOn,
-        "landmark" to Landmark, "landmarkalt" to LandmarkAlt, "landmarkdome" to LandmarkDome,
-        "landmarkflag" to LandmarkFlag, "language" to Language, "laptop" to Laptop, "laptopcode" to
-        LaptopCode, "laptopfile" to LaptopFile, "laptophouse" to LaptopHouse, "laptopmedical" to
-        LaptopMedical, "larisign" to LariSign, "laugh" to Laugh, "laughbeam" to LaughBeam,
-        "laughsquint" to LaughSquint, "laughwink" to LaughWink, "layergroup" to LayerGroup, "leaf"
-        to Leaf, "leftlong" to LeftLong, "leftright" to LeftRight, "legal" to Legal, "lemon" to
-        Lemon, "leo" to Leo, "lessthan" to LessThan, "lessthanequal" to LessThanEqual, "leveldown"
-        to LevelDown, "leveldownalt" to LevelDownAlt, "levelup" to LevelUp, "levelupalt" to
-        LevelUpAlt, "libra" to Libra, "lifering" to LifeRing, "lightbulb" to Lightbulb, "linechart"
-        to LineChart, "linesleaning" to LinesLeaning, "link" to Link, "linkslash" to LinkSlash,
-        "lirasign" to LiraSign, "list" to List, "list12" to List12, "listalt" to ListAlt,
-        "listcheck" to ListCheck, "listdots" to ListDots, "listnumeric" to ListNumeric, "listol" to
-        ListOl, "listsquares" to ListSquares, "listul" to ListUl, "litecoinsign" to LitecoinSign,
-        "location" to Location, "locationarrow" to LocationArrow, "locationcrosshairs" to
-        LocationCrosshairs, "locationdot" to LocationDot, "locationpin" to LocationPin,
-        "locationpinlock" to LocationPinLock, "lock" to Lock, "lockopen" to LockOpen, "locust" to
-        Locust, "longarrowaltdown" to LongArrowAltDown, "longarrowaltleft" to LongArrowAltLeft,
-        "longarrowaltright" to LongArrowAltRight, "longarrowaltup" to LongArrowAltUp,
-        "longarrowdown" to LongArrowDown, "longarrowleft" to LongArrowLeft, "longarrowright" to
-        LongArrowRight, "longarrowup" to LongArrowUp, "lowvision" to LowVision, "luggagecart" to
-        LuggageCart, "lungs" to Lungs, "lungsvirus" to LungsVirus, "m" to M, "magic" to Magic,
-        "magicwandsparkles" to MagicWandSparkles, "magnet" to Magnet, "magnifyingglass" to
-        MagnifyingGlass, "magnifyingglassarrowright" to MagnifyingGlassArrowRight,
-        "magnifyingglasschart" to MagnifyingGlassChart, "magnifyingglassdollar" to
-        MagnifyingGlassDollar, "magnifyingglasslocation" to MagnifyingGlassLocation,
-        "magnifyingglassminus" to MagnifyingGlassMinus, "magnifyingglassplus" to
-        MagnifyingGlassPlus, "mailbulk" to MailBulk, "mailforward" to MailForward, "mailreply" to
-        MailReply, "mailreplyall" to MailReplyAll, "male" to Male, "manatsign" to ManatSign, "map"
-        to Map, "maplocation" to MapLocation, "maplocationdot" to MapLocationDot, "mapmarked" to
-        MapMarked, "mapmarkedalt" to MapMarkedAlt, "mapmarker" to MapMarker, "mapmarkeralt" to
-        MapMarkerAlt, "mappin" to MapPin, "mapsigns" to MapSigns, "marker" to Marker, "mars" to
-        Mars, "marsandvenus" to MarsAndVenus, "marsandvenusburst" to MarsAndVenusBurst, "marsdouble"
-        to MarsDouble, "marsstroke" to MarsStroke, "marsstrokeh" to MarsStrokeH, "marsstrokeright"
-        to MarsStrokeRight, "marsstrokeup" to MarsStrokeUp, "marsstrokev" to MarsStrokeV,
-        "martiniglass" to MartiniGlass, "martiniglasscitrus" to MartiniGlassCitrus,
-        "martiniglassempty" to MartiniGlassEmpty, "mask" to Mask, "maskface" to MaskFace,
-        "maskventilator" to MaskVentilator, "maskstheater" to MasksTheater, "mattresspillow" to
-        MattressPillow, "maximize" to Maximize, "medal" to Medal, "medkit" to Medkit, "meh" to Meh,
-        "mehblank" to MehBlank, "mehrollingeyes" to MehRollingEyes, "memory" to Memory, "menorah" to
-        Menorah, "mercury" to Mercury, "message" to Message, "meteor" to Meteor, "microchip" to
-        Microchip, "microphone" to Microphone, "microphonealt" to MicrophoneAlt,
-        "microphonealtslash" to MicrophoneAltSlash, "microphonelines" to MicrophoneLines,
-        "microphonelinesslash" to MicrophoneLinesSlash, "microphoneslash" to MicrophoneSlash,
-        "microscope" to Microscope, "millsign" to MillSign, "minimize" to Minimize, "minus" to
-        Minus, "minuscircle" to MinusCircle, "minussquare" to MinusSquare, "mitten" to Mitten,
-        "mobile" to Mobile, "mobilealt" to MobileAlt, "mobileandroid" to MobileAndroid,
-        "mobileandroidalt" to MobileAndroidAlt, "mobilebutton" to MobileButton, "mobilephone" to
-        MobilePhone, "mobileretro" to MobileRetro, "mobilescreen" to MobileScreen,
-        "mobilescreenbutton" to MobileScreenButton, "mobilevibrate" to MobileVibrate, "moneybill" to
-        MoneyBill, "moneybill1" to MoneyBill1, "moneybill1wave" to MoneyBill1Wave, "moneybillalt" to
-        MoneyBillAlt, "moneybilltransfer" to MoneyBillTransfer, "moneybilltrendup" to
-        MoneyBillTrendUp, "moneybillwave" to MoneyBillWave, "moneybillwavealt" to MoneyBillWaveAlt,
-        "moneybillwheat" to MoneyBillWheat, "moneybills" to MoneyBills, "moneycheck" to MoneyCheck,
-        "moneycheckalt" to MoneyCheckAlt, "moneycheckdollar" to MoneyCheckDollar, "monument" to
-        Monument, "moon" to Moon, "mortarboard" to MortarBoard, "mortarpestle" to MortarPestle,
-        "mosque" to Mosque, "mosquito" to Mosquito, "mosquitonet" to MosquitoNet, "motorcycle" to
-        Motorcycle, "mound" to Mound, "mountain" to Mountain, "mountaincity" to MountainCity,
-        "mountainsun" to MountainSun, "mouse" to Mouse, "mousepointer" to MousePointer, "mughot" to
-        MugHot, "mugsaucer" to MugSaucer, "multiply" to Multiply, "museum" to Museum, "music" to
-        Music, "n" to N, "nairasign" to NairaSign, "navicon" to Navicon, "networkwired" to
-        NetworkWired, "neuter" to Neuter, "newspaper" to Newspaper, "nonbinary" to NonBinary,
-        "notequal" to NotEqual, "notdef" to Notdef, "notesticky" to NoteSticky, "notesmedical" to
-        NotesMedical, "o" to O, "objectgroup" to ObjectGroup, "objectungroup" to ObjectUngroup,
-        "octagon" to Octagon, "oilcan" to OilCan, "oilwell" to OilWell, "om" to Om, "otter" to
-        Otter, "outdent" to Outdent, "p" to P, "pager" to Pager, "paintbrush" to PaintBrush,
-        "paintroller" to PaintRoller, "paintbrush" to Paintbrush, "palette" to Palette, "pallet" to
-        Pallet, "panorama" to Panorama, "paperplane" to PaperPlane, "paperclip" to Paperclip,
-        "parachutebox" to ParachuteBox, "paragraph" to Paragraph, "parking" to Parking, "passport"
-        to Passport, "pastafarianism" to Pastafarianism, "paste" to Paste, "pause" to Pause,
-        "pausecircle" to PauseCircle, "paw" to Paw, "peace" to Peace, "pen" to Pen, "penalt" to
-        PenAlt, "penclip" to PenClip, "penfancy" to PenFancy, "pennib" to PenNib, "penruler" to
-        PenRuler, "pensquare" to PenSquare, "pentosquare" to PenToSquare, "pencil" to Pencil,
-        "pencilalt" to PencilAlt, "pencilruler" to PencilRuler, "pencilsquare" to PencilSquare,
-        "pentagon" to Pentagon, "peoplearrows" to PeopleArrows, "peoplearrowsleftright" to
-        PeopleArrowsLeftRight, "peoplecarry" to PeopleCarry, "peoplecarrybox" to PeopleCarryBox,
-        "peoplegroup" to PeopleGroup, "peopleline" to PeopleLine, "peoplepulling" to PeoplePulling,
-        "peoplerobbery" to PeopleRobbery, "peopleroof" to PeopleRoof, "pepperhot" to PepperHot,
-        "percent" to Percent, "percentage" to Percentage, "person" to Person,
-        "personarrowdowntoline" to PersonArrowDownToLine, "personarrowupfromline" to
-        PersonArrowUpFromLine, "personbiking" to PersonBiking, "personbooth" to PersonBooth,
-        "personbreastfeeding" to PersonBreastfeeding, "personburst" to PersonBurst, "personcane" to
-        PersonCane, "personchalkboard" to PersonChalkboard, "personcirclecheck" to
-        PersonCircleCheck, "personcircleexclamation" to PersonCircleExclamation, "personcircleminus"
-        to PersonCircleMinus, "personcircleplus" to PersonCirclePlus, "personcirclequestion" to
-        PersonCircleQuestion, "personcirclexmark" to PersonCircleXmark, "persondigging" to
-        PersonDigging, "persondotsfromline" to PersonDotsFromLine, "persondress" to PersonDress,
-        "persondressburst" to PersonDressBurst, "persondrowning" to PersonDrowning, "personfalling"
-        to PersonFalling, "personfallingburst" to PersonFallingBurst, "personhalfdress" to
-        PersonHalfDress, "personharassing" to PersonHarassing, "personhiking" to PersonHiking,
-        "personmilitarypointing" to PersonMilitaryPointing, "personmilitaryrifle" to
-        PersonMilitaryRifle, "personmilitarytoperson" to PersonMilitaryToPerson, "personpraying" to
-        PersonPraying, "personpregnant" to PersonPregnant, "personrays" to PersonRays, "personrifle"
-        to PersonRifle, "personrunning" to PersonRunning, "personshelter" to PersonShelter,
-        "personskating" to PersonSkating, "personskiing" to PersonSkiing, "personskiingnordic" to
-        PersonSkiingNordic, "personsnowboarding" to PersonSnowboarding, "personswimming" to
-        PersonSwimming, "personthroughwindow" to PersonThroughWindow, "personwalking" to
-        PersonWalking, "personwalkingarrowloopleft" to PersonWalkingArrowLoopLeft,
-        "personwalkingarrowright" to PersonWalkingArrowRight, "personwalkingdashedlinearrowright" to
-        PersonWalkingDashedLineArrowRight, "personwalkingluggage" to PersonWalkingLuggage,
-        "personwalkingwithcane" to PersonWalkingWithCane, "pesetasign" to PesetaSign, "pesosign" to
-        PesoSign, "phone" to Phone, "phonealt" to PhoneAlt, "phoneflip" to PhoneFlip, "phoneslash"
-        to PhoneSlash, "phonesquare" to PhoneSquare, "phonesquarealt" to PhoneSquareAlt,
-        "phonevolume" to PhoneVolume, "photofilm" to PhotoFilm, "photovideo" to PhotoVideo,
-        "pictureinpicture" to PictureInPicture, "piechart" to PieChart, "piggybank" to PiggyBank,
-        "pills" to Pills, "pingpongpaddleball" to PingPongPaddleBall, "pisces" to Pisces,
-        "pizzaslice" to PizzaSlice, "placeofworship" to PlaceOfWorship, "plane" to Plane,
-        "planearrival" to PlaneArrival, "planecirclecheck" to PlaneCircleCheck,
-        "planecircleexclamation" to PlaneCircleExclamation, "planecirclexmark" to PlaneCircleXmark,
-        "planedeparture" to PlaneDeparture, "planelock" to PlaneLock, "planeslash" to PlaneSlash,
-        "planeup" to PlaneUp, "plantwilt" to PlantWilt, "platewheat" to PlateWheat, "play" to Play,
-        "playcircle" to PlayCircle, "plug" to Plug, "plugcirclebolt" to PlugCircleBolt,
-        "plugcirclecheck" to PlugCircleCheck, "plugcircleexclamation" to PlugCircleExclamation,
-        "plugcircleminus" to PlugCircleMinus, "plugcircleplus" to PlugCirclePlus, "plugcirclexmark"
-        to PlugCircleXmark, "plus" to Plus, "pluscircle" to PlusCircle, "plusminus" to PlusMinus,
-        "plussquare" to PlusSquare, "podcast" to Podcast, "poll" to Poll, "pollh" to PollH, "poo" to
-        Poo, "poobolt" to PooBolt, "poostorm" to PooStorm, "poop" to Poop, "portrait" to Portrait,
-        "poundsign" to PoundSign, "poweroff" to PowerOff, "pray" to Pray, "prayinghands" to
-        PrayingHands, "prescription" to Prescription, "prescriptionbottle" to PrescriptionBottle,
-        "prescriptionbottlealt" to PrescriptionBottleAlt, "prescriptionbottlemedical" to
-        PrescriptionBottleMedical, "print" to Print, "procedures" to Procedures, "projectdiagram" to
-        ProjectDiagram, "pumpmedical" to PumpMedical, "pumpsoap" to PumpSoap, "puzzlepiece" to
-        PuzzlePiece, "q" to Q, "qrcode" to Qrcode, "question" to Question, "questioncircle" to
-        QuestionCircle, "quidditch" to Quidditch, "quidditchbroomball" to QuidditchBroomBall,
-        "quoteleft" to QuoteLeft, "quoteleftalt" to QuoteLeftAlt, "quoteright" to QuoteRight,
-        "quoterightalt" to QuoteRightAlt, "quran" to Quran, "r" to R, "radiation" to Radiation,
-        "radiationalt" to RadiationAlt, "radio" to Radio, "rainbow" to Rainbow, "random" to Random,
-        "rankingstar" to RankingStar, "receipt" to Receipt, "recordvinyl" to RecordVinyl,
-        "rectanglead" to RectangleAd, "rectanglelist" to RectangleList, "rectangletimes" to
-        RectangleTimes, "rectanglexmark" to RectangleXmark, "recycle" to Recycle, "redo" to Redo,
-        "redoalt" to RedoAlt, "refresh" to Refresh, "registered" to Registered, "remove" to Remove,
-        "removeformat" to RemoveFormat, "reorder" to Reorder, "repeat" to Repeat, "reply" to Reply,
-        "replyall" to ReplyAll, "republican" to Republican, "restroom" to Restroom, "retweet" to
-        Retweet, "ribbon" to Ribbon, "rightfrombracket" to RightFromBracket, "rightleft" to
-        RightLeft, "rightlong" to RightLong, "righttobracket" to RightToBracket, "ring" to Ring,
-        "rmb" to Rmb, "road" to Road, "roadbarrier" to RoadBarrier, "roadbridge" to RoadBridge,
-        "roadcirclecheck" to RoadCircleCheck, "roadcircleexclamation" to RoadCircleExclamation,
-        "roadcirclexmark" to RoadCircleXmark, "roadlock" to RoadLock, "roadspikes" to RoadSpikes,
-        "robot" to Robot, "rocket" to Rocket, "rodasclepius" to RodAsclepius, "rodsnake" to
-        RodSnake, "rotate" to Rotate, "rotateback" to RotateBack, "rotatebackward" to
-        RotateBackward, "rotateforward" to RotateForward, "rotateleft" to RotateLeft, "rotateright"
-        to RotateRight, "rouble" to Rouble, "route" to Route, "rss" to Rss, "rsssquare" to
-        RssSquare, "rub" to Rub, "ruble" to Ruble, "rublesign" to RubleSign, "rug" to Rug, "ruler"
-        to Ruler, "rulercombined" to RulerCombined, "rulerhorizontal" to RulerHorizontal,
-        "rulervertical" to RulerVertical, "running" to Running, "rupee" to Rupee, "rupeesign" to
-        RupeeSign, "rupiahsign" to RupiahSign, "s" to S, "sackdollar" to SackDollar, "sackxmark" to
-        SackXmark, "sadcry" to SadCry, "sadtear" to SadTear, "sagittarius" to Sagittarius,
-        "sailboat" to Sailboat, "satellite" to Satellite, "satellitedish" to SatelliteDish, "save"
-        to Save, "scalebalanced" to ScaleBalanced, "scaleunbalanced" to ScaleUnbalanced,
-        "scaleunbalancedflip" to ScaleUnbalancedFlip, "school" to School, "schoolcirclecheck" to
-        SchoolCircleCheck, "schoolcircleexclamation" to SchoolCircleExclamation, "schoolcirclexmark"
-        to SchoolCircleXmark, "schoolflag" to SchoolFlag, "schoollock" to SchoolLock, "scissors" to
-        Scissors, "scorpio" to Scorpio, "screwdriver" to Screwdriver, "screwdriverwrench" to
-        ScrewdriverWrench, "scroll" to Scroll, "scrolltorah" to ScrollTorah, "sdcard" to SdCard,
-        "search" to Search, "searchdollar" to SearchDollar, "searchlocation" to SearchLocation,
-        "searchminus" to SearchMinus, "searchplus" to SearchPlus, "section" to Section, "seedling"
-        to Seedling, "septagon" to Septagon, "server" to Server, "shapes" to Shapes, "share" to
-        Share, "sharealt" to ShareAlt, "sharealtsquare" to ShareAltSquare, "sharefromsquare" to
-        ShareFromSquare, "sharenodes" to ShareNodes, "sharesquare" to ShareSquare, "sheetplastic" to
-        SheetPlastic, "shekel" to Shekel, "shekelsign" to ShekelSign, "sheqel" to Sheqel,
-        "sheqelsign" to SheqelSign, "shield" to Shield, "shieldalt" to ShieldAlt, "shieldblank" to
-        ShieldBlank, "shieldcat" to ShieldCat, "shielddog" to ShieldDog, "shieldhalved" to
-        ShieldHalved, "shieldheart" to ShieldHeart, "shieldvirus" to ShieldVirus, "ship" to Ship,
-        "shippingfast" to ShippingFast, "shirt" to Shirt, "shoeprints" to ShoePrints, "shop" to
-        Shop, "shoplock" to ShopLock, "shopslash" to ShopSlash, "shoppingbag" to ShoppingBag,
-        "shoppingbasket" to ShoppingBasket, "shoppingcart" to ShoppingCart, "shower" to Shower,
-        "shrimp" to Shrimp, "shuffle" to Shuffle, "shuttlespace" to ShuttleSpace, "shuttlevan" to
-        ShuttleVan, "sign" to Sign, "signhanging" to SignHanging, "signin" to SignIn, "signinalt" to
-        SignInAlt, "signlanguage" to SignLanguage, "signout" to SignOut, "signoutalt" to SignOutAlt,
-        "signal" to Signal, "signal5" to Signal5, "signalperfect" to SignalPerfect, "signature" to
-        Signature, "signing" to Signing, "signspost" to SignsPost, "simcard" to SimCard,
-        "singlequoteleft" to SingleQuoteLeft, "singlequoteright" to SingleQuoteRight, "sink" to
-        Sink, "sitemap" to Sitemap, "skating" to Skating, "skiing" to Skiing, "skiingnordic" to
-        SkiingNordic, "skull" to Skull, "skullcrossbones" to SkullCrossbones, "slash" to Slash,
-        "sleigh" to Sleigh, "sliders" to Sliders, "slidersh" to SlidersH, "smile" to Smile,
-        "smilebeam" to SmileBeam, "smilewink" to SmileWink, "smog" to Smog, "smoking" to Smoking,
-        "smokingban" to SmokingBan, "sms" to Sms, "snowboarding" to Snowboarding, "snowflake" to
-        Snowflake, "snowman" to Snowman, "snowplow" to Snowplow, "soap" to Soap, "soccerball" to
-        SoccerBall, "socks" to Socks, "solarpanel" to SolarPanel, "sort" to Sort, "sortalphaasc" to
-        SortAlphaAsc, "sortalphadesc" to SortAlphaDesc, "sortalphadown" to SortAlphaDown,
-        "sortalphadownalt" to SortAlphaDownAlt, "sortalphaup" to SortAlphaUp, "sortalphaupalt" to
-        SortAlphaUpAlt, "sortamountasc" to SortAmountAsc, "sortamountdesc" to SortAmountDesc,
-        "sortamountdown" to SortAmountDown, "sortamountdownalt" to SortAmountDownAlt, "sortamountup"
-        to SortAmountUp, "sortamountupalt" to SortAmountUpAlt, "sortasc" to SortAsc, "sortdesc" to
-        SortDesc, "sortdown" to SortDown, "sortnumericasc" to SortNumericAsc, "sortnumericdesc" to
-        SortNumericDesc, "sortnumericdown" to SortNumericDown, "sortnumericdownalt" to
-        SortNumericDownAlt, "sortnumericup" to SortNumericUp, "sortnumericupalt" to
-        SortNumericUpAlt, "sortup" to SortUp, "spa" to Spa, "spaceshuttle" to SpaceShuttle,
-        "spaghettimonsterflying" to SpaghettiMonsterFlying, "spellcheck" to SpellCheck, "spider" to
-        Spider, "spinner" to Spinner, "spiral" to Spiral, "splotch" to Splotch, "spoon" to Spoon,
-        "spraycan" to SprayCan, "spraycansparkles" to SprayCanSparkles, "sprout" to Sprout, "square"
-        to Square, "squarearrowupright" to SquareArrowUpRight, "squarebinary" to SquareBinary,
-        "squarecaretdown" to SquareCaretDown, "squarecaretleft" to SquareCaretLeft,
-        "squarecaretright" to SquareCaretRight, "squarecaretup" to SquareCaretUp, "squarecheck" to
-        SquareCheck, "squareenvelope" to SquareEnvelope, "squarefull" to SquareFull, "squareh" to
-        SquareH, "squareminus" to SquareMinus, "squarenfi" to SquareNfi, "squareparking" to
-        SquareParking, "squarepen" to SquarePen, "squarepersonconfined" to SquarePersonConfined,
-        "squarephone" to SquarePhone, "squarephoneflip" to SquarePhoneFlip, "squareplus" to
-        SquarePlus, "squarepollhorizontal" to SquarePollHorizontal, "squarepollvertical" to
-        SquarePollVertical, "squarerootalt" to SquareRootAlt, "squarerootvariable" to
-        SquareRootVariable, "squarerss" to SquareRss, "squaresharenodes" to SquareShareNodes,
-        "squareupright" to SquareUpRight, "squarevirus" to SquareVirus, "squarexmark" to
-        SquareXmark, "staffaesculapius" to StaffAesculapius, "staffsnake" to StaffSnake, "stairs" to
-        Stairs, "stamp" to Stamp, "stapler" to Stapler, "star" to Star, "starandcrescent" to
-        StarAndCrescent, "starhalf" to StarHalf, "starhalfalt" to StarHalfAlt, "starhalfstroke" to
-        StarHalfStroke, "starofdavid" to StarOfDavid, "staroflife" to StarOfLife, "stepbackward" to
-        StepBackward, "stepforward" to StepForward, "sterlingsign" to SterlingSign, "stethoscope" to
-        Stethoscope, "stickynote" to StickyNote, "stop" to Stop, "stopcircle" to StopCircle,
-        "stopwatch" to Stopwatch, "stopwatch20" to Stopwatch20, "store" to Store, "storealt" to
-        StoreAlt, "storealtslash" to StoreAltSlash, "storeslash" to StoreSlash, "stream" to Stream,
-        "streetview" to StreetView, "strikethrough" to Strikethrough, "stroopwafel" to Stroopwafel,
-        "subscript" to Subscript, "subtract" to Subtract, "subway" to Subway, "suitcase" to
-        Suitcase, "suitcasemedical" to SuitcaseMedical, "suitcaserolling" to SuitcaseRolling, "sun"
-        to Sun, "sunplantwilt" to SunPlantWilt, "superscript" to Superscript, "surprise" to
-        Surprise, "swatchbook" to Swatchbook, "swimmer" to Swimmer, "swimmingpool" to SwimmingPool,
-        "synagogue" to Synagogue, "sync" to Sync, "syncalt" to SyncAlt, "syringe" to Syringe, "t" to
-        T, "tshirt" to TShirt, "table" to Table, "tablecells" to TableCells, "tablecellscolumnlock"
-        to TableCellsColumnLock, "tablecellslarge" to TableCellsLarge, "tablecellsrowlock" to
-        TableCellsRowLock, "tablecellsrowunlock" to TableCellsRowUnlock, "tablecolumns" to
-        TableColumns, "tablelist" to TableList, "tabletennis" to TableTennis,
-        "tabletennispaddleball" to TableTennisPaddleBall, "tablet" to Tablet, "tabletalt" to
-        TabletAlt, "tabletandroid" to TabletAndroid, "tabletbutton" to TabletButton,
-        "tabletscreenbutton" to TabletScreenButton, "tablets" to Tablets, "tachographdigital" to
-        TachographDigital, "tachometer" to Tachometer, "tachometeralt" to TachometerAlt,
-        "tachometeraltaverage" to TachometerAltAverage, "tachometeraltfast" to TachometerAltFast,
-        "tachometeraverage" to TachometerAverage, "tachometerfast" to TachometerFast, "tag" to Tag,
-        "tags" to Tags, "tanakh" to Tanakh, "tape" to Tape, "tarp" to Tarp, "tarpdroplet" to
-        TarpDroplet, "tasks" to Tasks, "tasksalt" to TasksAlt, "taurus" to Taurus, "taxi" to Taxi,
-        "teeth" to Teeth, "teethopen" to TeethOpen, "teletype" to Teletype, "television" to
-        Television, "temperature0" to Temperature0, "temperature1" to Temperature1, "temperature2"
-        to Temperature2, "temperature3" to Temperature3, "temperature4" to Temperature4,
-        "temperaturearrowdown" to TemperatureArrowDown, "temperaturearrowup" to TemperatureArrowUp,
-        "temperaturedown" to TemperatureDown, "temperatureempty" to TemperatureEmpty,
-        "temperaturefull" to TemperatureFull, "temperaturehalf" to TemperatureHalf,
-        "temperaturehigh" to TemperatureHigh, "temperaturelow" to TemperatureLow,
-        "temperaturequarter" to TemperatureQuarter, "temperaturethreequarters" to
-        TemperatureThreeQuarters, "temperatureup" to TemperatureUp, "tenge" to Tenge, "tengesign" to
-        TengeSign, "tent" to Tent, "tentarrowdowntoline" to TentArrowDownToLine,
-        "tentarrowleftright" to TentArrowLeftRight, "tentarrowturnleft" to TentArrowTurnLeft,
-        "tentarrowsdown" to TentArrowsDown, "tents" to Tents, "terminal" to Terminal, "textheight"
-        to TextHeight, "textslash" to TextSlash, "textwidth" to TextWidth, "th" to Th, "thlarge" to
-        ThLarge, "thlist" to ThList, "theatermasks" to TheaterMasks, "thermometer" to Thermometer,
-        "thermometer0" to Thermometer0, "thermometer1" to Thermometer1, "thermometer2" to
-        Thermometer2, "thermometer3" to Thermometer3, "thermometer4" to Thermometer4,
-        "thermometerempty" to ThermometerEmpty, "thermometerfull" to ThermometerFull,
-        "thermometerhalf" to ThermometerHalf, "thermometerquarter" to ThermometerQuarter,
-        "thermometerthreequarters" to ThermometerThreeQuarters, "thumbtack" to ThumbTack,
-        "thumbtackslash" to ThumbTackSlash, "thumbsdown" to ThumbsDown, "thumbsup" to ThumbsUp,
-        "thumbtack" to Thumbtack, "thumbtackslash" to ThumbtackSlash, "thunderstorm" to
-        Thunderstorm, "ticket" to Ticket, "ticketalt" to TicketAlt, "ticketsimple" to TicketSimple,
-        "timeline" to Timeline, "times" to Times, "timescircle" to TimesCircle, "timesrectangle" to
-        TimesRectangle, "timessquare" to TimesSquare, "tint" to Tint, "tintslash" to TintSlash,
-        "tired" to Tired, "toggleoff" to ToggleOff, "toggleon" to ToggleOn, "toilet" to Toilet,
-        "toiletpaper" to ToiletPaper, "toiletpaperalt" to ToiletPaperAlt, "toiletpaperblank" to
-        ToiletPaperBlank, "toiletpaperslash" to ToiletPaperSlash, "toiletportable" to
-        ToiletPortable, "toiletsportable" to ToiletsPortable, "toolbox" to Toolbox, "tools" to
-        Tools, "tooth" to Tooth, "torah" to Torah, "toriigate" to ToriiGate, "tornado" to Tornado,
-        "towerbroadcast" to TowerBroadcast, "towercell" to TowerCell, "towerobservation" to
-        TowerObservation, "tractor" to Tractor, "trademark" to Trademark, "trafficlight" to
-        TrafficLight, "trailer" to Trailer, "train" to Train, "trainsubway" to TrainSubway,
-        "traintram" to TrainTram, "tram" to Tram, "transgender" to Transgender, "transgenderalt" to
-        TransgenderAlt, "trash" to Trash, "trashalt" to TrashAlt, "trasharrowup" to TrashArrowUp,
-        "trashcan" to TrashCan, "trashcanarrowup" to TrashCanArrowUp, "trashrestore" to
-        TrashRestore, "trashrestorealt" to TrashRestoreAlt, "tree" to Tree, "treecity" to TreeCity,
-        "trianglecirclesquare" to TriangleCircleSquare, "triangleexclamation" to
-        TriangleExclamation, "trophy" to Trophy, "trowel" to Trowel, "trowelbricks" to TrowelBricks,
-        "truck" to Truck, "truckarrowright" to TruckArrowRight, "truckdroplet" to TruckDroplet,
-        "truckfast" to TruckFast, "truckfield" to TruckField, "truckfieldun" to TruckFieldUn,
-        "truckfront" to TruckFront, "truckloading" to TruckLoading, "truckmedical" to TruckMedical,
-        "truckmonster" to TruckMonster, "truckmoving" to TruckMoving, "truckpickup" to TruckPickup,
-        "truckplane" to TruckPlane, "truckrampbox" to TruckRampBox, "try" to Try, "tshirt" to
-        Tshirt, "tty" to Tty, "turkishlira" to TurkishLira, "turkishlirasign" to TurkishLiraSign,
-        "turndown" to TurnDown, "turnup" to TurnUp, "tv" to Tv, "tvalt" to TvAlt, "u" to U,
-        "umbrella" to Umbrella, "umbrellabeach" to UmbrellaBeach, "underline" to Underline, "undo"
-        to Undo, "undoalt" to UndoAlt, "universalaccess" to UniversalAccess, "university" to
-        University, "unlink" to Unlink, "unlock" to Unlock, "unlockalt" to UnlockAlt,
-        "unlockkeyhole" to UnlockKeyhole, "unsorted" to Unsorted, "updown" to UpDown,
-        "updownleftright" to UpDownLeftRight, "uplong" to UpLong, "uprightanddownleftfromcenter" to
-        UpRightAndDownLeftFromCenter, "uprightfromsquare" to UpRightFromSquare, "upload" to Upload,
-        "usd" to Usd, "user" to User, "useralt" to UserAlt, "useraltslash" to UserAltSlash,
-        "userastronaut" to UserAstronaut, "usercheck" to UserCheck, "usercircle" to UserCircle,
-        "userclock" to UserClock, "usercog" to UserCog, "userdoctor" to UserDoctor, "useredit" to
-        UserEdit, "userfriends" to UserFriends, "usergear" to UserGear, "usergraduate" to
-        UserGraduate, "usergroup" to UserGroup, "userinjured" to UserInjured, "userlarge" to
-        UserLarge, "userlargeslash" to UserLargeSlash, "userlock" to UserLock, "usermd" to UserMd,
-        "userminus" to UserMinus, "userninja" to UserNinja, "usernurse" to UserNurse, "userpen" to
-        UserPen, "userplus" to UserPlus, "usersecret" to UserSecret, "usershield" to UserShield,
-        "userslash" to UserSlash, "usertag" to UserTag, "usertie" to UserTie, "usertimes" to
-        UserTimes, "userxmark" to UserXmark, "users" to Users, "usersbetweenlines" to
-        UsersBetweenLines, "userscog" to UsersCog, "usersgear" to UsersGear, "usersline" to
-        UsersLine, "usersrays" to UsersRays, "usersrectangle" to UsersRectangle, "usersslash" to
-        UsersSlash, "usersviewfinder" to UsersViewfinder, "utensilspoon" to UtensilSpoon, "utensils"
-        to Utensils, "v" to V, "vanshuttle" to VanShuttle, "vault" to Vault, "vcard" to Vcard,
-        "vectorpolygon" to VectorPolygon, "venus" to Venus, "venusdouble" to VenusDouble,
-        "venusmars" to VenusMars, "vest" to Vest, "vestpatches" to VestPatches, "vial" to Vial,
-        "vialcirclecheck" to VialCircleCheck, "vialvirus" to VialVirus, "vials" to Vials, "video" to
-        Video, "videocamera" to VideoCamera, "videoslash" to VideoSlash, "vihara" to Vihara, "virgo"
-        to Virgo, "virus" to Virus, "viruscovid" to VirusCovid, "viruscovidslash" to
-        VirusCovidSlash, "virusslash" to VirusSlash, "viruses" to Viruses, "voicemail" to Voicemail,
-        "volcano" to Volcano, "volleyball" to Volleyball, "volleyballball" to VolleyballBall,
-        "volume" to Volume, "volumecontrolphone" to VolumeControlPhone, "volumedown" to VolumeDown,
-        "volumehigh" to VolumeHigh, "volumelow" to VolumeLow, "volumemedium" to VolumeMedium,
-        "volumemute" to VolumeMute, "volumeoff" to VolumeOff, "volumetimes" to VolumeTimes,
-        "volumeup" to VolumeUp, "volumexmark" to VolumeXmark, "voteyea" to VoteYea, "vrcardboard" to
-        VrCardboard, "w" to W, "walkietalkie" to WalkieTalkie, "walking" to Walking, "wallet" to
-        Wallet, "wandmagic" to WandMagic, "wandmagicsparkles" to WandMagicSparkles, "wandsparkles"
-        to WandSparkles, "warehouse" to Warehouse, "warning" to Warning, "water" to Water,
-        "waterladder" to WaterLadder, "wavesquare" to WaveSquare, "webawesome" to WebAwesome,
-        "weight" to Weight, "weighthanging" to WeightHanging, "weightscale" to WeightScale,
-        "wheatalt" to WheatAlt, "wheatawn" to WheatAwn, "wheatawncircleexclamation" to
-        WheatAwnCircleExclamation, "wheelchair" to Wheelchair, "wheelchairalt" to WheelchairAlt,
-        "wheelchairmove" to WheelchairMove, "whiskeyglass" to WhiskeyGlass, "wifi" to Wifi, "wifi3"
-        to Wifi3, "wifistrong" to WifiStrong, "wind" to Wind, "windowclose" to WindowClose,
-        "windowmaximize" to WindowMaximize, "windowminimize" to WindowMinimize, "windowrestore" to
-        WindowRestore, "winebottle" to WineBottle, "wineglass" to WineGlass, "wineglassalt" to
-        WineGlassAlt, "wineglassempty" to WineGlassEmpty, "won" to Won, "wonsign" to WonSign, "worm"
-        to Worm, "wrench" to Wrench, "x" to X, "xray" to XRay, "xmark" to Xmark, "xmarkcircle" to
-        XmarkCircle, "xmarksquare" to XmarkSquare, "xmarkslines" to XmarksLines, "y" to Y, "yen" to
-        Yen, "yensign" to YenSign, "yinyang" to YinYang, "z" to Z, "zap" to Zap, "_0" to _0, "_1" to
-        _1, "_2" to _2, "_3" to _3, "_4" to _4, "_5" to _5, "_6" to _6, "_7" to _7, "_8" to _8, "_9"
-        to _9)
-    return __AllIconsNamed!!
   }

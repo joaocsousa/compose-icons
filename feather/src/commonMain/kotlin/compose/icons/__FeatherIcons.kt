@@ -288,9 +288,7 @@ import compose.icons.feathericons.Zap
 import compose.icons.feathericons.ZapOff
 import compose.icons.feathericons.ZoomIn
 import compose.icons.feathericons.ZoomOut
-import kotlin.String
 import kotlin.collections.List as ____KtList
-import kotlin.collections.Map as ____KtMap
 
 public object FeatherIcons
 
@@ -334,90 +332,4 @@ public val FeatherIcons.AllIcons: ____KtList<ImageVector>
         Video, VideoOff, Voicemail, Volume, Volume1, Volume2, VolumeX, Watch, Wifi, WifiOff, Wind,
         X, XCircle, XOctagon, XSquare, Youtube, Zap, ZapOff, ZoomIn, ZoomOut)
     return __AllIcons!!
-  }
-
-private var __AllIconsNamed: ____KtMap<String, ImageVector>? = null
-
-public val FeatherIcons.AllIconsNamed: ____KtMap<String, ImageVector>
-  get() {
-    if (__AllIconsNamed != null) {
-      return __AllIconsNamed!!
-    }
-    __AllIconsNamed= mapOf("activity" to Activity, "airplay" to Airplay, "alertcircle" to
-        AlertCircle, "alertoctagon" to AlertOctagon, "alerttriangle" to AlertTriangle, "aligncenter"
-        to AlignCenter, "alignjustify" to AlignJustify, "alignleft" to AlignLeft, "alignright" to
-        AlignRight, "anchor" to Anchor, "aperture" to Aperture, "archive" to Archive, "arrowdown" to
-        ArrowDown, "arrowdowncircle" to ArrowDownCircle, "arrowdownleft" to ArrowDownLeft,
-        "arrowdownright" to ArrowDownRight, "arrowleft" to ArrowLeft, "arrowleftcircle" to
-        ArrowLeftCircle, "arrowright" to ArrowRight, "arrowrightcircle" to ArrowRightCircle,
-        "arrowup" to ArrowUp, "arrowupcircle" to ArrowUpCircle, "arrowupleft" to ArrowUpLeft,
-        "arrowupright" to ArrowUpRight, "atsign" to AtSign, "award" to Award, "barchart" to
-        BarChart, "barchart2" to BarChart2, "battery" to Battery, "batterycharging" to
-        BatteryCharging, "bell" to Bell, "belloff" to BellOff, "bluetooth" to Bluetooth, "bold" to
-        Bold, "book" to Book, "bookopen" to BookOpen, "bookmark" to Bookmark, "box" to Box,
-        "briefcase" to Briefcase, "calendar" to Calendar, "camera" to Camera, "cameraoff" to
-        CameraOff, "cast" to Cast, "check" to Check, "checkcircle" to CheckCircle, "checksquare" to
-        CheckSquare, "chevrondown" to ChevronDown, "chevronleft" to ChevronLeft, "chevronright" to
-        ChevronRight, "chevronup" to ChevronUp, "chevronsdown" to ChevronsDown, "chevronsleft" to
-        ChevronsLeft, "chevronsright" to ChevronsRight, "chevronsup" to ChevronsUp, "chrome" to
-        Chrome, "circle" to Circle, "clipboard" to Clipboard, "clock" to Clock, "cloud" to Cloud,
-        "clouddrizzle" to CloudDrizzle, "cloudlightning" to CloudLightning, "cloudoff" to CloudOff,
-        "cloudrain" to CloudRain, "cloudsnow" to CloudSnow, "code" to Code, "codepen" to Codepen,
-        "codesandbox" to Codesandbox, "coffee" to Coffee, "columns" to Columns, "command" to
-        Command, "compass" to Compass, "copy" to Copy, "cornerdownleft" to CornerDownLeft,
-        "cornerdownright" to CornerDownRight, "cornerleftdown" to CornerLeftDown, "cornerleftup" to
-        CornerLeftUp, "cornerrightdown" to CornerRightDown, "cornerrightup" to CornerRightUp,
-        "cornerupleft" to CornerUpLeft, "cornerupright" to CornerUpRight, "cpu" to Cpu, "creditcard"
-        to CreditCard, "crop" to Crop, "crosshair" to Crosshair, "database" to Database, "delete" to
-        Delete, "disc" to Disc, "divide" to Divide, "dividecircle" to DivideCircle, "dividesquare"
-        to DivideSquare, "dollarsign" to DollarSign, "download" to Download, "downloadcloud" to
-        DownloadCloud, "dribbble" to Dribbble, "droplet" to Droplet, "edit" to Edit, "edit2" to
-        Edit2, "edit3" to Edit3, "externallink" to ExternalLink, "eye" to Eye, "eyeoff" to EyeOff,
-        "facebook" to Facebook, "fastforward" to FastForward, "feather" to Feather, "figma" to
-        Figma, "file" to File, "fileminus" to FileMinus, "fileplus" to FilePlus, "filetext" to
-        FileText, "film" to Film, "filter" to Filter, "flag" to Flag, "folder" to Folder,
-        "folderminus" to FolderMinus, "folderplus" to FolderPlus, "framer" to Framer, "frown" to
-        Frown, "gift" to Gift, "gitbranch" to GitBranch, "gitcommit" to GitCommit, "gitmerge" to
-        GitMerge, "gitpullrequest" to GitPullRequest, "github" to Github, "gitlab" to Gitlab,
-        "globe" to Globe, "grid" to Grid, "harddrive" to HardDrive, "hash" to Hash, "headphones" to
-        Headphones, "heart" to Heart, "helpcircle" to HelpCircle, "hexagon" to Hexagon, "home" to
-        Home, "image" to Image, "inbox" to Inbox, "info" to Info, "instagram" to Instagram, "italic"
-        to Italic, "key" to Key, "layers" to Layers, "layout" to Layout, "lifebuoy" to LifeBuoy,
-        "link" to Link, "link2" to Link2, "linkedin" to Linkedin, "list" to List, "loader" to
-        Loader, "lock" to Lock, "login" to LogIn, "logout" to LogOut, "mail" to Mail, "map" to Map,
-        "mappin" to MapPin, "maximize" to Maximize, "maximize2" to Maximize2, "meh" to Meh, "menu"
-        to Menu, "messagecircle" to MessageCircle, "messagesquare" to MessageSquare, "mic" to Mic,
-        "micoff" to MicOff, "minimize" to Minimize, "minimize2" to Minimize2, "minus" to Minus,
-        "minuscircle" to MinusCircle, "minussquare" to MinusSquare, "monitor" to Monitor, "moon" to
-        Moon, "morehorizontal" to MoreHorizontal, "morevertical" to MoreVertical, "mousepointer" to
-        MousePointer, "move" to Move, "music" to Music, "navigation" to Navigation, "navigation2" to
-        Navigation2, "octagon" to Octagon, "package" to Package, "paperclip" to Paperclip, "pause"
-        to Pause, "pausecircle" to PauseCircle, "pentool" to PenTool, "percent" to Percent, "phone"
-        to Phone, "phonecall" to PhoneCall, "phoneforwarded" to PhoneForwarded, "phoneincoming" to
-        PhoneIncoming, "phonemissed" to PhoneMissed, "phoneoff" to PhoneOff, "phoneoutgoing" to
-        PhoneOutgoing, "piechart" to PieChart, "play" to Play, "playcircle" to PlayCircle, "plus" to
-        Plus, "pluscircle" to PlusCircle, "plussquare" to PlusSquare, "pocket" to Pocket, "power" to
-        Power, "printer" to Printer, "radio" to Radio, "refreshccw" to RefreshCcw, "refreshcw" to
-        RefreshCw, "repeat" to Repeat, "rewind" to Rewind, "rotateccw" to RotateCcw, "rotatecw" to
-        RotateCw, "rss" to Rss, "save" to Save, "scissors" to Scissors, "search" to Search, "send"
-        to Send, "server" to Server, "settings" to Settings, "share" to Share, "share2" to Share2,
-        "shield" to Shield, "shieldoff" to ShieldOff, "shoppingbag" to ShoppingBag, "shoppingcart"
-        to ShoppingCart, "shuffle" to Shuffle, "sidebar" to Sidebar, "skipback" to SkipBack,
-        "skipforward" to SkipForward, "slack" to Slack, "slash" to Slash, "sliders" to Sliders,
-        "smartphone" to Smartphone, "smile" to Smile, "speaker" to Speaker, "square" to Square,
-        "star" to Star, "stopcircle" to StopCircle, "sun" to Sun, "sunrise" to Sunrise, "sunset" to
-        Sunset, "table" to Table, "tablet" to Tablet, "tag" to Tag, "target" to Target, "terminal"
-        to Terminal, "thermometer" to Thermometer, "thumbsdown" to ThumbsDown, "thumbsup" to
-        ThumbsUp, "toggleleft" to ToggleLeft, "toggleright" to ToggleRight, "tool" to Tool, "trash"
-        to Trash, "trash2" to Trash2, "trello" to Trello, "trendingdown" to TrendingDown,
-        "trendingup" to TrendingUp, "triangle" to Triangle, "truck" to Truck, "tv" to Tv, "twitch"
-        to Twitch, "twitter" to Twitter, "type" to Type, "umbrella" to Umbrella, "underline" to
-        Underline, "unlock" to Unlock, "upload" to Upload, "uploadcloud" to UploadCloud, "user" to
-        User, "usercheck" to UserCheck, "userminus" to UserMinus, "userplus" to UserPlus, "userx" to
-        UserX, "users" to Users, "video" to Video, "videooff" to VideoOff, "voicemail" to Voicemail,
-        "volume" to Volume, "volume1" to Volume1, "volume2" to Volume2, "volumex" to VolumeX,
-        "watch" to Watch, "wifi" to Wifi, "wifioff" to WifiOff, "wind" to Wind, "x" to X, "xcircle"
-        to XCircle, "xoctagon" to XOctagon, "xsquare" to XSquare, "youtube" to Youtube, "zap" to
-        Zap, "zapoff" to ZapOff, "zoomin" to ZoomIn, "zoomout" to ZoomOut)
-    return __AllIconsNamed!!
   }

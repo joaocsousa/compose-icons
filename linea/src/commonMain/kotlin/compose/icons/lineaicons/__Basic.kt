@@ -137,17 +137,12 @@ import compose.icons.lineaicons.basic.WebpageImgTxt
 import compose.icons.lineaicons.basic.WebpageMultiple
 import compose.icons.lineaicons.basic.WebpageTxt
 import compose.icons.lineaicons.basic.World
-import kotlin.String
 import kotlin.collections.List as ____KtList
-import kotlin.collections.Map as ____KtMap
 
 public object BasicGroup
 
 public val LineaIcons.Basic: BasicGroup
   get() = BasicGroup
-
-public val BasicGroup.groupName: String
-  get() = "basic"
 
 private var __AllIcons: ____KtList<ImageVector>? = null
 
@@ -173,52 +168,4 @@ public val BasicGroup.AllIcons: ____KtList<ImageVector>
         TodolistPencil, Trashcan, TrashcanFull, TrashcanRefresh, TrashcanRemove, Upload, Usb, Video,
         Watch, Webpage, WebpageImgTxt, WebpageMultiple, WebpageTxt, World)
     return __AllIcons!!
-  }
-
-private var __AllIconsNamed: ____KtMap<String, ImageVector>? = null
-
-public val BasicGroup.AllIconsNamed: ____KtMap<String, ImageVector>
-  get() {
-    if (__AllIconsNamed != null) {
-      return __AllIconsNamed!!
-    }
-    __AllIconsNamed= mapOf("accelerator" to Accelerator, "alarm" to Alarm, "anchor" to Anchor,
-        "anticlockwise" to Anticlockwise, "archive" to Archive, "archivefull" to ArchiveFull, "ban"
-        to Ban, "batterycharge" to BatteryCharge, "batteryempty" to BatteryEmpty, "batteryfull" to
-        BatteryFull, "batteryhalf" to BatteryHalf, "bolt" to Bolt, "book" to Book, "bookpen" to
-        BookPen, "bookpencil" to BookPencil, "bookmark" to Bookmark, "calculator" to Calculator,
-        "calendar" to Calendar, "cardsdiamonds" to CardsDiamonds, "cardshearts" to CardsHearts,
-        "case" to Case, "chronometer" to Chronometer, "clessidre" to Clessidre, "clock" to Clock,
-        "clockwise" to Clockwise, "cloud" to Cloud, "clubs" to Clubs, "compass" to Compass, "cup" to
-        Cup, "diamonds" to Diamonds, "display" to Display, "download" to Download, "exclamation" to
-        Exclamation, "eye" to Eye, "eyeclosed" to EyeClosed, "female" to Female, "flag1" to Flag1,
-        "flag2" to Flag2, "floppydisk" to Floppydisk, "folder" to Folder, "foldermultiple" to
-        FolderMultiple, "gear" to Gear, "geolocalize01" to Geolocalize01, "geolocalize05" to
-        Geolocalize05, "globe" to Globe, "gunsight" to Gunsight, "hammer" to Hammer, "headset" to
-        Headset, "heart" to Heart, "heartbroken" to HeartBroken, "helm" to Helm, "home" to Home,
-        "info" to Info, "ipod" to Ipod, "joypad" to Joypad, "key" to Key, "keyboard" to Keyboard,
-        "laptop" to Laptop, "lifebuoy" to LifeBuoy, "lightbulb" to Lightbulb, "link" to Link, "lock"
-        to Lock, "lockopen" to LockOpen, "magicmouse" to MagicMouse, "magnifier" to Magnifier,
-        "magnifierminus" to MagnifierMinus, "magnifierplus" to MagnifierPlus, "mail" to Mail,
-        "mailmultiple" to MailMultiple, "mailopen" to MailOpen, "mailopentext" to MailOpenText,
-        "male" to Male, "map" to Map, "message" to Message, "messagemultiple" to MessageMultiple,
-        "messagetxt" to MessageTxt, "mixer2" to Mixer2, "mouse" to Mouse, "notebook" to Notebook,
-        "notebookpen" to NotebookPen, "notebookpencil" to NotebookPencil, "paperplane" to
-        Paperplane, "pencilruler" to PencilRuler, "pencilrulerpen" to PencilRulerPen, "photo" to
-        Photo, "picture" to Picture, "picturemultiple" to PictureMultiple, "pin1" to Pin1, "pin2" to
-        Pin2, "postcard" to Postcard, "postcardmultiple" to PostcardMultiple, "printer" to Printer,
-        "question" to Question, "rss" to Rss, "server" to Server, "server2" to Server2,
-        "servercloud" to ServerCloud, "serverdownload" to ServerDownload, "serverupload" to
-        ServerUpload, "settings" to Settings, "share" to Share, "sheet" to Sheet, "sheetmultiple" to
-        SheetMultiple, "sheetpen" to SheetPen, "sheetpencil" to SheetPencil, "sheettxt" to SheetTxt,
-        "signs" to Signs, "smartphone" to Smartphone, "spades" to Spades, "spread" to Spread,
-        "spreadbookmark" to SpreadBookmark, "spreadtext" to SpreadText, "spreadtextbookmark" to
-        SpreadTextBookmark, "star" to Star, "tablet" to Tablet, "target" to Target, "todo" to Todo,
-        "todopen" to TodoPen, "todopencil" to TodoPencil, "todotxt" to TodoTxt, "todolistpen" to
-        TodolistPen, "todolistpencil" to TodolistPencil, "trashcan" to Trashcan, "trashcanfull" to
-        TrashcanFull, "trashcanrefresh" to TrashcanRefresh, "trashcanremove" to TrashcanRemove,
-        "upload" to Upload, "usb" to Usb, "video" to Video, "watch" to Watch, "webpage" to Webpage,
-        "webpageimgtxt" to WebpageImgTxt, "webpagemultiple" to WebpageMultiple, "webpagetxt" to
-        WebpageTxt, "world" to World)
-    return __AllIconsNamed!!
   }

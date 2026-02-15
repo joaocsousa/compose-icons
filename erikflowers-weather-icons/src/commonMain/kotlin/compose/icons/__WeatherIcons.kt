@@ -220,9 +220,7 @@ import compose.icons.weathericons.WindBeaufort8
 import compose.icons.weathericons.WindBeaufort9
 import compose.icons.weathericons.WindDeg
 import compose.icons.weathericons.Windy
-import kotlin.String
 import kotlin.collections.List as ____KtList
-import kotlin.collections.Map as ____KtMap
 
 public object WeatherIcons
 
@@ -273,101 +271,4 @@ public val WeatherIcons.AllIcons: ____KtList<ImageVector>
         WindBeaufort2, WindBeaufort3, WindBeaufort4, WindBeaufort5, WindBeaufort6, WindBeaufort7,
         WindBeaufort8, WindBeaufort9, WindDeg, Windy)
     return __AllIcons!!
-  }
-
-private var __AllIconsNamed: ____KtMap<String, ImageVector>? = null
-
-public val WeatherIcons.AllIconsNamed: ____KtMap<String, ImageVector>
-  get() {
-    if (__AllIconsNamed != null) {
-      return __AllIconsNamed!!
-    }
-    __AllIconsNamed= mapOf("alien" to Alien, "barometer" to Barometer, "celsius" to Celsius, "cloud"
-        to Cloud, "clouddown" to CloudDown, "cloudrefresh" to CloudRefresh, "cloudup" to CloudUp,
-        "cloudy" to Cloudy, "cloudygusts" to CloudyGusts, "cloudywindy" to CloudyWindy, "daycloudy"
-        to DayCloudy, "daycloudygusts" to DayCloudyGusts, "daycloudyhigh" to DayCloudyHigh,
-        "daycloudywindy" to DayCloudyWindy, "dayfog" to DayFog, "dayhail" to DayHail, "dayhaze" to
-        DayHaze, "daylightwind" to DayLightWind, "daylightning" to DayLightning, "dayrain" to
-        DayRain, "dayrainmix" to DayRainMix, "dayrainwind" to DayRainWind, "dayshowers" to
-        DayShowers, "daysleet" to DaySleet, "daysleetstorm" to DaySleetStorm, "daysnow" to DaySnow,
-        "daysnowthunderstorm" to DaySnowThunderstorm, "daysnowwind" to DaySnowWind, "daysprinkle" to
-        DaySprinkle, "daystormshowers" to DayStormShowers, "daysunny" to DaySunny,
-        "daysunnyovercast" to DaySunnyOvercast, "daythunderstorm" to DayThunderstorm, "daywindy" to
-        DayWindy, "degrees" to Degrees, "directiondown" to DirectionDown, "directiondownleft" to
-        DirectionDownLeft, "directiondownright" to DirectionDownRight, "directionleft" to
-        DirectionLeft, "directionright" to DirectionRight, "directionup" to DirectionUp,
-        "directionupleft" to DirectionUpLeft, "directionupright" to DirectionUpRight, "dust" to
-        Dust, "earthquake" to Earthquake, "fahrenheit" to Fahrenheit, "fire" to Fire, "flood" to
-        Flood, "fog" to Fog, "galewarning" to GaleWarning, "hail" to Hail, "horizon" to Horizon,
-        "horizonalt" to HorizonAlt, "hot" to Hot, "humidity" to Humidity, "hurricane" to Hurricane,
-        "hurricanewarning" to HurricaneWarning, "lightning" to Lightning, "lunareclipse" to
-        LunarEclipse, "meteor" to Meteor, "moonaltfirstquarter" to MoonAltFirstQuarter,
-        "moonaltfull" to MoonAltFull, "moonaltnew" to MoonAltNew, "moonaltthirdquarter" to
-        MoonAltThirdQuarter, "moonaltwaningcrescent1" to MoonAltWaningCrescent1,
-        "moonaltwaningcrescent2" to MoonAltWaningCrescent2, "moonaltwaningcrescent3" to
-        MoonAltWaningCrescent3, "moonaltwaningcrescent4" to MoonAltWaningCrescent4,
-        "moonaltwaningcrescent5" to MoonAltWaningCrescent5, "moonaltwaningcrescent6" to
-        MoonAltWaningCrescent6, "moonaltwaninggibbous1" to MoonAltWaningGibbous1,
-        "moonaltwaninggibbous2" to MoonAltWaningGibbous2, "moonaltwaninggibbous3" to
-        MoonAltWaningGibbous3, "moonaltwaninggibbous4" to MoonAltWaningGibbous4,
-        "moonaltwaninggibbous5" to MoonAltWaningGibbous5, "moonaltwaninggibbous6" to
-        MoonAltWaningGibbous6, "moonaltwaxingcrescent1" to MoonAltWaxingCrescent1,
-        "moonaltwaxingcrescent2" to MoonAltWaxingCrescent2, "moonaltwaxingcrescent3" to
-        MoonAltWaxingCrescent3, "moonaltwaxingcrescent4" to MoonAltWaxingCrescent4,
-        "moonaltwaxingcrescent5" to MoonAltWaxingCrescent5, "moonaltwaxingcrescent6" to
-        MoonAltWaxingCrescent6, "moonaltwaxinggibbous1" to MoonAltWaxingGibbous1,
-        "moonaltwaxinggibbous2" to MoonAltWaxingGibbous2, "moonaltwaxinggibbous3" to
-        MoonAltWaxingGibbous3, "moonaltwaxinggibbous4" to MoonAltWaxingGibbous4,
-        "moonaltwaxinggibbous5" to MoonAltWaxingGibbous5, "moonaltwaxinggibbous6" to
-        MoonAltWaxingGibbous6, "moonfirstquarter" to MoonFirstQuarter, "moonfull" to MoonFull,
-        "moonnew" to MoonNew, "moonthirdquarter" to MoonThirdQuarter, "moonwaningcrescent1" to
-        MoonWaningCrescent1, "moonwaningcrescent2" to MoonWaningCrescent2, "moonwaningcrescent3" to
-        MoonWaningCrescent3, "moonwaningcrescent4" to MoonWaningCrescent4, "moonwaningcrescent5" to
-        MoonWaningCrescent5, "moonwaningcrescent6" to MoonWaningCrescent6, "moonwaninggibbous1" to
-        MoonWaningGibbous1, "moonwaninggibbous2" to MoonWaningGibbous2, "moonwaninggibbous3" to
-        MoonWaningGibbous3, "moonwaninggibbous4" to MoonWaningGibbous4, "moonwaninggibbous5" to
-        MoonWaningGibbous5, "moonwaninggibbous6" to MoonWaningGibbous6, "moonwaxingcrescent1" to
-        MoonWaxingCrescent1, "moonwaxingcrescent2" to MoonWaxingCrescent2, "moonwaxingcrescent3" to
-        MoonWaxingCrescent3, "moonwaxingcrescent4" to MoonWaxingCrescent4, "moonwaxingcrescent5" to
-        MoonWaxingCrescent5, "moonwaxingcrescent6" to MoonWaxingCrescent6, "moonwaxinggibbous1" to
-        MoonWaxingGibbous1, "moonwaxinggibbous2" to MoonWaxingGibbous2, "moonwaxinggibbous3" to
-        MoonWaxingGibbous3, "moonwaxinggibbous4" to MoonWaxingGibbous4, "moonwaxinggibbous5" to
-        MoonWaxingGibbous5, "moonwaxinggibbous6" to MoonWaxingGibbous6, "moonrise" to Moonrise,
-        "moonset" to Moonset, "na" to Na, "nightaltcloudy" to NightAltCloudy, "nightaltcloudygusts"
-        to NightAltCloudyGusts, "nightaltcloudyhigh" to NightAltCloudyHigh, "nightaltcloudywindy" to
-        NightAltCloudyWindy, "nightalthail" to NightAltHail, "nightaltlightning" to
-        NightAltLightning, "nightaltpartlycloudy" to NightAltPartlyCloudy, "nightaltrain" to
-        NightAltRain, "nightaltrainmix" to NightAltRainMix, "nightaltrainwind" to NightAltRainWind,
-        "nightaltshowers" to NightAltShowers, "nightaltsleet" to NightAltSleet, "nightaltsleetstorm"
-        to NightAltSleetStorm, "nightaltsnow" to NightAltSnow, "nightaltsnowthunderstorm" to
-        NightAltSnowThunderstorm, "nightaltsnowwind" to NightAltSnowWind, "nightaltsprinkle" to
-        NightAltSprinkle, "nightaltstormshowers" to NightAltStormShowers, "nightaltthunderstorm" to
-        NightAltThunderstorm, "nightclear" to NightClear, "nightcloudy" to NightCloudy,
-        "nightcloudygusts" to NightCloudyGusts, "nightcloudyhigh" to NightCloudyHigh,
-        "nightcloudywindy" to NightCloudyWindy, "nightfog" to NightFog, "nighthail" to NightHail,
-        "nightlightning" to NightLightning, "nightpartlycloudy" to NightPartlyCloudy, "nightrain" to
-        NightRain, "nightrainmix" to NightRainMix, "nightrainwind" to NightRainWind, "nightshowers"
-        to NightShowers, "nightsleet" to NightSleet, "nightsleetstorm" to NightSleetStorm,
-        "nightsnow" to NightSnow, "nightsnowthunderstorm" to NightSnowThunderstorm, "nightsnowwind"
-        to NightSnowWind, "nightsprinkle" to NightSprinkle, "nightstormshowers" to
-        NightStormShowers, "nightthunderstorm" to NightThunderstorm, "rain" to Rain, "rainmix" to
-        RainMix, "rainwind" to RainWind, "raindrop" to Raindrop, "raindrops" to Raindrops, "refresh"
-        to Refresh, "refreshalt" to RefreshAlt, "sandstorm" to Sandstorm, "showers" to Showers,
-        "sleet" to Sleet, "smallcraftadvisory" to SmallCraftAdvisory, "smog" to Smog, "smoke" to
-        Smoke, "snow" to Snow, "snowwind" to SnowWind, "snowflakecold" to SnowflakeCold,
-        "solareclipse" to SolarEclipse, "sprinkle" to Sprinkle, "stars" to Stars, "stormshowers" to
-        StormShowers, "stormwarning" to StormWarning, "strongwind" to StrongWind, "sunrise" to
-        Sunrise, "sunset" to Sunset, "thermometer" to Thermometer, "thermometerexterior" to
-        ThermometerExterior, "thermometerinternal" to ThermometerInternal, "thunderstorm" to
-        Thunderstorm, "time1" to Time1, "time10" to Time10, "time11" to Time11, "time12" to Time12,
-        "time2" to Time2, "time3" to Time3, "time4" to Time4, "time5" to Time5, "time6" to Time6,
-        "time7" to Time7, "time8" to Time8, "time9" to Time9, "tornado" to Tornado, "train" to
-        Train, "tsunami" to Tsunami, "umbrella" to Umbrella, "volcano" to Volcano, "windbeaufort0"
-        to WindBeaufort0, "windbeaufort1" to WindBeaufort1, "windbeaufort10" to WindBeaufort10,
-        "windbeaufort11" to WindBeaufort11, "windbeaufort12" to WindBeaufort12, "windbeaufort2" to
-        WindBeaufort2, "windbeaufort3" to WindBeaufort3, "windbeaufort4" to WindBeaufort4,
-        "windbeaufort5" to WindBeaufort5, "windbeaufort6" to WindBeaufort6, "windbeaufort7" to
-        WindBeaufort7, "windbeaufort8" to WindBeaufort8, "windbeaufort9" to WindBeaufort9, "winddeg"
-        to WindDeg, "windy" to Windy)
-    return __AllIconsNamed!!
   }

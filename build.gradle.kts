@@ -12,11 +12,12 @@ buildscript {
     dependencies {
         classpath(libs.plugin.maven)
         classpath(libs.plugin.composeMultiplatform)
+        classpath(libs.plugin.composeCompiler)
     }
 }
 
 plugins {
-    id("org.jetbrains.kotlinx.binary-compatibility-validator") version "0.13.0"
+    id("org.jetbrains.kotlinx.binary-compatibility-validator") version "0.16.3"
 }
 
 // Fix for JitPack GLIBC incompatibility with newer Node.js versions

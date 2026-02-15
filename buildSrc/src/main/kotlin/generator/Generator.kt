@@ -9,6 +9,7 @@ import org.eclipse.jgit.transport.URIish
 import org.gradle.api.Project
 import org.jetbrains.kotlin.com.google.common.base.CaseFormat
 import java.io.File
+import java.util.Locale
 
 fun File.makeDirs() = apply { mkdirs() }
 
@@ -111,6 +112,32 @@ private fun Project.generate(
     val mapResultConfig = mapSourceCodeIconsToSvgComposeFolder(repoCloneDir)
     val mappedVectorsDir = mapResultConfig.iconsFolder
 
+    // Helper to find and remove duplicates that collide on case-insensitive filesystems
+    // This is run *after* the initial mapping but *before* svg-to-compose to ensure clean input
+    mappedVectorsDir.walkTopDown()
+        .filter { it.isFile && it.extension == "svg" }
+        // Group by parent folder AND normalized name to detect collisions only within the same package/style
+        .groupBy { file ->
+            val parentName = file.parentFile.absolutePath
+            val normalizedName = file.name.replace("_", "").toLowerCase(Locale.US)
+            parentName + File.separator + normalizedName
+        }
+        .forEach { (key, files) ->
+            if (files.size > 1) {
+                // Collision detected WITHIN the same folder!
+                // Prefer the file without underscores (e.g. "eyedropper.svg") over "eye_dropper.svg"
+                // or just pick the shortest name. If equal, pick the first one.
+                val sorted = files.sortedBy { it.name.length } // shortest first
+                val keeper = sorted.first()
+                val duplicates = sorted.drop(1)
+                
+                duplicates.forEach { 
+                    println("[${svgToComposeConfig.accessorName}] Removing duplicate/colliding icon: '${it.name}' (Collides with '${keeper.name}' in '${it.parentFile.name}')")
+                    it.delete() 
+                }
+            }
+        }
+
     val result = Svg2Compose.parse(
         applicationIconPackage = "compose.icons",
         accessorName = svgToComposeConfig.accessorName,
@@ -120,7 +147,9 @@ private fun Project.generate(
         allAssetsPropertyName = "AllIcons",
         iconNameTransformer = { it, g -> svgToComposeConfig.iconNameTransformer(it.toKotlinPropertyName(), g) },
         generatePreview = false,
-        generateStringAccessor = true,
+        // Disabled to prevent MethodTooLargeException in large icon packs (e.g. Tabler Icons)
+        // The getAllIconsNamed() function becomes too big for the JVM limit.
+        generateStringAccessor = false,
     )
 
     // License copy
