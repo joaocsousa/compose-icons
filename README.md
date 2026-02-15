@@ -18,7 +18,6 @@ Add the project repository:
 ```kotlin
 repositories {
     mavenCentral()
-    maven("https://jitpack.io")
 }
 ```
 

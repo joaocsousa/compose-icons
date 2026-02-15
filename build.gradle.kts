@@ -23,8 +23,3 @@ plugins {
 apiValidation {
     ignoredProjects.add("sample")
 }
-
-// Fix for JitPack GLIBC incompatibility: Force Node 16.13.0 which works on older Linux
-rootProject.plugins.withType<NodeJsRootPlugin> {
-    rootProject.the<NodeJsRootExtension>().nodeVersion = "16.13.0"
-}
