@@ -1,6 +1,3 @@
-import org.jetbrains.kotlin.gradle.targets.js.nodejs.NodeJsRootExtension
-import org.jetbrains.kotlin.gradle.targets.js.nodejs.NodeJsRootPlugin
-
 buildscript {
     repositories {
         mavenCentral()
@@ -18,6 +15,7 @@ buildscript {
 
 plugins {
     id("org.jetbrains.kotlinx.binary-compatibility-validator") version "0.16.3"
+    id("com.vanniktech.maven.publish") version "0.34.0" apply false
 }
 
 apiValidation {
