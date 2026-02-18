@@ -22,12 +22,14 @@ repositories {
 ```
 
 ```kotlin
-implementation("com.github.joaocsousa:{ICON_PACK}:1.1.1")
+implementation("com.github.joaocsousa:{icon_pack}:{version}")
 ```
 
-** `{ICON_PACK}` is a placeholder, you should replace it with your icon pack of choose.
+** `{icon_pack}` is a placeholder, you should replace it with your icon pack of choose.
 
-example: `com.github.joaocsousa:font-awesome:1.1.1`
+** `{version}` is a placeholder, you should replace it with the latest version.
+
+example: `com.github.joaocsousa:font-awesome:2.0.0`
 
 ## Example
 
