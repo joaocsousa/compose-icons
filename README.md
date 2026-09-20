@@ -29,7 +29,7 @@ implementation("com.github.joaocsousa:{icon_pack}:{version}")
 
 ** `{version}` is a placeholder, you should replace it with the latest version.
 
-example: `com.github.joaocsousa:font-awesome:2.0.0`
+example: `com.github.joaocsousa:font-awesome:2.1.0`
 
 ## Example
 
@@ -60,7 +60,7 @@ You can find all code reference in the docs of the icon packs bellow.
 
 ```toml
 [versions]
-composeIcons = "1.1.1"
+composeIcons = "2.1.0"
 
 [libraries]
 composeIcons-cssGg = { module = "com.github.joaocsousa:css-gg", version.ref = "composeIcons" }
