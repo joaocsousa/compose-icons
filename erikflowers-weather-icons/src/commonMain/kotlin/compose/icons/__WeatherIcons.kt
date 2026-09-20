@@ -105,12 +105,12 @@ import compose.icons.weathericons.MoonWaningGibbous3
 import compose.icons.weathericons.MoonWaningGibbous4
 import compose.icons.weathericons.MoonWaningGibbous5
 import compose.icons.weathericons.MoonWaningGibbous6
+import compose.icons.weathericons.MoonWaxing6
 import compose.icons.weathericons.MoonWaxingCrescent1
 import compose.icons.weathericons.MoonWaxingCrescent2
 import compose.icons.weathericons.MoonWaxingCrescent3
 import compose.icons.weathericons.MoonWaxingCrescent4
 import compose.icons.weathericons.MoonWaxingCrescent5
-import compose.icons.weathericons.MoonWaxingCrescent6
 import compose.icons.weathericons.MoonWaxingGibbous1
 import compose.icons.weathericons.MoonWaxingGibbous2
 import compose.icons.weathericons.MoonWaxingGibbous3
@@ -250,25 +250,24 @@ public val WeatherIcons.AllIcons: ____KtList<ImageVector>
         MoonAltWaxingGibbous6, MoonFirstQuarter, MoonFull, MoonNew, MoonThirdQuarter,
         MoonWaningCrescent1, MoonWaningCrescent2, MoonWaningCrescent3, MoonWaningCrescent4,
         MoonWaningCrescent5, MoonWaningCrescent6, MoonWaningGibbous1, MoonWaningGibbous2,
-        MoonWaningGibbous3, MoonWaningGibbous4, MoonWaningGibbous5, MoonWaningGibbous6,
+        MoonWaningGibbous3, MoonWaningGibbous4, MoonWaningGibbous5, MoonWaningGibbous6, MoonWaxing6,
         MoonWaxingCrescent1, MoonWaxingCrescent2, MoonWaxingCrescent3, MoonWaxingCrescent4,
-        MoonWaxingCrescent5, MoonWaxingCrescent6, MoonWaxingGibbous1, MoonWaxingGibbous2,
-        MoonWaxingGibbous3, MoonWaxingGibbous4, MoonWaxingGibbous5, MoonWaxingGibbous6, Moonrise,
-        Moonset, Na, NightAltCloudy, NightAltCloudyGusts, NightAltCloudyHigh, NightAltCloudyWindy,
-        NightAltHail, NightAltLightning, NightAltPartlyCloudy, NightAltRain, NightAltRainMix,
-        NightAltRainWind, NightAltShowers, NightAltSleet, NightAltSleetStorm, NightAltSnow,
-        NightAltSnowThunderstorm, NightAltSnowWind, NightAltSprinkle, NightAltStormShowers,
-        NightAltThunderstorm, NightClear, NightCloudy, NightCloudyGusts, NightCloudyHigh,
-        NightCloudyWindy, NightFog, NightHail, NightLightning, NightPartlyCloudy, NightRain,
-        NightRainMix, NightRainWind, NightShowers, NightSleet, NightSleetStorm, NightSnow,
-        NightSnowThunderstorm, NightSnowWind, NightSprinkle, NightStormShowers, NightThunderstorm,
-        Rain, RainMix, RainWind, Raindrop, Raindrops, Refresh, RefreshAlt, Sandstorm, Showers,
-        Sleet, SmallCraftAdvisory, Smog, Smoke, Snow, SnowWind, SnowflakeCold, SolarEclipse,
-        Sprinkle, Stars, StormShowers, StormWarning, StrongWind, Sunrise, Sunset, Thermometer,
-        ThermometerExterior, ThermometerInternal, Thunderstorm, Time1, Time10, Time11, Time12,
-        Time2, Time3, Time4, Time5, Time6, Time7, Time8, Time9, Tornado, Train, Tsunami, Umbrella,
-        Volcano, WindBeaufort0, WindBeaufort1, WindBeaufort10, WindBeaufort11, WindBeaufort12,
-        WindBeaufort2, WindBeaufort3, WindBeaufort4, WindBeaufort5, WindBeaufort6, WindBeaufort7,
-        WindBeaufort8, WindBeaufort9, WindDeg, Windy)
+        MoonWaxingCrescent5, MoonWaxingGibbous1, MoonWaxingGibbous2, MoonWaxingGibbous3,
+        MoonWaxingGibbous4, MoonWaxingGibbous5, MoonWaxingGibbous6, Moonrise, Moonset, Na,
+        NightAltCloudy, NightAltCloudyGusts, NightAltCloudyHigh, NightAltCloudyWindy, NightAltHail,
+        NightAltLightning, NightAltPartlyCloudy, NightAltRain, NightAltRainMix, NightAltRainWind,
+        NightAltShowers, NightAltSleet, NightAltSleetStorm, NightAltSnow, NightAltSnowThunderstorm,
+        NightAltSnowWind, NightAltSprinkle, NightAltStormShowers, NightAltThunderstorm, NightClear,
+        NightCloudy, NightCloudyGusts, NightCloudyHigh, NightCloudyWindy, NightFog, NightHail,
+        NightLightning, NightPartlyCloudy, NightRain, NightRainMix, NightRainWind, NightShowers,
+        NightSleet, NightSleetStorm, NightSnow, NightSnowThunderstorm, NightSnowWind, NightSprinkle,
+        NightStormShowers, NightThunderstorm, Rain, RainMix, RainWind, Raindrop, Raindrops, Refresh,
+        RefreshAlt, Sandstorm, Showers, Sleet, SmallCraftAdvisory, Smog, Smoke, Snow, SnowWind,
+        SnowflakeCold, SolarEclipse, Sprinkle, Stars, StormShowers, StormWarning, StrongWind,
+        Sunrise, Sunset, Thermometer, ThermometerExterior, ThermometerInternal, Thunderstorm, Time1,
+        Time10, Time11, Time12, Time2, Time3, Time4, Time5, Time6, Time7, Time8, Time9, Tornado,
+        Train, Tsunami, Umbrella, Volcano, WindBeaufort0, WindBeaufort1, WindBeaufort10,
+        WindBeaufort11, WindBeaufort12, WindBeaufort2, WindBeaufort3, WindBeaufort4, WindBeaufort5,
+        WindBeaufort6, WindBeaufort7, WindBeaufort8, WindBeaufort9, WindDeg, Windy)
     return __AllIcons!!
   }

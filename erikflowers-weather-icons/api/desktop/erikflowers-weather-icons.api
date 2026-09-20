@@ -423,6 +423,10 @@ public final class compose/icons/weathericons/MoonWaningGibbous6Kt {
 	public static final fun getMoonWaningGibbous6 (Lcompose/icons/WeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/weathericons/MoonWaxing6Kt {
+	public static final fun getMoonWaxing6 (Lcompose/icons/WeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/weathericons/MoonWaxingCrescent1Kt {
 	public static final fun getMoonWaxingCrescent1 (Lcompose/icons/WeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -441,10 +445,6 @@ public final class compose/icons/weathericons/MoonWaxingCrescent4Kt {
 
 public final class compose/icons/weathericons/MoonWaxingCrescent5Kt {
 	public static final fun getMoonWaxingCrescent5 (Lcompose/icons/WeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
-}
-
-public final class compose/icons/weathericons/MoonWaxingCrescent6Kt {
-	public static final fun getMoonWaxingCrescent6 (Lcompose/icons/WeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/weathericons/MoonWaxingGibbous1Kt {

@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.WeatherIcons
 
-public val WeatherIcons.MoonWaxingCrescent6: ImageVector
+public val WeatherIcons.MoonWaxing6: ImageVector
     get() {
-        if (_moonWaxingCrescent6 != null) {
-            return _moonWaxingCrescent6!!
+        if (_moonWaxing6 != null) {
+            return _moonWaxing6!!
         }
-        _moonWaxingCrescent6 = Builder(name = "MoonWaxingCrescent6", defaultWidth = 30.0.dp,
-                defaultHeight = 30.0.dp, viewportWidth = 30.0f, viewportHeight = 30.0f).apply {
+        _moonWaxing6 = Builder(name = "MoonWaxing6", defaultWidth = 30.0.dp, defaultHeight =
+                30.0.dp, viewportWidth = 30.0f, viewportHeight = 30.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -35,7 +35,7 @@ public val WeatherIcons.MoonWaxingCrescent6: ImageVector
             }
         }
         .build()
-        return _moonWaxingCrescent6!!
+        return _moonWaxing6!!
     }
 
-private var _moonWaxingCrescent6: ImageVector? = null
+private var _moonWaxing6: ImageVector? = null

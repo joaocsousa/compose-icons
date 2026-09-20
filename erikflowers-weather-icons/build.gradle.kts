@@ -18,7 +18,8 @@ android {
 
 registerGeneratorTask(
     githubId = "erikflowers/weather-icons",
-    version = "2.0.12",
+    version = "bb80982bf1f43f2d57f9dd753e7413bf88beb9ed",
+    gitCheckoutName = "bb80982bf1f43f2d57f9dd753e7413bf88beb9ed",
     mapSourceCodeIconsToSvgComposeFolder = { repoCloneDir ->
         val iconsDir = File(repoCloneDir, "svg")
 
