@@ -1081,6 +1081,7 @@ import compose.icons.fontawesomeicons.solid.LongArrowDown
 import compose.icons.fontawesomeicons.solid.LongArrowLeft
 import compose.icons.fontawesomeicons.solid.LongArrowRight
 import compose.icons.fontawesomeicons.solid.LongArrowUp
+import compose.icons.fontawesomeicons.solid.Lotus
 import compose.icons.fontawesomeicons.solid.LowVision
 import compose.icons.fontawesomeicons.solid.LuggageCart
 import compose.icons.fontawesomeicons.solid.Lungs
@@ -2165,8 +2166,8 @@ public val SolidGroup.AllIcons: ____KtList<ImageVector>
         ListDots, ListNumeric, ListOl, ListSquares, ListUl, LitecoinSign, Location, LocationArrow,
         LocationCrosshairs, LocationDot, LocationPin, LocationPinLock, Lock, LockOpen, Locust,
         LongArrowAltDown, LongArrowAltLeft, LongArrowAltRight, LongArrowAltUp, LongArrowDown,
-        LongArrowLeft, LongArrowRight, LongArrowUp, LowVision, LuggageCart, Lungs, LungsVirus, M,
-        Magic, MagicWandSparkles, Magnet, MagnifyingGlass, MagnifyingGlassArrowRight,
+        LongArrowLeft, LongArrowRight, LongArrowUp, Lotus, LowVision, LuggageCart, Lungs,
+        LungsVirus, M, Magic, MagicWandSparkles, Magnet, MagnifyingGlass, MagnifyingGlassArrowRight,
         MagnifyingGlassChart, MagnifyingGlassDollar, MagnifyingGlassLocation, MagnifyingGlassMinus,
         MagnifyingGlassPlus, MailBulk, MailForward, MailReply, MailReplyAll, Male, ManatSign, Map,
         MapLocation, MapLocationDot, MapMarked, MapMarkedAlt, MapMarker, MapMarkerAlt, MapPin,

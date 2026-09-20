@@ -37,6 +37,10 @@ public final class compose/icons/fontawesomeicons/__SolidKt {
 	public static final fun getSolid (Lcompose/icons/FontAwesomeIcons;)Lcompose/icons/fontawesomeicons/SolidGroup;
 }
 
+public final class compose/icons/fontawesomeicons/brands/A11yProjectKt {
+	public static final fun getA11yProject (Lcompose/icons/fontawesomeicons/BrandsGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/fontawesomeicons/brands/AccessibleIconKt {
 	public static final fun getAccessibleIcon (Lcompose/icons/fontawesomeicons/BrandsGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -249,6 +253,10 @@ public final class compose/icons/fontawesomeicons/brands/BufferKt {
 	public static final fun getBuffer (Lcompose/icons/fontawesomeicons/BrandsGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/fontawesomeicons/brands/BuildAwesomeKt {
+	public static final fun getBuildAwesome (Lcompose/icons/fontawesomeicons/BrandsGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/fontawesomeicons/brands/BuromobelexperteKt {
 	public static final fun getBuromobelexperte (Lcompose/icons/fontawesomeicons/BrandsGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -353,6 +361,10 @@ public final class compose/icons/fontawesomeicons/brands/CmplidKt {
 	public static final fun getCmplid (Lcompose/icons/fontawesomeicons/BrandsGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/fontawesomeicons/brands/CodebergKt {
+	public static final fun getCodeberg (Lcompose/icons/fontawesomeicons/BrandsGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/fontawesomeicons/brands/CodepenKt {
 	public static final fun getCodepen (Lcompose/icons/fontawesomeicons/BrandsGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -371,6 +383,10 @@ public final class compose/icons/fontawesomeicons/brands/ConnectdevelopKt {
 
 public final class compose/icons/fontawesomeicons/brands/ContaoKt {
 	public static final fun getContao (Lcompose/icons/fontawesomeicons/BrandsGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/fontawesomeicons/brands/CopilotKt {
+	public static final fun getCopilot (Lcompose/icons/fontawesomeicons/BrandsGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/fontawesomeicons/brands/CottonBureauKt {
@@ -505,6 +521,10 @@ public final class compose/icons/fontawesomeicons/brands/DeviantartKt {
 	public static final fun getDeviantart (Lcompose/icons/fontawesomeicons/BrandsGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/fontawesomeicons/brands/DevpostKt {
+	public static final fun getDevpost (Lcompose/icons/fontawesomeicons/BrandsGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/fontawesomeicons/brands/DhlKt {
 	public static final fun getDhl (Lcompose/icons/fontawesomeicons/BrandsGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -539,6 +559,10 @@ public final class compose/icons/fontawesomeicons/brands/DochubKt {
 
 public final class compose/icons/fontawesomeicons/brands/DockerKt {
 	public static final fun getDocker (Lcompose/icons/fontawesomeicons/BrandsGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/fontawesomeicons/brands/DolibarrKt {
+	public static final fun getDolibarr (Lcompose/icons/fontawesomeicons/BrandsGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/fontawesomeicons/brands/Draft2digitalKt {
@@ -997,6 +1021,10 @@ public final class compose/icons/fontawesomeicons/brands/IntercomKt {
 	public static final fun getIntercom (Lcompose/icons/fontawesomeicons/BrandsGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/fontawesomeicons/brands/InternetArchiveKt {
+	public static final fun getInternetArchive (Lcompose/icons/fontawesomeicons/BrandsGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/fontawesomeicons/brands/InternetExplorerKt {
 	public static final fun getInternetExplorer (Lcompose/icons/fontawesomeicons/BrandsGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -1125,6 +1153,10 @@ public final class compose/icons/fontawesomeicons/brands/LessKt {
 	public static final fun getLess (Lcompose/icons/fontawesomeicons/BrandsGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/fontawesomeicons/brands/LetsEncryptKt {
+	public static final fun getLetsEncrypt (Lcompose/icons/fontawesomeicons/BrandsGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/fontawesomeicons/brands/LetterboxdKt {
 	public static final fun getLetterboxd (Lcompose/icons/fontawesomeicons/BrandsGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -1183,6 +1215,14 @@ public final class compose/icons/fontawesomeicons/brands/MarkdownKt {
 
 public final class compose/icons/fontawesomeicons/brands/MastodonKt {
 	public static final fun getMastodon (Lcompose/icons/fontawesomeicons/BrandsGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/fontawesomeicons/brands/MatrixKt {
+	public static final fun getMatrix (Lcompose/icons/fontawesomeicons/BrandsGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/fontawesomeicons/brands/MattermostKt {
+	public static final fun getMattermost (Lcompose/icons/fontawesomeicons/BrandsGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/fontawesomeicons/brands/MaxcdnKt {
@@ -1269,6 +1309,10 @@ public final class compose/icons/fontawesomeicons/brands/NeosKt {
 	public static final fun getNeos (Lcompose/icons/fontawesomeicons/BrandsGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/fontawesomeicons/brands/NextcloudKt {
+	public static final fun getNextcloud (Lcompose/icons/fontawesomeicons/BrandsGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/fontawesomeicons/brands/NfcDirectionalKt {
 	public static final fun getNfcDirectional (Lcompose/icons/fontawesomeicons/BrandsGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -1303,6 +1347,10 @@ public final class compose/icons/fontawesomeicons/brands/Ns8Kt {
 
 public final class compose/icons/fontawesomeicons/brands/NutritionixKt {
 	public static final fun getNutritionix (Lcompose/icons/fontawesomeicons/BrandsGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/fontawesomeicons/brands/ObsStudioKt {
+	public static final fun getObsStudio (Lcompose/icons/fontawesomeicons/BrandsGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/fontawesomeicons/brands/ObsidianKt {
@@ -1565,12 +1613,20 @@ public final class compose/icons/fontawesomeicons/brands/RevKt {
 	public static final fun getRev (Lcompose/icons/fontawesomeicons/BrandsGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/fontawesomeicons/brands/RobloxCreatorStudioKt {
+	public static final fun getRobloxCreatorStudio (Lcompose/icons/fontawesomeicons/BrandsGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/fontawesomeicons/brands/RocketchatKt {
 	public static final fun getRocketchat (Lcompose/icons/fontawesomeicons/BrandsGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/fontawesomeicons/brands/RockrmsKt {
 	public static final fun getRockrms (Lcompose/icons/fontawesomeicons/BrandsGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/fontawesomeicons/brands/RorKt {
+	public static final fun getRor (Lcompose/icons/fontawesomeicons/BrandsGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/fontawesomeicons/brands/RustKt {
@@ -1727,6 +1783,10 @@ public final class compose/icons/fontawesomeicons/brands/SquareBehanceKt {
 
 public final class compose/icons/fontawesomeicons/brands/SquareBlueskyKt {
 	public static final fun getSquareBluesky (Lcompose/icons/fontawesomeicons/BrandsGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/fontawesomeicons/brands/SquareBuildAwesomeStrokeKt {
+	public static final fun getSquareBuildAwesomeStroke (Lcompose/icons/fontawesomeicons/BrandsGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/fontawesomeicons/brands/SquareDeskproKt {
@@ -1905,6 +1965,10 @@ public final class compose/icons/fontawesomeicons/brands/StickerMuleKt {
 	public static final fun getStickerMule (Lcompose/icons/fontawesomeicons/BrandsGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/fontawesomeicons/brands/StorybookKt {
+	public static final fun getStorybook (Lcompose/icons/fontawesomeicons/BrandsGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/fontawesomeicons/brands/StravaKt {
 	public static final fun getStrava (Lcompose/icons/fontawesomeicons/BrandsGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -1931,6 +1995,10 @@ public final class compose/icons/fontawesomeicons/brands/StumbleuponCircleKt {
 
 public final class compose/icons/fontawesomeicons/brands/StumbleuponKt {
 	public static final fun getStumbleupon (Lcompose/icons/fontawesomeicons/BrandsGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/fontawesomeicons/brands/SubstackKt {
+	public static final fun getSubstack (Lcompose/icons/fontawesomeicons/BrandsGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/fontawesomeicons/brands/SuperpowersKt {
@@ -1983,6 +2051,10 @@ public final class compose/icons/fontawesomeicons/brands/TelegramPlaneKt {
 
 public final class compose/icons/fontawesomeicons/brands/TencentWeiboKt {
 	public static final fun getTencentWeibo (Lcompose/icons/fontawesomeicons/BrandsGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/fontawesomeicons/brands/TeslaKt {
+	public static final fun getTesla (Lcompose/icons/fontawesomeicons/BrandsGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/fontawesomeicons/brands/TexKt {
@@ -2185,6 +2257,10 @@ public final class compose/icons/fontawesomeicons/brands/VineKt {
 	public static final fun getVine (Lcompose/icons/fontawesomeicons/BrandsGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/fontawesomeicons/brands/VisualStudioKt {
+	public static final fun getVisualStudio (Lcompose/icons/fontawesomeicons/BrandsGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/fontawesomeicons/brands/VkKt {
 	public static final fun getVk (Lcompose/icons/fontawesomeicons/BrandsGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -2321,6 +2397,14 @@ public final class compose/icons/fontawesomeicons/brands/XmppKt {
 	public static final fun getXmpp (Lcompose/icons/fontawesomeicons/BrandsGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/fontawesomeicons/brands/XrpKt {
+	public static final fun getXrp (Lcompose/icons/fontawesomeicons/BrandsGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/fontawesomeicons/brands/XrplKt {
+	public static final fun getXrpl (Lcompose/icons/fontawesomeicons/BrandsGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/fontawesomeicons/brands/YCombinatorKt {
 	public static final fun getYCombinator (Lcompose/icons/fontawesomeicons/BrandsGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -2355,6 +2439,10 @@ public final class compose/icons/fontawesomeicons/brands/YoastKt {
 
 public final class compose/icons/fontawesomeicons/brands/YoutubeKt {
 	public static final fun getYoutube (Lcompose/icons/fontawesomeicons/BrandsGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/fontawesomeicons/brands/YoutubeShortsKt {
+	public static final fun getYoutubeShorts (Lcompose/icons/fontawesomeicons/BrandsGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/fontawesomeicons/brands/YoutubeSquareKt {
@@ -7791,6 +7879,10 @@ public final class compose/icons/fontawesomeicons/solid/LongArrowRightKt {
 
 public final class compose/icons/fontawesomeicons/solid/LongArrowUpKt {
 	public static final fun getLongArrowUp (Lcompose/icons/fontawesomeicons/SolidGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/fontawesomeicons/solid/LotusKt {
+	public static final fun getLotus (Lcompose/icons/fontawesomeicons/SolidGroup;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/fontawesomeicons/solid/LowVisionKt {
