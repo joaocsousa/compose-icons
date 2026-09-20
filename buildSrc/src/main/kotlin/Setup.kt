@@ -2,6 +2,7 @@ import com.android.build.gradle.BaseExtension
 import com.android.build.gradle.LibraryExtension
 import org.gradle.api.JavaVersion
 import org.gradle.api.Project
+import org.gradle.api.plugins.ExtensionAware
 import org.gradle.kotlin.dsl.apply
 import org.gradle.kotlin.dsl.configure
 import org.gradle.kotlin.dsl.creating
@@ -11,6 +12,7 @@ import org.gradle.kotlin.dsl.getValue
 import org.gradle.kotlin.dsl.getting
 import org.gradle.kotlin.dsl.invoke
 import org.gradle.kotlin.dsl.withType
+import org.jetbrains.compose.ComposePlugin.Dependencies
 import org.jetbrains.kotlin.gradle.dsl.KotlinJvmOptions
 import org.jetbrains.kotlin.gradle.dsl.KotlinMultiplatformExtension
 import org.jetbrains.kotlin.gradle.targets.js.dsl.ExperimentalWasmDsl
@@ -37,7 +39,7 @@ fun Project.setupModuleForComposeMultiplatform(
         apply(plugin = "org.jetbrains.kotlin.plugin.compose")
 
         extensions.configure<KotlinMultiplatformExtension> {
-            val compose = (this as org.gradle.api.plugins.ExtensionAware).extensions.getByName("compose") as org.jetbrains.compose.ComposePlugin.Dependencies
+            val compose = (this as ExtensionAware).extensions.getByName("compose") as Dependencies
 
             if (withKotlinExplicitMode) {
                 explicitApi()

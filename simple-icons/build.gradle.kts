@@ -18,7 +18,7 @@ android {
 
 registerGeneratorTask(
     githubId = "simple-icons/simple-icons",
-    version = "16.8.0",
+    version = "16.32.0",
     mapSourceCodeIconsToSvgComposeFolder = { repoCloneDir ->
         val relocatedNames = mutableMapOf<String, String>()
 
