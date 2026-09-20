@@ -1099,6 +1099,14 @@ public final class compose/icons/octicons/FiscalHost24Kt {
 	public static final fun getFiscalHost24 (Lcompose/icons/Octicons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/octicons/Flag16Kt {
+	public static final fun getFlag16 (Lcompose/icons/Octicons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/octicons/Flag24Kt {
+	public static final fun getFlag24 (Lcompose/icons/Octicons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/octicons/Flame16Kt {
 	public static final fun getFlame16 (Lcompose/icons/Octicons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -1287,6 +1295,14 @@ public final class compose/icons/octicons/GraphBarVertical24Kt {
 	public static final fun getGraphBarVertical24 (Lcompose/icons/Octicons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/octicons/GraphStackedArea16Kt {
+	public static final fun getGraphStackedArea16 (Lcompose/icons/Octicons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/octicons/GraphStackedArea24Kt {
+	public static final fun getGraphStackedArea24 (Lcompose/icons/Octicons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/octicons/Hash16Kt {
 	public static final fun getHash16 (Lcompose/icons/Octicons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -1443,6 +1459,14 @@ public final class compose/icons/octicons/IssueOpened24Kt {
 	public static final fun getIssueOpened24 (Lcompose/icons/Octicons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/octicons/IssueRelatesTo16Kt {
+	public static final fun getIssueRelatesTo16 (Lcompose/icons/Octicons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/octicons/IssueRelatesTo24Kt {
+	public static final fun getIssueRelatesTo24 (Lcompose/icons/Octicons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/octicons/IssueReopened16Kt {
 	public static final fun getIssueReopened16 (Lcompose/icons/Octicons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -1569,6 +1593,14 @@ public final class compose/icons/octicons/Lock16Kt {
 
 public final class compose/icons/octicons/Lock24Kt {
 	public static final fun getLock24 (Lcompose/icons/Octicons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/octicons/LockupGithub16Kt {
+	public static final fun getLockupGithub16 (Lcompose/icons/Octicons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/octicons/LockupGithub24Kt {
+	public static final fun getLockupGithub24 (Lcompose/icons/Octicons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/octicons/Log16Kt {
@@ -1991,6 +2023,14 @@ public final class compose/icons/octicons/Project24Kt {
 	public static final fun getProject24 (Lcompose/icons/Octicons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/octicons/ProjectCheck16Kt {
+	public static final fun getProjectCheck16 (Lcompose/icons/Octicons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/octicons/ProjectCheck24Kt {
+	public static final fun getProjectCheck24 (Lcompose/icons/Octicons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/octicons/ProjectRoadmap16Kt {
 	public static final fun getProjectRoadmap16 (Lcompose/icons/Octicons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -2029,6 +2069,14 @@ public final class compose/icons/octicons/Question16Kt {
 
 public final class compose/icons/octicons/Question24Kt {
 	public static final fun getQuestion24 (Lcompose/icons/Octicons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/octicons/QuestionBubble16Kt {
+	public static final fun getQuestionBubble16 (Lcompose/icons/Octicons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/octicons/QuestionBubble24Kt {
+	public static final fun getQuestionBubble24 (Lcompose/icons/Octicons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/octicons/Quote16Kt {
@@ -2103,6 +2151,14 @@ public final class compose/icons/octicons/RepoForked24Kt {
 	public static final fun getRepoForked24 (Lcompose/icons/Octicons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/octicons/RepoForkedLocked16Kt {
+	public static final fun getRepoForkedLocked16 (Lcompose/icons/Octicons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/octicons/RepoForkedLocked24Kt {
+	public static final fun getRepoForkedLocked24 (Lcompose/icons/Octicons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/octicons/RepoLocked16Kt {
 	public static final fun getRepoLocked16 (Lcompose/icons/Octicons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -2173,6 +2229,10 @@ public final class compose/icons/octicons/Ruby16Kt {
 
 public final class compose/icons/octicons/Ruby24Kt {
 	public static final fun getRuby24 (Lcompose/icons/Octicons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/octicons/Sandbox16Kt {
+	public static final fun getSandbox16 (Lcompose/icons/Octicons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/octicons/ScreenFull16Kt {
@@ -2495,6 +2555,18 @@ public final class compose/icons/octicons/Stack24Kt {
 	public static final fun getStack24 (Lcompose/icons/Octicons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/octicons/StackAdd16Kt {
+	public static final fun getStackAdd16 (Lcompose/icons/Octicons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/octicons/StackCheck16Kt {
+	public static final fun getStackCheck16 (Lcompose/icons/Octicons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/octicons/StackRemove16Kt {
+	public static final fun getStackRemove16 (Lcompose/icons/Octicons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/octicons/Star16Kt {
 	public static final fun getStar16 (Lcompose/icons/Octicons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -2815,16 +2887,20 @@ public final class compose/icons/octicons/Video24Kt {
 	public static final fun getVideo24 (Lcompose/icons/Octicons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/octicons/ViewFiles16Kt {
+	public static final fun getViewFiles16 (Lcompose/icons/Octicons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/octicons/ViewFiles24Kt {
+	public static final fun getViewFiles24 (Lcompose/icons/Octicons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/octicons/Vscode16Kt {
 	public static final fun getVscode16 (Lcompose/icons/Octicons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
-public final class compose/icons/octicons/Vscode32Kt {
-	public static final fun getVscode32 (Lcompose/icons/Octicons;)Landroidx/compose/ui/graphics/vector/ImageVector;
-}
-
-public final class compose/icons/octicons/Vscode48Kt {
-	public static final fun getVscode48 (Lcompose/icons/Octicons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+public final class compose/icons/octicons/Vscode24Kt {
+	public static final fun getVscode24 (Lcompose/icons/Octicons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/octicons/Webhook16Kt {
