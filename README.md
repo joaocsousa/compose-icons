@@ -54,7 +54,7 @@ You can find all code reference in the docs of the icon packs bellow.
 | [Linea](http://www.linea.io/) | 1.0 | `linea` | [docs](linea/DOCUMENTATION.md) |
 | [Line Awesome](https://icons8.com/line-awesome) | 1.3.0 (2bb7870) | `line-awesome` | [docs](line-awesome/DOCUMENTATION.md) |
 | [Weather Icons by Erik Flowers](https://github.com/erikflowers/weather-icons) | 2.0.12 (bb80982) | `erikflowers-weather-icons` | [docs](erikflowers-weather-icons/DOCUMENTATION.md) |
-| [css.gg](https://css.gg/) | 2.1.1 | `css-gg` | [docs](css-gg/DOCUMENTATION.md) |
+| [css.gg](https://css.gg/) | 2.1.1 (ad0428d) | `css-gg` | [docs](css-gg/DOCUMENTATION.md) |
 
 ## Version Catalog
 
