@@ -11,6 +11,8 @@ import compose.icons.tablericons.AccessPoint
 import compose.icons.tablericons.AccessPointOff
 import compose.icons.tablericons.Accessible
 import compose.icons.tablericons.AccessibleOff
+import compose.icons.tablericons.Acorn
+import compose.icons.tablericons.Acrobatic
 import compose.icons.tablericons.Activity
 import compose.icons.tablericons.ActivityHeartbeat
 import compose.icons.tablericons.Ad
@@ -47,10 +49,15 @@ import compose.icons.tablericons.AdjustmentsX
 import compose.icons.tablericons.AerialLift
 import compose.icons.tablericons.Affiliate
 import compose.icons.tablericons.Ai
+import compose.icons.tablericons.AiAgent
+import compose.icons.tablericons.AiAgents
+import compose.icons.tablericons.AiGateway
 import compose.icons.tablericons.AirBalloon
 import compose.icons.tablericons.AirConditioning
 import compose.icons.tablericons.AirConditioningDisabled
 import compose.icons.tablericons.AirTrafficControl
+import compose.icons.tablericons.AirpodsL
+import compose.icons.tablericons.AirpodsR
 import compose.icons.tablericons.Alarm
 import compose.icons.tablericons.AlarmAverage
 import compose.icons.tablericons.AlarmMinus
@@ -130,8 +137,13 @@ import compose.icons.tablericons.ApertureOff
 import compose.icons.tablericons.Api
 import compose.icons.tablericons.ApiApp
 import compose.icons.tablericons.ApiAppOff
+import compose.icons.tablericons.ApiBook
 import compose.icons.tablericons.ApiOff
 import compose.icons.tablericons.AppWindow
+import compose.icons.tablericons.AppWindowBottom
+import compose.icons.tablericons.AppWindowBottomLeft
+import compose.icons.tablericons.AppWindowBottomRight
+import compose.icons.tablericons.AppWindowCenter
 import compose.icons.tablericons.Apple
 import compose.icons.tablericons.Apps
 import compose.icons.tablericons.AppsOff
@@ -205,6 +217,7 @@ import compose.icons.tablericons.ArrowDownToArc
 import compose.icons.tablericons.ArrowElbowLeft
 import compose.icons.tablericons.ArrowElbowRight
 import compose.icons.tablericons.ArrowFork
+import compose.icons.tablericons.ArrowForkTriple
 import compose.icons.tablericons.ArrowForward
 import compose.icons.tablericons.ArrowForwardUp
 import compose.icons.tablericons.ArrowForwardUpDouble
@@ -399,6 +412,7 @@ import compose.icons.tablericons.BalloonOff
 import compose.icons.tablericons.Ballpen
 import compose.icons.tablericons.BallpenOff
 import compose.icons.tablericons.Ban
+import compose.icons.tablericons.Banana
 import compose.icons.tablericons.Bandage
 import compose.icons.tablericons.BandageOff
 import compose.icons.tablericons.Barbell
@@ -571,6 +585,7 @@ import compose.icons.tablericons.BorderStyle2
 import compose.icons.tablericons.BorderTop
 import compose.icons.tablericons.BorderTopPlus
 import compose.icons.tablericons.BorderVertical
+import compose.icons.tablericons.BotId
 import compose.icons.tablericons.Bottle
 import compose.icons.tablericons.BottleOff
 import compose.icons.tablericons.BounceLeft
@@ -621,7 +636,7 @@ import compose.icons.tablericons.Brain
 import compose.icons.tablericons.Brand4chan
 import compose.icons.tablericons.BrandAbstract
 import compose.icons.tablericons.BrandAdobe
-import compose.icons.tablericons.BrandAdobeAfterEffect
+import compose.icons.tablericons.BrandAdobeAfterEffects
 import compose.icons.tablericons.BrandAdobeIllustrator
 import compose.icons.tablericons.BrandAdobeIndesign
 import compose.icons.tablericons.BrandAdobePhotoshop
@@ -651,6 +666,7 @@ import compose.icons.tablericons.BrandAppstore
 import compose.icons.tablericons.BrandArc
 import compose.icons.tablericons.BrandAsana
 import compose.icons.tablericons.BrandAstro
+import compose.icons.tablericons.BrandAudible
 import compose.icons.tablericons.BrandAuth0
 import compose.icons.tablericons.BrandAws
 import compose.icons.tablericons.BrandAzure
@@ -781,12 +797,14 @@ import compose.icons.tablericons.BrandHexo
 import compose.icons.tablericons.BrandHipchat
 import compose.icons.tablericons.BrandHtml5
 import compose.icons.tablericons.BrandInertia
+import compose.icons.tablericons.BrandInfakt
 import compose.icons.tablericons.BrandInstagram
 import compose.icons.tablericons.BrandIntercom
 import compose.icons.tablericons.BrandItch
 import compose.icons.tablericons.BrandJavascript
+import compose.icons.tablericons.BrandJira
 import compose.icons.tablericons.BrandJuejin
-import compose.icons.tablericons.BrandKakoTalk
+import compose.icons.tablericons.BrandKakaoTalk
 import compose.icons.tablericons.BrandKbin
 import compose.icons.tablericons.BrandKick
 import compose.icons.tablericons.BrandKickstarter
@@ -882,6 +900,7 @@ import compose.icons.tablericons.BrandSentry
 import compose.icons.tablericons.BrandSharik
 import compose.icons.tablericons.BrandShazam
 import compose.icons.tablericons.BrandShopee
+import compose.icons.tablericons.BrandSignal
 import compose.icons.tablericons.BrandSketch
 import compose.icons.tablericons.BrandSkype
 import compose.icons.tablericons.BrandSlack
@@ -897,6 +916,7 @@ import compose.icons.tablericons.BrandSpotify
 import compose.icons.tablericons.BrandStackoverflow
 import compose.icons.tablericons.BrandStackshare
 import compose.icons.tablericons.BrandSteam
+import compose.icons.tablericons.BrandStellar
 import compose.icons.tablericons.BrandStocktwits
 import compose.icons.tablericons.BrandStorj
 import compose.icons.tablericons.BrandStorybook
@@ -944,6 +964,7 @@ import compose.icons.tablericons.BrandUnity
 import compose.icons.tablericons.BrandUnsplash
 import compose.icons.tablericons.BrandUpwork
 import compose.icons.tablericons.BrandValorant
+import compose.icons.tablericons.BrandVechain
 import compose.icons.tablericons.BrandVercel
 import compose.icons.tablericons.BrandVimeo
 import compose.icons.tablericons.BrandVinted
@@ -1039,6 +1060,7 @@ import compose.icons.tablericons.BuildingCircus
 import compose.icons.tablericons.BuildingCog
 import compose.icons.tablericons.BuildingCommunity
 import compose.icons.tablericons.BuildingCottage
+import compose.icons.tablericons.BuildingEiffelTower
 import compose.icons.tablericons.BuildingEstate
 import compose.icons.tablericons.BuildingFactory
 import compose.icons.tablericons.BuildingFactory2
@@ -1136,6 +1158,7 @@ import compose.icons.tablericons.CameraUp
 import compose.icons.tablericons.CameraX
 import compose.icons.tablericons.Camper
 import compose.icons.tablericons.Campfire
+import compose.icons.tablericons.Canary
 import compose.icons.tablericons.Cancel
 import compose.icons.tablericons.Candle
 import compose.icons.tablericons.Candy
@@ -1153,13 +1176,17 @@ import compose.icons.tablericons.Car
 import compose.icons.tablericons.Car4wd
 import compose.icons.tablericons.CarCrane
 import compose.icons.tablericons.CarCrash
+import compose.icons.tablericons.CarDoor
 import compose.icons.tablericons.CarFan
 import compose.icons.tablericons.CarFan1
 import compose.icons.tablericons.CarFan2
 import compose.icons.tablericons.CarFan3
 import compose.icons.tablericons.CarFanAuto
 import compose.icons.tablericons.CarGarage
+import compose.icons.tablericons.CarLifter
 import compose.icons.tablericons.CarOff
+import compose.icons.tablericons.CarOffRoad
+import compose.icons.tablericons.CarSuspension
 import compose.icons.tablericons.CarSuv
 import compose.icons.tablericons.CarTurbine
 import compose.icons.tablericons.Carambola
@@ -1186,6 +1213,7 @@ import compose.icons.tablericons.CashBanknoteMove
 import compose.icons.tablericons.CashBanknoteMoveBack
 import compose.icons.tablericons.CashBanknoteOff
 import compose.icons.tablericons.CashBanknotePlus
+import compose.icons.tablericons.CashCoin
 import compose.icons.tablericons.CashEdit
 import compose.icons.tablericons.CashHeart
 import compose.icons.tablericons.CashMinus
@@ -1295,6 +1323,7 @@ import compose.icons.tablericons.ChevronsUp
 import compose.icons.tablericons.ChevronsUpLeft
 import compose.icons.tablericons.ChevronsUpRight
 import compose.icons.tablericons.Chisel
+import compose.icons.tablericons.Chocolate
 import compose.icons.tablericons.ChristmasBall
 import compose.icons.tablericons.ChristmasTree
 import compose.icons.tablericons.ChristmasTreeOff
@@ -1434,9 +1463,14 @@ import compose.icons.tablericons.CircleNumber7
 import compose.icons.tablericons.CircleNumber8
 import compose.icons.tablericons.CircleNumber9
 import compose.icons.tablericons.CircleOff
+import compose.icons.tablericons.CircleOpenArrowDown
+import compose.icons.tablericons.CircleOpenArrowLeft
+import compose.icons.tablericons.CircleOpenArrowRight
+import compose.icons.tablericons.CircleOpenArrowUp
 import compose.icons.tablericons.CirclePercentage
 import compose.icons.tablericons.CirclePlus
 import compose.icons.tablericons.CirclePlus2
+import compose.icons.tablericons.CirclePlusMinus
 import compose.icons.tablericons.CircleRectangle
 import compose.icons.tablericons.CircleRectangleOff
 import compose.icons.tablericons.CircleSquare
@@ -1465,6 +1499,8 @@ import compose.icons.tablericons.CircuitSwitchOpen
 import compose.icons.tablericons.CircuitVoltmeter
 import compose.icons.tablericons.ClearAll
 import compose.icons.tablericons.ClearFormatting
+import compose.icons.tablericons.Clef
+import compose.icons.tablericons.ClefStaff
 import compose.icons.tablericons.Click
 import compose.icons.tablericons.CliffJumping
 import compose.icons.tablericons.Clipboard
@@ -1561,6 +1597,7 @@ import compose.icons.tablericons.Clover
 import compose.icons.tablericons.Clover2
 import compose.icons.tablericons.Clubs
 import compose.icons.tablericons.Code
+import compose.icons.tablericons.CodeAi
 import compose.icons.tablericons.CodeAsterisk
 import compose.icons.tablericons.CodeCircle
 import compose.icons.tablericons.CodeCircle2
@@ -1571,6 +1608,7 @@ import compose.icons.tablericons.CodePlus
 import compose.icons.tablericons.CodeVariable
 import compose.icons.tablericons.CodeVariableMinus
 import compose.icons.tablericons.CodeVariablePlus
+import compose.icons.tablericons.Codeblock
 import compose.icons.tablericons.Coffee
 import compose.icons.tablericons.CoffeeOff
 import compose.icons.tablericons.Coffin
@@ -1613,6 +1651,7 @@ import compose.icons.tablericons.Confetti
 import compose.icons.tablericons.ConfettiOff
 import compose.icons.tablericons.Confucius
 import compose.icons.tablericons.CongruentTo
+import compose.icons.tablericons.Connection
 import compose.icons.tablericons.Container
 import compose.icons.tablericons.ContainerOff
 import compose.icons.tablericons.Contract
@@ -1663,9 +1702,11 @@ import compose.icons.tablericons.CreativeCommonsOff
 import compose.icons.tablericons.CreativeCommonsSa
 import compose.icons.tablericons.CreativeCommonsZero
 import compose.icons.tablericons.CreditCard
+import compose.icons.tablericons.CreditCardHand
 import compose.icons.tablericons.CreditCardOff
 import compose.icons.tablericons.CreditCardPay
 import compose.icons.tablericons.CreditCardRefund
+import compose.icons.tablericons.Credits
 import compose.icons.tablericons.Cricket
 import compose.icons.tablericons.Crop
 import compose.icons.tablericons.Crop11
@@ -1723,6 +1764,7 @@ import compose.icons.tablericons.CurrencyForint
 import compose.icons.tablericons.CurrencyFrank
 import compose.icons.tablericons.CurrencyGuarani
 import compose.icons.tablericons.CurrencyHryvnia
+import compose.icons.tablericons.CurrencyHusd
 import compose.icons.tablericons.CurrencyIranianRial
 import compose.icons.tablericons.CurrencyKip
 import compose.icons.tablericons.CurrencyKroneCzech
@@ -1747,7 +1789,7 @@ import compose.icons.tablericons.CurrencyReal
 import compose.icons.tablericons.CurrencyRenminbi
 import compose.icons.tablericons.CurrencyRipple
 import compose.icons.tablericons.CurrencyRiyal
-import compose.icons.tablericons.CurrencyRubel
+import compose.icons.tablericons.CurrencyRuble
 import compose.icons.tablericons.CurrencyRufiyaa
 import compose.icons.tablericons.CurrencyRupee
 import compose.icons.tablericons.CurrencyRupeeNepalese
@@ -1756,12 +1798,14 @@ import compose.icons.tablericons.CurrencySolana
 import compose.icons.tablericons.CurrencySom
 import compose.icons.tablericons.CurrencyTaka
 import compose.icons.tablericons.CurrencyTenge
+import compose.icons.tablericons.CurrencyTether
 import compose.icons.tablericons.CurrencyTugrik
 import compose.icons.tablericons.CurrencyWon
 import compose.icons.tablericons.CurrencyXrp
 import compose.icons.tablericons.CurrencyYen
 import compose.icons.tablericons.CurrencyYenOff
 import compose.icons.tablericons.CurrencyYuan
+import compose.icons.tablericons.CurrencyZcash
 import compose.icons.tablericons.CurrencyZloty
 import compose.icons.tablericons.CurrentLocation
 import compose.icons.tablericons.CurrentLocationOff
@@ -1801,6 +1845,8 @@ import compose.icons.tablericons.Deselect
 import compose.icons.tablericons.Desk
 import compose.icons.tablericons.Details
 import compose.icons.tablericons.DetailsOff
+import compose.icons.tablericons.Device3dCamera
+import compose.icons.tablericons.Device3dLens
 import compose.icons.tablericons.DeviceAirpods
 import compose.icons.tablericons.DeviceAirpodsCase
 import compose.icons.tablericons.DeviceAirtag
@@ -1810,6 +1856,7 @@ import compose.icons.tablericons.DeviceCameraPhone
 import compose.icons.tablericons.DeviceCctv
 import compose.icons.tablericons.DeviceCctvOff
 import compose.icons.tablericons.DeviceComputerCamera
+import compose.icons.tablericons.DeviceComputerCamera2
 import compose.icons.tablericons.DeviceComputerCameraOff
 import compose.icons.tablericons.DeviceDesktop
 import compose.icons.tablericons.DeviceDesktopAnalytics
@@ -1933,6 +1980,7 @@ import compose.icons.tablericons.DeviceNintendo
 import compose.icons.tablericons.DeviceNintendoOff
 import compose.icons.tablericons.DeviceProjector
 import compose.icons.tablericons.DeviceRemote
+import compose.icons.tablericons.DeviceScreen
 import compose.icons.tablericons.DeviceSdCard
 import compose.icons.tablericons.DeviceSim
 import compose.icons.tablericons.DeviceSim1
@@ -1967,6 +2015,7 @@ import compose.icons.tablericons.DeviceTvOld
 import compose.icons.tablericons.DeviceUnknown
 import compose.icons.tablericons.DeviceUsb
 import compose.icons.tablericons.DeviceVisionPro
+import compose.icons.tablericons.DeviceVisionProWifi
 import compose.icons.tablericons.DeviceWatch
 import compose.icons.tablericons.DeviceWatchBolt
 import compose.icons.tablericons.DeviceWatchCancel
@@ -1990,6 +2039,7 @@ import compose.icons.tablericons.DeviceWatchStats
 import compose.icons.tablericons.DeviceWatchStats2
 import compose.icons.tablericons.DeviceWatchUp
 import compose.icons.tablericons.DeviceWatchX
+import compose.icons.tablericons.DeviceWorkstation
 import compose.icons.tablericons.Devices
 import compose.icons.tablericons.Devices2
 import compose.icons.tablericons.DevicesBolt
@@ -2056,6 +2106,7 @@ import compose.icons.tablericons.DogBowl
 import compose.icons.tablericons.Door
 import compose.icons.tablericons.DoorEnter
 import compose.icons.tablericons.DoorExit
+import compose.icons.tablericons.DoorHanger
 import compose.icons.tablericons.DoorOff
 import compose.icons.tablericons.Dots
 import compose.icons.tablericons.DotsCircleHorizontal
@@ -2066,6 +2117,7 @@ import compose.icons.tablericons.Download
 import compose.icons.tablericons.DownloadOff
 import compose.icons.tablericons.DragDrop
 import compose.icons.tablericons.DragDrop2
+import compose.icons.tablericons.Dragon
 import compose.icons.tablericons.Drone
 import compose.icons.tablericons.DroneOff
 import compose.icons.tablericons.DropCircle
@@ -2094,11 +2146,13 @@ import compose.icons.tablericons.DropletUp
 import compose.icons.tablericons.DropletX
 import compose.icons.tablericons.Droplets
 import compose.icons.tablericons.DualScreen
+import compose.icons.tablericons.Dumbbell
 import compose.icons.tablericons.Dumpling
 import compose.icons.tablericons.EPassport
 import compose.icons.tablericons.Ear
 import compose.icons.tablericons.EarOff
 import compose.icons.tablericons.EarScan
+import compose.icons.tablericons.EarphoneBluetooth
 import compose.icons.tablericons.EaseIn
 import compose.icons.tablericons.EaseInControlPoint
 import compose.icons.tablericons.EaseInOut
@@ -2106,6 +2160,7 @@ import compose.icons.tablericons.EaseInOutControlPoints
 import compose.icons.tablericons.EaseOut
 import compose.icons.tablericons.EaseOutControlPoint
 import compose.icons.tablericons.Edit
+import compose.icons.tablericons.EditBulk
 import compose.icons.tablericons.EditCircle
 import compose.icons.tablericons.EditCircleOff
 import compose.icons.tablericons.EditOff
@@ -2116,6 +2171,7 @@ import compose.icons.tablericons.EggOff
 import compose.icons.tablericons.Eggs
 import compose.icons.tablericons.Elevator
 import compose.icons.tablericons.ElevatorOff
+import compose.icons.tablericons.EmailStamp
 import compose.icons.tablericons.EmergencyBed
 import compose.icons.tablericons.Empathize
 import compose.icons.tablericons.EmpathizeOff
@@ -2137,6 +2193,7 @@ import compose.icons.tablericons.ExchangeOff
 import compose.icons.tablericons.ExclamationCircle
 import compose.icons.tablericons.ExclamationMark
 import compose.icons.tablericons.ExclamationMarkOff
+import compose.icons.tablericons.ExerciseBall
 import compose.icons.tablericons.Explicit
 import compose.icons.tablericons.ExplicitOff
 import compose.icons.tablericons.Exposure
@@ -2342,6 +2399,8 @@ import compose.icons.tablericons.FireExtinguisher
 import compose.icons.tablericons.FireHydrant
 import compose.icons.tablericons.FireHydrantOff
 import compose.icons.tablericons.Firetruck
+import compose.icons.tablericons.FirewallCheck
+import compose.icons.tablericons.FirewallFlame
 import compose.icons.tablericons.FirstAidKit
 import compose.icons.tablericons.FirstAidKitOff
 import compose.icons.tablericons.Fish
@@ -2391,6 +2450,7 @@ import compose.icons.tablericons.FloatCenter
 import compose.icons.tablericons.FloatLeft
 import compose.icons.tablericons.FloatNone
 import compose.icons.tablericons.FloatRight
+import compose.icons.tablericons.Flood
 import compose.icons.tablericons.Flower
 import compose.icons.tablericons.FlowerOff
 import compose.icons.tablericons.Focus
@@ -2421,11 +2481,14 @@ import compose.icons.tablericons.FolderRoot
 import compose.icons.tablericons.FolderSearch
 import compose.icons.tablericons.FolderShare
 import compose.icons.tablericons.FolderStar
+import compose.icons.tablericons.FolderStats
 import compose.icons.tablericons.FolderSymlink
 import compose.icons.tablericons.FolderUp
+import compose.icons.tablericons.FolderUser
 import compose.icons.tablericons.FolderX
 import compose.icons.tablericons.Folders
 import compose.icons.tablericons.FoldersOff
+import compose.icons.tablericons.Footsteps
 import compose.icons.tablericons.Forbid
 import compose.icons.tablericons.Forbid2
 import compose.icons.tablericons.Forklift
@@ -2472,7 +2535,7 @@ import compose.icons.tablericons.GenderMale
 import compose.icons.tablericons.GenderNeutrois
 import compose.icons.tablericons.GenderThird
 import compose.icons.tablericons.GenderTransgender
-import compose.icons.tablericons.GenderTrasvesti
+import compose.icons.tablericons.GenderTravesti
 import compose.icons.tablericons.Geometry
 import compose.icons.tablericons.Ghost
 import compose.icons.tablericons.Ghost2
@@ -2491,6 +2554,7 @@ import compose.icons.tablericons.GitFork
 import compose.icons.tablericons.GitMerge
 import compose.icons.tablericons.GitPullRequest
 import compose.icons.tablericons.GitPullRequestClosed
+import compose.icons.tablericons.GitPullRequestConflict
 import compose.icons.tablericons.GitPullRequestDraft
 import compose.icons.tablericons.Gizmo
 import compose.icons.tablericons.Glass
@@ -2505,8 +2569,11 @@ import compose.icons.tablericons.GoGame
 import compose.icons.tablericons.Golf
 import compose.icons.tablericons.GolfOff
 import compose.icons.tablericons.Gps
+import compose.icons.tablericons.Gpu
+import compose.icons.tablericons.Gpu2
 import compose.icons.tablericons.Gradienter
 import compose.icons.tablericons.Grain
+import compose.icons.tablericons.Grape
 import compose.icons.tablericons.Graph
 import compose.icons.tablericons.GraphOff
 import compose.icons.tablericons.Grave
@@ -2533,6 +2600,7 @@ import compose.icons.tablericons.H4
 import compose.icons.tablericons.H5
 import compose.icons.tablericons.H6
 import compose.icons.tablericons.Hammer
+import compose.icons.tablericons.HammerDrill
 import compose.icons.tablericons.HammerOff
 import compose.icons.tablericons.HandClick
 import compose.icons.tablericons.HandClickOff
@@ -2689,6 +2757,7 @@ import compose.icons.tablericons.HomeHand
 import compose.icons.tablericons.HomeHeart
 import compose.icons.tablericons.HomeInfinity
 import compose.icons.tablericons.HomeLink
+import compose.icons.tablericons.HomeLock
 import compose.icons.tablericons.HomeMinus
 import compose.icons.tablericons.HomeMove
 import compose.icons.tablericons.HomeOff
@@ -2738,24 +2807,28 @@ import compose.icons.tablericons.HttpQue
 import compose.icons.tablericons.HttpQueOff
 import compose.icons.tablericons.HttpTrace
 import compose.icons.tablericons.HttpTraceOff
+import compose.icons.tablericons.HulaHoop
 import compose.icons.tablericons.IceCream
 import compose.icons.tablericons.IceCream2
 import compose.icons.tablericons.IceCreamOff
 import compose.icons.tablericons.IceSkating
+import compose.icons.tablericons.Iceberg
 import compose.icons.tablericons.Icons
 import compose.icons.tablericons.IconsOff
+import compose.icons.tablericons.Icosahedron
 import compose.icons.tablericons.Id
 import compose.icons.tablericons.IdBadge
 import compose.icons.tablericons.IdBadge2
 import compose.icons.tablericons.IdBadgeOff
 import compose.icons.tablericons.IdOff
-import compose.icons.tablericons.Ikosaedr
+import compose.icons.tablericons.ImageGeneration
 import compose.icons.tablericons.ImageInPicture
 import compose.icons.tablericons.Inbox
 import compose.icons.tablericons.InboxOff
 import compose.icons.tablericons.IndentDecrease
 import compose.icons.tablericons.IndentIncrease
 import compose.icons.tablericons.Infinity
+import compose.icons.tablericons.Infinity2
 import compose.icons.tablericons.InfinityOff
 import compose.icons.tablericons.InfoCircle
 import compose.icons.tablericons.InfoHexagon
@@ -2789,8 +2862,10 @@ import compose.icons.tablericons.IrregularPolyhedron
 import compose.icons.tablericons.IrregularPolyhedronOff
 import compose.icons.tablericons.IrregularPolyhedronPlus
 import compose.icons.tablericons.Italic
+import compose.icons.tablericons.ItalicOff
 import compose.icons.tablericons.Jacket
 import compose.icons.tablericons.Jetpack
+import compose.icons.tablericons.Jetski
 import compose.icons.tablericons.JewishStar
 import compose.icons.tablericons.JoinBevel
 import compose.icons.tablericons.JoinRound
@@ -2835,6 +2910,7 @@ import compose.icons.tablericons.LaurelWreath
 import compose.icons.tablericons.LaurelWreath1
 import compose.icons.tablericons.LaurelWreath2
 import compose.icons.tablericons.LaurelWreath3
+import compose.icons.tablericons.LawnMower
 import compose.icons.tablericons.LayersDifference
 import compose.icons.tablericons.LayersIntersect
 import compose.icons.tablericons.LayersIntersect2
@@ -2885,6 +2961,7 @@ import compose.icons.tablericons.LayoutSidebarRightExpand
 import compose.icons.tablericons.LayoutSidebarRightInactive
 import compose.icons.tablericons.Leaf
 import compose.icons.tablericons.Leaf2
+import compose.icons.tablericons.LeafMaple
 import compose.icons.tablericons.LeafOff
 import compose.icons.tablericons.Lego
 import compose.icons.tablericons.LegoOff
@@ -2979,6 +3056,7 @@ import compose.icons.tablericons.LoadBalancer
 import compose.icons.tablericons.Loader
 import compose.icons.tablericons.Loader2
 import compose.icons.tablericons.Loader3
+import compose.icons.tablericons.Loader4
 import compose.icons.tablericons.LoaderQuarter
 import compose.icons.tablericons.Location
 import compose.icons.tablericons.LocationBolt
@@ -3101,6 +3179,7 @@ import compose.icons.tablericons.MapDown
 import compose.icons.tablericons.MapEast
 import compose.icons.tablericons.MapExclamation
 import compose.icons.tablericons.MapHeart
+import compose.icons.tablericons.MapLock
 import compose.icons.tablericons.MapMinus
 import compose.icons.tablericons.MapNorth
 import compose.icons.tablericons.MapOff
@@ -3127,12 +3206,14 @@ import compose.icons.tablericons.MapPinShare
 import compose.icons.tablericons.MapPinStar
 import compose.icons.tablericons.MapPinUp
 import compose.icons.tablericons.MapPinX
+import compose.icons.tablericons.MapPinned
 import compose.icons.tablericons.MapPins
 import compose.icons.tablericons.MapPlus
 import compose.icons.tablericons.MapQuestion
 import compose.icons.tablericons.MapRoute
 import compose.icons.tablericons.MapSearch
 import compose.icons.tablericons.MapShare
+import compose.icons.tablericons.MapShield
 import compose.icons.tablericons.MapSouth
 import compose.icons.tablericons.MapStar
 import compose.icons.tablericons.MapUp
@@ -3208,6 +3289,7 @@ import compose.icons.tablericons.Menu3
 import compose.icons.tablericons.Menu4
 import compose.icons.tablericons.MenuDeep
 import compose.icons.tablericons.MenuOrder
+import compose.icons.tablericons.Mesh
 import compose.icons.tablericons.Message
 import compose.icons.tablericons.Message2
 import compose.icons.tablericons.Message2Bolt
@@ -3290,6 +3372,7 @@ import compose.icons.tablericons.MichelinBibGourmand
 import compose.icons.tablericons.MichelinStar
 import compose.icons.tablericons.MichelinStarGreen
 import compose.icons.tablericons.Mickey
+import compose.icons.tablericons.Microfrontends
 import compose.icons.tablericons.Microphone
 import compose.icons.tablericons.Microphone2
 import compose.icons.tablericons.Microphone2Off
@@ -3298,6 +3381,7 @@ import compose.icons.tablericons.Microscope
 import compose.icons.tablericons.MicroscopeOff
 import compose.icons.tablericons.Microwave
 import compose.icons.tablericons.MicrowaveOff
+import compose.icons.tablericons.Middleware
 import compose.icons.tablericons.MilitaryAward
 import compose.icons.tablericons.MilitaryRank
 import compose.icons.tablericons.Milk
@@ -3325,7 +3409,7 @@ import compose.icons.tablericons.MoodBitcoin
 import compose.icons.tablericons.MoodBoy
 import compose.icons.tablericons.MoodCheck
 import compose.icons.tablericons.MoodCog
-import compose.icons.tablericons.MoodConfuzed
+import compose.icons.tablericons.MoodConfused
 import compose.icons.tablericons.MoodCrazyHappy
 import compose.icons.tablericons.MoodCry
 import compose.icons.tablericons.MoodDollar
@@ -3375,6 +3459,7 @@ import compose.icons.tablericons.Moon2
 import compose.icons.tablericons.MoonOff
 import compose.icons.tablericons.MoonStars
 import compose.icons.tablericons.Moped
+import compose.icons.tablericons.Mosque
 import compose.icons.tablericons.Motorbike
 import compose.icons.tablericons.Mountain
 import compose.icons.tablericons.MountainOff
@@ -3453,7 +3538,9 @@ import compose.icons.tablericons.NfcOff
 import compose.icons.tablericons.NoCopyright
 import compose.icons.tablericons.NoCreativeCommons
 import compose.icons.tablericons.NoDerivatives
+import compose.icons.tablericons.NoiseReduction
 import compose.icons.tablericons.NorthStar
+import compose.icons.tablericons.Notdef
 import compose.icons.tablericons.Note
 import compose.icons.tablericons.NoteOff
 import compose.icons.tablericons.Notebook
@@ -3591,11 +3678,15 @@ import compose.icons.tablericons.Octahedron
 import compose.icons.tablericons.OctahedronOff
 import compose.icons.tablericons.OctahedronPlus
 import compose.icons.tablericons.Old
+import compose.icons.tablericons.OlympicTorch
 import compose.icons.tablericons.Olympics
 import compose.icons.tablericons.OlympicsOff
 import compose.icons.tablericons.Om
 import compose.icons.tablericons.Omega
 import compose.icons.tablericons.Option
+import compose.icons.tablericons.Orbit
+import compose.icons.tablericons.OrbitVertical
+import compose.icons.tablericons.Orbits
 import compose.icons.tablericons.Outbound
 import compose.icons.tablericons.Outlet
 import compose.icons.tablericons.Oval
@@ -3625,6 +3716,7 @@ import compose.icons.tablericons.Parentheses
 import compose.icons.tablericons.ParenthesesOff
 import compose.icons.tablericons.Parking
 import compose.icons.tablericons.ParkingCircle
+import compose.icons.tablericons.ParkingMeter
 import compose.icons.tablericons.ParkingOff
 import compose.icons.tablericons.Password
 import compose.icons.tablericons.PasswordFingerprint
@@ -3657,6 +3749,7 @@ import compose.icons.tablericons.PencilShare
 import compose.icons.tablericons.PencilStar
 import compose.icons.tablericons.PencilUp
 import compose.icons.tablericons.PencilX
+import compose.icons.tablericons.Pendulum
 import compose.icons.tablericons.Pennant
 import compose.icons.tablericons.Pennant2
 import compose.icons.tablericons.PennantOff
@@ -3713,6 +3806,7 @@ import compose.icons.tablericons.PhoneSpark
 import compose.icons.tablericons.PhoneX
 import compose.icons.tablericons.Photo
 import compose.icons.tablericons.PhotoAi
+import compose.icons.tablericons.PhotoAlt
 import compose.icons.tablericons.PhotoBitcoin
 import compose.icons.tablericons.PhotoBolt
 import compose.icons.tablericons.PhotoCancel
@@ -3748,7 +3842,7 @@ import compose.icons.tablericons.PhotoStar
 import compose.icons.tablericons.PhotoUp
 import compose.icons.tablericons.PhotoVideo
 import compose.icons.tablericons.PhotoX
-import compose.icons.tablericons.Physotherapist
+import compose.icons.tablericons.Physiotherapist
 import compose.icons.tablericons.Piano
 import compose.icons.tablericons.Pick
 import compose.icons.tablericons.PicnicTable
@@ -3764,6 +3858,7 @@ import compose.icons.tablericons.PilcrowLeft
 import compose.icons.tablericons.PilcrowRight
 import compose.icons.tablericons.Pill
 import compose.icons.tablericons.PillOff
+import compose.icons.tablericons.Pillow
 import compose.icons.tablericons.Pills
 import compose.icons.tablericons.Pin
 import compose.icons.tablericons.PinEnd
@@ -3771,6 +3866,7 @@ import compose.icons.tablericons.PinInvoke
 import compose.icons.tablericons.PingPong
 import compose.icons.tablericons.Pinned
 import compose.icons.tablericons.PinnedOff
+import compose.icons.tablericons.Pipeline
 import compose.icons.tablericons.Pizza
 import compose.icons.tablericons.PizzaOff
 import compose.icons.tablericons.Placeholder
@@ -3787,6 +3883,8 @@ import compose.icons.tablericons.Plant2
 import compose.icons.tablericons.Plant2Off
 import compose.icons.tablericons.PlantOff
 import compose.icons.tablericons.PlayBasketball
+import compose.icons.tablericons.PlayBug
+import compose.icons.tablericons.PlayBugs
 import compose.icons.tablericons.PlayCard
 import compose.icons.tablericons.PlayCard1
 import compose.icons.tablericons.PlayCard10
@@ -3829,6 +3927,7 @@ import compose.icons.tablericons.PlugConnected
 import compose.icons.tablericons.PlugConnectedX
 import compose.icons.tablericons.PlugOff
 import compose.icons.tablericons.PlugX
+import compose.icons.tablericons.Plunger
 import compose.icons.tablericons.Plus
 import compose.icons.tablericons.PlusEqual
 import compose.icons.tablericons.PlusMinus
@@ -3838,11 +3937,14 @@ import compose.icons.tablericons.PodiumOff
 import compose.icons.tablericons.Point
 import compose.icons.tablericons.PointOff
 import compose.icons.tablericons.Pointer
+import compose.icons.tablericons.Pointer2
 import compose.icons.tablericons.PointerBolt
 import compose.icons.tablericons.PointerCancel
 import compose.icons.tablericons.PointerCheck
 import compose.icons.tablericons.PointerCode
 import compose.icons.tablericons.PointerCog
+import compose.icons.tablericons.PointerCollaboration
+import compose.icons.tablericons.PointerCollaboration2
 import compose.icons.tablericons.PointerDollar
 import compose.icons.tablericons.PointerDown
 import compose.icons.tablericons.PointerExclamation
@@ -3903,8 +4005,11 @@ import compose.icons.tablericons.PyramidPlus
 import compose.icons.tablericons.Qrcode
 import compose.icons.tablericons.QrcodeOff
 import compose.icons.tablericons.QuestionMark
+import compose.icons.tablericons.QueuePopIn
+import compose.icons.tablericons.QueuePopOut
 import compose.icons.tablericons.Quote
 import compose.icons.tablericons.QuoteOff
+import compose.icons.tablericons.QuoteOpen
 import compose.icons.tablericons.Quotes
 import compose.icons.tablericons.Radar
 import compose.icons.tablericons.Radar2
@@ -3950,6 +4055,8 @@ import compose.icons.tablericons.RectangularPrismOff
 import compose.icons.tablericons.RectangularPrismPlus
 import compose.icons.tablericons.Recycle
 import compose.icons.tablericons.RecycleOff
+import compose.icons.tablericons.ReduceMotion
+import compose.icons.tablericons.ReferenceImage
 import compose.icons.tablericons.Refresh
 import compose.icons.tablericons.RefreshAlert
 import compose.icons.tablericons.RefreshDot
@@ -3961,6 +4068,7 @@ import compose.icons.tablericons.RelationManyToMany
 import compose.icons.tablericons.RelationOneToMany
 import compose.icons.tablericons.RelationOneToOne
 import compose.icons.tablericons.Reload
+import compose.icons.tablericons.RemoteControl
 import compose.icons.tablericons.Reorder
 import compose.icons.tablericons.Repeat
 import compose.icons.tablericons.RepeatOff
@@ -4007,6 +4115,7 @@ import compose.icons.tablericons.RobotFace
 import compose.icons.tablericons.RobotOff
 import compose.icons.tablericons.Rocket
 import compose.icons.tablericons.RocketOff
+import compose.icons.tablericons.RockingChair
 import compose.icons.tablericons.RollerSkating
 import compose.icons.tablericons.Rollercoaster
 import compose.icons.tablericons.RollercoasterOff
@@ -4034,6 +4143,7 @@ import compose.icons.tablericons.RotateClockwise
 import compose.icons.tablericons.RotateClockwise2
 import compose.icons.tablericons.RotateDot
 import compose.icons.tablericons.RotateRectangle
+import compose.icons.tablericons.Roulette
 import compose.icons.tablericons.Route
 import compose.icons.tablericons.Route2
 import compose.icons.tablericons.RouteAltLeft
@@ -4052,6 +4162,7 @@ import compose.icons.tablericons.RowRemove
 import compose.icons.tablericons.Rss
 import compose.icons.tablericons.RubberStamp
 import compose.icons.tablericons.RubberStampOff
+import compose.icons.tablericons.Rugby
 import compose.icons.tablericons.Ruler
 import compose.icons.tablericons.Ruler2
 import compose.icons.tablericons.Ruler2Off
@@ -4060,6 +4171,7 @@ import compose.icons.tablericons.RulerMeasure
 import compose.icons.tablericons.RulerMeasure2
 import compose.icons.tablericons.RulerOff
 import compose.icons.tablericons.Run
+import compose.icons.tablericons.RunSprint
 import compose.icons.tablericons.RvTruck
 import compose.icons.tablericons.STurnDown
 import compose.icons.tablericons.STurnLeft
@@ -4079,8 +4191,12 @@ import compose.icons.tablericons.ScaleOff
 import compose.icons.tablericons.ScaleOutline
 import compose.icons.tablericons.ScaleOutlineOff
 import compose.icons.tablericons.Scan
+import compose.icons.tablericons.ScanCube
 import compose.icons.tablericons.ScanEye
+import compose.icons.tablericons.ScanLetterA
+import compose.icons.tablericons.ScanLetterT
 import compose.icons.tablericons.ScanPosition
+import compose.icons.tablericons.ScanTraces
 import compose.icons.tablericons.Schema
 import compose.icons.tablericons.SchemaOff
 import compose.icons.tablericons.School
@@ -4107,10 +4223,12 @@ import compose.icons.tablericons.ScubaMaskOff
 import compose.icons.tablericons.Sdk
 import compose.icons.tablericons.Search
 import compose.icons.tablericons.SearchOff
+import compose.icons.tablericons.SecretPhrases
 import compose.icons.tablericons.Section
 import compose.icons.tablericons.SectionSign
 import compose.icons.tablericons.Seedling
 import compose.icons.tablericons.SeedlingOff
+import compose.icons.tablericons.Segway
 import compose.icons.tablericons.Select
 import compose.icons.tablericons.SelectAll
 import compose.icons.tablericons.Selector
@@ -4127,6 +4245,7 @@ import compose.icons.tablericons.ServerBolt
 import compose.icons.tablericons.ServerCog
 import compose.icons.tablericons.ServerOff
 import compose.icons.tablericons.ServerSpark
+import compose.icons.tablericons.Serverless
 import compose.icons.tablericons.Servicemark
 import compose.icons.tablericons.Settings
 import compose.icons.tablericons.Settings2
@@ -4252,6 +4371,7 @@ import compose.icons.tablericons.SitemapOff
 import compose.icons.tablericons.Skateboard
 import compose.icons.tablericons.SkateboardOff
 import compose.icons.tablericons.Skateboarding
+import compose.icons.tablericons.Sketching
 import compose.icons.tablericons.SkewX
 import compose.icons.tablericons.SkewY
 import compose.icons.tablericons.SkiJumping
@@ -4304,17 +4424,22 @@ import compose.icons.tablericons.Spaces
 import compose.icons.tablericons.SpacingHorizontal
 import compose.icons.tablericons.SpacingVertical
 import compose.icons.tablericons.Spade
+import compose.icons.tablericons.Sparkle
+import compose.icons.tablericons.Sparkle2
+import compose.icons.tablericons.SparkleHighlight
 import compose.icons.tablericons.Sparkles
 import compose.icons.tablericons.Sparkles2
+import compose.icons.tablericons.Sparkles2Off
 import compose.icons.tablericons.Speakerphone
 import compose.icons.tablericons.Speedboat
 import compose.icons.tablericons.Sphere
+import compose.icons.tablericons.Sphere2
 import compose.icons.tablericons.SphereOff
 import compose.icons.tablericons.SpherePlus
 import compose.icons.tablericons.Spider
 import compose.icons.tablericons.Spiral
 import compose.icons.tablericons.SpiralOff
-import compose.icons.tablericons.SportBillard
+import compose.icons.tablericons.SportBilliard
 import compose.icons.tablericons.Spray
 import compose.icons.tablericons.Spy
 import compose.icons.tablericons.SpyOff
@@ -4490,12 +4615,16 @@ import compose.icons.tablericons.Stethoscope
 import compose.icons.tablericons.StethoscopeOff
 import compose.icons.tablericons.Sticker
 import compose.icons.tablericons.Sticker2
+import compose.icons.tablericons.StickerSmile
 import compose.icons.tablericons.Stopwatch
 import compose.icons.tablericons.Storm
 import compose.icons.tablericons.StormOff
 import compose.icons.tablericons.Stretching
 import compose.icons.tablericons.Stretching2
 import compose.icons.tablericons.Strikethrough
+import compose.icons.tablericons.StrokeCurved
+import compose.icons.tablericons.StrokeDynamic
+import compose.icons.tablericons.StrokeStraight
 import compose.icons.tablericons.Submarine
 import compose.icons.tablericons.Subscript
 import compose.icons.tablericons.Subtask
@@ -4532,6 +4661,7 @@ import compose.icons.tablericons.SwitchVertical
 import compose.icons.tablericons.Sword
 import compose.icons.tablericons.SwordOff
 import compose.icons.tablericons.Swords
+import compose.icons.tablericons.TabClose
 import compose.icons.tablericons.Table
 import compose.icons.tablericons.TableAlias
 import compose.icons.tablericons.TableColumn
@@ -4548,13 +4678,19 @@ import compose.icons.tablericons.TableRow
 import compose.icons.tablericons.TableShare
 import compose.icons.tablericons.TableShortcut
 import compose.icons.tablericons.TableSpark
+import compose.icons.tablericons.Tabs
 import compose.icons.tablericons.Tag
 import compose.icons.tablericons.TagMinus
 import compose.icons.tablericons.TagOff
 import compose.icons.tablericons.TagPlus
 import compose.icons.tablericons.TagStarred
 import compose.icons.tablericons.Tags
+import compose.icons.tablericons.TagsChevronDown
+import compose.icons.tablericons.TagsChevronLeft
+import compose.icons.tablericons.TagsChevronRight
+import compose.icons.tablericons.TagsChevronUp
 import compose.icons.tablericons.TagsOff
+import compose.icons.tablericons.TaiwanDollar
 import compose.icons.tablericons.Tallymark1
 import compose.icons.tablericons.Tallymark2
 import compose.icons.tablericons.Tallymark3
@@ -4562,6 +4698,7 @@ import compose.icons.tablericons.Tallymark4
 import compose.icons.tablericons.Tallymarks
 import compose.icons.tablericons.Tank
 import compose.icons.tablericons.Target
+import compose.icons.tablericons.Target2
 import compose.icons.tablericons.TargetArrow
 import compose.icons.tablericons.TargetOff
 import compose.icons.tablericons.Tax
@@ -4596,10 +4733,17 @@ import compose.icons.tablericons.TextDirectionRtl
 import compose.icons.tablericons.TextGrammar
 import compose.icons.tablericons.TextIncrease
 import compose.icons.tablericons.TextOrientation
+import compose.icons.tablericons.TextOutline
 import compose.icons.tablericons.TextPlus
 import compose.icons.tablericons.TextRecognition
+import compose.icons.tablericons.TextRegexAsterisk
+import compose.icons.tablericons.TextRegexEnd
+import compose.icons.tablericons.TextRegexPlus
+import compose.icons.tablericons.TextRegexQuestion
+import compose.icons.tablericons.TextRegexStart
 import compose.icons.tablericons.TextResize
 import compose.icons.tablericons.TextScan2
+import compose.icons.tablericons.TextScanAi
 import compose.icons.tablericons.TextSize
 import compose.icons.tablericons.TextSpellcheck
 import compose.icons.tablericons.TextWrap
@@ -4608,6 +4752,9 @@ import compose.icons.tablericons.TextWrapDisabled
 import compose.icons.tablericons.Texture
 import compose.icons.tablericons.Theater
 import compose.icons.tablericons.Thermometer
+import compose.icons.tablericons.ThinkingHigh
+import compose.icons.tablericons.ThinkingLow
+import compose.icons.tablericons.ThinkingMedium
 import compose.icons.tablericons.ThumbDown
 import compose.icons.tablericons.ThumbDownOff
 import compose.icons.tablericons.ThumbUp
@@ -4705,6 +4852,7 @@ import compose.icons.tablericons.Trash
 import compose.icons.tablericons.TrashOff
 import compose.icons.tablericons.TrashX
 import compose.icons.tablericons.Treadmill
+import compose.icons.tablericons.TreasureChest
 import compose.icons.tablericons.Tree
 import compose.icons.tablericons.Trees
 import compose.icons.tablericons.Trekking
@@ -4714,6 +4862,7 @@ import compose.icons.tablericons.TrendingDown3
 import compose.icons.tablericons.TrendingUp
 import compose.icons.tablericons.TrendingUp2
 import compose.icons.tablericons.TrendingUp3
+import compose.icons.tablericons.TrendingUpDown
 import compose.icons.tablericons.Triangle
 import compose.icons.tablericons.TriangleInverted
 import compose.icons.tablericons.TriangleMinus
@@ -4733,6 +4882,7 @@ import compose.icons.tablericons.TruckDelivery
 import compose.icons.tablericons.TruckLoading
 import compose.icons.tablericons.TruckOff
 import compose.icons.tablericons.TruckReturn
+import compose.icons.tablericons.Twig
 import compose.icons.tablericons.Txt
 import compose.icons.tablericons.Typeface
 import compose.icons.tablericons.Typography
@@ -4748,6 +4898,8 @@ import compose.icons.tablericons.UmbrellaClosed
 import compose.icons.tablericons.UmbrellaClosed2
 import compose.icons.tablericons.UmbrellaOff
 import compose.icons.tablericons.Underline
+import compose.icons.tablericons.UnderlineOff
+import compose.icons.tablericons.Unicycle
 import compose.icons.tablericons.Universe
 import compose.icons.tablericons.Unlink
 import compose.icons.tablericons.Upload
@@ -4767,6 +4919,7 @@ import compose.icons.tablericons.UserEdit
 import compose.icons.tablericons.UserExclamation
 import compose.icons.tablericons.UserHeart
 import compose.icons.tablericons.UserHexagon
+import compose.icons.tablericons.UserKey
 import compose.icons.tablericons.UserMinus
 import compose.icons.tablericons.UserOff
 import compose.icons.tablericons.UserPause
@@ -4799,6 +4952,7 @@ import compose.icons.tablericons.Variable
 import compose.icons.tablericons.VariableMinus
 import compose.icons.tablericons.VariableOff
 import compose.icons.tablericons.VariablePlus
+import compose.icons.tablericons.Vault
 import compose.icons.tablericons.Vector
 import compose.icons.tablericons.VectorBezier
 import compose.icons.tablericons.VectorBezier2
@@ -4825,14 +4979,19 @@ import compose.icons.tablericons.ViewportNarrow
 import compose.icons.tablericons.ViewportShort
 import compose.icons.tablericons.ViewportTall
 import compose.icons.tablericons.ViewportWide
+import compose.icons.tablericons.Vignette
 import compose.icons.tablericons.Vinyl
 import compose.icons.tablericons.Vip
+import compose.icons.tablericons.Vip2
 import compose.icons.tablericons.VipOff
+import compose.icons.tablericons.VirtualSpace
 import compose.icons.tablericons.Virus
 import compose.icons.tablericons.VirusOff
 import compose.icons.tablericons.VirusSearch
 import compose.icons.tablericons.Vocabulary
 import compose.icons.tablericons.VocabularyOff
+import compose.icons.tablericons.Voice
+import compose.icons.tablericons.Voice2
 import compose.icons.tablericons.Volcano
 import compose.icons.tablericons.Volume
 import compose.icons.tablericons.Volume2
@@ -4926,6 +5085,7 @@ import compose.icons.tablericons.WorldExclamation
 import compose.icons.tablericons.WorldHeart
 import compose.icons.tablericons.WorldLatitude
 import compose.icons.tablericons.WorldLongitude
+import compose.icons.tablericons.WorldMap
 import compose.icons.tablericons.WorldMinus
 import compose.icons.tablericons.WorldOff
 import compose.icons.tablericons.WorldPause
@@ -4945,6 +5105,7 @@ import compose.icons.tablericons.WritingOff
 import compose.icons.tablericons.WritingSign
 import compose.icons.tablericons.WritingSignOff
 import compose.icons.tablericons.X
+import compose.icons.tablericons.XMark
 import compose.icons.tablericons.XPowerY
 import compose.icons.tablericons.XboxA
 import compose.icons.tablericons.XboxB
@@ -4952,10 +5113,12 @@ import compose.icons.tablericons.XboxX
 import compose.icons.tablericons.XboxY
 import compose.icons.tablericons.Xd
 import compose.icons.tablericons.Xxx
+import compose.icons.tablericons.Yarn
 import compose.icons.tablericons.YinYang
 import compose.icons.tablericons.Yoga
 import compose.icons.tablericons.Zeppelin
 import compose.icons.tablericons.ZeppelinOff
+import compose.icons.tablericons.ZeroConfig
 import compose.icons.tablericons.Zip
 import compose.icons.tablericons.ZodiacAquarius
 import compose.icons.tablericons.ZodiacAries
@@ -4998,32 +5161,34 @@ public val TablerIcons.AllIcons: ____KtList<ImageVector>
       return __AllIcons!!
     }
     __AllIcons= listOf(AB, AB2, ABOff, Abacus, AbacusOff, Abc, AccessPoint, AccessPointOff,
-        Accessible, AccessibleOff, Activity, ActivityHeartbeat, Ad, Ad2, AdCircle, AdCircleOff,
-        AdOff, AddressBook, AddressBookOff, Adjustments, AdjustmentsAlt, AdjustmentsBolt,
-        AdjustmentsCancel, AdjustmentsCheck, AdjustmentsCode, AdjustmentsCog, AdjustmentsDollar,
-        AdjustmentsDown, AdjustmentsExclamation, AdjustmentsHeart, AdjustmentsHorizontal,
-        AdjustmentsMinus, AdjustmentsOff, AdjustmentsPause, AdjustmentsPin, AdjustmentsPlus,
-        AdjustmentsQuestion, AdjustmentsSearch, AdjustmentsShare, AdjustmentsSpark, AdjustmentsStar,
-        AdjustmentsUp, AdjustmentsX, AerialLift, Affiliate, Ai, AirBalloon, AirConditioning,
-        AirConditioningDisabled, AirTrafficControl, Alarm, AlarmAverage, AlarmMinus, AlarmOff,
-        AlarmPlus, AlarmSmoke, AlarmSnooze, Album, AlbumOff, AlertCircle, AlertCircleOff,
-        AlertHexagon, AlertHexagonOff, AlertOctagon, AlertSmall, AlertSmallOff, AlertSquare,
-        AlertSquareRounded, AlertSquareRoundedOff, AlertTriangle, AlertTriangleOff, Alien,
-        AlignBoxBottomCenter, AlignBoxBottomLeft, AlignBoxBottomRight, AlignBoxCenterBottom,
-        AlignBoxCenterMiddle, AlignBoxCenterStretch, AlignBoxCenterTop, AlignBoxLeftBottom,
-        AlignBoxLeftMiddle, AlignBoxLeftStretch, AlignBoxLeftTop, AlignBoxRightBottom,
-        AlignBoxRightMiddle, AlignBoxRightStretch, AlignBoxRightTop, AlignBoxTopCenter,
-        AlignBoxTopLeft, AlignBoxTopRight, AlignCenter, AlignJustified, AlignLeft, AlignLeft2,
-        AlignRight, AlignRight2, Alpha, AlphabetArabic, AlphabetBangla, AlphabetCyrillic,
-        AlphabetGreek, AlphabetHebrew, AlphabetKorean, AlphabetLatin, AlphabetPolish, AlphabetRunes,
-        AlphabetThai, Alt, Ambulance, Ampersand, Analyze, AnalyzeOff, Anchor, AnchorOff, Angle,
-        Ankh, Antenna, AntennaBars1, AntennaBars2, AntennaBars3, AntennaBars4, AntennaBars5,
-        AntennaBarsOff, AntennaOff, Aperture, ApertureOff, Api, ApiApp, ApiAppOff, ApiOff,
-        AppWindow, Apple, Apps, AppsOff, ArcheryArrow, Archive, ArchiveOff, Armchair, Armchair2,
-        Armchair2Off, ArmchairOff, ArrowAutofitContent, ArrowAutofitDown, ArrowAutofitHeight,
-        ArrowAutofitLeft, ArrowAutofitRight, ArrowAutofitUp, ArrowAutofitWidth, ArrowBack,
-        ArrowBackUp, ArrowBackUpDouble, ArrowBadgeDown, ArrowBadgeLeft, ArrowBadgeRight,
-        ArrowBadgeUp, ArrowBarBoth, ArrowBarDown, ArrowBarLeft, ArrowBarRight, ArrowBarToDown,
+        Accessible, AccessibleOff, Acorn, Acrobatic, Activity, ActivityHeartbeat, Ad, Ad2, AdCircle,
+        AdCircleOff, AdOff, AddressBook, AddressBookOff, Adjustments, AdjustmentsAlt,
+        AdjustmentsBolt, AdjustmentsCancel, AdjustmentsCheck, AdjustmentsCode, AdjustmentsCog,
+        AdjustmentsDollar, AdjustmentsDown, AdjustmentsExclamation, AdjustmentsHeart,
+        AdjustmentsHorizontal, AdjustmentsMinus, AdjustmentsOff, AdjustmentsPause, AdjustmentsPin,
+        AdjustmentsPlus, AdjustmentsQuestion, AdjustmentsSearch, AdjustmentsShare, AdjustmentsSpark,
+        AdjustmentsStar, AdjustmentsUp, AdjustmentsX, AerialLift, Affiliate, Ai, AiAgent, AiAgents,
+        AiGateway, AirBalloon, AirConditioning, AirConditioningDisabled, AirTrafficControl,
+        AirpodsL, AirpodsR, Alarm, AlarmAverage, AlarmMinus, AlarmOff, AlarmPlus, AlarmSmoke,
+        AlarmSnooze, Album, AlbumOff, AlertCircle, AlertCircleOff, AlertHexagon, AlertHexagonOff,
+        AlertOctagon, AlertSmall, AlertSmallOff, AlertSquare, AlertSquareRounded,
+        AlertSquareRoundedOff, AlertTriangle, AlertTriangleOff, Alien, AlignBoxBottomCenter,
+        AlignBoxBottomLeft, AlignBoxBottomRight, AlignBoxCenterBottom, AlignBoxCenterMiddle,
+        AlignBoxCenterStretch, AlignBoxCenterTop, AlignBoxLeftBottom, AlignBoxLeftMiddle,
+        AlignBoxLeftStretch, AlignBoxLeftTop, AlignBoxRightBottom, AlignBoxRightMiddle,
+        AlignBoxRightStretch, AlignBoxRightTop, AlignBoxTopCenter, AlignBoxTopLeft,
+        AlignBoxTopRight, AlignCenter, AlignJustified, AlignLeft, AlignLeft2, AlignRight,
+        AlignRight2, Alpha, AlphabetArabic, AlphabetBangla, AlphabetCyrillic, AlphabetGreek,
+        AlphabetHebrew, AlphabetKorean, AlphabetLatin, AlphabetPolish, AlphabetRunes, AlphabetThai,
+        Alt, Ambulance, Ampersand, Analyze, AnalyzeOff, Anchor, AnchorOff, Angle, Ankh, Antenna,
+        AntennaBars1, AntennaBars2, AntennaBars3, AntennaBars4, AntennaBars5, AntennaBarsOff,
+        AntennaOff, Aperture, ApertureOff, Api, ApiApp, ApiAppOff, ApiBook, ApiOff, AppWindow,
+        AppWindowBottom, AppWindowBottomLeft, AppWindowBottomRight, AppWindowCenter, Apple, Apps,
+        AppsOff, ArcheryArrow, Archive, ArchiveOff, Armchair, Armchair2, Armchair2Off, ArmchairOff,
+        ArrowAutofitContent, ArrowAutofitDown, ArrowAutofitHeight, ArrowAutofitLeft,
+        ArrowAutofitRight, ArrowAutofitUp, ArrowAutofitWidth, ArrowBack, ArrowBackUp,
+        ArrowBackUpDouble, ArrowBadgeDown, ArrowBadgeLeft, ArrowBadgeRight, ArrowBadgeUp,
+        ArrowBarBoth, ArrowBarDown, ArrowBarLeft, ArrowBarRight, ArrowBarToDown,
         ArrowBarToDownDashed, ArrowBarToLeft, ArrowBarToLeftDashed, ArrowBarToRight,
         ArrowBarToRightDashed, ArrowBarToUp, ArrowBarToUpDashed, ArrowBarUp, ArrowBearLeft,
         ArrowBearLeft2, ArrowBearRight, ArrowBearRight2, ArrowBigDown, ArrowBigDownLine,
@@ -5032,48 +5197,49 @@ public val TablerIcons.AllIcons: ____KtList<ImageVector>
         ArrowBounce, ArrowCapsule, ArrowCurveLeft, ArrowCurveRight, ArrowDown, ArrowDownBar,
         ArrowDownCircle, ArrowDownDashed, ArrowDownFromArc, ArrowDownLeft, ArrowDownLeftCircle,
         ArrowDownRhombus, ArrowDownRight, ArrowDownRightCircle, ArrowDownSquare, ArrowDownTail,
-        ArrowDownToArc, ArrowElbowLeft, ArrowElbowRight, ArrowFork, ArrowForward, ArrowForwardUp,
-        ArrowForwardUpDouble, ArrowGuide, ArrowIteration, ArrowLeft, ArrowLeftBar, ArrowLeftCircle,
-        ArrowLeftDashed, ArrowLeftFromArc, ArrowLeftRhombus, ArrowLeftRight, ArrowLeftSquare,
-        ArrowLeftTail, ArrowLeftToArc, ArrowLoopLeft, ArrowLoopLeft2, ArrowLoopRight,
-        ArrowLoopRight2, ArrowMerge, ArrowMergeAltLeft, ArrowMergeAltRight, ArrowMergeBoth,
-        ArrowMergeLeft, ArrowMergeRight, ArrowMoveDown, ArrowMoveLeft, ArrowMoveRight, ArrowMoveUp,
-        ArrowNarrowDown, ArrowNarrowDownDashed, ArrowNarrowLeft, ArrowNarrowLeftDashed,
-        ArrowNarrowRight, ArrowNarrowRightDashed, ArrowNarrowUp, ArrowNarrowUpDashed, ArrowRampLeft,
-        ArrowRampLeft2, ArrowRampLeft3, ArrowRampRight, ArrowRampRight2, ArrowRampRight3,
-        ArrowRight, ArrowRightBar, ArrowRightCircle, ArrowRightDashed, ArrowRightFromArc,
-        ArrowRightRhombus, ArrowRightSquare, ArrowRightTail, ArrowRightToArc, ArrowRotaryFirstLeft,
-        ArrowRotaryFirstRight, ArrowRotaryLastLeft, ArrowRotaryLastRight, ArrowRotaryLeft,
-        ArrowRotaryRight, ArrowRotaryStraight, ArrowRoundaboutLeft, ArrowRoundaboutRight,
-        ArrowSharpTurnLeft, ArrowSharpTurnRight, ArrowUp, ArrowUpBar, ArrowUpCircle, ArrowUpDashed,
-        ArrowUpFromArc, ArrowUpLeft, ArrowUpLeftCircle, ArrowUpRhombus, ArrowUpRight,
-        ArrowUpRightCircle, ArrowUpSquare, ArrowUpTail, ArrowUpToArc, ArrowWaveLeftDown,
-        ArrowWaveLeftUp, ArrowWaveRightDown, ArrowWaveRightUp, ArrowZigZag, ArrowsCross,
-        ArrowsDiagonal, ArrowsDiagonal2, ArrowsDiagonalMinimize, ArrowsDiagonalMinimize2,
-        ArrowsDiff, ArrowsDoubleNeSw, ArrowsDoubleNwSe, ArrowsDoubleSeNw, ArrowsDoubleSwNe,
-        ArrowsDown, ArrowsDownUp, ArrowsExchange, ArrowsExchange2, ArrowsHorizontal, ArrowsJoin,
-        ArrowsJoin2, ArrowsLeft, ArrowsLeftDown, ArrowsLeftRight, ArrowsMaximize, ArrowsMinimize,
-        ArrowsMove, ArrowsMoveHorizontal, ArrowsMoveVertical, ArrowsRandom, ArrowsRight,
-        ArrowsRightDown, ArrowsRightLeft, ArrowsShuffle, ArrowsShuffle2, ArrowsSort, ArrowsSplit,
-        ArrowsSplit2, ArrowsTransferDown, ArrowsTransferUp, ArrowsTransferUpDown, ArrowsUp,
-        ArrowsUpDown, ArrowsUpLeft, ArrowsUpRight, ArrowsVertical, Artboard, ArtboardOff, Article,
-        ArticleOff, AspectRatio, AspectRatioOff, Assembly, AssemblyOff, Asset, Asterisk,
-        AsteriskSimple, At, AtOff, Atom, Atom2, AtomOff, AugmentedReality, AugmentedReality2,
-        AugmentedRealityOff, Auth2fa, AutomaticGearbox, Automation, Avocado, Award, AwardOff, Axe,
-        AxisX, AxisY, BabyBottle, BabyCarriage, Background, Backhoe, Backpack, BackpackOff,
-        Backslash, Backspace, Badge, Badge2k, Badge3d, Badge3k, Badge4k, Badge5k, Badge8k, BadgeAd,
-        BadgeAdOff, BadgeAr, BadgeCc, BadgeHd, BadgeOff, BadgeSd, BadgeTm, BadgeVo, BadgeVr,
-        BadgeWc, Badges, BadgesOff, Baguette, BallAmericanFootball, BallAmericanFootballOff,
-        BallBaseball, BallBasketball, BallBowling, BallFootball, BallFootballOff, BallTennis,
-        BallVolleyball, Balloon, BalloonOff, Ballpen, BallpenOff, Ban, Bandage, BandageOff, Barbell,
-        BarbellOff, Barcode, BarcodeOff, Barrel, BarrelOff, BarrierBlock, BarrierBlockOff, Baseline,
-        BaselineDensityLarge, BaselineDensityMedium, BaselineDensitySmall, Basket, BasketBolt,
-        BasketCancel, BasketCheck, BasketCode, BasketCog, BasketDiscount, BasketDollar, BasketDown,
-        BasketExclamation, BasketHeart, BasketMinus, BasketOff, BasketPause, BasketPin, BasketPlus,
-        BasketQuestion, BasketSearch, BasketShare, BasketStar, BasketUp, BasketX, Bat, Bath,
-        BathOff, Battery, Battery1, Battery2, Battery3, Battery4, BatteryAutomotive,
-        BatteryCharging, BatteryCharging2, BatteryEco, BatteryExclamation, BatteryOff, BatterySpark,
-        BatteryVertical, BatteryVertical1, BatteryVertical2, BatteryVertical3, BatteryVertical4,
+        ArrowDownToArc, ArrowElbowLeft, ArrowElbowRight, ArrowFork, ArrowForkTriple, ArrowForward,
+        ArrowForwardUp, ArrowForwardUpDouble, ArrowGuide, ArrowIteration, ArrowLeft, ArrowLeftBar,
+        ArrowLeftCircle, ArrowLeftDashed, ArrowLeftFromArc, ArrowLeftRhombus, ArrowLeftRight,
+        ArrowLeftSquare, ArrowLeftTail, ArrowLeftToArc, ArrowLoopLeft, ArrowLoopLeft2,
+        ArrowLoopRight, ArrowLoopRight2, ArrowMerge, ArrowMergeAltLeft, ArrowMergeAltRight,
+        ArrowMergeBoth, ArrowMergeLeft, ArrowMergeRight, ArrowMoveDown, ArrowMoveLeft,
+        ArrowMoveRight, ArrowMoveUp, ArrowNarrowDown, ArrowNarrowDownDashed, ArrowNarrowLeft,
+        ArrowNarrowLeftDashed, ArrowNarrowRight, ArrowNarrowRightDashed, ArrowNarrowUp,
+        ArrowNarrowUpDashed, ArrowRampLeft, ArrowRampLeft2, ArrowRampLeft3, ArrowRampRight,
+        ArrowRampRight2, ArrowRampRight3, ArrowRight, ArrowRightBar, ArrowRightCircle,
+        ArrowRightDashed, ArrowRightFromArc, ArrowRightRhombus, ArrowRightSquare, ArrowRightTail,
+        ArrowRightToArc, ArrowRotaryFirstLeft, ArrowRotaryFirstRight, ArrowRotaryLastLeft,
+        ArrowRotaryLastRight, ArrowRotaryLeft, ArrowRotaryRight, ArrowRotaryStraight,
+        ArrowRoundaboutLeft, ArrowRoundaboutRight, ArrowSharpTurnLeft, ArrowSharpTurnRight, ArrowUp,
+        ArrowUpBar, ArrowUpCircle, ArrowUpDashed, ArrowUpFromArc, ArrowUpLeft, ArrowUpLeftCircle,
+        ArrowUpRhombus, ArrowUpRight, ArrowUpRightCircle, ArrowUpSquare, ArrowUpTail, ArrowUpToArc,
+        ArrowWaveLeftDown, ArrowWaveLeftUp, ArrowWaveRightDown, ArrowWaveRightUp, ArrowZigZag,
+        ArrowsCross, ArrowsDiagonal, ArrowsDiagonal2, ArrowsDiagonalMinimize,
+        ArrowsDiagonalMinimize2, ArrowsDiff, ArrowsDoubleNeSw, ArrowsDoubleNwSe, ArrowsDoubleSeNw,
+        ArrowsDoubleSwNe, ArrowsDown, ArrowsDownUp, ArrowsExchange, ArrowsExchange2,
+        ArrowsHorizontal, ArrowsJoin, ArrowsJoin2, ArrowsLeft, ArrowsLeftDown, ArrowsLeftRight,
+        ArrowsMaximize, ArrowsMinimize, ArrowsMove, ArrowsMoveHorizontal, ArrowsMoveVertical,
+        ArrowsRandom, ArrowsRight, ArrowsRightDown, ArrowsRightLeft, ArrowsShuffle, ArrowsShuffle2,
+        ArrowsSort, ArrowsSplit, ArrowsSplit2, ArrowsTransferDown, ArrowsTransferUp,
+        ArrowsTransferUpDown, ArrowsUp, ArrowsUpDown, ArrowsUpLeft, ArrowsUpRight, ArrowsVertical,
+        Artboard, ArtboardOff, Article, ArticleOff, AspectRatio, AspectRatioOff, Assembly,
+        AssemblyOff, Asset, Asterisk, AsteriskSimple, At, AtOff, Atom, Atom2, AtomOff,
+        AugmentedReality, AugmentedReality2, AugmentedRealityOff, Auth2fa, AutomaticGearbox,
+        Automation, Avocado, Award, AwardOff, Axe, AxisX, AxisY, BabyBottle, BabyCarriage,
+        Background, Backhoe, Backpack, BackpackOff, Backslash, Backspace, Badge, Badge2k, Badge3d,
+        Badge3k, Badge4k, Badge5k, Badge8k, BadgeAd, BadgeAdOff, BadgeAr, BadgeCc, BadgeHd,
+        BadgeOff, BadgeSd, BadgeTm, BadgeVo, BadgeVr, BadgeWc, Badges, BadgesOff, Baguette,
+        BallAmericanFootball, BallAmericanFootballOff, BallBaseball, BallBasketball, BallBowling,
+        BallFootball, BallFootballOff, BallTennis, BallVolleyball, Balloon, BalloonOff, Ballpen,
+        BallpenOff, Ban, Banana, Bandage, BandageOff, Barbell, BarbellOff, Barcode, BarcodeOff,
+        Barrel, BarrelOff, BarrierBlock, BarrierBlockOff, Baseline, BaselineDensityLarge,
+        BaselineDensityMedium, BaselineDensitySmall, Basket, BasketBolt, BasketCancel, BasketCheck,
+        BasketCode, BasketCog, BasketDiscount, BasketDollar, BasketDown, BasketExclamation,
+        BasketHeart, BasketMinus, BasketOff, BasketPause, BasketPin, BasketPlus, BasketQuestion,
+        BasketSearch, BasketShare, BasketStar, BasketUp, BasketX, Bat, Bath, BathOff, Battery,
+        Battery1, Battery2, Battery3, Battery4, BatteryAutomotive, BatteryCharging,
+        BatteryCharging2, BatteryEco, BatteryExclamation, BatteryOff, BatterySpark, BatteryVertical,
+        BatteryVertical1, BatteryVertical2, BatteryVertical3, BatteryVertical4,
         BatteryVerticalCharging, BatteryVerticalCharging2, BatteryVerticalEco,
         BatteryVerticalExclamation, BatteryVerticalOff, Beach, BeachOff, Bed, BedFlat, BedOff, Beer,
         BeerOff, Bell, BellBolt, BellCancel, BellCheck, BellCode, BellCog, BellDollar, BellDown,
@@ -5089,21 +5255,21 @@ public val TablerIcons.AllIcons: ____KtList<ImageVector>
         BorderCornerIos, BorderCornerPill, BorderCornerRounded, BorderCornerSquare, BorderCorners,
         BorderHorizontal, BorderInner, BorderLeft, BorderLeftPlus, BorderNone, BorderOuter,
         BorderRadius, BorderRight, BorderRightPlus, BorderSides, BorderStyle, BorderStyle2,
-        BorderTop, BorderTopPlus, BorderVertical, Bottle, BottleOff, BounceLeft, BounceRight, Bow,
-        Bowl, BowlChopsticks, BowlSpoon, Bowling, Box, BoxAlignBottom, BoxAlignBottomLeft,
+        BorderTop, BorderTopPlus, BorderVertical, BotId, Bottle, BottleOff, BounceLeft, BounceRight,
+        Bow, Bowl, BowlChopsticks, BowlSpoon, Bowling, Box, BoxAlignBottom, BoxAlignBottomLeft,
         BoxAlignBottomRight, BoxAlignLeft, BoxAlignRight, BoxAlignTop, BoxAlignTopLeft,
         BoxAlignTopRight, BoxMargin, BoxModel, BoxModel2, BoxModel2Off, BoxModelOff, BoxMultiple,
         BoxMultiple0, BoxMultiple1, BoxMultiple2, BoxMultiple3, BoxMultiple4, BoxMultiple5,
         BoxMultiple6, BoxMultiple7, BoxMultiple8, BoxMultiple9, BoxOff, BoxPadding, Braces,
         BracesOff, Brackets, BracketsAngle, BracketsAngleOff, BracketsContain, BracketsContainEnd,
         BracketsContainStart, BracketsOff, Braille, Brain, Brand4chan, BrandAbstract, BrandAdobe,
-        BrandAdobeAfterEffect, BrandAdobeIllustrator, BrandAdobeIndesign, BrandAdobePhotoshop,
+        BrandAdobeAfterEffects, BrandAdobeIllustrator, BrandAdobeIndesign, BrandAdobePhotoshop,
         BrandAdobePremiere, BrandAdobeXd, BrandAdonisJs, BrandAirbnb, BrandAirtable, BrandAlgolia,
         BrandAlipay, BrandAlpineJs, BrandAmazon, BrandAmd, BrandAmie, BrandAmigo, BrandAmongUs,
         BrandAndroid, BrandAngular, BrandAnsible, BrandAo3, BrandAppgallery, BrandApple,
         BrandAppleArcade, BrandAppleNews, BrandApplePodcast, BrandAppstore, BrandArc, BrandAsana,
-        BrandAstro, BrandAuth0, BrandAws, BrandAzure, BrandBackbone, BrandBadoo, BrandBaidu,
-        BrandBandcamp, BrandBandlab, BrandBeats, BrandBebo, BrandBehance, BrandBilibili,
+        BrandAstro, BrandAudible, BrandAuth0, BrandAws, BrandAzure, BrandBackbone, BrandBadoo,
+        BrandBaidu, BrandBandcamp, BrandBandlab, BrandBeats, BrandBebo, BrandBehance, BrandBilibili,
         BrandBinance, BrandBing, BrandBitbucket, BrandBlackberry, BrandBlender, BrandBlogger,
         BrandBluesky, BrandBooking, BrandBootstrap, BrandBulma, BrandBumble, BrandBunpo,
         BrandCSharp, BrandCake, BrandCakephp, BrandCampaignmonitor, BrandCarbon, BrandCashapp,
@@ -5123,87 +5289,89 @@ public val TablerIcons.AllIcons: ____KtList<ImageVector>
         BrandGoogleBigQuery, BrandGoogleDrive, BrandGoogleFit, BrandGoogleHome, BrandGoogleMaps,
         BrandGoogleOne, BrandGooglePhotos, BrandGooglePlay, BrandGooglePodcasts, BrandGrammarly,
         BrandGraphql, BrandGravatar, BrandGrindr, BrandGuardian, BrandGumroad, BrandHackerrank,
-        BrandHbo, BrandHeadlessui, BrandHexo, BrandHipchat, BrandHtml5, BrandInertia,
-        BrandInstagram, BrandIntercom, BrandItch, BrandJavascript, BrandJuejin, BrandKakoTalk,
-        BrandKbin, BrandKick, BrandKickstarter, BrandKotlin, BrandLaravel, BrandLastfm,
-        BrandLeetcode, BrandLetterboxd, BrandLine, BrandLinkedin, BrandLinktree, BrandLinqpad,
-        BrandLivewire, BrandLoom, BrandMailgun, BrandMantine, BrandMastercard, BrandMastodon,
-        BrandMatrix, BrandMcdonalds, BrandMedium, BrandMeetup, BrandMercedes, BrandMessenger,
-        BrandMeta, BrandMetabrainz, BrandMinecraft, BrandMiniprogram, BrandMixpanel, BrandMonday,
-        BrandMongodb, BrandMyOppo, BrandMysql, BrandNationalGeographic, BrandNem, BrandNetbeans,
-        BrandNeteaseMusic, BrandNetflix, BrandNexo, BrandNextcloud, BrandNextjs, BrandNodejs,
-        BrandNordVpn, BrandNotion, BrandNpm, BrandNuxt, BrandNytimes, BrandOauth, BrandOffice,
-        BrandOkRu, BrandOnedrive, BrandOnlyfans, BrandOpenSource, BrandOpenai, BrandOpenvpn,
-        BrandOpera, BrandPagekit, BrandParsinta, BrandPatreon, BrandPaypal, BrandPaypay,
-        BrandPeanut, BrandPepsi, BrandPhp, BrandPicsart, BrandPinterest, BrandPlanetscale,
-        BrandPnpm, BrandPocket, BrandPolymer, BrandPowershell, BrandPrintables, BrandPrisma,
-        BrandProducthunt, BrandPushbullet, BrandPushover, BrandPython, BrandQq, BrandRadixUi,
-        BrandReact, BrandReactNative, BrandReason, BrandReddit, BrandRedhat, BrandRedux,
-        BrandRevolut, BrandRumble, BrandRust, BrandSafari, BrandSamsungpass, BrandSass, BrandSentry,
-        BrandSharik, BrandShazam, BrandShopee, BrandSketch, BrandSkype, BrandSlack, BrandSnapchat,
-        BrandSnapseed, BrandSnowflake, BrandSocketIo, BrandSolidjs, BrandSoundcloud, BrandSpacehey,
-        BrandSpeedtest, BrandSpotify, BrandStackoverflow, BrandStackshare, BrandSteam,
-        BrandStocktwits, BrandStorj, BrandStorybook, BrandStorytel, BrandStrava, BrandStripe,
-        BrandSublimeText, BrandSugarizer, BrandSupabase, BrandSuperhuman, BrandSupernova,
-        BrandSurfshark, BrandSvelte, BrandSwift, BrandSymfony, BrandTabler, BrandTabnine,
-        BrandTailwind, BrandTaobao, BrandTeams, BrandTed, BrandTelegram, BrandTerraform, BrandTesla,
-        BrandTether, BrandThingiverse, BrandThreads, BrandThreejs, BrandTidal, BrandTiktok,
-        BrandTinder, BrandTopbuzz, BrandTorchain, BrandToyota, BrandTrello, BrandTripadvisor,
-        BrandTumblr, BrandTwilio, BrandTwitch, BrandTwitter, BrandTypescript, BrandUber,
-        BrandUbuntu, BrandUnity, BrandUnsplash, BrandUpwork, BrandValorant, BrandVercel, BrandVimeo,
-        BrandVinted, BrandVisa, BrandVisualStudio, BrandVite, BrandVivaldi, BrandVk, BrandVlc,
-        BrandVolkswagen, BrandVsco, BrandVscode, BrandVue, BrandWalmart, BrandWaze, BrandWebflow,
-        BrandWechat, BrandWeibo, BrandWhatsapp, BrandWikipedia, BrandWindows, BrandWindy, BrandWish,
-        BrandWix, BrandWordpress, BrandX, BrandXamarin, BrandXbox, BrandXdeep, BrandXing,
-        BrandYahoo, BrandYandex, BrandYarn, BrandYatse, BrandYcombinator, BrandYoutube,
-        BrandYoutubeKids, BrandZalando, BrandZapier, BrandZeit, BrandZhihu, BrandZoom, BrandZulip,
-        BrandZwift, Bread, BreadOff, Briefcase, Briefcase2, BriefcaseOff, Brightness, Brightness2,
-        BrightnessAuto, BrightnessDown, BrightnessHalf, BrightnessOff, BrightnessUp, Broadcast,
-        BroadcastOff, Browser, BrowserCheck, BrowserMaximize, BrowserMinus, BrowserOff, BrowserPlus,
-        BrowserShare, BrowserX, Brush, BrushOff, Bubble, BubbleMinus, BubblePlus, BubbleTea,
-        BubbleTea2, BubbleText, BubbleX, Bucket, BucketDroplet, BucketOff, Bug, BugOff, Building,
-        BuildingAirport, BuildingArch, BuildingBank, BuildingBridge, BuildingBridge2,
-        BuildingBroadcastTower, BuildingBurjAlArab, BuildingCarousel, BuildingCastle,
-        BuildingChurch, BuildingCircus, BuildingCog, BuildingCommunity, BuildingCottage,
-        BuildingEstate, BuildingFactory, BuildingFactory2, BuildingFortress, BuildingHospital,
-        BuildingLighthouse, BuildingMinus, BuildingMonument, BuildingMosque, BuildingOff,
-        BuildingPavilion, BuildingPlus, BuildingSkyscraper, BuildingStadium, BuildingStore,
-        BuildingTunnel, BuildingWarehouse, BuildingWindTurbine, Buildings, Bulb, BulbOff, Bulldozer,
-        Burger, Bus, BusOff, BusStop, Businessplan, Butterfly, Cactus, CactusOff, Cake, CakeOff,
-        CakeRoll, Calculator, CalculatorOff, Calendar, CalendarBolt, CalendarCancel, CalendarCheck,
-        CalendarClock, CalendarCode, CalendarCog, CalendarDollar, CalendarDot, CalendarDown,
-        CalendarDue, CalendarEvent, CalendarExclamation, CalendarHeart, CalendarMinus,
-        CalendarMonth, CalendarOff, CalendarPause, CalendarPin, CalendarPlus, CalendarQuestion,
-        CalendarRepeat, CalendarSad, CalendarSearch, CalendarShare, CalendarSmile, CalendarStar,
-        CalendarStats, CalendarTime, CalendarUp, CalendarUser, CalendarWeek, CalendarX, Camera,
-        CameraAi, CameraBitcoin, CameraBolt, CameraCancel, CameraCheck, CameraCode, CameraCog,
-        CameraDollar, CameraDown, CameraExclamation, CameraHeart, CameraMinus, CameraMoon,
-        CameraOff, CameraPause, CameraPin, CameraPlus, CameraQuestion, CameraRotate, CameraSearch,
-        CameraSelfie, CameraShare, CameraSpark, CameraStar, CameraUp, CameraX, Camper, Campfire,
-        Cancel, Candle, Candy, CandyOff, Cane, Cannabis, CapProjecting, CapRounded, CapStraight,
-        Capsule, CapsuleHorizontal, Capture, CaptureOff, Car, Car4wd, CarCrane, CarCrash, CarFan,
-        CarFan1, CarFan2, CarFan3, CarFanAuto, CarGarage, CarOff, CarSuv, CarTurbine, Carambola,
-        Caravan, Cardboards, CardboardsOff, Cards, CaretDown, CaretLeft, CaretLeftRight, CaretRight,
-        CaretUp, CaretUpDown, CarouselHorizontal, CarouselVertical, Carrot, CarrotOff, Cash,
-        CashBanknote, CashBanknoteEdit, CashBanknoteHeart, CashBanknoteMinus, CashBanknoteMove,
-        CashBanknoteMoveBack, CashBanknoteOff, CashBanknotePlus, CashEdit, CashHeart, CashMinus,
-        CashMove, CashMoveBack, CashOff, CashPlus, CashRegister, Cast, CastOff, Cat, Category,
-        Category2, CategoryMinus, CategoryPlus, Ce, CeOff, Cell, CellSignal1, CellSignal2,
-        CellSignal3, CellSignal4, CellSignal5, CellSignalOff, Certificate, Certificate2,
-        Certificate2Off, CertificateOff, ChairDirector, Chalkboard, ChalkboardOff,
-        ChalkboardTeacher, ChargingPile, ChartArcs, ChartArcs3, ChartArea, ChartAreaLine,
-        ChartArrows, ChartArrowsVertical, ChartBar, ChartBarOff, ChartBarPopular, ChartBubble,
-        ChartCandle, ChartCircles, ChartCohort, ChartColumn, ChartCovariate, ChartDonut,
-        ChartDonut2, ChartDonut3, ChartDonut4, ChartDots, ChartDots2, ChartDots3, ChartFunnel,
-        ChartGridDots, ChartHistogram, ChartInfographic, ChartLine, ChartPie, ChartPie2, ChartPie3,
-        ChartPie4, ChartPieOff, ChartPpf, ChartRadar, ChartSankey, ChartScatter, ChartScatter3d,
-        ChartTreemap, Check, Checkbox, Checklist, Checks, CheckupList, Cheese, ChefHat, ChefHatOff,
-        Cherry, Chess, ChessBishop, ChessKing, ChessKnight, ChessQueen, ChessRook,
-        ChevronCompactDown, ChevronCompactLeft, ChevronCompactRight, ChevronCompactUp, ChevronDown,
-        ChevronDownLeft, ChevronDownRight, ChevronLeft, ChevronLeftPipe, ChevronRight,
-        ChevronRightPipe, ChevronUp, ChevronUpLeft, ChevronUpRight, ChevronsDown, ChevronsDownLeft,
-        ChevronsDownRight, ChevronsLeft, ChevronsRight, ChevronsUp, ChevronsUpLeft, ChevronsUpRight,
-        Chisel, ChristmasBall, ChristmasTree, ChristmasTreeOff, Circle, CircleArrowDown,
+        BrandHbo, BrandHeadlessui, BrandHexo, BrandHipchat, BrandHtml5, BrandInertia, BrandInfakt,
+        BrandInstagram, BrandIntercom, BrandItch, BrandJavascript, BrandJira, BrandJuejin,
+        BrandKakaoTalk, BrandKbin, BrandKick, BrandKickstarter, BrandKotlin, BrandLaravel,
+        BrandLastfm, BrandLeetcode, BrandLetterboxd, BrandLine, BrandLinkedin, BrandLinktree,
+        BrandLinqpad, BrandLivewire, BrandLoom, BrandMailgun, BrandMantine, BrandMastercard,
+        BrandMastodon, BrandMatrix, BrandMcdonalds, BrandMedium, BrandMeetup, BrandMercedes,
+        BrandMessenger, BrandMeta, BrandMetabrainz, BrandMinecraft, BrandMiniprogram, BrandMixpanel,
+        BrandMonday, BrandMongodb, BrandMyOppo, BrandMysql, BrandNationalGeographic, BrandNem,
+        BrandNetbeans, BrandNeteaseMusic, BrandNetflix, BrandNexo, BrandNextcloud, BrandNextjs,
+        BrandNodejs, BrandNordVpn, BrandNotion, BrandNpm, BrandNuxt, BrandNytimes, BrandOauth,
+        BrandOffice, BrandOkRu, BrandOnedrive, BrandOnlyfans, BrandOpenSource, BrandOpenai,
+        BrandOpenvpn, BrandOpera, BrandPagekit, BrandParsinta, BrandPatreon, BrandPaypal,
+        BrandPaypay, BrandPeanut, BrandPepsi, BrandPhp, BrandPicsart, BrandPinterest,
+        BrandPlanetscale, BrandPnpm, BrandPocket, BrandPolymer, BrandPowershell, BrandPrintables,
+        BrandPrisma, BrandProducthunt, BrandPushbullet, BrandPushover, BrandPython, BrandQq,
+        BrandRadixUi, BrandReact, BrandReactNative, BrandReason, BrandReddit, BrandRedhat,
+        BrandRedux, BrandRevolut, BrandRumble, BrandRust, BrandSafari, BrandSamsungpass, BrandSass,
+        BrandSentry, BrandSharik, BrandShazam, BrandShopee, BrandSignal, BrandSketch, BrandSkype,
+        BrandSlack, BrandSnapchat, BrandSnapseed, BrandSnowflake, BrandSocketIo, BrandSolidjs,
+        BrandSoundcloud, BrandSpacehey, BrandSpeedtest, BrandSpotify, BrandStackoverflow,
+        BrandStackshare, BrandSteam, BrandStellar, BrandStocktwits, BrandStorj, BrandStorybook,
+        BrandStorytel, BrandStrava, BrandStripe, BrandSublimeText, BrandSugarizer, BrandSupabase,
+        BrandSuperhuman, BrandSupernova, BrandSurfshark, BrandSvelte, BrandSwift, BrandSymfony,
+        BrandTabler, BrandTabnine, BrandTailwind, BrandTaobao, BrandTeams, BrandTed, BrandTelegram,
+        BrandTerraform, BrandTesla, BrandTether, BrandThingiverse, BrandThreads, BrandThreejs,
+        BrandTidal, BrandTiktok, BrandTinder, BrandTopbuzz, BrandTorchain, BrandToyota, BrandTrello,
+        BrandTripadvisor, BrandTumblr, BrandTwilio, BrandTwitch, BrandTwitter, BrandTypescript,
+        BrandUber, BrandUbuntu, BrandUnity, BrandUnsplash, BrandUpwork, BrandValorant, BrandVechain,
+        BrandVercel, BrandVimeo, BrandVinted, BrandVisa, BrandVisualStudio, BrandVite, BrandVivaldi,
+        BrandVk, BrandVlc, BrandVolkswagen, BrandVsco, BrandVscode, BrandVue, BrandWalmart,
+        BrandWaze, BrandWebflow, BrandWechat, BrandWeibo, BrandWhatsapp, BrandWikipedia,
+        BrandWindows, BrandWindy, BrandWish, BrandWix, BrandWordpress, BrandX, BrandXamarin,
+        BrandXbox, BrandXdeep, BrandXing, BrandYahoo, BrandYandex, BrandYarn, BrandYatse,
+        BrandYcombinator, BrandYoutube, BrandYoutubeKids, BrandZalando, BrandZapier, BrandZeit,
+        BrandZhihu, BrandZoom, BrandZulip, BrandZwift, Bread, BreadOff, Briefcase, Briefcase2,
+        BriefcaseOff, Brightness, Brightness2, BrightnessAuto, BrightnessDown, BrightnessHalf,
+        BrightnessOff, BrightnessUp, Broadcast, BroadcastOff, Browser, BrowserCheck,
+        BrowserMaximize, BrowserMinus, BrowserOff, BrowserPlus, BrowserShare, BrowserX, Brush,
+        BrushOff, Bubble, BubbleMinus, BubblePlus, BubbleTea, BubbleTea2, BubbleText, BubbleX,
+        Bucket, BucketDroplet, BucketOff, Bug, BugOff, Building, BuildingAirport, BuildingArch,
+        BuildingBank, BuildingBridge, BuildingBridge2, BuildingBroadcastTower, BuildingBurjAlArab,
+        BuildingCarousel, BuildingCastle, BuildingChurch, BuildingCircus, BuildingCog,
+        BuildingCommunity, BuildingCottage, BuildingEiffelTower, BuildingEstate, BuildingFactory,
+        BuildingFactory2, BuildingFortress, BuildingHospital, BuildingLighthouse, BuildingMinus,
+        BuildingMonument, BuildingMosque, BuildingOff, BuildingPavilion, BuildingPlus,
+        BuildingSkyscraper, BuildingStadium, BuildingStore, BuildingTunnel, BuildingWarehouse,
+        BuildingWindTurbine, Buildings, Bulb, BulbOff, Bulldozer, Burger, Bus, BusOff, BusStop,
+        Businessplan, Butterfly, Cactus, CactusOff, Cake, CakeOff, CakeRoll, Calculator,
+        CalculatorOff, Calendar, CalendarBolt, CalendarCancel, CalendarCheck, CalendarClock,
+        CalendarCode, CalendarCog, CalendarDollar, CalendarDot, CalendarDown, CalendarDue,
+        CalendarEvent, CalendarExclamation, CalendarHeart, CalendarMinus, CalendarMonth,
+        CalendarOff, CalendarPause, CalendarPin, CalendarPlus, CalendarQuestion, CalendarRepeat,
+        CalendarSad, CalendarSearch, CalendarShare, CalendarSmile, CalendarStar, CalendarStats,
+        CalendarTime, CalendarUp, CalendarUser, CalendarWeek, CalendarX, Camera, CameraAi,
+        CameraBitcoin, CameraBolt, CameraCancel, CameraCheck, CameraCode, CameraCog, CameraDollar,
+        CameraDown, CameraExclamation, CameraHeart, CameraMinus, CameraMoon, CameraOff, CameraPause,
+        CameraPin, CameraPlus, CameraQuestion, CameraRotate, CameraSearch, CameraSelfie,
+        CameraShare, CameraSpark, CameraStar, CameraUp, CameraX, Camper, Campfire, Canary, Cancel,
+        Candle, Candy, CandyOff, Cane, Cannabis, CapProjecting, CapRounded, CapStraight, Capsule,
+        CapsuleHorizontal, Capture, CaptureOff, Car, Car4wd, CarCrane, CarCrash, CarDoor, CarFan,
+        CarFan1, CarFan2, CarFan3, CarFanAuto, CarGarage, CarLifter, CarOff, CarOffRoad,
+        CarSuspension, CarSuv, CarTurbine, Carambola, Caravan, Cardboards, CardboardsOff, Cards,
+        CaretDown, CaretLeft, CaretLeftRight, CaretRight, CaretUp, CaretUpDown, CarouselHorizontal,
+        CarouselVertical, Carrot, CarrotOff, Cash, CashBanknote, CashBanknoteEdit,
+        CashBanknoteHeart, CashBanknoteMinus, CashBanknoteMove, CashBanknoteMoveBack,
+        CashBanknoteOff, CashBanknotePlus, CashCoin, CashEdit, CashHeart, CashMinus, CashMove,
+        CashMoveBack, CashOff, CashPlus, CashRegister, Cast, CastOff, Cat, Category, Category2,
+        CategoryMinus, CategoryPlus, Ce, CeOff, Cell, CellSignal1, CellSignal2, CellSignal3,
+        CellSignal4, CellSignal5, CellSignalOff, Certificate, Certificate2, Certificate2Off,
+        CertificateOff, ChairDirector, Chalkboard, ChalkboardOff, ChalkboardTeacher, ChargingPile,
+        ChartArcs, ChartArcs3, ChartArea, ChartAreaLine, ChartArrows, ChartArrowsVertical, ChartBar,
+        ChartBarOff, ChartBarPopular, ChartBubble, ChartCandle, ChartCircles, ChartCohort,
+        ChartColumn, ChartCovariate, ChartDonut, ChartDonut2, ChartDonut3, ChartDonut4, ChartDots,
+        ChartDots2, ChartDots3, ChartFunnel, ChartGridDots, ChartHistogram, ChartInfographic,
+        ChartLine, ChartPie, ChartPie2, ChartPie3, ChartPie4, ChartPieOff, ChartPpf, ChartRadar,
+        ChartSankey, ChartScatter, ChartScatter3d, ChartTreemap, Check, Checkbox, Checklist, Checks,
+        CheckupList, Cheese, ChefHat, ChefHatOff, Cherry, Chess, ChessBishop, ChessKing,
+        ChessKnight, ChessQueen, ChessRook, ChevronCompactDown, ChevronCompactLeft,
+        ChevronCompactRight, ChevronCompactUp, ChevronDown, ChevronDownLeft, ChevronDownRight,
+        ChevronLeft, ChevronLeftPipe, ChevronRight, ChevronRightPipe, ChevronUp, ChevronUpLeft,
+        ChevronUpRight, ChevronsDown, ChevronsDownLeft, ChevronsDownRight, ChevronsLeft,
+        ChevronsRight, ChevronsUp, ChevronsUpLeft, ChevronsUpRight, Chisel, Chocolate,
+        ChristmasBall, ChristmasTree, ChristmasTreeOff, Circle, CircleArrowDown,
         CircleArrowDownLeft, CircleArrowDownRight, CircleArrowLeft, CircleArrowRight, CircleArrowUp,
         CircleArrowUpLeft, CircleArrowUpRight, CircleAsterisk, CircleCaretDown, CircleCaretLeft,
         CircleCaretRight, CircleCaretUp, CircleCheck, CircleChevronDown, CircleChevronLeft,
@@ -5232,181 +5400,187 @@ public val TablerIcons.AllIcons: ____KtList<ImageVector>
         CircleLetterR, CircleLetterS, CircleLetterT, CircleLetterU, CircleLetterV, CircleLetterW,
         CircleLetterX, CircleLetterY, CircleLetterZ, CircleMinus, CircleMinus2, CircleNumber0,
         CircleNumber1, CircleNumber2, CircleNumber3, CircleNumber4, CircleNumber5, CircleNumber6,
-        CircleNumber7, CircleNumber8, CircleNumber9, CircleOff, CirclePercentage, CirclePlus,
-        CirclePlus2, CircleRectangle, CircleRectangleOff, CircleSquare, CircleTriangle, CircleX,
-        Circles, CirclesRelation, CircuitAmmeter, CircuitBattery, CircuitBulb, CircuitCapacitor,
-        CircuitCapacitorPolarized, CircuitCell, CircuitCellPlus, CircuitChangeover, CircuitDiode,
-        CircuitDiodeZener, CircuitGround, CircuitGroundDigital, CircuitInductor, CircuitMotor,
-        CircuitPushbutton, CircuitResistor, CircuitSwitchClosed, CircuitSwitchOpen,
-        CircuitVoltmeter, ClearAll, ClearFormatting, Click, CliffJumping, Clipboard, ClipboardCheck,
-        ClipboardCopy, ClipboardData, ClipboardHeart, ClipboardList, ClipboardOff, ClipboardPlus,
-        ClipboardSearch, ClipboardSmile, ClipboardText, ClipboardTypography, ClipboardX, Clock,
-        Clock12, Clock2, Clock24, ClockBitcoin, ClockBolt, ClockCancel, ClockCheck, ClockCode,
-        ClockCog, ClockDollar, ClockDown, ClockEdit, ClockExclamation, ClockHeart, ClockHour1,
-        ClockHour10, ClockHour11, ClockHour12, ClockHour2, ClockHour3, ClockHour4, ClockHour5,
-        ClockHour6, ClockHour7, ClockHour8, ClockHour9, ClockMinus, ClockOff, ClockPause, ClockPin,
-        ClockPlay, ClockPlus, ClockQuestion, ClockRecord, ClockSearch, ClockShare, ClockShield,
-        ClockStar, ClockStop, ClockUp, ClockX, ClothesRack, ClothesRackOff, Cloud, CloudBitcoin,
-        CloudBolt, CloudCancel, CloudCheck, CloudCode, CloudCog, CloudComputing,
-        CloudDataConnection, CloudDollar, CloudDown, CloudDownload, CloudExclamation, CloudFog,
-        CloudHeart, CloudLock, CloudLockOpen, CloudMinus, CloudNetwork, CloudOff, CloudPause,
-        CloudPin, CloudPlus, CloudQuestion, CloudRain, CloudSearch, CloudShare, CloudSnow,
-        CloudStar, CloudStorm, CloudUp, CloudUpload, CloudX, Clover, Clover2, Clubs, Code,
-        CodeAsterisk, CodeCircle, CodeCircle2, CodeDots, CodeMinus, CodeOff, CodePlus, CodeVariable,
-        CodeVariableMinus, CodeVariablePlus, Coffee, CoffeeOff, Coffin, Coin, CoinBitcoin, CoinEuro,
-        CoinMonero, CoinOff, CoinPound, CoinRupee, CoinTaka, CoinYen, CoinYuan, Coins, ColorFilter,
-        ColorPicker, ColorPickerOff, ColorSwatch, ColorSwatchOff, ColumnInsertLeft,
-        ColumnInsertRight, ColumnRemove, Columns, Columns1, Columns2, Columns3, ColumnsOff, Comet,
-        Command, CommandOff, Compass, CompassOff, Components, ComponentsOff, Cone, Cone2, ConeOff,
-        ConePlus, Confetti, ConfettiOff, Confucius, CongruentTo, Container, ContainerOff, Contract,
-        Contrast, Contrast2, Contrast2Off, ContrastOff, Cooker, Cookie, CookieMan, CookieOff, Copy,
-        CopyCheck, CopyMinus, CopyOff, CopyPlus, CopyX, Copyleft, CopyleftOff, Copyright,
-        CopyrightOff, CornerDownLeft, CornerDownLeftDouble, CornerDownRight, CornerDownRightDouble,
-        CornerLeftDown, CornerLeftDownDouble, CornerLeftUp, CornerLeftUpDouble, CornerRightDown,
+        CircleNumber7, CircleNumber8, CircleNumber9, CircleOff, CircleOpenArrowDown,
+        CircleOpenArrowLeft, CircleOpenArrowRight, CircleOpenArrowUp, CirclePercentage, CirclePlus,
+        CirclePlus2, CirclePlusMinus, CircleRectangle, CircleRectangleOff, CircleSquare,
+        CircleTriangle, CircleX, Circles, CirclesRelation, CircuitAmmeter, CircuitBattery,
+        CircuitBulb, CircuitCapacitor, CircuitCapacitorPolarized, CircuitCell, CircuitCellPlus,
+        CircuitChangeover, CircuitDiode, CircuitDiodeZener, CircuitGround, CircuitGroundDigital,
+        CircuitInductor, CircuitMotor, CircuitPushbutton, CircuitResistor, CircuitSwitchClosed,
+        CircuitSwitchOpen, CircuitVoltmeter, ClearAll, ClearFormatting, Clef, ClefStaff, Click,
+        CliffJumping, Clipboard, ClipboardCheck, ClipboardCopy, ClipboardData, ClipboardHeart,
+        ClipboardList, ClipboardOff, ClipboardPlus, ClipboardSearch, ClipboardSmile, ClipboardText,
+        ClipboardTypography, ClipboardX, Clock, Clock12, Clock2, Clock24, ClockBitcoin, ClockBolt,
+        ClockCancel, ClockCheck, ClockCode, ClockCog, ClockDollar, ClockDown, ClockEdit,
+        ClockExclamation, ClockHeart, ClockHour1, ClockHour10, ClockHour11, ClockHour12, ClockHour2,
+        ClockHour3, ClockHour4, ClockHour5, ClockHour6, ClockHour7, ClockHour8, ClockHour9,
+        ClockMinus, ClockOff, ClockPause, ClockPin, ClockPlay, ClockPlus, ClockQuestion,
+        ClockRecord, ClockSearch, ClockShare, ClockShield, ClockStar, ClockStop, ClockUp, ClockX,
+        ClothesRack, ClothesRackOff, Cloud, CloudBitcoin, CloudBolt, CloudCancel, CloudCheck,
+        CloudCode, CloudCog, CloudComputing, CloudDataConnection, CloudDollar, CloudDown,
+        CloudDownload, CloudExclamation, CloudFog, CloudHeart, CloudLock, CloudLockOpen, CloudMinus,
+        CloudNetwork, CloudOff, CloudPause, CloudPin, CloudPlus, CloudQuestion, CloudRain,
+        CloudSearch, CloudShare, CloudSnow, CloudStar, CloudStorm, CloudUp, CloudUpload, CloudX,
+        Clover, Clover2, Clubs, Code, CodeAi, CodeAsterisk, CodeCircle, CodeCircle2, CodeDots,
+        CodeMinus, CodeOff, CodePlus, CodeVariable, CodeVariableMinus, CodeVariablePlus, Codeblock,
+        Coffee, CoffeeOff, Coffin, Coin, CoinBitcoin, CoinEuro, CoinMonero, CoinOff, CoinPound,
+        CoinRupee, CoinTaka, CoinYen, CoinYuan, Coins, ColorFilter, ColorPicker, ColorPickerOff,
+        ColorSwatch, ColorSwatchOff, ColumnInsertLeft, ColumnInsertRight, ColumnRemove, Columns,
+        Columns1, Columns2, Columns3, ColumnsOff, Comet, Command, CommandOff, Compass, CompassOff,
+        Components, ComponentsOff, Cone, Cone2, ConeOff, ConePlus, Confetti, ConfettiOff, Confucius,
+        CongruentTo, Connection, Container, ContainerOff, Contract, Contrast, Contrast2,
+        Contrast2Off, ContrastOff, Cooker, Cookie, CookieMan, CookieOff, Copy, CopyCheck, CopyMinus,
+        CopyOff, CopyPlus, CopyX, Copyleft, CopyleftOff, Copyright, CopyrightOff, CornerDownLeft,
+        CornerDownLeftDouble, CornerDownRight, CornerDownRightDouble, CornerLeftDown,
+        CornerLeftDownDouble, CornerLeftUp, CornerLeftUpDouble, CornerRightDown,
         CornerRightDownDouble, CornerRightUp, CornerRightUpDouble, CornerUpLeft, CornerUpLeftDouble,
         CornerUpRight, CornerUpRightDouble, Cpu, Cpu2, CpuOff, Crane, CraneOff, CreativeCommons,
         CreativeCommonsBy, CreativeCommonsNc, CreativeCommonsNd, CreativeCommonsOff,
-        CreativeCommonsSa, CreativeCommonsZero, CreditCard, CreditCardOff, CreditCardPay,
-        CreditCardRefund, Cricket, Crop, Crop11, Crop169, Crop32, Crop54, Crop75, CropLandscape,
-        CropPortrait, Cross, CrossOff, Crosshair, Crown, CrownOff, Crutches, CrutchesOff,
-        CrystalBall, Csv, Cube, Cube3dSphere, Cube3dSphereOff, CubeOff, CubePlus, CubeSend,
-        CubeSpark, CubeUnfolded, Cup, CupOff, Curling, CurlyLoop, Currency, CurrencyAfghani,
-        CurrencyBahraini, CurrencyBaht, CurrencyBitcoin, CurrencyCent, CurrencyDinar,
-        CurrencyDirham, CurrencyDogecoin, CurrencyDollar, CurrencyDollarAustralian,
+        CreativeCommonsSa, CreativeCommonsZero, CreditCard, CreditCardHand, CreditCardOff,
+        CreditCardPay, CreditCardRefund, Credits, Cricket, Crop, Crop11, Crop169, Crop32, Crop54,
+        Crop75, CropLandscape, CropPortrait, Cross, CrossOff, Crosshair, Crown, CrownOff, Crutches,
+        CrutchesOff, CrystalBall, Csv, Cube, Cube3dSphere, Cube3dSphereOff, CubeOff, CubePlus,
+        CubeSend, CubeSpark, CubeUnfolded, Cup, CupOff, Curling, CurlyLoop, Currency,
+        CurrencyAfghani, CurrencyBahraini, CurrencyBaht, CurrencyBitcoin, CurrencyCent,
+        CurrencyDinar, CurrencyDirham, CurrencyDogecoin, CurrencyDollar, CurrencyDollarAustralian,
         CurrencyDollarBrunei, CurrencyDollarCanadian, CurrencyDollarGuyanese, CurrencyDollarOff,
         CurrencyDollarSingapore, CurrencyDollarZimbabwean, CurrencyDong, CurrencyDram,
         CurrencyEthereum, CurrencyEuro, CurrencyEuroOff, CurrencyFlorin, CurrencyForint,
-        CurrencyFrank, CurrencyGuarani, CurrencyHryvnia, CurrencyIranianRial, CurrencyKip,
-        CurrencyKroneCzech, CurrencyKroneDanish, CurrencyKroneSwedish, CurrencyLari, CurrencyLeu,
-        CurrencyLira, CurrencyLitecoin, CurrencyLyd, CurrencyManat, CurrencyMonero, CurrencyNaira,
-        CurrencyNano, CurrencyOff, CurrencyPaanga, CurrencyPeso, CurrencyPound, CurrencyPoundOff,
-        CurrencyQuetzal, CurrencyReal, CurrencyRenminbi, CurrencyRipple, CurrencyRiyal,
-        CurrencyRubel, CurrencyRufiyaa, CurrencyRupee, CurrencyRupeeNepalese, CurrencyShekel,
-        CurrencySolana, CurrencySom, CurrencyTaka, CurrencyTenge, CurrencyTugrik, CurrencyWon,
-        CurrencyXrp, CurrencyYen, CurrencyYenOff, CurrencyYuan, CurrencyZloty, CurrentLocation,
-        CurrentLocationOff, CursorOff, CursorText, Cut, Cylinder, CylinderOff, CylinderPlus,
-        Dashboard, DashboardOff, Database, DatabaseCog, DatabaseDollar, DatabaseEdit,
-        DatabaseExclamation, DatabaseExport, DatabaseHeart, DatabaseImport, DatabaseLeak,
-        DatabaseMinus, DatabaseOff, DatabasePlus, DatabaseSearch, DatabaseShare, DatabaseSmile,
-        DatabaseStar, DatabaseX, Deaf, Decimal, Deer, Delta, Dental, DentalBroken, DentalOff,
-        Deselect, Desk, Details, DetailsOff, DeviceAirpods, DeviceAirpodsCase, DeviceAirtag,
-        DeviceAnalytics, DeviceAudioTape, DeviceCameraPhone, DeviceCctv, DeviceCctvOff,
-        DeviceComputerCamera, DeviceComputerCameraOff, DeviceDesktop, DeviceDesktopAnalytics,
-        DeviceDesktopBolt, DeviceDesktopCancel, DeviceDesktopCheck, DeviceDesktopCode,
-        DeviceDesktopCog, DeviceDesktopDollar, DeviceDesktopDown, DeviceDesktopExclamation,
-        DeviceDesktopHeart, DeviceDesktopMinus, DeviceDesktopOff, DeviceDesktopPause,
-        DeviceDesktopPin, DeviceDesktopPlus, DeviceDesktopQuestion, DeviceDesktopSearch,
-        DeviceDesktopShare, DeviceDesktopStar, DeviceDesktopUp, DeviceDesktopX, DeviceFloppy,
-        DeviceGamepad, DeviceGamepad2, DeviceGamepad3, DeviceHeartMonitor, DeviceImac,
-        DeviceImacBolt, DeviceImacCancel, DeviceImacCheck, DeviceImacCode, DeviceImacCog,
-        DeviceImacDollar, DeviceImacDown, DeviceImacExclamation, DeviceImacHeart, DeviceImacMinus,
-        DeviceImacOff, DeviceImacPause, DeviceImacPin, DeviceImacPlus, DeviceImacQuestion,
-        DeviceImacSearch, DeviceImacShare, DeviceImacStar, DeviceImacUp, DeviceImacX, DeviceIpad,
-        DeviceIpadBolt, DeviceIpadCancel, DeviceIpadCheck, DeviceIpadCode, DeviceIpadCog,
-        DeviceIpadDollar, DeviceIpadDown, DeviceIpadExclamation, DeviceIpadHeart,
-        DeviceIpadHorizontal, DeviceIpadHorizontalBolt, DeviceIpadHorizontalCancel,
-        DeviceIpadHorizontalCheck, DeviceIpadHorizontalCode, DeviceIpadHorizontalCog,
-        DeviceIpadHorizontalDollar, DeviceIpadHorizontalDown, DeviceIpadHorizontalExclamation,
-        DeviceIpadHorizontalHeart, DeviceIpadHorizontalMinus, DeviceIpadHorizontalOff,
-        DeviceIpadHorizontalPause, DeviceIpadHorizontalPin, DeviceIpadHorizontalPlus,
-        DeviceIpadHorizontalQuestion, DeviceIpadHorizontalSearch, DeviceIpadHorizontalShare,
-        DeviceIpadHorizontalStar, DeviceIpadHorizontalUp, DeviceIpadHorizontalX, DeviceIpadMinus,
-        DeviceIpadOff, DeviceIpadPause, DeviceIpadPin, DeviceIpadPlus, DeviceIpadQuestion,
-        DeviceIpadSearch, DeviceIpadShare, DeviceIpadStar, DeviceIpadUp, DeviceIpadX,
-        DeviceLandlinePhone, DeviceLaptop, DeviceLaptopOff, DeviceMobile, DeviceMobileBolt,
-        DeviceMobileCancel, DeviceMobileCharging, DeviceMobileCheck, DeviceMobileCode,
-        DeviceMobileCog, DeviceMobileDollar, DeviceMobileDown, DeviceMobileExclamation,
-        DeviceMobileHeart, DeviceMobileMessage, DeviceMobileMinus, DeviceMobileOff,
-        DeviceMobilePause, DeviceMobilePin, DeviceMobilePlus, DeviceMobileQuestion,
-        DeviceMobileRotated, DeviceMobileSearch, DeviceMobileShare, DeviceMobileStar,
-        DeviceMobileUp, DeviceMobileVibration, DeviceMobileX, DeviceNintendo, DeviceNintendoOff,
-        DeviceProjector, DeviceRemote, DeviceSdCard, DeviceSim, DeviceSim1, DeviceSim2, DeviceSim3,
-        DeviceSpeaker, DeviceSpeakerOff, DeviceTablet, DeviceTabletBolt, DeviceTabletCancel,
-        DeviceTabletCheck, DeviceTabletCode, DeviceTabletCog, DeviceTabletDollar, DeviceTabletDown,
+        CurrencyFrank, CurrencyGuarani, CurrencyHryvnia, CurrencyHusd, CurrencyIranianRial,
+        CurrencyKip, CurrencyKroneCzech, CurrencyKroneDanish, CurrencyKroneSwedish, CurrencyLari,
+        CurrencyLeu, CurrencyLira, CurrencyLitecoin, CurrencyLyd, CurrencyManat, CurrencyMonero,
+        CurrencyNaira, CurrencyNano, CurrencyOff, CurrencyPaanga, CurrencyPeso, CurrencyPound,
+        CurrencyPoundOff, CurrencyQuetzal, CurrencyReal, CurrencyRenminbi, CurrencyRipple,
+        CurrencyRiyal, CurrencyRuble, CurrencyRufiyaa, CurrencyRupee, CurrencyRupeeNepalese,
+        CurrencyShekel, CurrencySolana, CurrencySom, CurrencyTaka, CurrencyTenge, CurrencyTether,
+        CurrencyTugrik, CurrencyWon, CurrencyXrp, CurrencyYen, CurrencyYenOff, CurrencyYuan,
+        CurrencyZcash, CurrencyZloty, CurrentLocation, CurrentLocationOff, CursorOff, CursorText,
+        Cut, Cylinder, CylinderOff, CylinderPlus, Dashboard, DashboardOff, Database, DatabaseCog,
+        DatabaseDollar, DatabaseEdit, DatabaseExclamation, DatabaseExport, DatabaseHeart,
+        DatabaseImport, DatabaseLeak, DatabaseMinus, DatabaseOff, DatabasePlus, DatabaseSearch,
+        DatabaseShare, DatabaseSmile, DatabaseStar, DatabaseX, Deaf, Decimal, Deer, Delta, Dental,
+        DentalBroken, DentalOff, Deselect, Desk, Details, DetailsOff, Device3dCamera, Device3dLens,
+        DeviceAirpods, DeviceAirpodsCase, DeviceAirtag, DeviceAnalytics, DeviceAudioTape,
+        DeviceCameraPhone, DeviceCctv, DeviceCctvOff, DeviceComputerCamera, DeviceComputerCamera2,
+        DeviceComputerCameraOff, DeviceDesktop, DeviceDesktopAnalytics, DeviceDesktopBolt,
+        DeviceDesktopCancel, DeviceDesktopCheck, DeviceDesktopCode, DeviceDesktopCog,
+        DeviceDesktopDollar, DeviceDesktopDown, DeviceDesktopExclamation, DeviceDesktopHeart,
+        DeviceDesktopMinus, DeviceDesktopOff, DeviceDesktopPause, DeviceDesktopPin,
+        DeviceDesktopPlus, DeviceDesktopQuestion, DeviceDesktopSearch, DeviceDesktopShare,
+        DeviceDesktopStar, DeviceDesktopUp, DeviceDesktopX, DeviceFloppy, DeviceGamepad,
+        DeviceGamepad2, DeviceGamepad3, DeviceHeartMonitor, DeviceImac, DeviceImacBolt,
+        DeviceImacCancel, DeviceImacCheck, DeviceImacCode, DeviceImacCog, DeviceImacDollar,
+        DeviceImacDown, DeviceImacExclamation, DeviceImacHeart, DeviceImacMinus, DeviceImacOff,
+        DeviceImacPause, DeviceImacPin, DeviceImacPlus, DeviceImacQuestion, DeviceImacSearch,
+        DeviceImacShare, DeviceImacStar, DeviceImacUp, DeviceImacX, DeviceIpad, DeviceIpadBolt,
+        DeviceIpadCancel, DeviceIpadCheck, DeviceIpadCode, DeviceIpadCog, DeviceIpadDollar,
+        DeviceIpadDown, DeviceIpadExclamation, DeviceIpadHeart, DeviceIpadHorizontal,
+        DeviceIpadHorizontalBolt, DeviceIpadHorizontalCancel, DeviceIpadHorizontalCheck,
+        DeviceIpadHorizontalCode, DeviceIpadHorizontalCog, DeviceIpadHorizontalDollar,
+        DeviceIpadHorizontalDown, DeviceIpadHorizontalExclamation, DeviceIpadHorizontalHeart,
+        DeviceIpadHorizontalMinus, DeviceIpadHorizontalOff, DeviceIpadHorizontalPause,
+        DeviceIpadHorizontalPin, DeviceIpadHorizontalPlus, DeviceIpadHorizontalQuestion,
+        DeviceIpadHorizontalSearch, DeviceIpadHorizontalShare, DeviceIpadHorizontalStar,
+        DeviceIpadHorizontalUp, DeviceIpadHorizontalX, DeviceIpadMinus, DeviceIpadOff,
+        DeviceIpadPause, DeviceIpadPin, DeviceIpadPlus, DeviceIpadQuestion, DeviceIpadSearch,
+        DeviceIpadShare, DeviceIpadStar, DeviceIpadUp, DeviceIpadX, DeviceLandlinePhone,
+        DeviceLaptop, DeviceLaptopOff, DeviceMobile, DeviceMobileBolt, DeviceMobileCancel,
+        DeviceMobileCharging, DeviceMobileCheck, DeviceMobileCode, DeviceMobileCog,
+        DeviceMobileDollar, DeviceMobileDown, DeviceMobileExclamation, DeviceMobileHeart,
+        DeviceMobileMessage, DeviceMobileMinus, DeviceMobileOff, DeviceMobilePause, DeviceMobilePin,
+        DeviceMobilePlus, DeviceMobileQuestion, DeviceMobileRotated, DeviceMobileSearch,
+        DeviceMobileShare, DeviceMobileStar, DeviceMobileUp, DeviceMobileVibration, DeviceMobileX,
+        DeviceNintendo, DeviceNintendoOff, DeviceProjector, DeviceRemote, DeviceScreen,
+        DeviceSdCard, DeviceSim, DeviceSim1, DeviceSim2, DeviceSim3, DeviceSpeaker,
+        DeviceSpeakerOff, DeviceTablet, DeviceTabletBolt, DeviceTabletCancel, DeviceTabletCheck,
+        DeviceTabletCode, DeviceTabletCog, DeviceTabletDollar, DeviceTabletDown,
         DeviceTabletExclamation, DeviceTabletHeart, DeviceTabletMinus, DeviceTabletOff,
         DeviceTabletPause, DeviceTabletPin, DeviceTabletPlus, DeviceTabletQuestion,
         DeviceTabletSearch, DeviceTabletShare, DeviceTabletStar, DeviceTabletUp, DeviceTabletX,
-        DeviceTv, DeviceTvOff, DeviceTvOld, DeviceUnknown, DeviceUsb, DeviceVisionPro, DeviceWatch,
-        DeviceWatchBolt, DeviceWatchCancel, DeviceWatchCheck, DeviceWatchCode, DeviceWatchCog,
-        DeviceWatchDollar, DeviceWatchDown, DeviceWatchExclamation, DeviceWatchHeart,
-        DeviceWatchMinus, DeviceWatchOff, DeviceWatchPause, DeviceWatchPin, DeviceWatchPlus,
-        DeviceWatchQuestion, DeviceWatchSearch, DeviceWatchShare, DeviceWatchStar, DeviceWatchStats,
-        DeviceWatchStats2, DeviceWatchUp, DeviceWatchX, Devices, Devices2, DevicesBolt,
-        DevicesCancel, DevicesCheck, DevicesCode, DevicesCog, DevicesDollar, DevicesDown,
-        DevicesExclamation, DevicesHeart, DevicesMinus, DevicesOff, DevicesPause, DevicesPc,
-        DevicesPcOff, DevicesPin, DevicesPlus, DevicesQuestion, DevicesSearch, DevicesShare,
-        DevicesStar, DevicesUp, DevicesX, Diabolo, DiaboloOff, DiaboloPlus, Dialpad, DialpadOff,
-        Diamond, DiamondOff, Diamonds, Diaper, Dice, Dice1, Dice2, Dice3, Dice4, Dice5, Dice6,
-        Dimensions, Direction, DirectionArrows, DirectionHorizontal, DirectionSign,
-        DirectionSignOff, Directions, DirectionsOff, Disabled, Disabled2, DisabledOff, Disc,
-        DiscGolf, DiscOff, Discount, DiscountOff, Divide, Dna, Dna2, Dna2Off, DnaOff, Dog, DogBowl,
-        Door, DoorEnter, DoorExit, DoorOff, Dots, DotsCircleHorizontal, DotsDiagonal, DotsDiagonal2,
-        DotsVertical, Download, DownloadOff, DragDrop, DragDrop2, Drone, DroneOff, DropCircle,
-        Droplet, DropletBolt, DropletCancel, DropletCheck, DropletCode, DropletCog, DropletDollar,
-        DropletDown, DropletExclamation, DropletHalf, DropletHalf2, DropletHeart, DropletMinus,
-        DropletOff, DropletPause, DropletPin, DropletPlus, DropletQuestion, DropletSearch,
-        DropletShare, DropletStar, DropletUp, DropletX, Droplets, DualScreen, Dumpling, EPassport,
-        Ear, EarOff, EarScan, EaseIn, EaseInControlPoint, EaseInOut, EaseInOutControlPoints,
-        EaseOut, EaseOutControlPoint, Edit, EditCircle, EditCircleOff, EditOff, Egg, EggCracked,
-        EggFried, EggOff, Eggs, Elevator, ElevatorOff, EmergencyBed, Empathize, EmpathizeOff,
-        Emphasis, Engine, EngineOff, Equal, EqualDouble, EqualNot, Eraser, EraserOff, Error404,
-        Error404Off, Escalator, EscalatorDown, EscalatorUp, Exchange, ExchangeOff,
-        ExclamationCircle, ExclamationMark, ExclamationMarkOff, Explicit, ExplicitOff, Exposure,
-        Exposure0, ExposureMinus1, ExposureMinus2, ExposureOff, ExposurePlus1, ExposurePlus2,
-        ExternalLink, ExternalLinkOff, Eye, EyeBitcoin, EyeBolt, EyeCancel, EyeCheck, EyeClosed,
-        EyeCode, EyeCog, EyeDiscount, EyeDollar, EyeDotted, EyeDown, EyeEdit, EyeExclamation,
-        EyeHeart, EyeMinus, EyeOff, EyePause, EyePin, EyePlus, EyeQuestion, EyeSearch, EyeShare,
-        EyeSpark, EyeStar, EyeTable, EyeUp, EyeX, Eyeglass, Eyeglass2, EyeglassOff, FaceId,
-        FaceIdError, FaceMask, FaceMaskOff, Fall, Favicon, Feather, FeatherOff, Fence, FenceOff,
-        Ferry, FidgetSpinner, File, File3d, FileAi, FileAlert, FileAnalytics, FileArrowLeft,
-        FileArrowRight, FileBarcode, FileBitcoin, FileBroken, FileCertificate, FileChart, FileCheck,
-        FileCode, FileCode2, FileCv, FileDatabase, FileDelta, FileDescription, FileDiff, FileDigit,
-        FileDislike, FileDollar, FileDots, FileDownload, FileEuro, FileExcel, FileExport,
-        FileFunction, FileHorizontal, FileImport, FileInfinity, FileInfo, FileInvoice, FileIsr,
-        FileLambda, FileLike, FileMinus, FileMusic, FileNeutral, FileOff, FileOrientation,
-        FilePencil, FilePercent, FilePhone, FilePlus, FilePower, FileReport, FileRss, FileSad,
-        FileScissors, FileSearch, FileSettings, FileShredder, FileSignal, FileSmile, FileSpark,
-        FileSpreadsheet, FileStack, FileStar, FileSymlink, FileText, FileTextAi, FileTextShield,
-        FileTextSpark, FileTime, FileTypeBmp, FileTypeCss, FileTypeCsv, FileTypeDoc, FileTypeDocx,
-        FileTypeHtml, FileTypeJpg, FileTypeJs, FileTypeJsx, FileTypePdf, FileTypePhp, FileTypePng,
-        FileTypePpt, FileTypeRs, FileTypeSql, FileTypeSvg, FileTypeTs, FileTypeTsx, FileTypeTxt,
-        FileTypeVue, FileTypeXls, FileTypeXml, FileTypeZip, FileTypography, FileUnknown, FileUpload,
-        FileVector, FileWord, FileX, FileZip, Files, FilesOff, Filter, Filter2, Filter2Bolt,
-        Filter2Cancel, Filter2Check, Filter2Code, Filter2Cog, Filter2Discount, Filter2Dollar,
-        Filter2Down, Filter2Edit, Filter2Exclamation, Filter2Minus, Filter2Pause, Filter2Pin,
-        Filter2Plus, Filter2Question, Filter2Search, Filter2Share, Filter2Spark, Filter2Up,
-        Filter2X, FilterBolt, FilterCancel, FilterCheck, FilterCode, FilterCog, FilterDiscount,
-        FilterDollar, FilterDown, FilterEdit, FilterExclamation, FilterHeart, FilterMinus,
-        FilterOff, FilterPause, FilterPin, FilterPlus, FilterQuestion, FilterSearch, FilterShare,
-        FilterSpark, FilterStar, FilterUp, FilterX, Filters, Fingerprint, FingerprintOff,
-        FingerprintScan, FireExtinguisher, FireHydrant, FireHydrantOff, Firetruck, FirstAidKit,
-        FirstAidKitOff, Fish, FishBone, FishChristianity, FishHook, FishHookOff, FishOff, Flag,
-        Flag2, Flag2Off, Flag3, FlagBitcoin, FlagBolt, FlagCancel, FlagCheck, FlagCode, FlagCog,
-        FlagDiscount, FlagDollar, FlagDown, FlagExclamation, FlagHeart, FlagMinus, FlagOff,
-        FlagPause, FlagPin, FlagPlus, FlagQuestion, FlagSearch, FlagShare, FlagSpark, FlagStar,
-        FlagUp, FlagX, Flame, FlameOff, Flare, Flask, Flask2, Flask2Off, FlaskOff, FlipFlops,
-        FlipHorizontal, FlipVertical, FloatCenter, FloatLeft, FloatNone, FloatRight, Flower,
-        FlowerOff, Focus, Focus2, FocusAuto, FocusCentered, Fold, FoldDown, FoldUp, Folder,
-        FolderBolt, FolderCancel, FolderCheck, FolderCode, FolderCog, FolderDollar, FolderDown,
-        FolderExclamation, FolderHeart, FolderMinus, FolderOff, FolderOpen, FolderPause, FolderPin,
-        FolderPlus, FolderQuestion, FolderRoot, FolderSearch, FolderShare, FolderStar,
-        FolderSymlink, FolderUp, FolderX, Folders, FoldersOff, Forbid, Forbid2, Forklift, Forms,
-        Fountain, FountainOff, Frame, FrameOff, FreeRights, FreezeColumn, FreezeRow,
-        FreezeRowColumn, Fridge, FridgeOff, Friends, FriendsOff, Frustum, FrustumOff, FrustumPlus,
-        Function, FunctionOff, Galaxy, GardenCart, GardenCartOff, GasStation, GasStationOff, Gauge,
-        GaugeOff, Gavel, GenderAgender, GenderAndrogyne, GenderBigender, GenderDemiboy,
-        GenderDemigirl, GenderEpicene, GenderFemale, GenderFemme, GenderGenderfluid,
+        DeviceTv, DeviceTvOff, DeviceTvOld, DeviceUnknown, DeviceUsb, DeviceVisionPro,
+        DeviceVisionProWifi, DeviceWatch, DeviceWatchBolt, DeviceWatchCancel, DeviceWatchCheck,
+        DeviceWatchCode, DeviceWatchCog, DeviceWatchDollar, DeviceWatchDown, DeviceWatchExclamation,
+        DeviceWatchHeart, DeviceWatchMinus, DeviceWatchOff, DeviceWatchPause, DeviceWatchPin,
+        DeviceWatchPlus, DeviceWatchQuestion, DeviceWatchSearch, DeviceWatchShare, DeviceWatchStar,
+        DeviceWatchStats, DeviceWatchStats2, DeviceWatchUp, DeviceWatchX, DeviceWorkstation,
+        Devices, Devices2, DevicesBolt, DevicesCancel, DevicesCheck, DevicesCode, DevicesCog,
+        DevicesDollar, DevicesDown, DevicesExclamation, DevicesHeart, DevicesMinus, DevicesOff,
+        DevicesPause, DevicesPc, DevicesPcOff, DevicesPin, DevicesPlus, DevicesQuestion,
+        DevicesSearch, DevicesShare, DevicesStar, DevicesUp, DevicesX, Diabolo, DiaboloOff,
+        DiaboloPlus, Dialpad, DialpadOff, Diamond, DiamondOff, Diamonds, Diaper, Dice, Dice1, Dice2,
+        Dice3, Dice4, Dice5, Dice6, Dimensions, Direction, DirectionArrows, DirectionHorizontal,
+        DirectionSign, DirectionSignOff, Directions, DirectionsOff, Disabled, Disabled2,
+        DisabledOff, Disc, DiscGolf, DiscOff, Discount, DiscountOff, Divide, Dna, Dna2, Dna2Off,
+        DnaOff, Dog, DogBowl, Door, DoorEnter, DoorExit, DoorHanger, DoorOff, Dots,
+        DotsCircleHorizontal, DotsDiagonal, DotsDiagonal2, DotsVertical, Download, DownloadOff,
+        DragDrop, DragDrop2, Dragon, Drone, DroneOff, DropCircle, Droplet, DropletBolt,
+        DropletCancel, DropletCheck, DropletCode, DropletCog, DropletDollar, DropletDown,
+        DropletExclamation, DropletHalf, DropletHalf2, DropletHeart, DropletMinus, DropletOff,
+        DropletPause, DropletPin, DropletPlus, DropletQuestion, DropletSearch, DropletShare,
+        DropletStar, DropletUp, DropletX, Droplets, DualScreen, Dumbbell, Dumpling, EPassport, Ear,
+        EarOff, EarScan, EarphoneBluetooth, EaseIn, EaseInControlPoint, EaseInOut,
+        EaseInOutControlPoints, EaseOut, EaseOutControlPoint, Edit, EditBulk, EditCircle,
+        EditCircleOff, EditOff, Egg, EggCracked, EggFried, EggOff, Eggs, Elevator, ElevatorOff,
+        EmailStamp, EmergencyBed, Empathize, EmpathizeOff, Emphasis, Engine, EngineOff, Equal,
+        EqualDouble, EqualNot, Eraser, EraserOff, Error404, Error404Off, Escalator, EscalatorDown,
+        EscalatorUp, Exchange, ExchangeOff, ExclamationCircle, ExclamationMark, ExclamationMarkOff,
+        ExerciseBall, Explicit, ExplicitOff, Exposure, Exposure0, ExposureMinus1, ExposureMinus2,
+        ExposureOff, ExposurePlus1, ExposurePlus2, ExternalLink, ExternalLinkOff, Eye, EyeBitcoin,
+        EyeBolt, EyeCancel, EyeCheck, EyeClosed, EyeCode, EyeCog, EyeDiscount, EyeDollar, EyeDotted,
+        EyeDown, EyeEdit, EyeExclamation, EyeHeart, EyeMinus, EyeOff, EyePause, EyePin, EyePlus,
+        EyeQuestion, EyeSearch, EyeShare, EyeSpark, EyeStar, EyeTable, EyeUp, EyeX, Eyeglass,
+        Eyeglass2, EyeglassOff, FaceId, FaceIdError, FaceMask, FaceMaskOff, Fall, Favicon, Feather,
+        FeatherOff, Fence, FenceOff, Ferry, FidgetSpinner, File, File3d, FileAi, FileAlert,
+        FileAnalytics, FileArrowLeft, FileArrowRight, FileBarcode, FileBitcoin, FileBroken,
+        FileCertificate, FileChart, FileCheck, FileCode, FileCode2, FileCv, FileDatabase, FileDelta,
+        FileDescription, FileDiff, FileDigit, FileDislike, FileDollar, FileDots, FileDownload,
+        FileEuro, FileExcel, FileExport, FileFunction, FileHorizontal, FileImport, FileInfinity,
+        FileInfo, FileInvoice, FileIsr, FileLambda, FileLike, FileMinus, FileMusic, FileNeutral,
+        FileOff, FileOrientation, FilePencil, FilePercent, FilePhone, FilePlus, FilePower,
+        FileReport, FileRss, FileSad, FileScissors, FileSearch, FileSettings, FileShredder,
+        FileSignal, FileSmile, FileSpark, FileSpreadsheet, FileStack, FileStar, FileSymlink,
+        FileText, FileTextAi, FileTextShield, FileTextSpark, FileTime, FileTypeBmp, FileTypeCss,
+        FileTypeCsv, FileTypeDoc, FileTypeDocx, FileTypeHtml, FileTypeJpg, FileTypeJs, FileTypeJsx,
+        FileTypePdf, FileTypePhp, FileTypePng, FileTypePpt, FileTypeRs, FileTypeSql, FileTypeSvg,
+        FileTypeTs, FileTypeTsx, FileTypeTxt, FileTypeVue, FileTypeXls, FileTypeXml, FileTypeZip,
+        FileTypography, FileUnknown, FileUpload, FileVector, FileWord, FileX, FileZip, Files,
+        FilesOff, Filter, Filter2, Filter2Bolt, Filter2Cancel, Filter2Check, Filter2Code,
+        Filter2Cog, Filter2Discount, Filter2Dollar, Filter2Down, Filter2Edit, Filter2Exclamation,
+        Filter2Minus, Filter2Pause, Filter2Pin, Filter2Plus, Filter2Question, Filter2Search,
+        Filter2Share, Filter2Spark, Filter2Up, Filter2X, FilterBolt, FilterCancel, FilterCheck,
+        FilterCode, FilterCog, FilterDiscount, FilterDollar, FilterDown, FilterEdit,
+        FilterExclamation, FilterHeart, FilterMinus, FilterOff, FilterPause, FilterPin, FilterPlus,
+        FilterQuestion, FilterSearch, FilterShare, FilterSpark, FilterStar, FilterUp, FilterX,
+        Filters, Fingerprint, FingerprintOff, FingerprintScan, FireExtinguisher, FireHydrant,
+        FireHydrantOff, Firetruck, FirewallCheck, FirewallFlame, FirstAidKit, FirstAidKitOff, Fish,
+        FishBone, FishChristianity, FishHook, FishHookOff, FishOff, Flag, Flag2, Flag2Off, Flag3,
+        FlagBitcoin, FlagBolt, FlagCancel, FlagCheck, FlagCode, FlagCog, FlagDiscount, FlagDollar,
+        FlagDown, FlagExclamation, FlagHeart, FlagMinus, FlagOff, FlagPause, FlagPin, FlagPlus,
+        FlagQuestion, FlagSearch, FlagShare, FlagSpark, FlagStar, FlagUp, FlagX, Flame, FlameOff,
+        Flare, Flask, Flask2, Flask2Off, FlaskOff, FlipFlops, FlipHorizontal, FlipVertical,
+        FloatCenter, FloatLeft, FloatNone, FloatRight, Flood, Flower, FlowerOff, Focus, Focus2,
+        FocusAuto, FocusCentered, Fold, FoldDown, FoldUp, Folder, FolderBolt, FolderCancel,
+        FolderCheck, FolderCode, FolderCog, FolderDollar, FolderDown, FolderExclamation,
+        FolderHeart, FolderMinus, FolderOff, FolderOpen, FolderPause, FolderPin, FolderPlus,
+        FolderQuestion, FolderRoot, FolderSearch, FolderShare, FolderStar, FolderStats,
+        FolderSymlink, FolderUp, FolderUser, FolderX, Folders, FoldersOff, Footsteps, Forbid,
+        Forbid2, Forklift, Forms, Fountain, FountainOff, Frame, FrameOff, FreeRights, FreezeColumn,
+        FreezeRow, FreezeRowColumn, Fridge, FridgeOff, Friends, FriendsOff, Frustum, FrustumOff,
+        FrustumPlus, Function, FunctionOff, Galaxy, GardenCart, GardenCartOff, GasStation,
+        GasStationOff, Gauge, GaugeOff, Gavel, GenderAgender, GenderAndrogyne, GenderBigender,
+        GenderDemiboy, GenderDemigirl, GenderEpicene, GenderFemale, GenderFemme, GenderGenderfluid,
         GenderGenderless, GenderGenderqueer, GenderHermaphrodite, GenderIntergender, GenderMale,
-        GenderNeutrois, GenderThird, GenderTransgender, GenderTrasvesti, Geometry, Ghost, Ghost2,
+        GenderNeutrois, GenderThird, GenderTransgender, GenderTravesti, Geometry, Ghost, Ghost2,
         Ghost3, GhostOff, Gif, Gift, GiftCard, GiftOff, GitBranch, GitBranchDeleted, GitCherryPick,
         GitCommit, GitCompare, GitFork, GitMerge, GitPullRequest, GitPullRequestClosed,
-        GitPullRequestDraft, Gizmo, Glass, GlassChampagne, GlassCocktail, GlassFull, GlassGin,
-        GlassOff, Globe, GlobeOff, GoGame, Golf, GolfOff, Gps, Gradienter, Grain, Graph, GraphOff,
-        Grave, Grave2, Grid3x3, Grid4x4, GridDots, GridGoldenratio, GridPattern, GridScan, Grill,
-        GrillFork, GrillOff, GrillSpatula, GripHorizontal, GripVertical, Growth, GuitarPick,
-        Gymnastics, H1, H2, H3, H4, H5, H6, Hammer, HammerOff, HandClick, HandClickOff, HandFinger,
-        HandFingerDown, HandFingerLeft, HandFingerOff, HandFingerRight, HandGrab, HandLittleFinger,
-        HandLoveYou, HandMiddleFinger, HandMove, HandOff, HandRingFinger, HandSanitizer, HandStop,
+        GitPullRequestConflict, GitPullRequestDraft, Gizmo, Glass, GlassChampagne, GlassCocktail,
+        GlassFull, GlassGin, GlassOff, Globe, GlobeOff, GoGame, Golf, GolfOff, Gps, Gpu, Gpu2,
+        Gradienter, Grain, Grape, Graph, GraphOff, Grave, Grave2, Grid3x3, Grid4x4, GridDots,
+        GridGoldenratio, GridPattern, GridScan, Grill, GrillFork, GrillOff, GrillSpatula,
+        GripHorizontal, GripVertical, Growth, GuitarPick, Gymnastics, H1, H2, H3, H4, H5, H6,
+        Hammer, HammerDrill, HammerOff, HandClick, HandClickOff, HandFinger, HandFingerDown,
+        HandFingerLeft, HandFingerOff, HandFingerRight, HandGrab, HandLittleFinger, HandLoveYou,
+        HandMiddleFinger, HandMove, HandOff, HandRingFinger, HandSanitizer, HandStop,
         HandThreeFingers, HandTwoFingers, Hanger, Hanger2, HangerOff, Hash, Haze, HazeMoon, Hdr,
         Heading, HeadingOff, Headphones, HeadphonesOff, Headset, HeadsetOff, HealthRecognition,
         Heart, HeartBitcoin, HeartBolt, HeartBroken, HeartCancel, HeartCheck, HeartCode, HeartCog,
@@ -5428,295 +5602,306 @@ public val TablerIcons.AllIcons: ____KtList<ImageVector>
         HexagonsOff, Hierarchy, Hierarchy2, Hierarchy3, HierarchyOff, Highlight, HighlightOff,
         History, HistoryOff, HistoryToggle, Home, Home2, HomeBitcoin, HomeBolt, HomeCancel,
         HomeCheck, HomeCog, HomeDollar, HomeDot, HomeDown, HomeEco, HomeEdit, HomeExclamation,
-        HomeHand, HomeHeart, HomeInfinity, HomeLink, HomeMinus, HomeMove, HomeOff, HomePlus,
-        HomeQuestion, HomeRibbon, HomeSearch, HomeShare, HomeShield, HomeSignal, HomeSpark,
-        HomeStar, HomeStats, HomeUp, HomeX, Horse, HorseToy, Horseshoe, Hospital, HospitalCircle,
-        HotelService, Hourglass, HourglassEmpty, HourglassHigh, HourglassLow, HourglassOff, Hours12,
-        Hours24, Html, HttpConnect, HttpConnectOff, HttpDelete, HttpDeleteOff, HttpGet, HttpGetOff,
-        HttpHead, HttpHeadOff, HttpOptions, HttpOptionsOff, HttpPatch, HttpPatchOff, HttpPost,
-        HttpPostOff, HttpPut, HttpPutOff, HttpQue, HttpQueOff, HttpTrace, HttpTraceOff, IceCream,
-        IceCream2, IceCreamOff, IceSkating, Icons, IconsOff, Id, IdBadge, IdBadge2, IdBadgeOff,
-        IdOff, Ikosaedr, ImageInPicture, Inbox, InboxOff, IndentDecrease, IndentIncrease, Infinity,
+        HomeHand, HomeHeart, HomeInfinity, HomeLink, HomeLock, HomeMinus, HomeMove, HomeOff,
+        HomePlus, HomeQuestion, HomeRibbon, HomeSearch, HomeShare, HomeShield, HomeSignal,
+        HomeSpark, HomeStar, HomeStats, HomeUp, HomeX, Horse, HorseToy, Horseshoe, Hospital,
+        HospitalCircle, HotelService, Hourglass, HourglassEmpty, HourglassHigh, HourglassLow,
+        HourglassOff, Hours12, Hours24, Html, HttpConnect, HttpConnectOff, HttpDelete,
+        HttpDeleteOff, HttpGet, HttpGetOff, HttpHead, HttpHeadOff, HttpOptions, HttpOptionsOff,
+        HttpPatch, HttpPatchOff, HttpPost, HttpPostOff, HttpPut, HttpPutOff, HttpQue, HttpQueOff,
+        HttpTrace, HttpTraceOff, HulaHoop, IceCream, IceCream2, IceCreamOff, IceSkating, Iceberg,
+        Icons, IconsOff, Icosahedron, Id, IdBadge, IdBadge2, IdBadgeOff, IdOff, ImageGeneration,
+        ImageInPicture, Inbox, InboxOff, IndentDecrease, IndentIncrease, Infinity, Infinity2,
         InfinityOff, InfoCircle, InfoHexagon, InfoOctagon, InfoSmall, InfoSquare, InfoSquareRounded,
         InfoTriangle, InnerShadowBottom, InnerShadowBottomLeft, InnerShadowBottomRight,
         InnerShadowLeft, InnerShadowRight, InnerShadowTop, InnerShadowTopLeft, InnerShadowTopRight,
         InputAi, InputCheck, InputSearch, InputSpark, InputX, Invoice, Ironing, Ironing1, Ironing2,
         Ironing3, IroningOff, IroningSteam, IroningSteamOff, IrregularPolyhedron,
-        IrregularPolyhedronOff, IrregularPolyhedronPlus, Italic, Jacket, Jetpack, JewishStar,
-        JoinBevel, JoinRound, JoinStraight, Joker, Jpg, Json, JumpRope, Karate, Kayak, Kerning, Key,
-        KeyOff, Keyboard, KeyboardHide, KeyboardOff, KeyboardShow, Keyframe, KeyframeAlignCenter,
-        KeyframeAlignHorizontal, KeyframeAlignVertical, Keyframes, Label, LabelImportant, LabelOff,
-        Ladder, LadderOff, Ladle, Lambda, Lamp, Lamp2, LampOff, Lane, Language, LanguageHiragana,
-        LanguageKatakana, LanguageOff, Lasso, LassoOff, LassoPolygon, LaurelWreath, LaurelWreath1,
-        LaurelWreath2, LaurelWreath3, LayersDifference, LayersIntersect, LayersIntersect2,
-        LayersLinked, LayersOff, LayersSelected, LayersSelectedBottom, LayersSubtract, LayersUnion,
-        Layout, Layout2, LayoutAlignBottom, LayoutAlignCenter, LayoutAlignLeft, LayoutAlignMiddle,
-        LayoutAlignRight, LayoutAlignTop, LayoutBoard, LayoutBoardSplit, LayoutBottombar,
-        LayoutBottombarCollapse, LayoutBottombarExpand, LayoutBottombarInactive, LayoutCards,
-        LayoutCollage, LayoutColumns, LayoutDashboard, LayoutDistributeHorizontal,
-        LayoutDistributeVertical, LayoutGrid, LayoutGridAdd, LayoutGridRemove, LayoutKanban,
-        LayoutList, LayoutNavbar, LayoutNavbarCollapse, LayoutNavbarExpand, LayoutNavbarInactive,
-        LayoutOff, LayoutRows, LayoutSidebar, LayoutSidebarInactive, LayoutSidebarLeftCollapse,
-        LayoutSidebarLeftExpand, LayoutSidebarRight, LayoutSidebarRightCollapse,
-        LayoutSidebarRightExpand, LayoutSidebarRightInactive, Leaf, Leaf2, LeafOff, Lego, LegoOff,
-        Lemon, Lemon2, LetterA, LetterASmall, LetterB, LetterBSmall, LetterC, LetterCSmall,
-        LetterCase, LetterCaseLower, LetterCaseToggle, LetterCaseUpper, LetterD, LetterDSmall,
-        LetterE, LetterESmall, LetterF, LetterFSmall, LetterG, LetterGSmall, LetterH, LetterHSmall,
-        LetterI, LetterISmall, LetterJ, LetterJSmall, LetterK, LetterKSmall, LetterL, LetterLSmall,
-        LetterM, LetterMSmall, LetterN, LetterNSmall, LetterO, LetterOSmall, LetterP, LetterPSmall,
-        LetterQ, LetterQSmall, LetterR, LetterRSmall, LetterS, LetterSSmall, LetterSpacing, LetterT,
+        IrregularPolyhedronOff, IrregularPolyhedronPlus, Italic, ItalicOff, Jacket, Jetpack, Jetski,
+        JewishStar, JoinBevel, JoinRound, JoinStraight, Joker, Jpg, Json, JumpRope, Karate, Kayak,
+        Kerning, Key, KeyOff, Keyboard, KeyboardHide, KeyboardOff, KeyboardShow, Keyframe,
+        KeyframeAlignCenter, KeyframeAlignHorizontal, KeyframeAlignVertical, Keyframes, Label,
+        LabelImportant, LabelOff, Ladder, LadderOff, Ladle, Lambda, Lamp, Lamp2, LampOff, Lane,
+        Language, LanguageHiragana, LanguageKatakana, LanguageOff, Lasso, LassoOff, LassoPolygon,
+        LaurelWreath, LaurelWreath1, LaurelWreath2, LaurelWreath3, LawnMower, LayersDifference,
+        LayersIntersect, LayersIntersect2, LayersLinked, LayersOff, LayersSelected,
+        LayersSelectedBottom, LayersSubtract, LayersUnion, Layout, Layout2, LayoutAlignBottom,
+        LayoutAlignCenter, LayoutAlignLeft, LayoutAlignMiddle, LayoutAlignRight, LayoutAlignTop,
+        LayoutBoard, LayoutBoardSplit, LayoutBottombar, LayoutBottombarCollapse,
+        LayoutBottombarExpand, LayoutBottombarInactive, LayoutCards, LayoutCollage, LayoutColumns,
+        LayoutDashboard, LayoutDistributeHorizontal, LayoutDistributeVertical, LayoutGrid,
+        LayoutGridAdd, LayoutGridRemove, LayoutKanban, LayoutList, LayoutNavbar,
+        LayoutNavbarCollapse, LayoutNavbarExpand, LayoutNavbarInactive, LayoutOff, LayoutRows,
+        LayoutSidebar, LayoutSidebarInactive, LayoutSidebarLeftCollapse, LayoutSidebarLeftExpand,
+        LayoutSidebarRight, LayoutSidebarRightCollapse, LayoutSidebarRightExpand,
+        LayoutSidebarRightInactive, Leaf, Leaf2, LeafMaple, LeafOff, Lego, LegoOff, Lemon, Lemon2,
+        LetterA, LetterASmall, LetterB, LetterBSmall, LetterC, LetterCSmall, LetterCase,
+        LetterCaseLower, LetterCaseToggle, LetterCaseUpper, LetterD, LetterDSmall, LetterE,
+        LetterESmall, LetterF, LetterFSmall, LetterG, LetterGSmall, LetterH, LetterHSmall, LetterI,
+        LetterISmall, LetterJ, LetterJSmall, LetterK, LetterKSmall, LetterL, LetterLSmall, LetterM,
+        LetterMSmall, LetterN, LetterNSmall, LetterO, LetterOSmall, LetterP, LetterPSmall, LetterQ,
+        LetterQSmall, LetterR, LetterRSmall, LetterS, LetterSSmall, LetterSpacing, LetterT,
         LetterTSmall, LetterU, LetterUSmall, LetterV, LetterVSmall, LetterW, LetterWSmall, LetterX,
         LetterXSmall, LetterY, LetterYSmall, LetterZ, LetterZSmall, Library, LibraryMinus,
         LibraryPhoto, LibraryPlus, License, LicenseOff, Lifebuoy, LifebuoyOff, Lighter, Line,
         LineDashed, LineDotted, LineHeight, LineScan, Link, LinkMinus, LinkOff, LinkPlus, List,
         ListCheck, ListDetails, ListLetters, ListNumbers, ListSearch, ListTree, LivePhoto,
-        LivePhotoOff, LiveView, LoadBalancer, Loader, Loader2, Loader3, LoaderQuarter, Location,
-        LocationBolt, LocationBroken, LocationCancel, LocationCheck, LocationCode, LocationCog,
-        LocationDiscount, LocationDollar, LocationDown, LocationExclamation, LocationHeart,
-        LocationMinus, LocationOff, LocationPause, LocationPin, LocationPlus, LocationQuestion,
-        LocationSearch, LocationShare, LocationStar, LocationUp, LocationX, Lock, LockAccess,
-        LockAccessOff, LockBitcoin, LockBolt, LockCancel, LockCheck, LockCode, LockCog, LockDollar,
-        LockDown, LockExclamation, LockHeart, LockMinus, LockOff, LockOpen, LockOpen2, LockOpenOff,
-        LockPassword, LockPause, LockPin, LockPlus, LockQuestion, LockSearch, LockShare, LockSquare,
-        LockSquareRounded, LockStar, LockUp, LockX, LogicAnd, LogicBuffer, LogicNand, LogicNor,
-        LogicNot, LogicOr, LogicXnor, LogicXor, Login, Login2, Logout, Logout2, Logs, Lollipop,
-        LollipopOff, Luggage, LuggageOff, Lungs, LungsOff, Macro, MacroOff, Magnet, MagnetOff,
-        Magnetic, Mail, MailAi, MailBitcoin, MailBolt, MailCancel, MailCheck, MailCode, MailCog,
-        MailDollar, MailDown, MailExclamation, MailFast, MailForward, MailHeart, MailMinus, MailOff,
-        MailOpened, MailPause, MailPin, MailPlus, MailQuestion, MailSearch, MailShare, MailSpark,
-        MailStar, MailUp, MailX, Mailbox, MailboxOff, Man, ManualGearbox, Map, Map2, MapBolt,
-        MapCancel, MapCheck, MapCode, MapCog, MapDiscount, MapDollar, MapDown, MapEast,
-        MapExclamation, MapHeart, MapMinus, MapNorth, MapOff, MapPause, MapPin, MapPin2, MapPinBolt,
-        MapPinCancel, MapPinCheck, MapPinCode, MapPinCog, MapPinDollar, MapPinDown,
+        LivePhotoOff, LiveView, LoadBalancer, Loader, Loader2, Loader3, Loader4, LoaderQuarter,
+        Location, LocationBolt, LocationBroken, LocationCancel, LocationCheck, LocationCode,
+        LocationCog, LocationDiscount, LocationDollar, LocationDown, LocationExclamation,
+        LocationHeart, LocationMinus, LocationOff, LocationPause, LocationPin, LocationPlus,
+        LocationQuestion, LocationSearch, LocationShare, LocationStar, LocationUp, LocationX, Lock,
+        LockAccess, LockAccessOff, LockBitcoin, LockBolt, LockCancel, LockCheck, LockCode, LockCog,
+        LockDollar, LockDown, LockExclamation, LockHeart, LockMinus, LockOff, LockOpen, LockOpen2,
+        LockOpenOff, LockPassword, LockPause, LockPin, LockPlus, LockQuestion, LockSearch,
+        LockShare, LockSquare, LockSquareRounded, LockStar, LockUp, LockX, LogicAnd, LogicBuffer,
+        LogicNand, LogicNor, LogicNot, LogicOr, LogicXnor, LogicXor, Login, Login2, Logout, Logout2,
+        Logs, Lollipop, LollipopOff, Luggage, LuggageOff, Lungs, LungsOff, Macro, MacroOff, Magnet,
+        MagnetOff, Magnetic, Mail, MailAi, MailBitcoin, MailBolt, MailCancel, MailCheck, MailCode,
+        MailCog, MailDollar, MailDown, MailExclamation, MailFast, MailForward, MailHeart, MailMinus,
+        MailOff, MailOpened, MailPause, MailPin, MailPlus, MailQuestion, MailSearch, MailShare,
+        MailSpark, MailStar, MailUp, MailX, Mailbox, MailboxOff, Man, ManualGearbox, Map, Map2,
+        MapBolt, MapCancel, MapCheck, MapCode, MapCog, MapDiscount, MapDollar, MapDown, MapEast,
+        MapExclamation, MapHeart, MapLock, MapMinus, MapNorth, MapOff, MapPause, MapPin, MapPin2,
+        MapPinBolt, MapPinCancel, MapPinCheck, MapPinCode, MapPinCog, MapPinDollar, MapPinDown,
         MapPinExclamation, MapPinHeart, MapPinMinus, MapPinOff, MapPinPause, MapPinPin, MapPinPlus,
-        MapPinQuestion, MapPinSearch, MapPinShare, MapPinStar, MapPinUp, MapPinX, MapPins, MapPlus,
-        MapQuestion, MapRoute, MapSearch, MapShare, MapSouth, MapStar, MapUp, MapWest, MapX,
-        Markdown, MarkdownOff, Marquee, Marquee2, MarqueeOff, Mars, Mask, MaskOff, MasksTheater,
-        MasksTheaterOff, Massage, Matchstick, Math, Math1Divide2, Math1Divide3, MathAvg, MathCos,
-        MathCtg, MathEqualGreater, MathEqualLower, MathFunction, MathFunctionOff, MathFunctionY,
-        MathGreater, MathIntegral, MathIntegralX, MathIntegrals, MathLower, MathMax, MathMaxMin,
-        MathMin, MathNot, MathOff, MathPi, MathPiDivide2, MathSec, MathSin, MathSymbols, MathTg,
-        MathXDivide2, MathXDivideY, MathXDivideY2, MathXFloorDivideY, MathXMinusX, MathXMinusY,
-        MathXPlusX, MathXPlusY, MathXy, MathYMinusY, MathYPlusY, Matrix, Maximize, MaximizeOff,
-        Meat, MeatOff, Medal, Medal2, MedicalCross, MedicalCrossCircle, MedicalCrossOff,
-        MedicineSyrup, Meeple, Melon, Menorah, Menu, Menu2, Menu3, Menu4, MenuDeep, MenuOrder,
-        Message, Message2, Message2Bolt, Message2Cancel, Message2Check, Message2Code, Message2Cog,
-        Message2Dollar, Message2Down, Message2Exclamation, Message2Heart, Message2Minus,
-        Message2Off, Message2Pause, Message2Pin, Message2Plus, Message2Question, Message2Search,
-        Message2Share, Message2Star, Message2Up, Message2X, MessageBolt, MessageCancel,
-        MessageChatbot, MessageCheck, MessageCircle, MessageCircleBolt, MessageCircleCancel,
-        MessageCircleCheck, MessageCircleCode, MessageCircleCog, MessageCircleDollar,
-        MessageCircleDown, MessageCircleExclamation, MessageCircleHeart, MessageCircleMinus,
-        MessageCircleOff, MessageCirclePause, MessageCirclePin, MessageCirclePlus,
-        MessageCircleQuestion, MessageCircleSearch, MessageCircleShare, MessageCircleStar,
-        MessageCircleUp, MessageCircleUser, MessageCircleX, MessageCode, MessageCog, MessageDollar,
-        MessageDots, MessageDown, MessageExclamation, MessageForward, MessageHeart, MessageLanguage,
-        MessageMinus, MessageOff, MessagePause, MessagePin, MessagePlus, MessageQuestion,
-        MessageReply, MessageReport, MessageSearch, MessageShare, MessageStar, MessageUp,
-        MessageUser, MessageX, Messages, MessagesOff, Meteor, MeteorOff, MeterCube, MeterSquare,
-        Metronome, MichelinBibGourmand, MichelinStar, MichelinStarGreen, Mickey, Microphone,
-        Microphone2, Microphone2Off, MicrophoneOff, Microscope, MicroscopeOff, Microwave,
-        MicrowaveOff, MilitaryAward, MilitaryRank, Milk, MilkOff, Milkshake, Minimize, Minus,
-        MinusVertical, Mist, MistOff, Mobiledata, MobiledataOff, Moneybag, MoneybagEdit,
-        MoneybagHeart, MoneybagMinus, MoneybagMove, MoneybagMoveBack, MoneybagPlus, Monkeybar,
-        MoodAngry, MoodAnnoyed, MoodAnnoyed2, MoodBitcoin, MoodBoy, MoodCheck, MoodCog,
-        MoodConfuzed, MoodCrazyHappy, MoodCry, MoodDollar, MoodEdit, MoodEmpty, MoodHappy,
-        MoodHeart, MoodKid, MoodLookDown, MoodLookLeft, MoodLookRight, MoodLookUp, MoodMinus,
-        MoodNerd, MoodNervous, MoodNeutral, MoodOff, MoodPin, MoodPlus, MoodPuzzled, MoodSad,
-        MoodSad2, MoodSadDizzy, MoodSadSquint, MoodSearch, MoodShare, MoodSick, MoodSilence,
-        MoodSing, MoodSmile, MoodSmileBeam, MoodSmileDizzy, MoodSpark, MoodSurprised, MoodTongue,
-        MoodTongueWink, MoodTongueWink2, MoodUnamused, MoodUp, MoodWink, MoodWink2, MoodWrrr, MoodX,
-        MoodXd, Moon, Moon2, MoonOff, MoonStars, Moped, Motorbike, Mountain, MountainOff, Mouse,
-        Mouse2, MouseOff, Moustache, Movie, MovieOff, Mug, MugOff, Multiplier05x, Multiplier15x,
-        Multiplier1x, Multiplier2x, Mushroom, MushroomOff, Music, MusicBolt, MusicCancel,
-        MusicCheck, MusicCode, MusicCog, MusicDiscount, MusicDollar, MusicDown, MusicExclamation,
-        MusicHeart, MusicMinus, MusicOff, MusicPause, MusicPin, MusicPlus, MusicQuestion,
-        MusicSearch, MusicShare, MusicStar, MusicUp, MusicX, Navigation, NavigationBolt,
-        NavigationCancel, NavigationCheck, NavigationCode, NavigationCog, NavigationDiscount,
-        NavigationDollar, NavigationDown, NavigationEast, NavigationExclamation, NavigationHeart,
-        NavigationMinus, NavigationNorth, NavigationOff, NavigationPause, NavigationPin,
-        NavigationPlus, NavigationQuestion, NavigationSearch, NavigationShare, NavigationSouth,
-        NavigationStar, NavigationTop, NavigationUp, NavigationWest, NavigationX, Needle,
-        NeedleThread, Network, NetworkOff, NewSection, News, NewsOff, Nfc, NfcOff, NoCopyright,
-        NoCreativeCommons, NoDerivatives, NorthStar, Note, NoteOff, Notebook, NotebookOff, Notes,
-        NotesOff, Notification, NotificationOff, Number, Number0, Number0Small, Number1, Number10,
-        Number100Small, Number10Small, Number11, Number11Small, Number123, Number12Small,
-        Number13Small, Number14Small, Number15Small, Number16Small, Number17Small, Number18Small,
-        Number19Small, Number1Small, Number2, Number20Small, Number21Small, Number22Small,
-        Number23Small, Number24Small, Number25Small, Number26Small, Number27Small, Number28Small,
-        Number29Small, Number2Small, Number3, Number30Small, Number31Small, Number32Small,
-        Number33Small, Number34Small, Number35Small, Number36Small, Number37Small, Number38Small,
-        Number39Small, Number3Small, Number4, Number40Small, Number41Small, Number42Small,
-        Number43Small, Number44Small, Number45Small, Number46Small, Number47Small, Number48Small,
-        Number49Small, Number4Small, Number5, Number50Small, Number51Small, Number52Small,
-        Number53Small, Number54Small, Number55Small, Number56Small, Number57Small, Number58Small,
-        Number59Small, Number5Small, Number6, Number60Small, Number61Small, Number62Small,
-        Number63Small, Number64Small, Number65Small, Number66Small, Number67Small, Number68Small,
-        Number69Small, Number6Small, Number7, Number70Small, Number71Small, Number72Small,
-        Number73Small, Number74Small, Number75Small, Number76Small, Number77Small, Number78Small,
-        Number79Small, Number7Small, Number8, Number80Small, Number81Small, Number82Small,
-        Number83Small, Number84Small, Number85Small, Number86Small, Number87Small, Number88Small,
-        Number89Small, Number8Small, Number9, Number90Small, Number91Small, Number92Small,
-        Number93Small, Number94Small, Number95Small, Number96Small, Number97Small, Number98Small,
-        Number99Small, Number9Small, Numbers, Nurse, Nut, ObjectScan, Octagon, OctagonMinus,
-        OctagonMinus2, OctagonOff, OctagonPlus, OctagonPlus2, Octahedron, OctahedronOff,
-        OctahedronPlus, Old, Olympics, OlympicsOff, Om, Omega, Option, Outbound, Outlet, Oval,
-        OvalVertical, Overline, Package, PackageExport, PackageImport, PackageOff, Packages, Pacman,
-        PageBreak, Paint, PaintOff, Palette, PaletteOff, PanoramaHorizontal, PanoramaHorizontalOff,
-        PanoramaVertical, PanoramaVerticalOff, PaperBag, PaperBagOff, Paperclip, Parachute,
-        ParachuteOff, Parentheses, ParenthesesOff, Parking, ParkingCircle, ParkingOff, Password,
-        PasswordFingerprint, PasswordMobilePhone, PasswordUser, Paw, PawOff, Paywall, Pdf, Peace,
-        Pencil, PencilBolt, PencilCancel, PencilCheck, PencilCode, PencilCog, PencilDiscount,
-        PencilDollar, PencilDown, PencilExclamation, PencilHeart, PencilMinus, PencilOff,
-        PencilPause, PencilPin, PencilPlus, PencilQuestion, PencilSearch, PencilShare, PencilStar,
-        PencilUp, PencilX, Pennant, Pennant2, PennantOff, Pentagon, PentagonMinus, PentagonNumber0,
-        PentagonNumber1, PentagonNumber2, PentagonNumber3, PentagonNumber4, PentagonNumber5,
-        PentagonNumber6, PentagonNumber7, PentagonNumber8, PentagonNumber9, PentagonOff,
-        PentagonPlus, PentagonX, Pentagram, Pepper, PepperOff, Percentage, Percentage0,
-        Percentage10, Percentage100, Percentage20, Percentage25, Percentage30, Percentage33,
-        Percentage40, Percentage50, Percentage60, Percentage66, Percentage70, Percentage75,
-        Percentage80, Percentage90, Perfume, Perspective, PerspectiveOff, Phone, PhoneCall,
-        PhoneCalling, PhoneCheck, PhoneDone, PhoneEnd, PhoneIncoming, PhoneOff, PhoneOutgoing,
-        PhonePause, PhonePlus, PhoneRinging, PhoneSpark, PhoneX, Photo, PhotoAi, PhotoBitcoin,
-        PhotoBolt, PhotoCancel, PhotoCheck, PhotoCircle, PhotoCircleMinus, PhotoCirclePlus,
-        PhotoCode, PhotoCog, PhotoDollar, PhotoDown, PhotoEdit, PhotoExclamation, PhotoHeart,
-        PhotoHexagon, PhotoMinus, PhotoOff, PhotoPause, PhotoPentagon, PhotoPin, PhotoPlus,
-        PhotoQuestion, PhotoScan, PhotoSearch, PhotoSensor, PhotoSensor2, PhotoSensor3, PhotoShare,
-        PhotoShield, PhotoSpark, PhotoSquareRounded, PhotoStar, PhotoUp, PhotoVideo, PhotoX,
-        Physotherapist, Piano, Pick, PicnicTable, PictureInPicture, PictureInPictureOff,
-        PictureInPictureOn, PictureInPictureTop, Pig, PigMoney, PigOff, Pilcrow, PilcrowLeft,
-        PilcrowRight, Pill, PillOff, Pills, Pin, PinEnd, PinInvoke, PingPong, Pinned, PinnedOff,
-        Pizza, PizzaOff, Placeholder, Plane, PlaneArrival, PlaneDeparture, PlaneInflight, PlaneOff,
-        PlaneTilt, Planet, PlanetOff, Plant, Plant2, Plant2Off, PlantOff, PlayBasketball, PlayCard,
-        PlayCard1, PlayCard10, PlayCard2, PlayCard3, PlayCard4, PlayCard5, PlayCard6, PlayCard7,
-        PlayCard8, PlayCard9, PlayCardA, PlayCardJ, PlayCardK, PlayCardOff, PlayCardQ, PlayCardStar,
+        MapPinQuestion, MapPinSearch, MapPinShare, MapPinStar, MapPinUp, MapPinX, MapPinned,
+        MapPins, MapPlus, MapQuestion, MapRoute, MapSearch, MapShare, MapShield, MapSouth, MapStar,
+        MapUp, MapWest, MapX, Markdown, MarkdownOff, Marquee, Marquee2, MarqueeOff, Mars, Mask,
+        MaskOff, MasksTheater, MasksTheaterOff, Massage, Matchstick, Math, Math1Divide2,
+        Math1Divide3, MathAvg, MathCos, MathCtg, MathEqualGreater, MathEqualLower, MathFunction,
+        MathFunctionOff, MathFunctionY, MathGreater, MathIntegral, MathIntegralX, MathIntegrals,
+        MathLower, MathMax, MathMaxMin, MathMin, MathNot, MathOff, MathPi, MathPiDivide2, MathSec,
+        MathSin, MathSymbols, MathTg, MathXDivide2, MathXDivideY, MathXDivideY2, MathXFloorDivideY,
+        MathXMinusX, MathXMinusY, MathXPlusX, MathXPlusY, MathXy, MathYMinusY, MathYPlusY, Matrix,
+        Maximize, MaximizeOff, Meat, MeatOff, Medal, Medal2, MedicalCross, MedicalCrossCircle,
+        MedicalCrossOff, MedicineSyrup, Meeple, Melon, Menorah, Menu, Menu2, Menu3, Menu4, MenuDeep,
+        MenuOrder, Mesh, Message, Message2, Message2Bolt, Message2Cancel, Message2Check,
+        Message2Code, Message2Cog, Message2Dollar, Message2Down, Message2Exclamation, Message2Heart,
+        Message2Minus, Message2Off, Message2Pause, Message2Pin, Message2Plus, Message2Question,
+        Message2Search, Message2Share, Message2Star, Message2Up, Message2X, MessageBolt,
+        MessageCancel, MessageChatbot, MessageCheck, MessageCircle, MessageCircleBolt,
+        MessageCircleCancel, MessageCircleCheck, MessageCircleCode, MessageCircleCog,
+        MessageCircleDollar, MessageCircleDown, MessageCircleExclamation, MessageCircleHeart,
+        MessageCircleMinus, MessageCircleOff, MessageCirclePause, MessageCirclePin,
+        MessageCirclePlus, MessageCircleQuestion, MessageCircleSearch, MessageCircleShare,
+        MessageCircleStar, MessageCircleUp, MessageCircleUser, MessageCircleX, MessageCode,
+        MessageCog, MessageDollar, MessageDots, MessageDown, MessageExclamation, MessageForward,
+        MessageHeart, MessageLanguage, MessageMinus, MessageOff, MessagePause, MessagePin,
+        MessagePlus, MessageQuestion, MessageReply, MessageReport, MessageSearch, MessageShare,
+        MessageStar, MessageUp, MessageUser, MessageX, Messages, MessagesOff, Meteor, MeteorOff,
+        MeterCube, MeterSquare, Metronome, MichelinBibGourmand, MichelinStar, MichelinStarGreen,
+        Mickey, Microfrontends, Microphone, Microphone2, Microphone2Off, MicrophoneOff, Microscope,
+        MicroscopeOff, Microwave, MicrowaveOff, Middleware, MilitaryAward, MilitaryRank, Milk,
+        MilkOff, Milkshake, Minimize, Minus, MinusVertical, Mist, MistOff, Mobiledata,
+        MobiledataOff, Moneybag, MoneybagEdit, MoneybagHeart, MoneybagMinus, MoneybagMove,
+        MoneybagMoveBack, MoneybagPlus, Monkeybar, MoodAngry, MoodAnnoyed, MoodAnnoyed2,
+        MoodBitcoin, MoodBoy, MoodCheck, MoodCog, MoodConfused, MoodCrazyHappy, MoodCry, MoodDollar,
+        MoodEdit, MoodEmpty, MoodHappy, MoodHeart, MoodKid, MoodLookDown, MoodLookLeft,
+        MoodLookRight, MoodLookUp, MoodMinus, MoodNerd, MoodNervous, MoodNeutral, MoodOff, MoodPin,
+        MoodPlus, MoodPuzzled, MoodSad, MoodSad2, MoodSadDizzy, MoodSadSquint, MoodSearch,
+        MoodShare, MoodSick, MoodSilence, MoodSing, MoodSmile, MoodSmileBeam, MoodSmileDizzy,
+        MoodSpark, MoodSurprised, MoodTongue, MoodTongueWink, MoodTongueWink2, MoodUnamused, MoodUp,
+        MoodWink, MoodWink2, MoodWrrr, MoodX, MoodXd, Moon, Moon2, MoonOff, MoonStars, Moped,
+        Mosque, Motorbike, Mountain, MountainOff, Mouse, Mouse2, MouseOff, Moustache, Movie,
+        MovieOff, Mug, MugOff, Multiplier05x, Multiplier15x, Multiplier1x, Multiplier2x, Mushroom,
+        MushroomOff, Music, MusicBolt, MusicCancel, MusicCheck, MusicCode, MusicCog, MusicDiscount,
+        MusicDollar, MusicDown, MusicExclamation, MusicHeart, MusicMinus, MusicOff, MusicPause,
+        MusicPin, MusicPlus, MusicQuestion, MusicSearch, MusicShare, MusicStar, MusicUp, MusicX,
+        Navigation, NavigationBolt, NavigationCancel, NavigationCheck, NavigationCode,
+        NavigationCog, NavigationDiscount, NavigationDollar, NavigationDown, NavigationEast,
+        NavigationExclamation, NavigationHeart, NavigationMinus, NavigationNorth, NavigationOff,
+        NavigationPause, NavigationPin, NavigationPlus, NavigationQuestion, NavigationSearch,
+        NavigationShare, NavigationSouth, NavigationStar, NavigationTop, NavigationUp,
+        NavigationWest, NavigationX, Needle, NeedleThread, Network, NetworkOff, NewSection, News,
+        NewsOff, Nfc, NfcOff, NoCopyright, NoCreativeCommons, NoDerivatives, NoiseReduction,
+        NorthStar, Notdef, Note, NoteOff, Notebook, NotebookOff, Notes, NotesOff, Notification,
+        NotificationOff, Number, Number0, Number0Small, Number1, Number10, Number100Small,
+        Number10Small, Number11, Number11Small, Number123, Number12Small, Number13Small,
+        Number14Small, Number15Small, Number16Small, Number17Small, Number18Small, Number19Small,
+        Number1Small, Number2, Number20Small, Number21Small, Number22Small, Number23Small,
+        Number24Small, Number25Small, Number26Small, Number27Small, Number28Small, Number29Small,
+        Number2Small, Number3, Number30Small, Number31Small, Number32Small, Number33Small,
+        Number34Small, Number35Small, Number36Small, Number37Small, Number38Small, Number39Small,
+        Number3Small, Number4, Number40Small, Number41Small, Number42Small, Number43Small,
+        Number44Small, Number45Small, Number46Small, Number47Small, Number48Small, Number49Small,
+        Number4Small, Number5, Number50Small, Number51Small, Number52Small, Number53Small,
+        Number54Small, Number55Small, Number56Small, Number57Small, Number58Small, Number59Small,
+        Number5Small, Number6, Number60Small, Number61Small, Number62Small, Number63Small,
+        Number64Small, Number65Small, Number66Small, Number67Small, Number68Small, Number69Small,
+        Number6Small, Number7, Number70Small, Number71Small, Number72Small, Number73Small,
+        Number74Small, Number75Small, Number76Small, Number77Small, Number78Small, Number79Small,
+        Number7Small, Number8, Number80Small, Number81Small, Number82Small, Number83Small,
+        Number84Small, Number85Small, Number86Small, Number87Small, Number88Small, Number89Small,
+        Number8Small, Number9, Number90Small, Number91Small, Number92Small, Number93Small,
+        Number94Small, Number95Small, Number96Small, Number97Small, Number98Small, Number99Small,
+        Number9Small, Numbers, Nurse, Nut, ObjectScan, Octagon, OctagonMinus, OctagonMinus2,
+        OctagonOff, OctagonPlus, OctagonPlus2, Octahedron, OctahedronOff, OctahedronPlus, Old,
+        OlympicTorch, Olympics, OlympicsOff, Om, Omega, Option, Orbit, OrbitVertical, Orbits,
+        Outbound, Outlet, Oval, OvalVertical, Overline, Package, PackageExport, PackageImport,
+        PackageOff, Packages, Pacman, PageBreak, Paint, PaintOff, Palette, PaletteOff,
+        PanoramaHorizontal, PanoramaHorizontalOff, PanoramaVertical, PanoramaVerticalOff, PaperBag,
+        PaperBagOff, Paperclip, Parachute, ParachuteOff, Parentheses, ParenthesesOff, Parking,
+        ParkingCircle, ParkingMeter, ParkingOff, Password, PasswordFingerprint, PasswordMobilePhone,
+        PasswordUser, Paw, PawOff, Paywall, Pdf, Peace, Pencil, PencilBolt, PencilCancel,
+        PencilCheck, PencilCode, PencilCog, PencilDiscount, PencilDollar, PencilDown,
+        PencilExclamation, PencilHeart, PencilMinus, PencilOff, PencilPause, PencilPin, PencilPlus,
+        PencilQuestion, PencilSearch, PencilShare, PencilStar, PencilUp, PencilX, Pendulum, Pennant,
+        Pennant2, PennantOff, Pentagon, PentagonMinus, PentagonNumber0, PentagonNumber1,
+        PentagonNumber2, PentagonNumber3, PentagonNumber4, PentagonNumber5, PentagonNumber6,
+        PentagonNumber7, PentagonNumber8, PentagonNumber9, PentagonOff, PentagonPlus, PentagonX,
+        Pentagram, Pepper, PepperOff, Percentage, Percentage0, Percentage10, Percentage100,
+        Percentage20, Percentage25, Percentage30, Percentage33, Percentage40, Percentage50,
+        Percentage60, Percentage66, Percentage70, Percentage75, Percentage80, Percentage90, Perfume,
+        Perspective, PerspectiveOff, Phone, PhoneCall, PhoneCalling, PhoneCheck, PhoneDone,
+        PhoneEnd, PhoneIncoming, PhoneOff, PhoneOutgoing, PhonePause, PhonePlus, PhoneRinging,
+        PhoneSpark, PhoneX, Photo, PhotoAi, PhotoAlt, PhotoBitcoin, PhotoBolt, PhotoCancel,
+        PhotoCheck, PhotoCircle, PhotoCircleMinus, PhotoCirclePlus, PhotoCode, PhotoCog,
+        PhotoDollar, PhotoDown, PhotoEdit, PhotoExclamation, PhotoHeart, PhotoHexagon, PhotoMinus,
+        PhotoOff, PhotoPause, PhotoPentagon, PhotoPin, PhotoPlus, PhotoQuestion, PhotoScan,
+        PhotoSearch, PhotoSensor, PhotoSensor2, PhotoSensor3, PhotoShare, PhotoShield, PhotoSpark,
+        PhotoSquareRounded, PhotoStar, PhotoUp, PhotoVideo, PhotoX, Physiotherapist, Piano, Pick,
+        PicnicTable, PictureInPicture, PictureInPictureOff, PictureInPictureOn, PictureInPictureTop,
+        Pig, PigMoney, PigOff, Pilcrow, PilcrowLeft, PilcrowRight, Pill, PillOff, Pillow, Pills,
+        Pin, PinEnd, PinInvoke, PingPong, Pinned, PinnedOff, Pipeline, Pizza, PizzaOff, Placeholder,
+        Plane, PlaneArrival, PlaneDeparture, PlaneInflight, PlaneOff, PlaneTilt, Planet, PlanetOff,
+        Plant, Plant2, Plant2Off, PlantOff, PlayBasketball, PlayBug, PlayBugs, PlayCard, PlayCard1,
+        PlayCard10, PlayCard2, PlayCard3, PlayCard4, PlayCard5, PlayCard6, PlayCard7, PlayCard8,
+        PlayCard9, PlayCardA, PlayCardJ, PlayCardK, PlayCardOff, PlayCardQ, PlayCardStar,
         PlayFootball, PlayHandball, PlayVolleyball, PlayerEject, PlayerPause, PlayerPlay,
         PlayerRecord, PlayerSkipBack, PlayerSkipForward, PlayerStop, PlayerTrackNext,
         PlayerTrackPrev, Playlist, PlaylistAdd, PlaylistOff, PlaylistX, PlaystationCircle,
         PlaystationSquare, PlaystationTriangle, PlaystationX, Plug, PlugConnected, PlugConnectedX,
-        PlugOff, PlugX, Plus, PlusEqual, PlusMinus, Png, Podium, PodiumOff, Point, PointOff,
-        Pointer, PointerBolt, PointerCancel, PointerCheck, PointerCode, PointerCog, PointerDollar,
-        PointerDown, PointerExclamation, PointerHeart, PointerMinus, PointerOff, PointerPause,
-        PointerPin, PointerPlus, PointerQuestion, PointerSearch, PointerShare, PointerStar,
-        PointerUp, PointerX, Pokeball, PokeballOff, PokerChip, Polaroid, Polygon, PolygonOff, Poo,
-        Pool, PoolOff, Power, Pray, PremiumRights, Prescription, Presentation,
-        PresentationAnalytics, PresentationOff, Printer, PrinterOff, Prism, PrismLight, PrismOff,
-        PrismPlus, Prison, Progress, ProgressAlert, ProgressBolt, ProgressCheck, ProgressDown,
-        ProgressHelp, ProgressX, Prompt, Prong, Propeller, PropellerOff, Protocol, PumpkinScary,
-        Puzzle, Puzzle2, PuzzleOff, Pyramid, PyramidOff, PyramidPlus, Qrcode, QrcodeOff,
-        QuestionMark, Quote, QuoteOff, Quotes, Radar, Radar2, RadarOff, Radio, RadioOff,
-        Radioactive, RadioactiveOff, RadiusBottomLeft, RadiusBottomRight, RadiusTopLeft,
-        RadiusTopRight, Rainbow, RainbowOff, Rating12Plus, Rating14Plus, Rating16Plus, Rating18Plus,
-        Rating21Plus, Razor, RazorElectric, Receipt, Receipt2, ReceiptBitcoin, ReceiptDollar,
-        ReceiptEuro, ReceiptOff, ReceiptPound, ReceiptRefund, ReceiptRupee, ReceiptTax, ReceiptYen,
-        ReceiptYuan, Recharging, RecordMail, RecordMailOff, Rectangle, RectangleRoundedBottom,
-        RectangleRoundedTop, RectangleVertical, RectangularPrism, RectangularPrismOff,
-        RectangularPrismPlus, Recycle, RecycleOff, Refresh, RefreshAlert, RefreshDot, RefreshOff,
+        PlugOff, PlugX, Plunger, Plus, PlusEqual, PlusMinus, Png, Podium, PodiumOff, Point,
+        PointOff, Pointer, Pointer2, PointerBolt, PointerCancel, PointerCheck, PointerCode,
+        PointerCog, PointerCollaboration, PointerCollaboration2, PointerDollar, PointerDown,
+        PointerExclamation, PointerHeart, PointerMinus, PointerOff, PointerPause, PointerPin,
+        PointerPlus, PointerQuestion, PointerSearch, PointerShare, PointerStar, PointerUp, PointerX,
+        Pokeball, PokeballOff, PokerChip, Polaroid, Polygon, PolygonOff, Poo, Pool, PoolOff, Power,
+        Pray, PremiumRights, Prescription, Presentation, PresentationAnalytics, PresentationOff,
+        Printer, PrinterOff, Prism, PrismLight, PrismOff, PrismPlus, Prison, Progress,
+        ProgressAlert, ProgressBolt, ProgressCheck, ProgressDown, ProgressHelp, ProgressX, Prompt,
+        Prong, Propeller, PropellerOff, Protocol, PumpkinScary, Puzzle, Puzzle2, PuzzleOff, Pyramid,
+        PyramidOff, PyramidPlus, Qrcode, QrcodeOff, QuestionMark, QueuePopIn, QueuePopOut, Quote,
+        QuoteOff, QuoteOpen, Quotes, Radar, Radar2, RadarOff, Radio, RadioOff, Radioactive,
+        RadioactiveOff, RadiusBottomLeft, RadiusBottomRight, RadiusTopLeft, RadiusTopRight, Rainbow,
+        RainbowOff, Rating12Plus, Rating14Plus, Rating16Plus, Rating18Plus, Rating21Plus, Razor,
+        RazorElectric, Receipt, Receipt2, ReceiptBitcoin, ReceiptDollar, ReceiptEuro, ReceiptOff,
+        ReceiptPound, ReceiptRefund, ReceiptRupee, ReceiptTax, ReceiptYen, ReceiptYuan, Recharging,
+        RecordMail, RecordMailOff, Rectangle, RectangleRoundedBottom, RectangleRoundedTop,
+        RectangleVertical, RectangularPrism, RectangularPrismOff, RectangularPrismPlus, Recycle,
+        RecycleOff, ReduceMotion, ReferenceImage, Refresh, RefreshAlert, RefreshDot, RefreshOff,
         Regex, RegexOff, Registered, RelationManyToMany, RelationOneToMany, RelationOneToOne,
-        Reload, Reorder, Repeat, RepeatOff, RepeatOnce, Replace, ReplaceOff, ReplaceUser, Report,
-        ReportAnalytics, ReportMedical, ReportMoney, ReportOff, ReportSearch, ReservedLine, Resize,
-        Restore, RewindBackward10, RewindBackward15, RewindBackward20, RewindBackward30,
-        RewindBackward40, RewindBackward5, RewindBackward50, RewindBackward60, RewindForward10,
-        RewindForward15, RewindForward20, RewindForward30, RewindForward40, RewindForward5,
-        RewindForward50, RewindForward60, RibbonHealth, Rings, Ripple, RippleDown, RippleOff,
-        RippleUp, Road, RoadOff, RoadSign, Robot, RobotFace, RobotOff, Rocket, RocketOff,
-        RollerSkating, Rollercoaster, RollercoasterOff, Rosette, RosetteAsterisk, RosetteDiscount,
-        RosetteDiscountCheck, RosetteDiscountCheckOff, RosetteDiscountOff, RosetteNumber0,
-        RosetteNumber1, RosetteNumber2, RosetteNumber3, RosetteNumber4, RosetteNumber5,
-        RosetteNumber6, RosetteNumber7, RosetteNumber8, RosetteNumber9, Rotate, Rotate2, Rotate360,
-        Rotate3d, RotateClockwise, RotateClockwise2, RotateDot, RotateRectangle, Route, Route2,
-        RouteAltLeft, RouteAltRight, RouteOff, RouteScan, RouteSquare, RouteSquare2, RouteX,
-        RouteX2, Router, RouterOff, RowInsertBottom, RowInsertTop, RowRemove, Rss, RubberStamp,
-        RubberStampOff, Ruler, Ruler2, Ruler2Off, Ruler3, RulerMeasure, RulerMeasure2, RulerOff,
-        Run, RvTruck, STurnDown, STurnLeft, STurnRight, STurnUp, Sailboat, Sailboat2, SailboatOff,
-        Salad, Salt, Sandbox, Satellite, SatelliteOff, Sausage, Scale, ScaleOff, ScaleOutline,
-        ScaleOutlineOff, Scan, ScanEye, ScanPosition, Schema, SchemaOff, School, SchoolBell,
-        SchoolOff, Scissors, ScissorsOff, Scooter, ScooterElectric, Scoreboard, ScreenShare,
-        ScreenShareOff, Screenshot, Scribble, ScribbleOff, Script, ScriptMinus, ScriptPlus, ScriptX,
-        ScubaDiving, ScubaDivingTank, ScubaMask, ScubaMaskOff, Sdk, Search, SearchOff, Section,
-        SectionSign, Seedling, SeedlingOff, Select, SelectAll, Selector, Send, Send2, SendOff, Seo,
-        Separator, SeparatorHorizontal, SeparatorVertical, Server, Server2, ServerBolt, ServerCog,
-        ServerOff, ServerSpark, Servicemark, Settings, Settings2, SettingsAi, SettingsAutomation,
-        SettingsBolt, SettingsCancel, SettingsCheck, SettingsCode, SettingsCog, SettingsDollar,
-        SettingsDown, SettingsExclamation, SettingsHeart, SettingsMinus, SettingsOff, SettingsPause,
-        SettingsPin, SettingsPlus, SettingsQuestion, SettingsSearch, SettingsShare, SettingsSpark,
-        SettingsStar, SettingsUp, SettingsX, Shadow, ShadowOff, Shape, Shape2, Shape3, ShapeOff,
-        Share, Share2, Share3, ShareOff, Shareplay, Shield, ShieldBolt, ShieldCancel, ShieldCheck,
-        ShieldCheckered, ShieldChevron, ShieldCode, ShieldCog, ShieldDollar, ShieldDown,
-        ShieldExclamation, ShieldHalf, ShieldHeart, ShieldLock, ShieldMinus, ShieldOff, ShieldPause,
-        ShieldPin, ShieldPlus, ShieldQuestion, ShieldSearch, ShieldShare, ShieldStar, ShieldUp,
-        ShieldX, Ship, ShipOff, Shirt, ShirtOff, ShirtSport, Shoe, ShoeOff, ShoppingBag,
-        ShoppingBagCheck, ShoppingBagDiscount, ShoppingBagEdit, ShoppingBagExclamation,
-        ShoppingBagHeart, ShoppingBagMinus, ShoppingBagPlus, ShoppingBagSearch, ShoppingBagX,
-        ShoppingCart, ShoppingCartBolt, ShoppingCartCancel, ShoppingCartCheck, ShoppingCartCode,
-        ShoppingCartCog, ShoppingCartCopy, ShoppingCartDiscount, ShoppingCartDollar,
-        ShoppingCartDown, ShoppingCartExclamation, ShoppingCartHeart, ShoppingCartMinus,
-        ShoppingCartOff, ShoppingCartPause, ShoppingCartPin, ShoppingCartPlus, ShoppingCartQuestion,
-        ShoppingCartSearch, ShoppingCartShare, ShoppingCartStar, ShoppingCartUp, ShoppingCartX,
-        Shovel, ShovelPitchforks, Shredder, SignLeft, SignRight, Signal2g, Signal3g, Signal4g,
-        Signal4gPlus, Signal5g, Signal6g, SignalE, SignalG, SignalH, SignalHPlus, SignalLte,
-        Signature, SignatureOff, Sitemap, SitemapOff, Skateboard, SkateboardOff, Skateboarding,
-        SkewX, SkewY, SkiJumping, Skull, Slash, Slashes, Sleigh, Slice, Slideshow, SmartHome,
-        SmartHomeOff, Smoking, SmokingNo, Snowboarding, Snowflake, SnowflakeOff, Snowman,
-        SoccerField, Social, SocialOff, Sock, Sofa, SofaOff, SolarElectricity, SolarPanel,
-        SolarPanel2, Sort09, Sort90, SortAZ, SortAscending, SortAscending2, SortAscendingLetters,
-        SortAscendingNumbers, SortAscendingShapes, SortAscendingSmallBig, SortDescending,
-        SortDescending2, SortDescendingLetters, SortDescendingNumbers, SortDescendingShapes,
-        SortDescendingSmallBig, SortZA, Sos, Soup, SoupOff, SourceCode, Space, SpaceOff, Spaces,
-        SpacingHorizontal, SpacingVertical, Spade, Sparkles, Sparkles2, Speakerphone, Speedboat,
-        Sphere, SphereOff, SpherePlus, Spider, Spiral, SpiralOff, SportBillard, Spray, Spy, SpyOff,
-        Sql, Square, SquareArrowDown, SquareArrowLeft, SquareArrowRight, SquareArrowUp,
-        SquareAsterisk, SquareCheck, SquareChevronDown, SquareChevronLeft, SquareChevronRight,
-        SquareChevronUp, SquareChevronsDown, SquareChevronsLeft, SquareChevronsRight,
-        SquareChevronsUp, SquareDashed, SquareDot, SquareF0, SquareF1, SquareF2, SquareF3, SquareF4,
-        SquareF5, SquareF6, SquareF7, SquareF8, SquareF9, SquareForbid, SquareForbid2, SquareHalf,
-        SquareKey, SquareLetterA, SquareLetterB, SquareLetterC, SquareLetterD, SquareLetterE,
-        SquareLetterF, SquareLetterG, SquareLetterH, SquareLetterI, SquareLetterJ, SquareLetterK,
-        SquareLetterL, SquareLetterM, SquareLetterN, SquareLetterO, SquareLetterP, SquareLetterQ,
-        SquareLetterR, SquareLetterS, SquareLetterT, SquareLetterU, SquareLetterV, SquareLetterW,
-        SquareLetterX, SquareLetterY, SquareLetterZ, SquareMinus, SquareMinus2, SquareNumber0,
-        SquareNumber1, SquareNumber2, SquareNumber3, SquareNumber4, SquareNumber5, SquareNumber6,
-        SquareNumber7, SquareNumber8, SquareNumber9, SquareOff, SquarePercentage, SquarePlus,
-        SquarePlus2, SquareRoot, SquareRoot2, SquareRotated, SquareRotatedAsterisk,
-        SquareRotatedForbid, SquareRotatedForbid2, SquareRotatedOff, SquareRounded,
-        SquareRoundedArrowDown, SquareRoundedArrowLeft, SquareRoundedArrowRight,
-        SquareRoundedArrowUp, SquareRoundedCheck, SquareRoundedChevronDown,
-        SquareRoundedChevronLeft, SquareRoundedChevronRight, SquareRoundedChevronUp,
-        SquareRoundedChevronsDown, SquareRoundedChevronsLeft, SquareRoundedChevronsRight,
-        SquareRoundedChevronsUp, SquareRoundedLetterA, SquareRoundedLetterB, SquareRoundedLetterC,
-        SquareRoundedLetterD, SquareRoundedLetterE, SquareRoundedLetterF, SquareRoundedLetterG,
-        SquareRoundedLetterH, SquareRoundedLetterI, SquareRoundedLetterJ, SquareRoundedLetterK,
-        SquareRoundedLetterL, SquareRoundedLetterM, SquareRoundedLetterN, SquareRoundedLetterO,
-        SquareRoundedLetterP, SquareRoundedLetterQ, SquareRoundedLetterR, SquareRoundedLetterS,
-        SquareRoundedLetterT, SquareRoundedLetterU, SquareRoundedLetterV, SquareRoundedLetterW,
-        SquareRoundedLetterX, SquareRoundedLetterY, SquareRoundedLetterZ, SquareRoundedMinus,
-        SquareRoundedMinus2, SquareRoundedNumber0, SquareRoundedNumber1, SquareRoundedNumber2,
-        SquareRoundedNumber3, SquareRoundedNumber4, SquareRoundedNumber5, SquareRoundedNumber6,
-        SquareRoundedNumber7, SquareRoundedNumber8, SquareRoundedNumber9, SquareRoundedPercentage,
-        SquareRoundedPlus, SquareRoundedPlus2, SquareRoundedX, SquareToggle, SquareToggleHorizontal,
-        SquareX, Squares, SquaresDiagonal, SquaresSelected, Stack, Stack2, Stack3, StackBack,
-        StackBackward, StackForward, StackFront, StackMiddle, StackPop, StackPush, Stairs,
-        StairsDown, StairsUp, Star, StarHalf, StarOff, Stars, StarsOff, StatusChange, Steam,
-        SteeringWheel, SteeringWheelOff, StepInto, StepOut, StereoGlasses, Stethoscope,
-        StethoscopeOff, Sticker, Sticker2, Stopwatch, Storm, StormOff, Stretching, Stretching2,
-        Strikethrough, Submarine, Subscript, Subtask, Subtitles, SubtitlesAi, SubtitlesEdit,
+        Reload, RemoteControl, Reorder, Repeat, RepeatOff, RepeatOnce, Replace, ReplaceOff,
+        ReplaceUser, Report, ReportAnalytics, ReportMedical, ReportMoney, ReportOff, ReportSearch,
+        ReservedLine, Resize, Restore, RewindBackward10, RewindBackward15, RewindBackward20,
+        RewindBackward30, RewindBackward40, RewindBackward5, RewindBackward50, RewindBackward60,
+        RewindForward10, RewindForward15, RewindForward20, RewindForward30, RewindForward40,
+        RewindForward5, RewindForward50, RewindForward60, RibbonHealth, Rings, Ripple, RippleDown,
+        RippleOff, RippleUp, Road, RoadOff, RoadSign, Robot, RobotFace, RobotOff, Rocket, RocketOff,
+        RockingChair, RollerSkating, Rollercoaster, RollercoasterOff, Rosette, RosetteAsterisk,
+        RosetteDiscount, RosetteDiscountCheck, RosetteDiscountCheckOff, RosetteDiscountOff,
+        RosetteNumber0, RosetteNumber1, RosetteNumber2, RosetteNumber3, RosetteNumber4,
+        RosetteNumber5, RosetteNumber6, RosetteNumber7, RosetteNumber8, RosetteNumber9, Rotate,
+        Rotate2, Rotate360, Rotate3d, RotateClockwise, RotateClockwise2, RotateDot, RotateRectangle,
+        Roulette, Route, Route2, RouteAltLeft, RouteAltRight, RouteOff, RouteScan, RouteSquare,
+        RouteSquare2, RouteX, RouteX2, Router, RouterOff, RowInsertBottom, RowInsertTop, RowRemove,
+        Rss, RubberStamp, RubberStampOff, Rugby, Ruler, Ruler2, Ruler2Off, Ruler3, RulerMeasure,
+        RulerMeasure2, RulerOff, Run, RunSprint, RvTruck, STurnDown, STurnLeft, STurnRight, STurnUp,
+        Sailboat, Sailboat2, SailboatOff, Salad, Salt, Sandbox, Satellite, SatelliteOff, Sausage,
+        Scale, ScaleOff, ScaleOutline, ScaleOutlineOff, Scan, ScanCube, ScanEye, ScanLetterA,
+        ScanLetterT, ScanPosition, ScanTraces, Schema, SchemaOff, School, SchoolBell, SchoolOff,
+        Scissors, ScissorsOff, Scooter, ScooterElectric, Scoreboard, ScreenShare, ScreenShareOff,
+        Screenshot, Scribble, ScribbleOff, Script, ScriptMinus, ScriptPlus, ScriptX, ScubaDiving,
+        ScubaDivingTank, ScubaMask, ScubaMaskOff, Sdk, Search, SearchOff, SecretPhrases, Section,
+        SectionSign, Seedling, SeedlingOff, Segway, Select, SelectAll, Selector, Send, Send2,
+        SendOff, Seo, Separator, SeparatorHorizontal, SeparatorVertical, Server, Server2,
+        ServerBolt, ServerCog, ServerOff, ServerSpark, Serverless, Servicemark, Settings, Settings2,
+        SettingsAi, SettingsAutomation, SettingsBolt, SettingsCancel, SettingsCheck, SettingsCode,
+        SettingsCog, SettingsDollar, SettingsDown, SettingsExclamation, SettingsHeart,
+        SettingsMinus, SettingsOff, SettingsPause, SettingsPin, SettingsPlus, SettingsQuestion,
+        SettingsSearch, SettingsShare, SettingsSpark, SettingsStar, SettingsUp, SettingsX, Shadow,
+        ShadowOff, Shape, Shape2, Shape3, ShapeOff, Share, Share2, Share3, ShareOff, Shareplay,
+        Shield, ShieldBolt, ShieldCancel, ShieldCheck, ShieldCheckered, ShieldChevron, ShieldCode,
+        ShieldCog, ShieldDollar, ShieldDown, ShieldExclamation, ShieldHalf, ShieldHeart, ShieldLock,
+        ShieldMinus, ShieldOff, ShieldPause, ShieldPin, ShieldPlus, ShieldQuestion, ShieldSearch,
+        ShieldShare, ShieldStar, ShieldUp, ShieldX, Ship, ShipOff, Shirt, ShirtOff, ShirtSport,
+        Shoe, ShoeOff, ShoppingBag, ShoppingBagCheck, ShoppingBagDiscount, ShoppingBagEdit,
+        ShoppingBagExclamation, ShoppingBagHeart, ShoppingBagMinus, ShoppingBagPlus,
+        ShoppingBagSearch, ShoppingBagX, ShoppingCart, ShoppingCartBolt, ShoppingCartCancel,
+        ShoppingCartCheck, ShoppingCartCode, ShoppingCartCog, ShoppingCartCopy,
+        ShoppingCartDiscount, ShoppingCartDollar, ShoppingCartDown, ShoppingCartExclamation,
+        ShoppingCartHeart, ShoppingCartMinus, ShoppingCartOff, ShoppingCartPause, ShoppingCartPin,
+        ShoppingCartPlus, ShoppingCartQuestion, ShoppingCartSearch, ShoppingCartShare,
+        ShoppingCartStar, ShoppingCartUp, ShoppingCartX, Shovel, ShovelPitchforks, Shredder,
+        SignLeft, SignRight, Signal2g, Signal3g, Signal4g, Signal4gPlus, Signal5g, Signal6g,
+        SignalE, SignalG, SignalH, SignalHPlus, SignalLte, Signature, SignatureOff, Sitemap,
+        SitemapOff, Skateboard, SkateboardOff, Skateboarding, Sketching, SkewX, SkewY, SkiJumping,
+        Skull, Slash, Slashes, Sleigh, Slice, Slideshow, SmartHome, SmartHomeOff, Smoking,
+        SmokingNo, Snowboarding, Snowflake, SnowflakeOff, Snowman, SoccerField, Social, SocialOff,
+        Sock, Sofa, SofaOff, SolarElectricity, SolarPanel, SolarPanel2, Sort09, Sort90, SortAZ,
+        SortAscending, SortAscending2, SortAscendingLetters, SortAscendingNumbers,
+        SortAscendingShapes, SortAscendingSmallBig, SortDescending, SortDescending2,
+        SortDescendingLetters, SortDescendingNumbers, SortDescendingShapes, SortDescendingSmallBig,
+        SortZA, Sos, Soup, SoupOff, SourceCode, Space, SpaceOff, Spaces, SpacingHorizontal,
+        SpacingVertical, Spade, Sparkle, Sparkle2, SparkleHighlight, Sparkles, Sparkles2,
+        Sparkles2Off, Speakerphone, Speedboat, Sphere, Sphere2, SphereOff, SpherePlus, Spider,
+        Spiral, SpiralOff, SportBilliard, Spray, Spy, SpyOff, Sql, Square, SquareArrowDown,
+        SquareArrowLeft, SquareArrowRight, SquareArrowUp, SquareAsterisk, SquareCheck,
+        SquareChevronDown, SquareChevronLeft, SquareChevronRight, SquareChevronUp,
+        SquareChevronsDown, SquareChevronsLeft, SquareChevronsRight, SquareChevronsUp, SquareDashed,
+        SquareDot, SquareF0, SquareF1, SquareF2, SquareF3, SquareF4, SquareF5, SquareF6, SquareF7,
+        SquareF8, SquareF9, SquareForbid, SquareForbid2, SquareHalf, SquareKey, SquareLetterA,
+        SquareLetterB, SquareLetterC, SquareLetterD, SquareLetterE, SquareLetterF, SquareLetterG,
+        SquareLetterH, SquareLetterI, SquareLetterJ, SquareLetterK, SquareLetterL, SquareLetterM,
+        SquareLetterN, SquareLetterO, SquareLetterP, SquareLetterQ, SquareLetterR, SquareLetterS,
+        SquareLetterT, SquareLetterU, SquareLetterV, SquareLetterW, SquareLetterX, SquareLetterY,
+        SquareLetterZ, SquareMinus, SquareMinus2, SquareNumber0, SquareNumber1, SquareNumber2,
+        SquareNumber3, SquareNumber4, SquareNumber5, SquareNumber6, SquareNumber7, SquareNumber8,
+        SquareNumber9, SquareOff, SquarePercentage, SquarePlus, SquarePlus2, SquareRoot,
+        SquareRoot2, SquareRotated, SquareRotatedAsterisk, SquareRotatedForbid,
+        SquareRotatedForbid2, SquareRotatedOff, SquareRounded, SquareRoundedArrowDown,
+        SquareRoundedArrowLeft, SquareRoundedArrowRight, SquareRoundedArrowUp, SquareRoundedCheck,
+        SquareRoundedChevronDown, SquareRoundedChevronLeft, SquareRoundedChevronRight,
+        SquareRoundedChevronUp, SquareRoundedChevronsDown, SquareRoundedChevronsLeft,
+        SquareRoundedChevronsRight, SquareRoundedChevronsUp, SquareRoundedLetterA,
+        SquareRoundedLetterB, SquareRoundedLetterC, SquareRoundedLetterD, SquareRoundedLetterE,
+        SquareRoundedLetterF, SquareRoundedLetterG, SquareRoundedLetterH, SquareRoundedLetterI,
+        SquareRoundedLetterJ, SquareRoundedLetterK, SquareRoundedLetterL, SquareRoundedLetterM,
+        SquareRoundedLetterN, SquareRoundedLetterO, SquareRoundedLetterP, SquareRoundedLetterQ,
+        SquareRoundedLetterR, SquareRoundedLetterS, SquareRoundedLetterT, SquareRoundedLetterU,
+        SquareRoundedLetterV, SquareRoundedLetterW, SquareRoundedLetterX, SquareRoundedLetterY,
+        SquareRoundedLetterZ, SquareRoundedMinus, SquareRoundedMinus2, SquareRoundedNumber0,
+        SquareRoundedNumber1, SquareRoundedNumber2, SquareRoundedNumber3, SquareRoundedNumber4,
+        SquareRoundedNumber5, SquareRoundedNumber6, SquareRoundedNumber7, SquareRoundedNumber8,
+        SquareRoundedNumber9, SquareRoundedPercentage, SquareRoundedPlus, SquareRoundedPlus2,
+        SquareRoundedX, SquareToggle, SquareToggleHorizontal, SquareX, Squares, SquaresDiagonal,
+        SquaresSelected, Stack, Stack2, Stack3, StackBack, StackBackward, StackForward, StackFront,
+        StackMiddle, StackPop, StackPush, Stairs, StairsDown, StairsUp, Star, StarHalf, StarOff,
+        Stars, StarsOff, StatusChange, Steam, SteeringWheel, SteeringWheelOff, StepInto, StepOut,
+        StereoGlasses, Stethoscope, StethoscopeOff, Sticker, Sticker2, StickerSmile, Stopwatch,
+        Storm, StormOff, Stretching, Stretching2, Strikethrough, StrokeCurved, StrokeDynamic,
+        StrokeStraight, Submarine, Subscript, Subtask, Subtitles, SubtitlesAi, SubtitlesEdit,
         SubtitlesOff, Sum, SumOff, Sun, SunElectricity, SunHigh, SunLow, SunMoon, SunOff, SunWind,
         Sunglasses, Sunrise, Sunset, Sunset2, Superscript, Svg, Swimming, Swipe, SwipeDown,
         SwipeLeft, SwipeRight, SwipeUp, Switch, Switch2, Switch3, SwitchHorizontal, SwitchVertical,
-        Sword, SwordOff, Swords, Table, TableAlias, TableColumn, TableDashed, TableDown,
+        Sword, SwordOff, Swords, TabClose, Table, TableAlias, TableColumn, TableDashed, TableDown,
         TableExport, TableHeart, TableImport, TableMinus, TableOff, TableOptions, TablePlus,
-        TableRow, TableShare, TableShortcut, TableSpark, Tag, TagMinus, TagOff, TagPlus, TagStarred,
-        Tags, TagsOff, Tallymark1, Tallymark2, Tallymark3, Tallymark4, Tallymarks, Tank, Target,
-        TargetArrow, TargetOff, Tax, TaxEuro, TaxPound, Teapot, Telescope, TelescopeOff,
-        Temperature, TemperatureCelsius, TemperatureFahrenheit, TemperatureMinus, TemperatureOff,
-        TemperaturePlus, TemperatureSnow, TemperatureSun, Template, TemplateOff, Tent, TentOff,
-        Terminal, Terminal2, TestPipe, TestPipe2, TestPipeOff, Tex, TextCaption, TextColor,
-        TextDecrease, TextDirectionLtr, TextDirectionRtl, TextGrammar, TextIncrease,
-        TextOrientation, TextPlus, TextRecognition, TextResize, TextScan2, TextSize, TextSpellcheck,
-        TextWrap, TextWrapColumn, TextWrapDisabled, Texture, Theater, Thermometer, ThumbDown,
-        ThumbDownOff, ThumbUp, ThumbUpOff, TicTac, Ticket, TicketOff, Tie, Tilde, TiltShift,
-        TiltShiftOff, TimeDuration0, TimeDuration10, TimeDuration15, TimeDuration30, TimeDuration45,
-        TimeDuration5, TimeDuration60, TimeDuration90, TimeDurationOff, Timeline, TimelineEvent,
+        TableRow, TableShare, TableShortcut, TableSpark, Tabs, Tag, TagMinus, TagOff, TagPlus,
+        TagStarred, Tags, TagsChevronDown, TagsChevronLeft, TagsChevronRight, TagsChevronUp,
+        TagsOff, TaiwanDollar, Tallymark1, Tallymark2, Tallymark3, Tallymark4, Tallymarks, Tank,
+        Target, Target2, TargetArrow, TargetOff, Tax, TaxEuro, TaxPound, Teapot, Telescope,
+        TelescopeOff, Temperature, TemperatureCelsius, TemperatureFahrenheit, TemperatureMinus,
+        TemperatureOff, TemperaturePlus, TemperatureSnow, TemperatureSun, Template, TemplateOff,
+        Tent, TentOff, Terminal, Terminal2, TestPipe, TestPipe2, TestPipeOff, Tex, TextCaption,
+        TextColor, TextDecrease, TextDirectionLtr, TextDirectionRtl, TextGrammar, TextIncrease,
+        TextOrientation, TextOutline, TextPlus, TextRecognition, TextRegexAsterisk, TextRegexEnd,
+        TextRegexPlus, TextRegexQuestion, TextRegexStart, TextResize, TextScan2, TextScanAi,
+        TextSize, TextSpellcheck, TextWrap, TextWrapColumn, TextWrapDisabled, Texture, Theater,
+        Thermometer, ThinkingHigh, ThinkingLow, ThinkingMedium, ThumbDown, ThumbDownOff, ThumbUp,
+        ThumbUpOff, TicTac, Ticket, TicketOff, Tie, Tilde, TiltShift, TiltShiftOff, TimeDuration0,
+        TimeDuration10, TimeDuration15, TimeDuration30, TimeDuration45, TimeDuration5,
+        TimeDuration60, TimeDuration90, TimeDurationOff, Timeline, TimelineEvent,
         TimelineEventExclamation, TimelineEventMinus, TimelineEventPlus, TimelineEventText,
         TimelineEventX, Timezone, TipJar, TipJarEuro, TipJarPound, Tir, ToggleLeft, ToggleRight,
         ToiletPaper, ToiletPaperOff, Toml, Tool, Tools, ToolsKitchen, ToolsKitchen2,
@@ -5729,25 +5914,26 @@ public val TablerIcons.AllIcons: ____KtList<ImageVector>
         TransactionYen, TransactionYuan, Transfer, TransferIn, TransferOut, TransferVertical,
         Transform, TransformPoint, TransformPointBottomLeft, TransformPointBottomRight,
         TransformPointTopLeft, TransformPointTopRight, TransitionBottom, TransitionLeft,
-        TransitionRight, TransitionTop, Trash, TrashOff, TrashX, Treadmill, Tree, Trees, Trekking,
-        TrendingDown, TrendingDown2, TrendingDown3, TrendingUp, TrendingUp2, TrendingUp3, Triangle,
-        TriangleInverted, TriangleMinus, TriangleMinus2, TriangleOff, TrianglePlus, TrianglePlus2,
-        TriangleSquareCircle, Triangles, Trident, Trolley, Trophy, TrophyOff, Trowel, Truck,
-        TruckDelivery, TruckLoading, TruckOff, TruckReturn, Txt, Typeface, Typography,
-        TypographyOff, UTurnLeft, UTurnRight, Ufo, UfoOff, Uhd, Umbrella, Umbrella2, UmbrellaClosed,
-        UmbrellaClosed2, UmbrellaOff, Underline, Universe, Unlink, Upload, Urgent, Usb, User,
-        UserBitcoin, UserBolt, UserCancel, UserCheck, UserCircle, UserCode, UserCog, UserDollar,
-        UserDown, UserEdit, UserExclamation, UserHeart, UserHexagon, UserMinus, UserOff, UserPause,
-        UserPentagon, UserPin, UserPlus, UserQuestion, UserScan, UserScreen, UserSearch, UserShare,
-        UserShield, UserSquare, UserSquareRounded, UserStar, UserUp, UserX, Users, UsersGroup,
-        UsersMinus, UsersPlus, UvIndex, UxCircle, Vaccine, VaccineBottle, VaccineBottleOff,
-        VaccineOff, VacuumCleaner, Variable, VariableMinus, VariableOff, VariablePlus, Vector,
-        VectorBezier, VectorBezier2, VectorBezierArc, VectorBezierCircle, VectorOff, VectorSpline,
-        VectorTriangle, VectorTriangleOff, Venus, Versions, VersionsOff, Video, VideoMinus,
-        VideoOff, VideoPlus, View360, View360Arrow, View360Number, View360Off, Viewfinder,
-        ViewfinderOff, ViewportNarrow, ViewportShort, ViewportTall, ViewportWide, Vinyl, Vip,
-        VipOff, Virus, VirusOff, VirusSearch, Vocabulary, VocabularyOff, Volcano, Volume, Volume2,
-        Volume3, Volume4, VolumeOff, Vs, Walk, Wall, WallOff, Wallet, WalletOff, Wallpaper,
+        TransitionRight, TransitionTop, Trash, TrashOff, TrashX, Treadmill, TreasureChest, Tree,
+        Trees, Trekking, TrendingDown, TrendingDown2, TrendingDown3, TrendingUp, TrendingUp2,
+        TrendingUp3, TrendingUpDown, Triangle, TriangleInverted, TriangleMinus, TriangleMinus2,
+        TriangleOff, TrianglePlus, TrianglePlus2, TriangleSquareCircle, Triangles, Trident, Trolley,
+        Trophy, TrophyOff, Trowel, Truck, TruckDelivery, TruckLoading, TruckOff, TruckReturn, Twig,
+        Txt, Typeface, Typography, TypographyOff, UTurnLeft, UTurnRight, Ufo, UfoOff, Uhd, Umbrella,
+        Umbrella2, UmbrellaClosed, UmbrellaClosed2, UmbrellaOff, Underline, UnderlineOff, Unicycle,
+        Universe, Unlink, Upload, Urgent, Usb, User, UserBitcoin, UserBolt, UserCancel, UserCheck,
+        UserCircle, UserCode, UserCog, UserDollar, UserDown, UserEdit, UserExclamation, UserHeart,
+        UserHexagon, UserKey, UserMinus, UserOff, UserPause, UserPentagon, UserPin, UserPlus,
+        UserQuestion, UserScan, UserScreen, UserSearch, UserShare, UserShield, UserSquare,
+        UserSquareRounded, UserStar, UserUp, UserX, Users, UsersGroup, UsersMinus, UsersPlus,
+        UvIndex, UxCircle, Vaccine, VaccineBottle, VaccineBottleOff, VaccineOff, VacuumCleaner,
+        Variable, VariableMinus, VariableOff, VariablePlus, Vault, Vector, VectorBezier,
+        VectorBezier2, VectorBezierArc, VectorBezierCircle, VectorOff, VectorSpline, VectorTriangle,
+        VectorTriangleOff, Venus, Versions, VersionsOff, Video, VideoMinus, VideoOff, VideoPlus,
+        View360, View360Arrow, View360Number, View360Off, Viewfinder, ViewfinderOff, ViewportNarrow,
+        ViewportShort, ViewportTall, ViewportWide, Vignette, Vinyl, Vip, Vip2, VipOff, VirtualSpace,
+        Virus, VirusOff, VirusSearch, Vocabulary, VocabularyOff, Voice, Voice2, Volcano, Volume,
+        Volume2, Volume3, Volume4, VolumeOff, Vs, Walk, Wall, WallOff, Wallet, WalletOff, Wallpaper,
         WallpaperOff, Wand, WandOff, Wash, WashDry, WashDry1, WashDry2, WashDry3, WashDryA,
         WashDryDip, WashDryF, WashDryFlat, WashDryHang, WashDryOff, WashDryP, WashDryShade,
         WashDryW, WashDryclean, WashDrycleanOff, WashEco, WashGentle, WashHand, WashMachine,
@@ -5758,13 +5944,14 @@ public val TablerIcons.AllIcons: ____KtList<ImageVector>
         WindElectricity, WindOff, Windmill, WindmillOff, Window, WindowMaximize, WindowMinimize,
         WindowOff, Windsock, Wiper, WiperWash, Woman, Wood, World, WorldBolt, WorldCancel,
         WorldCheck, WorldCode, WorldCog, WorldDollar, WorldDown, WorldDownload, WorldExclamation,
-        WorldHeart, WorldLatitude, WorldLongitude, WorldMinus, WorldOff, WorldPause, WorldPin,
-        WorldPlus, WorldQuestion, WorldSearch, WorldShare, WorldStar, WorldUp, WorldUpload,
-        WorldWww, WorldX, WreckingBall, Writing, WritingOff, WritingSign, WritingSignOff, X,
-        XPowerY, XboxA, XboxB, XboxX, XboxY, Xd, Xxx, YinYang, Yoga, Zeppelin, ZeppelinOff, Zip,
-        ZodiacAquarius, ZodiacAries, ZodiacCancer, ZodiacCapricorn, ZodiacGemini, ZodiacLeo,
-        ZodiacLibra, ZodiacPisces, ZodiacSagittarius, ZodiacScorpio, ZodiacTaurus, ZodiacVirgo,
-        Zoom, ZoomCancel, ZoomCheck, ZoomCode, ZoomExclamation, ZoomIn, ZoomInArea, ZoomMoney,
-        ZoomOut, ZoomOutArea, ZoomPan, ZoomQuestion, ZoomReplace, ZoomReset, ZoomScan, Zzz, ZzzOff)
+        WorldHeart, WorldLatitude, WorldLongitude, WorldMap, WorldMinus, WorldOff, WorldPause,
+        WorldPin, WorldPlus, WorldQuestion, WorldSearch, WorldShare, WorldStar, WorldUp,
+        WorldUpload, WorldWww, WorldX, WreckingBall, Writing, WritingOff, WritingSign,
+        WritingSignOff, X, XMark, XPowerY, XboxA, XboxB, XboxX, XboxY, Xd, Xxx, Yarn, YinYang, Yoga,
+        Zeppelin, ZeppelinOff, ZeroConfig, Zip, ZodiacAquarius, ZodiacAries, ZodiacCancer,
+        ZodiacCapricorn, ZodiacGemini, ZodiacLeo, ZodiacLibra, ZodiacPisces, ZodiacSagittarius,
+        ZodiacScorpio, ZodiacTaurus, ZodiacVirgo, Zoom, ZoomCancel, ZoomCheck, ZoomCode,
+        ZoomExclamation, ZoomIn, ZoomInArea, ZoomMoney, ZoomOut, ZoomOutArea, ZoomPan, ZoomQuestion,
+        ZoomReplace, ZoomReset, ZoomScan, Zzz, ZzzOff)
     return __AllIcons!!
   }

@@ -23,13 +23,6 @@ public val TablerIcons.CliffJumping: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(14.0f, 7.0f)
-                arcToRelative(1.0f, 1.0f, 0.0f, true, false, 2.0f, 0.0f)
-                arcToRelative(1.0f, 1.0f, 0.0f, true, false, -2.0f, 0.0f)
-            }
-            path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
-                    strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
-                    StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(10.5f, 18.0f)
                 lineToRelative(2.5f, 2.0f)
                 lineToRelative(2.0f, -2.0f)
@@ -40,21 +33,21 @@ public val TablerIcons.CliffJumping: ImageVector
                 moveTo(18.0f, 21.0f)
                 lineToRelative(3.0f, -3.0f)
                 lineToRelative(-4.0f, -2.0f)
-                lineToRelative(-1.0f, -5.0f)
+                lineToRelative(-2.0f, -5.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(10.5f, 7.5f)
-                lineToRelative(2.0f, 3.0f)
-                lineToRelative(3.5f, 0.5f)
+                moveTo(9.0f, 8.0f)
+                lineToRelative(3.0f, 3.0f)
+                lineToRelative(3.0f, 1.0f)
+                lineToRelative(4.0f, -2.0f)
                 lineToRelative(3.0f, -2.0f)
-                lineToRelative(0.5f, -3.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(4.0f, 21.0f)
+                moveTo(3.0f, 21.0f)
                 verticalLineToRelative(-1.0f)
                 lineToRelative(2.0f, -3.0f)
                 lineToRelative(0.5f, -2.5f)
@@ -64,6 +57,13 @@ public val TablerIcons.CliffJumping: ImageVector
                 lineToRelative(-1.0f, -1.0f)
                 lineToRelative(-2.0f, 0.5f)
                 lineToRelative(-2.0f, -0.5f)
+            }
+            path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
+                    strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
+                    StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
+                moveTo(13.007f, 8.0f)
+                arcToRelative(2.0f, 2.0f, 0.0f, true, false, 4.0f, 0.0f)
+                arcToRelative(2.0f, 2.0f, 0.0f, true, false, -4.0f, 0.0f)
             }
         }
         .build()

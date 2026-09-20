@@ -31,8 +31,8 @@ public val TablerIcons.PlayHandball: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(7.0f, 6.0f)
-                lineToRelative(2.0f, 4.0f)
+                moveTo(5.0f, 7.0f)
+                lineToRelative(4.0f, 3.0f)
                 lineToRelative(5.0f, 0.5f)
                 lineToRelative(4.0f, 2.5f)
                 lineToRelative(2.5f, 3.0f)
@@ -47,16 +47,16 @@ public val TablerIcons.PlayHandball: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(15.0f, 7.0f)
-                arcToRelative(1.0f, 1.0f, 0.0f, true, false, 2.0f, 0.0f)
-                arcToRelative(1.0f, 1.0f, 0.0f, false, false, -2.0f, 0.0f)
+                moveTo(13.007f, 8.0f)
+                arcToRelative(2.0f, 2.0f, 0.0f, true, false, 4.0f, 0.0f)
+                arcToRelative(2.0f, 2.0f, 0.0f, true, false, -4.0f, 0.0f)
             }
-            path(fill = SolidColor(Color(0xFF000000)), stroke = SolidColor(Color(0xFF000000)),
+            path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(9.5f, 5.0f)
-                arcToRelative(0.5f, 0.5f, 0.0f, true, false, 0.0f, -1.0f)
-                arcToRelative(0.5f, 0.5f, 0.0f, false, false, 0.0f, 1.0f)
+                moveTo(6.007f, 3.5f)
+                arcToRelative(1.5f, 1.5f, 0.0f, true, false, 3.0f, 0.0f)
+                arcToRelative(1.5f, 1.5f, 0.0f, true, false, -3.0f, 0.0f)
             }
         }
         .build()

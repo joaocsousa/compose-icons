@@ -47,7 +47,7 @@ You can find all code reference in the docs of the icon packs bellow.
 | --- | --- | --- | --- |
 | [Simple-Icons](https://simpleicons.org/) | 16.32.0 | `simple-icons` | [docs](simple-icons/DOCUMENTATION.md) |
 | [Feather](https://feathericons.com/) | 4.29.2 | `feather` | [docs](feather/DOCUMENTATION.md) |
-| [Tabler Icons](https://tabler-icons.io/) | 3.36.1 | `tabler-icons` | [docs](tabler-icons/DOCUMENTATION.md) |
+| [Tabler Icons](https://tabler-icons.io/) | 3.47.0 | `tabler-icons` | [docs](tabler-icons/DOCUMENTATION.md) |
 | [Eva Icons](https://akveo.github.io/eva-icons/#/) | 1.1.3 | `eva-icons` | [docs](eva-icons/DOCUMENTATION.md) |
 | [Font Awesome](https://fontawesome.com/) | 7.2.0 | `font-awesome` | [docs](font-awesome/DOCUMENTATION.md) |
 | [Octicons](https://primer.style/octicons/) | 19.22.0 | `octicons` | [docs](octicons/DOCUMENTATION.md) |

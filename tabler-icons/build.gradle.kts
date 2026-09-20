@@ -19,7 +19,7 @@ android {
 
 registerGeneratorTask(
     githubId = "tabler/tabler-icons",
-    version = "v3.36.1",
+    version = "v3.47.0",
     mapSourceCodeIconsToSvgComposeFolder = { repoCloneDir ->
         // In newer versions, icons might be in icons/outline or src/icons
         fun findIconsDir(root: File): File {

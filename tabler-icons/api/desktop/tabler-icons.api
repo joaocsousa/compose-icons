@@ -47,6 +47,14 @@ public final class compose/icons/tablericons/AccessibleOffKt {
 	public static final fun getAccessibleOff (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/AcornKt {
+	public static final fun getAcorn (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/AcrobaticKt {
+	public static final fun getAcrobatic (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/ActivityHeartbeatKt {
 	public static final fun getActivityHeartbeat (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -187,6 +195,18 @@ public final class compose/icons/tablericons/AffiliateKt {
 	public static final fun getAffiliate (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/AiAgentKt {
+	public static final fun getAiAgent (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/AiAgentsKt {
+	public static final fun getAiAgents (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/AiGatewayKt {
+	public static final fun getAiGateway (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/AiKt {
 	public static final fun getAi (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -205,6 +225,14 @@ public final class compose/icons/tablericons/AirConditioningKt {
 
 public final class compose/icons/tablericons/AirTrafficControlKt {
 	public static final fun getAirTrafficControl (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/AirpodsLKt {
+	public static final fun getAirpodsL (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/AirpodsRKt {
+	public static final fun getAirpodsR (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/AlarmAverageKt {
@@ -519,12 +547,32 @@ public final class compose/icons/tablericons/ApiAppOffKt {
 	public static final fun getApiAppOff (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/ApiBookKt {
+	public static final fun getApiBook (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/ApiKt {
 	public static final fun getApi (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/ApiOffKt {
 	public static final fun getApiOff (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/AppWindowBottomKt {
+	public static final fun getAppWindowBottom (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/AppWindowBottomLeftKt {
+	public static final fun getAppWindowBottomLeft (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/AppWindowBottomRightKt {
+	public static final fun getAppWindowBottomRight (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/AppWindowCenterKt {
+	public static final fun getAppWindowCenter (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/AppWindowKt {
@@ -821,6 +869,10 @@ public final class compose/icons/tablericons/ArrowElbowRightKt {
 
 public final class compose/icons/tablericons/ArrowForkKt {
 	public static final fun getArrowFork (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/ArrowForkTripleKt {
+	public static final fun getArrowForkTriple (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/ArrowForwardKt {
@@ -1599,6 +1651,10 @@ public final class compose/icons/tablericons/BanKt {
 	public static final fun getBan (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/BananaKt {
+	public static final fun getBanana (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/BandageKt {
 	public static final fun getBandage (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -2287,6 +2343,10 @@ public final class compose/icons/tablericons/BorderVerticalKt {
 	public static final fun getBorderVertical (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/BotIdKt {
+	public static final fun getBotId (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/BottleKt {
 	public static final fun getBottle (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -2483,8 +2543,8 @@ public final class compose/icons/tablericons/BrandAbstractKt {
 	public static final fun getBrandAbstract (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
-public final class compose/icons/tablericons/BrandAdobeAfterEffectKt {
-	public static final fun getBrandAdobeAfterEffect (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+public final class compose/icons/tablericons/BrandAdobeAfterEffectsKt {
+	public static final fun getBrandAdobeAfterEffects (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/BrandAdobeIllustratorKt {
@@ -2605,6 +2665,10 @@ public final class compose/icons/tablericons/BrandAsanaKt {
 
 public final class compose/icons/tablericons/BrandAstroKt {
 	public static final fun getBrandAstro (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/BrandAudibleKt {
+	public static final fun getBrandAudible (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/BrandAuth0Kt {
@@ -3127,6 +3191,10 @@ public final class compose/icons/tablericons/BrandInertiaKt {
 	public static final fun getBrandInertia (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/BrandInfaktKt {
+	public static final fun getBrandInfakt (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/BrandInstagramKt {
 	public static final fun getBrandInstagram (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -3143,12 +3211,16 @@ public final class compose/icons/tablericons/BrandJavascriptKt {
 	public static final fun getBrandJavascript (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/BrandJiraKt {
+	public static final fun getBrandJira (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/BrandJuejinKt {
 	public static final fun getBrandJuejin (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
-public final class compose/icons/tablericons/BrandKakoTalkKt {
-	public static final fun getBrandKakoTalk (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+public final class compose/icons/tablericons/BrandKakaoTalkKt {
+	public static final fun getBrandKakaoTalk (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/BrandKbinKt {
@@ -3531,6 +3603,10 @@ public final class compose/icons/tablericons/BrandShopeeKt {
 	public static final fun getBrandShopee (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/BrandSignalKt {
+	public static final fun getBrandSignal (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/BrandSketchKt {
 	public static final fun getBrandSketch (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -3589,6 +3665,10 @@ public final class compose/icons/tablericons/BrandStackshareKt {
 
 public final class compose/icons/tablericons/BrandSteamKt {
 	public static final fun getBrandSteam (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/BrandStellarKt {
+	public static final fun getBrandStellar (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/BrandStocktwitsKt {
@@ -3777,6 +3857,10 @@ public final class compose/icons/tablericons/BrandUpworkKt {
 
 public final class compose/icons/tablericons/BrandValorantKt {
 	public static final fun getBrandValorant (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/BrandVechainKt {
+	public static final fun getBrandVechain (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/BrandVercelKt {
@@ -4153,6 +4237,10 @@ public final class compose/icons/tablericons/BuildingCommunityKt {
 
 public final class compose/icons/tablericons/BuildingCottageKt {
 	public static final fun getBuildingCottage (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/BuildingEiffelTowerKt {
+	public static final fun getBuildingEiffelTower (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/BuildingEstateKt {
@@ -4547,6 +4635,10 @@ public final class compose/icons/tablericons/CampfireKt {
 	public static final fun getCampfire (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/CanaryKt {
+	public static final fun getCanary (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/CancelKt {
 	public static final fun getCancel (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -4611,6 +4703,10 @@ public final class compose/icons/tablericons/CarCrashKt {
 	public static final fun getCarCrash (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/CarDoorKt {
+	public static final fun getCarDoor (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/CarFan1Kt {
 	public static final fun getCarFan1 (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -4639,8 +4735,20 @@ public final class compose/icons/tablericons/CarKt {
 	public static final fun getCar (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/CarLifterKt {
+	public static final fun getCarLifter (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/CarOffKt {
 	public static final fun getCarOff (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/CarOffRoadKt {
+	public static final fun getCarOffRoad (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/CarSuspensionKt {
+	public static final fun getCarSuspension (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/CarSuvKt {
@@ -4741,6 +4849,10 @@ public final class compose/icons/tablericons/CashBanknoteOffKt {
 
 public final class compose/icons/tablericons/CashBanknotePlusKt {
 	public static final fun getCashBanknotePlus (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/CashCoinKt {
+	public static final fun getCashCoin (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/CashEditKt {
@@ -5181,6 +5293,10 @@ public final class compose/icons/tablericons/ChevronsUpRightKt {
 
 public final class compose/icons/tablericons/ChiselKt {
 	public static final fun getChisel (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/ChocolateKt {
+	public static final fun getChocolate (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/ChristmasBallKt {
@@ -5739,6 +5855,22 @@ public final class compose/icons/tablericons/CircleOffKt {
 	public static final fun getCircleOff (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/CircleOpenArrowDownKt {
+	public static final fun getCircleOpenArrowDown (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/CircleOpenArrowLeftKt {
+	public static final fun getCircleOpenArrowLeft (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/CircleOpenArrowRightKt {
+	public static final fun getCircleOpenArrowRight (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/CircleOpenArrowUpKt {
+	public static final fun getCircleOpenArrowUp (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/CirclePercentageKt {
 	public static final fun getCirclePercentage (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -5749,6 +5881,10 @@ public final class compose/icons/tablericons/CirclePlus2Kt {
 
 public final class compose/icons/tablericons/CirclePlusKt {
 	public static final fun getCirclePlus (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/CirclePlusMinusKt {
+	public static final fun getCirclePlusMinus (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/CircleRectangleKt {
@@ -5861,6 +5997,14 @@ public final class compose/icons/tablericons/ClearAllKt {
 
 public final class compose/icons/tablericons/ClearFormattingKt {
 	public static final fun getClearFormatting (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/ClefKt {
+	public static final fun getClef (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/ClefStaffKt {
+	public static final fun getClefStaff (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/ClickKt {
@@ -6243,6 +6387,10 @@ public final class compose/icons/tablericons/ClubsKt {
 	public static final fun getClubs (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/CodeAiKt {
+	public static final fun getCodeAi (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/CodeAsteriskKt {
 	public static final fun getCodeAsterisk (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -6285,6 +6433,10 @@ public final class compose/icons/tablericons/CodeVariableMinusKt {
 
 public final class compose/icons/tablericons/CodeVariablePlusKt {
 	public static final fun getCodeVariablePlus (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/CodeblockKt {
+	public static final fun getCodeblock (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/CoffeeKt {
@@ -6453,6 +6605,10 @@ public final class compose/icons/tablericons/ConfuciusKt {
 
 public final class compose/icons/tablericons/CongruentToKt {
 	public static final fun getCongruentTo (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/ConnectionKt {
+	public static final fun getConnection (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/ContainerKt {
@@ -6651,6 +6807,10 @@ public final class compose/icons/tablericons/CreativeCommonsZeroKt {
 	public static final fun getCreativeCommonsZero (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/CreditCardHandKt {
+	public static final fun getCreditCardHand (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/CreditCardKt {
 	public static final fun getCreditCard (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -6665,6 +6825,10 @@ public final class compose/icons/tablericons/CreditCardPayKt {
 
 public final class compose/icons/tablericons/CreditCardRefundKt {
 	public static final fun getCreditCardRefund (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/CreditsKt {
+	public static final fun getCredits (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/CricketKt {
@@ -6891,6 +7055,10 @@ public final class compose/icons/tablericons/CurrencyHryvniaKt {
 	public static final fun getCurrencyHryvnia (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/CurrencyHusdKt {
+	public static final fun getCurrencyHusd (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/CurrencyIranianRialKt {
 	public static final fun getCurrencyIranianRial (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -6991,8 +7159,8 @@ public final class compose/icons/tablericons/CurrencyRiyalKt {
 	public static final fun getCurrencyRiyal (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
-public final class compose/icons/tablericons/CurrencyRubelKt {
-	public static final fun getCurrencyRubel (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+public final class compose/icons/tablericons/CurrencyRubleKt {
+	public static final fun getCurrencyRuble (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/CurrencyRufiyaaKt {
@@ -7027,6 +7195,10 @@ public final class compose/icons/tablericons/CurrencyTengeKt {
 	public static final fun getCurrencyTenge (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/CurrencyTetherKt {
+	public static final fun getCurrencyTether (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/CurrencyTugrikKt {
 	public static final fun getCurrencyTugrik (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -7049,6 +7221,10 @@ public final class compose/icons/tablericons/CurrencyYenOffKt {
 
 public final class compose/icons/tablericons/CurrencyYuanKt {
 	public static final fun getCurrencyYuan (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/CurrencyZcashKt {
+	public static final fun getCurrencyZcash (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/CurrencyZlotyKt {
@@ -7207,6 +7383,14 @@ public final class compose/icons/tablericons/DetailsOffKt {
 	public static final fun getDetailsOff (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/Device3dCameraKt {
+	public static final fun getDevice3dCamera (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/Device3dLensKt {
+	public static final fun getDevice3dLens (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/DeviceAirpodsCaseKt {
 	public static final fun getDeviceAirpodsCase (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -7237,6 +7421,10 @@ public final class compose/icons/tablericons/DeviceCctvKt {
 
 public final class compose/icons/tablericons/DeviceCctvOffKt {
 	public static final fun getDeviceCctvOff (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/DeviceComputerCamera2Kt {
+	public static final fun getDeviceComputerCamera2 (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/DeviceComputerCameraKt {
@@ -7735,6 +7923,10 @@ public final class compose/icons/tablericons/DeviceRemoteKt {
 	public static final fun getDeviceRemote (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/DeviceScreenKt {
+	public static final fun getDeviceScreen (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/DeviceSdCardKt {
 	public static final fun getDeviceSdCard (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -7871,6 +8063,10 @@ public final class compose/icons/tablericons/DeviceVisionProKt {
 	public static final fun getDeviceVisionPro (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/DeviceVisionProWifiKt {
+	public static final fun getDeviceVisionProWifi (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/DeviceWatchBoltKt {
 	public static final fun getDeviceWatchBolt (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -7961,6 +8157,10 @@ public final class compose/icons/tablericons/DeviceWatchUpKt {
 
 public final class compose/icons/tablericons/DeviceWatchXKt {
 	public static final fun getDeviceWatchX (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/DeviceWorkstationKt {
+	public static final fun getDeviceWorkstation (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/Devices2Kt {
@@ -8223,6 +8423,10 @@ public final class compose/icons/tablericons/DoorExitKt {
 	public static final fun getDoorExit (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/DoorHangerKt {
+	public static final fun getDoorHanger (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/DoorKt {
 	public static final fun getDoor (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -8265,6 +8469,10 @@ public final class compose/icons/tablericons/DragDrop2Kt {
 
 public final class compose/icons/tablericons/DragDropKt {
 	public static final fun getDragDrop (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/DragonKt {
+	public static final fun getDragon (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/DroneKt {
@@ -8379,6 +8587,10 @@ public final class compose/icons/tablericons/DualScreenKt {
 	public static final fun getDualScreen (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/DumbbellKt {
+	public static final fun getDumbbell (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/DumplingKt {
 	public static final fun getDumpling (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -8397,6 +8609,10 @@ public final class compose/icons/tablericons/EarOffKt {
 
 public final class compose/icons/tablericons/EarScanKt {
 	public static final fun getEarScan (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/EarphoneBluetoothKt {
+	public static final fun getEarphoneBluetooth (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/EaseInControlPointKt {
@@ -8421,6 +8637,10 @@ public final class compose/icons/tablericons/EaseOutControlPointKt {
 
 public final class compose/icons/tablericons/EaseOutKt {
 	public static final fun getEaseOut (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/EditBulkKt {
+	public static final fun getEditBulk (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/EditCircleKt {
@@ -8465,6 +8685,10 @@ public final class compose/icons/tablericons/ElevatorKt {
 
 public final class compose/icons/tablericons/ElevatorOffKt {
 	public static final fun getElevatorOff (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/EmailStampKt {
+	public static final fun getEmailStamp (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/EmergencyBedKt {
@@ -8549,6 +8773,10 @@ public final class compose/icons/tablericons/ExclamationMarkKt {
 
 public final class compose/icons/tablericons/ExclamationMarkOffKt {
 	public static final fun getExclamationMarkOff (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/ExerciseBallKt {
+	public static final fun getExerciseBall (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/ExplicitKt {
@@ -9371,6 +9599,14 @@ public final class compose/icons/tablericons/FiretruckKt {
 	public static final fun getFiretruck (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/FirewallCheckKt {
+	public static final fun getFirewallCheck (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/FirewallFlameKt {
+	public static final fun getFirewallFlame (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/FirstAidKitKt {
 	public static final fun getFirstAidKit (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -9567,6 +9803,10 @@ public final class compose/icons/tablericons/FloatRightKt {
 	public static final fun getFloatRight (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/FloodKt {
+	public static final fun getFlood (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/FlowerKt {
 	public static final fun getFlower (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -9687,12 +9927,20 @@ public final class compose/icons/tablericons/FolderStarKt {
 	public static final fun getFolderStar (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/FolderStatsKt {
+	public static final fun getFolderStats (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/FolderSymlinkKt {
 	public static final fun getFolderSymlink (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/FolderUpKt {
 	public static final fun getFolderUp (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/FolderUserKt {
+	public static final fun getFolderUser (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/FolderXKt {
@@ -9705,6 +9953,10 @@ public final class compose/icons/tablericons/FoldersKt {
 
 public final class compose/icons/tablericons/FoldersOffKt {
 	public static final fun getFoldersOff (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/FootstepsKt {
+	public static final fun getFootsteps (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/Forbid2Kt {
@@ -9891,8 +10143,8 @@ public final class compose/icons/tablericons/GenderTransgenderKt {
 	public static final fun getGenderTransgender (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
-public final class compose/icons/tablericons/GenderTrasvestiKt {
-	public static final fun getGenderTrasvesti (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+public final class compose/icons/tablericons/GenderTravestiKt {
+	public static final fun getGenderTravesti (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/GeometryKt {
@@ -9963,6 +10215,10 @@ public final class compose/icons/tablericons/GitPullRequestClosedKt {
 	public static final fun getGitPullRequestClosed (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/GitPullRequestConflictKt {
+	public static final fun getGitPullRequestConflict (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/GitPullRequestDraftKt {
 	public static final fun getGitPullRequestDraft (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -10023,12 +10279,24 @@ public final class compose/icons/tablericons/GpsKt {
 	public static final fun getGps (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/Gpu2Kt {
+	public static final fun getGpu2 (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/GpuKt {
+	public static final fun getGpu (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/GradienterKt {
 	public static final fun getGradienter (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/GrainKt {
 	public static final fun getGrain (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/GrapeKt {
+	public static final fun getGrape (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/GraphKt {
@@ -10129,6 +10397,10 @@ public final class compose/icons/tablericons/H5Kt {
 
 public final class compose/icons/tablericons/H6Kt {
 	public static final fun getH6 (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/HammerDrillKt {
+	public static final fun getHammerDrill (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/HammerKt {
@@ -10759,6 +11031,10 @@ public final class compose/icons/tablericons/HomeLinkKt {
 	public static final fun getHomeLink (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/HomeLockKt {
+	public static final fun getHomeLock (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/HomeMinusKt {
 	public static final fun getHomeMinus (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -10955,6 +11231,10 @@ public final class compose/icons/tablericons/HttpTraceOffKt {
 	public static final fun getHttpTraceOff (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/HulaHoopKt {
+	public static final fun getHulaHoop (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/IceCream2Kt {
 	public static final fun getIceCream2 (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -10971,12 +11251,20 @@ public final class compose/icons/tablericons/IceSkatingKt {
 	public static final fun getIceSkating (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/IcebergKt {
+	public static final fun getIceberg (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/IconsKt {
 	public static final fun getIcons (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/IconsOffKt {
 	public static final fun getIconsOff (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/IcosahedronKt {
+	public static final fun getIcosahedron (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/IdBadge2Kt {
@@ -10999,8 +11287,8 @@ public final class compose/icons/tablericons/IdOffKt {
 	public static final fun getIdOff (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
-public final class compose/icons/tablericons/IkosaedrKt {
-	public static final fun getIkosaedr (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+public final class compose/icons/tablericons/ImageGenerationKt {
+	public static final fun getImageGeneration (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/ImageInPictureKt {
@@ -11021,6 +11309,10 @@ public final class compose/icons/tablericons/IndentDecreaseKt {
 
 public final class compose/icons/tablericons/IndentIncreaseKt {
 	public static final fun getIndentIncrease (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/Infinity2Kt {
+	public static final fun getInfinity2 (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/InfinityKt {
@@ -11159,12 +11451,20 @@ public final class compose/icons/tablericons/ItalicKt {
 	public static final fun getItalic (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/ItalicOffKt {
+	public static final fun getItalicOff (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/JacketKt {
 	public static final fun getJacket (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/JetpackKt {
 	public static final fun getJetpack (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/JetskiKt {
+	public static final fun getJetski (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/JewishStarKt {
@@ -11341,6 +11641,10 @@ public final class compose/icons/tablericons/LaurelWreath3Kt {
 
 public final class compose/icons/tablericons/LaurelWreathKt {
 	public static final fun getLaurelWreath (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/LawnMowerKt {
+	public static final fun getLawnMower (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/LayersDifferenceKt {
@@ -11541,6 +11845,10 @@ public final class compose/icons/tablericons/Leaf2Kt {
 
 public final class compose/icons/tablericons/LeafKt {
 	public static final fun getLeaf (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/LeafMapleKt {
+	public static final fun getLeafMaple (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/LeafOffKt {
@@ -11913,6 +12221,10 @@ public final class compose/icons/tablericons/Loader2Kt {
 
 public final class compose/icons/tablericons/Loader3Kt {
 	public static final fun getLoader3 (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/Loader4Kt {
+	public static final fun getLoader4 (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/LoaderKt {
@@ -12407,6 +12719,10 @@ public final class compose/icons/tablericons/MapKt {
 	public static final fun getMap (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/MapLockKt {
+	public static final fun getMapLock (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/MapMinusKt {
 	public static final fun getMapMinus (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -12511,6 +12827,10 @@ public final class compose/icons/tablericons/MapPinXKt {
 	public static final fun getMapPinX (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/MapPinnedKt {
+	public static final fun getMapPinned (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/MapPinsKt {
 	public static final fun getMapPins (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -12533,6 +12853,10 @@ public final class compose/icons/tablericons/MapSearchKt {
 
 public final class compose/icons/tablericons/MapShareKt {
 	public static final fun getMapShare (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/MapShieldKt {
+	public static final fun getMapShield (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/MapSouthKt {
@@ -12833,6 +13157,10 @@ public final class compose/icons/tablericons/MenuKt {
 
 public final class compose/icons/tablericons/MenuOrderKt {
 	public static final fun getMenuOrder (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/MeshKt {
+	public static final fun getMesh (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/Message2BoltKt {
@@ -13163,6 +13491,10 @@ public final class compose/icons/tablericons/MickeyKt {
 	public static final fun getMickey (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/MicrofrontendsKt {
+	public static final fun getMicrofrontends (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/Microphone2Kt {
 	public static final fun getMicrophone2 (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -13193,6 +13525,10 @@ public final class compose/icons/tablericons/MicrowaveKt {
 
 public final class compose/icons/tablericons/MicrowaveOffKt {
 	public static final fun getMicrowaveOff (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/MiddlewareKt {
+	public static final fun getMiddleware (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/MilitaryAwardKt {
@@ -13303,8 +13639,8 @@ public final class compose/icons/tablericons/MoodCogKt {
 	public static final fun getMoodCog (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
-public final class compose/icons/tablericons/MoodConfuzedKt {
-	public static final fun getMoodConfuzed (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+public final class compose/icons/tablericons/MoodConfusedKt {
+	public static final fun getMoodConfused (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/MoodCrazyHappyKt {
@@ -13501,6 +13837,10 @@ public final class compose/icons/tablericons/MoonStarsKt {
 
 public final class compose/icons/tablericons/MopedKt {
 	public static final fun getMoped (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/MosqueKt {
+	public static final fun getMosque (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/MotorbikeKt {
@@ -13815,8 +14155,16 @@ public final class compose/icons/tablericons/NoDerivativesKt {
 	public static final fun getNoDerivatives (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/NoiseReductionKt {
+	public static final fun getNoiseReduction (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/NorthStarKt {
 	public static final fun getNorthStar (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/NotdefKt {
+	public static final fun getNotdef (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/NoteKt {
@@ -14367,6 +14715,10 @@ public final class compose/icons/tablericons/OldKt {
 	public static final fun getOld (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/OlympicTorchKt {
+	public static final fun getOlympicTorch (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/OlympicsKt {
 	public static final fun getOlympics (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -14385,6 +14737,18 @@ public final class compose/icons/tablericons/OmegaKt {
 
 public final class compose/icons/tablericons/OptionKt {
 	public static final fun getOption (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/OrbitKt {
+	public static final fun getOrbit (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/OrbitVerticalKt {
+	public static final fun getOrbitVertical (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/OrbitsKt {
+	public static final fun getOrbits (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/OutboundKt {
@@ -14501,6 +14865,10 @@ public final class compose/icons/tablericons/ParkingCircleKt {
 
 public final class compose/icons/tablericons/ParkingKt {
 	public static final fun getParking (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/ParkingMeterKt {
+	public static final fun getParkingMeter (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/ParkingOffKt {
@@ -14629,6 +14997,10 @@ public final class compose/icons/tablericons/PencilUpKt {
 
 public final class compose/icons/tablericons/PencilXKt {
 	public static final fun getPencilX (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/PendulumKt {
+	public static final fun getPendulum (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/Pennant2Kt {
@@ -14851,6 +15223,10 @@ public final class compose/icons/tablericons/PhotoAiKt {
 	public static final fun getPhotoAi (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/PhotoAltKt {
+	public static final fun getPhotoAlt (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/PhotoBitcoinKt {
 	public static final fun getPhotoBitcoin (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -14995,8 +15371,8 @@ public final class compose/icons/tablericons/PhotoXKt {
 	public static final fun getPhotoX (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
-public final class compose/icons/tablericons/PhysotherapistKt {
-	public static final fun getPhysotherapist (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+public final class compose/icons/tablericons/PhysiotherapistKt {
+	public static final fun getPhysiotherapist (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/PianoKt {
@@ -15059,6 +15435,10 @@ public final class compose/icons/tablericons/PillOffKt {
 	public static final fun getPillOff (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/PillowKt {
+	public static final fun getPillow (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/PillsKt {
 	public static final fun getPills (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -15085,6 +15465,10 @@ public final class compose/icons/tablericons/PinnedKt {
 
 public final class compose/icons/tablericons/PinnedOffKt {
 	public static final fun getPinnedOff (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/PipelineKt {
+	public static final fun getPipeline (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/PizzaKt {
@@ -15149,6 +15533,14 @@ public final class compose/icons/tablericons/PlantOffKt {
 
 public final class compose/icons/tablericons/PlayBasketballKt {
 	public static final fun getPlayBasketball (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/PlayBugKt {
+	public static final fun getPlayBug (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/PlayBugsKt {
+	public static final fun getPlayBugs (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/PlayCard10Kt {
@@ -15319,6 +15711,10 @@ public final class compose/icons/tablericons/PlugXKt {
 	public static final fun getPlugX (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/PlungerKt {
+	public static final fun getPlunger (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/PlusEqualKt {
 	public static final fun getPlusEqual (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -15351,6 +15747,10 @@ public final class compose/icons/tablericons/PointOffKt {
 	public static final fun getPointOff (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/Pointer2Kt {
+	public static final fun getPointer2 (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/PointerBoltKt {
 	public static final fun getPointerBolt (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -15369,6 +15769,14 @@ public final class compose/icons/tablericons/PointerCodeKt {
 
 public final class compose/icons/tablericons/PointerCogKt {
 	public static final fun getPointerCog (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/PointerCollaboration2Kt {
+	public static final fun getPointerCollaboration2 (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/PointerCollaborationKt {
+	public static final fun getPointerCollaboration (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/PointerDollarKt {
@@ -15615,12 +16023,24 @@ public final class compose/icons/tablericons/QuestionMarkKt {
 	public static final fun getQuestionMark (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/QueuePopInKt {
+	public static final fun getQueuePopIn (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/QueuePopOutKt {
+	public static final fun getQueuePopOut (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/QuoteKt {
 	public static final fun getQuote (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/QuoteOffKt {
 	public static final fun getQuoteOff (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/QuoteOpenKt {
+	public static final fun getQuoteOpen (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/QuotesKt {
@@ -15803,6 +16223,14 @@ public final class compose/icons/tablericons/RecycleOffKt {
 	public static final fun getRecycleOff (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/ReduceMotionKt {
+	public static final fun getReduceMotion (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/ReferenceImageKt {
+	public static final fun getReferenceImage (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/RefreshAlertKt {
 	public static final fun getRefreshAlert (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -15845,6 +16273,10 @@ public final class compose/icons/tablericons/RelationOneToOneKt {
 
 public final class compose/icons/tablericons/ReloadKt {
 	public static final fun getReload (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/RemoteControlKt {
+	public static final fun getRemoteControl (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/ReorderKt {
@@ -16031,6 +16463,10 @@ public final class compose/icons/tablericons/RocketOffKt {
 	public static final fun getRocketOff (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/RockingChairKt {
+	public static final fun getRockingChair (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/RollerSkatingKt {
 	public static final fun getRollerSkating (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -16139,6 +16575,10 @@ public final class compose/icons/tablericons/RotateRectangleKt {
 	public static final fun getRotateRectangle (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/RouletteKt {
+	public static final fun getRoulette (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/Route2Kt {
 	public static final fun getRoute2 (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -16211,6 +16651,10 @@ public final class compose/icons/tablericons/RubberStampOffKt {
 	public static final fun getRubberStampOff (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/RugbyKt {
+	public static final fun getRugby (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/Ruler2Kt {
 	public static final fun getRuler2 (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -16241,6 +16685,10 @@ public final class compose/icons/tablericons/RulerOffKt {
 
 public final class compose/icons/tablericons/RunKt {
 	public static final fun getRun (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/RunSprintKt {
+	public static final fun getRunSprint (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/RvTruckKt {
@@ -16315,6 +16763,10 @@ public final class compose/icons/tablericons/ScaleOutlineOffKt {
 	public static final fun getScaleOutlineOff (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/ScanCubeKt {
+	public static final fun getScanCube (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/ScanEyeKt {
 	public static final fun getScanEye (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -16323,8 +16775,20 @@ public final class compose/icons/tablericons/ScanKt {
 	public static final fun getScan (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/ScanLetterAKt {
+	public static final fun getScanLetterA (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/ScanLetterTKt {
+	public static final fun getScanLetterT (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/ScanPositionKt {
 	public static final fun getScanPosition (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/ScanTracesKt {
+	public static final fun getScanTraces (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/SchemaKt {
@@ -16431,6 +16895,10 @@ public final class compose/icons/tablericons/SearchOffKt {
 	public static final fun getSearchOff (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/SecretPhrasesKt {
+	public static final fun getSecretPhrases (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/SectionKt {
 	public static final fun getSection (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -16445,6 +16913,10 @@ public final class compose/icons/tablericons/SeedlingKt {
 
 public final class compose/icons/tablericons/SeedlingOffKt {
 	public static final fun getSeedlingOff (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/SegwayKt {
+	public static final fun getSegway (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/SelectAllKt {
@@ -16509,6 +16981,10 @@ public final class compose/icons/tablericons/ServerOffKt {
 
 public final class compose/icons/tablericons/ServerSparkKt {
 	public static final fun getServerSpark (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/ServerlessKt {
+	public static final fun getServerless (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/ServicemarkKt {
@@ -17011,6 +17487,10 @@ public final class compose/icons/tablericons/SkateboardingKt {
 	public static final fun getSkateboarding (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/SketchingKt {
+	public static final fun getSketching (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/SkewXKt {
 	public static final fun getSkewX (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -17219,8 +17699,24 @@ public final class compose/icons/tablericons/SpadeKt {
 	public static final fun getSpade (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/Sparkle2Kt {
+	public static final fun getSparkle2 (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/SparkleHighlightKt {
+	public static final fun getSparkleHighlight (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/SparkleKt {
+	public static final fun getSparkle (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/Sparkles2Kt {
 	public static final fun getSparkles2 (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/Sparkles2OffKt {
+	public static final fun getSparkles2Off (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/SparklesKt {
@@ -17233,6 +17729,10 @@ public final class compose/icons/tablericons/SpeakerphoneKt {
 
 public final class compose/icons/tablericons/SpeedboatKt {
 	public static final fun getSpeedboat (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/Sphere2Kt {
+	public static final fun getSphere2 (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/SphereKt {
@@ -17259,8 +17759,8 @@ public final class compose/icons/tablericons/SpiralOffKt {
 	public static final fun getSpiralOff (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
-public final class compose/icons/tablericons/SportBillardKt {
-	public static final fun getSportBillard (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+public final class compose/icons/tablericons/SportBilliardKt {
+	public static final fun getSportBilliard (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/SprayKt {
@@ -17963,6 +18463,10 @@ public final class compose/icons/tablericons/StickerKt {
 	public static final fun getSticker (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/StickerSmileKt {
+	public static final fun getStickerSmile (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/StopwatchKt {
 	public static final fun getStopwatch (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -17985,6 +18489,18 @@ public final class compose/icons/tablericons/StretchingKt {
 
 public final class compose/icons/tablericons/StrikethroughKt {
 	public static final fun getStrikethrough (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/StrokeCurvedKt {
+	public static final fun getStrokeCurved (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/StrokeDynamicKt {
+	public static final fun getStrokeDynamic (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/StrokeStraightKt {
+	public static final fun getStrokeStraight (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/SubmarineKt {
@@ -18131,6 +18647,10 @@ public final class compose/icons/tablericons/SwordsKt {
 	public static final fun getSwords (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/TabCloseKt {
+	public static final fun getTabClose (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/TableAliasKt {
 	public static final fun getTableAlias (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -18195,6 +18715,10 @@ public final class compose/icons/tablericons/TableSparkKt {
 	public static final fun getTableSpark (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/TabsKt {
+	public static final fun getTabs (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/TagKt {
 	public static final fun getTag (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -18215,12 +18739,32 @@ public final class compose/icons/tablericons/TagStarredKt {
 	public static final fun getTagStarred (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/TagsChevronDownKt {
+	public static final fun getTagsChevronDown (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/TagsChevronLeftKt {
+	public static final fun getTagsChevronLeft (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/TagsChevronRightKt {
+	public static final fun getTagsChevronRight (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/TagsChevronUpKt {
+	public static final fun getTagsChevronUp (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/TagsKt {
 	public static final fun getTags (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/TagsOffKt {
 	public static final fun getTagsOff (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/TaiwanDollarKt {
+	public static final fun getTaiwanDollar (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/Tallymark1Kt {
@@ -18245,6 +18789,10 @@ public final class compose/icons/tablericons/TallymarksKt {
 
 public final class compose/icons/tablericons/TankKt {
 	public static final fun getTank (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/Target2Kt {
+	public static final fun getTarget2 (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/TargetArrowKt {
@@ -18387,6 +18935,10 @@ public final class compose/icons/tablericons/TextOrientationKt {
 	public static final fun getTextOrientation (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/TextOutlineKt {
+	public static final fun getTextOutline (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/TextPlusKt {
 	public static final fun getTextPlus (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -18395,12 +18947,36 @@ public final class compose/icons/tablericons/TextRecognitionKt {
 	public static final fun getTextRecognition (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/TextRegexAsteriskKt {
+	public static final fun getTextRegexAsterisk (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/TextRegexEndKt {
+	public static final fun getTextRegexEnd (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/TextRegexPlusKt {
+	public static final fun getTextRegexPlus (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/TextRegexQuestionKt {
+	public static final fun getTextRegexQuestion (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/TextRegexStartKt {
+	public static final fun getTextRegexStart (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/TextResizeKt {
 	public static final fun getTextResize (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/TextScan2Kt {
 	public static final fun getTextScan2 (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/TextScanAiKt {
+	public static final fun getTextScanAi (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/TextSizeKt {
@@ -18433,6 +19009,18 @@ public final class compose/icons/tablericons/TheaterKt {
 
 public final class compose/icons/tablericons/ThermometerKt {
 	public static final fun getThermometer (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/ThinkingHighKt {
+	public static final fun getThinkingHigh (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/ThinkingLowKt {
+	public static final fun getThinkingLow (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/ThinkingMediumKt {
+	public static final fun getThinkingMedium (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/ThumbDownKt {
@@ -18823,6 +19411,10 @@ public final class compose/icons/tablericons/TreadmillKt {
 	public static final fun getTreadmill (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/TreasureChestKt {
+	public static final fun getTreasureChest (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/TreeKt {
 	public static final fun getTree (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -18853,6 +19445,10 @@ public final class compose/icons/tablericons/TrendingUp2Kt {
 
 public final class compose/icons/tablericons/TrendingUp3Kt {
 	public static final fun getTrendingUp3 (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/TrendingUpDownKt {
+	public static final fun getTrendingUpDown (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/TrendingUpKt {
@@ -18935,6 +19531,10 @@ public final class compose/icons/tablericons/TruckReturnKt {
 	public static final fun getTruckReturn (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/TwigKt {
+	public static final fun getTwig (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/TxtKt {
 	public static final fun getTxt (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -18993,6 +19593,14 @@ public final class compose/icons/tablericons/UmbrellaOffKt {
 
 public final class compose/icons/tablericons/UnderlineKt {
 	public static final fun getUnderline (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/UnderlineOffKt {
+	public static final fun getUnderlineOff (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/UnicycleKt {
+	public static final fun getUnicycle (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/UniverseKt {
@@ -19065,6 +19673,10 @@ public final class compose/icons/tablericons/UserHeartKt {
 
 public final class compose/icons/tablericons/UserHexagonKt {
 	public static final fun getUserHexagon (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/UserKeyKt {
+	public static final fun getUserKey (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/UserKt {
@@ -19199,6 +19811,10 @@ public final class compose/icons/tablericons/VariablePlusKt {
 	public static final fun getVariablePlus (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/VaultKt {
+	public static final fun getVault (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/VectorBezier2Kt {
 	public static final fun getVectorBezier2 (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -19303,8 +19919,16 @@ public final class compose/icons/tablericons/ViewportWideKt {
 	public static final fun getViewportWide (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/VignetteKt {
+	public static final fun getVignette (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/VinylKt {
 	public static final fun getVinyl (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/Vip2Kt {
+	public static final fun getVip2 (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/VipKt {
@@ -19313,6 +19937,10 @@ public final class compose/icons/tablericons/VipKt {
 
 public final class compose/icons/tablericons/VipOffKt {
 	public static final fun getVipOff (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/VirtualSpaceKt {
+	public static final fun getVirtualSpace (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/VirusKt {
@@ -19333,6 +19961,14 @@ public final class compose/icons/tablericons/VocabularyKt {
 
 public final class compose/icons/tablericons/VocabularyOffKt {
 	public static final fun getVocabularyOff (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/Voice2Kt {
+	public static final fun getVoice2 (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/VoiceKt {
+	public static final fun getVoice (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/VolcanoKt {
@@ -19707,6 +20343,10 @@ public final class compose/icons/tablericons/WorldLongitudeKt {
 	public static final fun getWorldLongitude (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/WorldMapKt {
+	public static final fun getWorldMap (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/WorldMinusKt {
 	public static final fun getWorldMinus (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -19783,6 +20423,10 @@ public final class compose/icons/tablericons/XKt {
 	public static final fun getX (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/XMarkKt {
+	public static final fun getXMark (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/XPowerYKt {
 	public static final fun getXPowerY (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -19811,6 +20455,10 @@ public final class compose/icons/tablericons/XxxKt {
 	public static final fun getXxx (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/tablericons/YarnKt {
+	public static final fun getYarn (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/tablericons/YinYangKt {
 	public static final fun getYinYang (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -19825,6 +20473,10 @@ public final class compose/icons/tablericons/ZeppelinKt {
 
 public final class compose/icons/tablericons/ZeppelinOffKt {
 	public static final fun getZeppelinOff (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/tablericons/ZeroConfigKt {
+	public static final fun getZeroConfig (Lcompose/icons/TablerIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/tablericons/ZipKt {
