@@ -23,30 +23,39 @@ public val TablerIcons.AirBalloon: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(10.0f, 20.0f)
-                arcToRelative(1.0f, 1.0f, 0.0f, false, true, 1.0f, -1.0f)
-                horizontalLineToRelative(2.0f)
-                arcToRelative(1.0f, 1.0f, 0.0f, false, true, 1.0f, 1.0f)
-                verticalLineToRelative(1.0f)
+                moveTo(9.0f, 21.0f)
+                verticalLineToRelative(-3.0f)
+                horizontalLineToRelative(6.0f)
+                verticalLineToRelative(3.0f)
                 arcToRelative(1.0f, 1.0f, 0.0f, false, true, -1.0f, 1.0f)
-                horizontalLineToRelative(-2.0f)
+                horizontalLineToRelative(-4.0f)
                 arcToRelative(1.0f, 1.0f, 0.0f, false, true, -1.0f, -1.0f)
-                lineToRelative(0.0f, -1.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(12.0f, 16.0f)
-                curveToRelative(3.314f, 0.0f, 6.0f, -4.686f, 6.0f, -8.0f)
-                arcToRelative(6.0f, 6.0f, 0.0f, true, false, -12.0f, 0.0f)
-                curveToRelative(0.0f, 3.314f, 2.686f, 8.0f, 6.0f, 8.0f)
+                moveTo(9.0f, 18.0f)
+                curveToRelative(-2.347f, -2.169f, -5.0f, -5.226f, -5.0f, -8.0f)
+                arcToRelative(8.0f, 8.0f, 0.0f, true, true, 16.0f, 0.0f)
+                curveToRelative(0.0f, 2.774f, -2.653f, 5.831f, -5.0f, 8.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(10.0f, 9.0f)
-                arcToRelative(2.0f, 7.0f, 0.0f, true, false, 4.0f, 0.0f)
-                arcToRelative(2.0f, 7.0f, 0.0f, true, false, -4.0f, 0.0f)
+                moveTo(5.5f, 14.0f)
+                horizontalLineToRelative(13.0f)
+            }
+            path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
+                    strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
+                    StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
+                moveTo(10.0f, 14.0f)
+                curveToRelative(-1.69f, -4.712f, -0.924f, -8.197f, 0.0f, -11.602f)
+            }
+            path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
+                    strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
+                    StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
+                moveTo(14.0f, 14.0f)
+                curveToRelative(1.469f, -3.867f, 1.19f, -7.735f, 0.0f, -11.602f)
             }
         }
         .build()

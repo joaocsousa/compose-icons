@@ -23,13 +23,6 @@ public val TablerIcons.Karate: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(17.0f, 4.0f)
-                arcToRelative(1.0f, 1.0f, 0.0f, true, false, 2.0f, 0.0f)
-                arcToRelative(1.0f, 1.0f, 0.0f, true, false, -2.0f, 0.0f)
-            }
-            path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
-                    strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
-                    StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(3.0f, 9.0f)
                 lineToRelative(4.5f, 1.0f)
                 lineToRelative(3.0f, 2.5f)
@@ -49,6 +42,13 @@ public val TablerIcons.Karate: ImageVector
                 lineToRelative(4.0f, 1.0f)
                 lineToRelative(4.0f, 3.5f)
                 lineToRelative(-2.0f, 3.5f)
+            }
+            path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
+                    strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
+                    StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
+                moveTo(15.007f, 5.0f)
+                arcToRelative(2.0f, 2.0f, 0.0f, true, false, 4.0f, 0.0f)
+                arcToRelative(2.0f, 2.0f, 0.0f, true, false, -4.0f, 0.0f)
             }
         }
         .build()

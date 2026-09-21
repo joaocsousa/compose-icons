@@ -179,6 +179,10 @@ public final class compose/icons/simpleicons/AftershipKt {
 	public static final fun getAftership (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/simpleicons/AgentskillsKt {
+	public static final fun getAgentskills (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/simpleicons/AgoraKt {
 	public static final fun getAgora (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -295,6 +299,10 @@ public final class compose/icons/simpleicons/AlbertheijnKt {
 	public static final fun getAlbertheijn (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/simpleicons/AlbumoftheyearKt {
+	public static final fun getAlbumoftheyear (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/simpleicons/AlbyKt {
 	public static final fun getAlby (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -361,6 +369,10 @@ public final class compose/icons/simpleicons/AlltrailsKt {
 
 public final class compose/icons/simpleicons/AlmalinuxKt {
 	public static final fun getAlmalinux (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/simpleicons/AlphaxivKt {
+	public static final fun getAlphaxiv (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/simpleicons/AlpinedotjsKt {
@@ -521,6 +533,10 @@ public final class compose/icons/simpleicons/ApacheairflowKt {
 
 public final class compose/icons/simpleicons/ApacheantKt {
 	public static final fun getApacheant (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/simpleicons/ApachearrowKt {
+	public static final fun getApachearrow (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/simpleicons/ApacheavroKt {
@@ -899,6 +915,10 @@ public final class compose/icons/simpleicons/AtlassianKt {
 	public static final fun getAtlassian (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/simpleicons/AtomgitKt {
+	public static final fun getAtomgit (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/simpleicons/AuchanKt {
 	public static final fun getAuchan (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -1013,6 +1033,10 @@ public final class compose/icons/simpleicons/AviraKt {
 
 public final class compose/icons/simpleicons/AvmKt {
 	public static final fun getAvm (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/simpleicons/AwaitKt {
+	public static final fun getAwait (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/simpleicons/AwesomelistsKt {
@@ -1133,6 +1157,10 @@ public final class compose/icons/simpleicons/BasecampKt {
 
 public final class compose/icons/simpleicons/BaserowKt {
 	public static final fun getBaserow (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/simpleicons/BaseuiKt {
+	public static final fun getBaseui (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/simpleicons/BasicattentiontokenKt {
@@ -1667,6 +1695,10 @@ public final class compose/icons/simpleicons/CachetKt {
 	public static final fun getCachet (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/simpleicons/CachyosKt {
+	public static final fun getCachyos (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/simpleicons/CaddyKt {
 	public static final fun getCaddy (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -1955,6 +1987,10 @@ public final class compose/icons/simpleicons/CinnamonKt {
 	public static final fun getCinnamon (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/simpleicons/CinnyKt {
+	public static final fun getCinny (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/simpleicons/CircleKt {
 	public static final fun getCircle (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -2007,6 +2043,10 @@ public final class compose/icons/simpleicons/ClaudeKt {
 	public static final fun getClaude (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/simpleicons/ClaudecodeKt {
+	public static final fun getClaudecode (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/simpleicons/ClerkKt {
 	public static final fun getClerk (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -2021,6 +2061,10 @@ public final class compose/icons/simpleicons/ClickhouseKt {
 
 public final class compose/icons/simpleicons/ClickupKt {
 	public static final fun getClickup (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/simpleicons/ClineKt {
+	public static final fun getCline (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/simpleicons/ClionKt {
@@ -2157,6 +2201,10 @@ public final class compose/icons/simpleicons/CodebergKt {
 
 public final class compose/icons/simpleicons/CodeblocksKt {
 	public static final fun getCodeblocks (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/simpleicons/CodebuddyKt {
+	public static final fun getCodebuddy (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/simpleicons/CodecademyKt {
@@ -2373,6 +2421,10 @@ public final class compose/icons/simpleicons/ContainerdKt {
 
 public final class compose/icons/simpleicons/ContaoKt {
 	public static final fun getContao (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/simpleicons/ContensisKt {
+	public static final fun getContensis (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/simpleicons/ContentfulKt {
@@ -2815,6 +2867,10 @@ public final class compose/icons/simpleicons/DeepnoteKt {
 	public static final fun getDeepnote (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/simpleicons/DeepseekKt {
+	public static final fun getDeepseek (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/simpleicons/DeezerKt {
 	public static final fun getDeezer (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -2943,8 +2999,16 @@ public final class compose/icons/simpleicons/DiasporaKt {
 	public static final fun getDiaspora (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/simpleicons/DicebearKt {
+	public static final fun getDicebear (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/simpleicons/DictionarydotcomKt {
 	public static final fun getDictionarydotcom (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/simpleicons/DifyKt {
+	public static final fun getDify (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/simpleicons/DiggKt {
@@ -3021,6 +3085,10 @@ public final class compose/icons/simpleicons/DlibKt {
 
 public final class compose/icons/simpleicons/DlnaKt {
 	public static final fun getDlna (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/simpleicons/DlthubKt {
+	public static final fun getDlthub (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/simpleicons/DmKt {
@@ -3643,6 +3711,10 @@ public final class compose/icons/simpleicons/FairphoneKt {
 	public static final fun getFairphone (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/simpleicons/FakerKt {
+	public static final fun getFaker (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/simpleicons/FalcoKt {
 	public static final fun getFalco (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -3709,6 +3781,10 @@ public final class compose/icons/simpleicons/FaunaKt {
 
 public final class compose/icons/simpleicons/FavroKt {
 	public static final fun getFavro (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/simpleicons/FawryKt {
+	public static final fun getFawry (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/simpleicons/FccKt {
@@ -3933,6 +4009,10 @@ public final class compose/icons/simpleicons/FlutterKt {
 
 public final class compose/icons/simpleicons/FluxKt {
 	public static final fun getFlux (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/simpleicons/FluxerKt {
+	public static final fun getFluxer (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/simpleicons/FlydotioKt {
@@ -4295,6 +4375,10 @@ public final class compose/icons/simpleicons/GhosteryKt {
 	public static final fun getGhostery (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/simpleicons/GhostfolioKt {
+	public static final fun getGhostfolio (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/simpleicons/GhosttyKt {
 	public static final fun getGhostty (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -4391,6 +4475,10 @@ public final class compose/icons/simpleicons/GlanceKt {
 	public static final fun getGlance (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/simpleicons/GlassKt {
+	public static final fun getGlass (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/simpleicons/GlassdoorKt {
 	public static final fun getGlassdoor (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -4477,6 +4565,10 @@ public final class compose/icons/simpleicons/GodaddyKt {
 
 public final class compose/icons/simpleicons/GodotengineKt {
 	public static final fun getGodotengine (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/simpleicons/GodoxKt {
+	public static final fun getGodox (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/simpleicons/GofundmeKt {
@@ -5075,6 +5167,10 @@ public final class compose/icons/simpleicons/HeliumKt {
 	public static final fun getHelium (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/simpleicons/HeliumbrowserKt {
+	public static final fun getHeliumbrowser (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/simpleicons/HelixKt {
 	public static final fun getHelix (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -5513,6 +5609,10 @@ public final class compose/icons/simpleicons/IndiansuperleagueKt {
 
 public final class compose/icons/simpleicons/IndiehackersKt {
 	public static final fun getIndiehackers (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/simpleicons/IndiewebKt {
+	public static final fun getIndieweb (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/simpleicons/IndigoKt {
@@ -5995,6 +6095,10 @@ public final class compose/icons/simpleicons/KanikoKt {
 	public static final fun getKaniko (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/simpleicons/KarakeepKt {
+	public static final fun getKarakeep (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/simpleicons/KarlsruherverkehrsverbundKt {
 	public static final fun getKarlsruherverkehrsverbund (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -6125,6 +6229,10 @@ public final class compose/icons/simpleicons/KickstarterKt {
 
 public final class compose/icons/simpleicons/KikKt {
 	public static final fun getKik (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/simpleicons/KimiKt {
+	public static final fun getKimi (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/simpleicons/KingstontechnologyKt {
@@ -6337,6 +6445,10 @@ public final class compose/icons/simpleicons/LamborghiniKt {
 
 public final class compose/icons/simpleicons/LangchainKt {
 	public static final fun getLangchain (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/simpleicons/LangchaincorporateKt {
+	public static final fun getLangchaincorporate (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/simpleicons/LangflowKt {
@@ -6607,6 +6719,10 @@ public final class compose/icons/simpleicons/LinktreeKt {
 	public static final fun getLinktree (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/simpleicons/LinkvertiseKt {
+	public static final fun getLinkvertise (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/simpleicons/LinphoneKt {
 	public static final fun getLinphone (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -6695,6 +6811,10 @@ public final class compose/icons/simpleicons/LmmsKt {
 	public static final fun getLmms (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/simpleicons/LmstudioKt {
+	public static final fun getLmstudio (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/simpleicons/LobstersKt {
 	public static final fun getLobsters (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -6709,6 +6829,10 @@ public final class compose/icons/simpleicons/LocalsendKt {
 
 public final class compose/icons/simpleicons/LocalxposeKt {
 	public static final fun getLocalxpose (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/simpleicons/LocustKt {
+	public static final fun getLocust (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/simpleicons/LodashKt {
@@ -6727,6 +6851,10 @@ public final class compose/icons/simpleicons/LogstashKt {
 	public static final fun getLogstash (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/simpleicons/LonghornKt {
+	public static final fun getLonghorn (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/simpleicons/LookerKt {
 	public static final fun getLooker (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -6741,6 +6869,10 @@ public final class compose/icons/simpleicons/LoopKt {
 
 public final class compose/icons/simpleicons/LoopbackKt {
 	public static final fun getLoopback (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/simpleicons/LoopsKt {
+	public static final fun getLoops (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/simpleicons/LootcrateKt {
@@ -6825,6 +6957,10 @@ public final class compose/icons/simpleicons/LydiaKt {
 
 public final class compose/icons/simpleicons/LyftKt {
 	public static final fun getLyft (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/simpleicons/M5stackKt {
+	public static final fun getM5stack (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/simpleicons/MaasKt {
@@ -7171,6 +7307,10 @@ public final class compose/icons/simpleicons/MetaKt {
 	public static final fun getMeta (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/simpleicons/MetaaiKt {
+	public static final fun getMetaai (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/simpleicons/MetabaseKt {
 	public static final fun getMetabase (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -7455,6 +7595,10 @@ public final class compose/icons/simpleicons/MoonrepoKt {
 	public static final fun getMoonrepo (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/simpleicons/MoonshotaiKt {
+	public static final fun getMoonshotai (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/simpleicons/MoqKt {
 	public static final fun getMoq (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -7673,6 +7817,10 @@ public final class compose/icons/simpleicons/NederlandsespoorwegenKt {
 
 public final class compose/icons/simpleicons/Neo4jKt {
 	public static final fun getNeo4j (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/simpleicons/NeonKt {
+	public static final fun getNeon (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/simpleicons/NeovimKt {
@@ -8159,6 +8307,10 @@ public final class compose/icons/simpleicons/OnstarKt {
 	public static final fun getOnstar (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/simpleicons/OomolKt {
+	public static final fun getOomol (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/simpleicons/OpelKt {
 	public static final fun getOpel (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -8183,6 +8335,10 @@ public final class compose/icons/simpleicons/OpenbadgesKt {
 	public static final fun getOpenbadges (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/simpleicons/OpenbaoKt {
+	public static final fun getOpenbao (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/simpleicons/OpenbsdKt {
 	public static final fun getOpenbsd (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -8193,6 +8349,10 @@ public final class compose/icons/simpleicons/OpenbugbountyKt {
 
 public final class compose/icons/simpleicons/OpencageKt {
 	public static final fun getOpencage (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/simpleicons/OpencodeKt {
+	public static final fun getOpencode (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/simpleicons/OpencollectiveKt {
@@ -8307,6 +8467,10 @@ public final class compose/icons/simpleicons/OpentofuKt {
 	public static final fun getOpentofu (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/simpleicons/OpentuiKt {
+	public static final fun getOpentui (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/simpleicons/OpenverseKt {
 	public static final fun getOpenverse (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -8361,6 +8525,10 @@ public final class compose/icons/simpleicons/OptunaKt {
 
 public final class compose/icons/simpleicons/OrangeKt {
 	public static final fun getOrange (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/simpleicons/OrchardcoreKt {
+	public static final fun getOrchardcore (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/simpleicons/OrcidKt {
@@ -8529,6 +8697,10 @@ public final class compose/icons/simpleicons/PandocKt {
 
 public final class compose/icons/simpleicons/PandoraKt {
 	public static final fun getPandora (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/simpleicons/PangolinKt {
+	public static final fun getPangolin (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/simpleicons/PantheonKt {
@@ -8753,6 +8925,10 @@ public final class compose/icons/simpleicons/PhpmyadminKt {
 
 public final class compose/icons/simpleicons/PhpstormKt {
 	public static final fun getPhpstorm (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/simpleicons/PiKt {
+	public static final fun getPi (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/simpleicons/PiaggiogroupKt {
@@ -9231,6 +9407,10 @@ public final class compose/icons/simpleicons/PronounsdotpageKt {
 	public static final fun getPronounsdotpage (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/simpleicons/ProsemirrorKt {
+	public static final fun getProsemirror (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/simpleicons/ProsiebenKt {
 	public static final fun getProsieben (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -9411,6 +9591,10 @@ public final class compose/icons/simpleicons/QbittorrentKt {
 	public static final fun getQbittorrent (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/simpleicons/QdrantKt {
+	public static final fun getQdrant (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/simpleicons/QemuKt {
 	public static final fun getQemu (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -9535,6 +9719,10 @@ public final class compose/icons/simpleicons/QwantKt {
 	public static final fun getQwant (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/simpleicons/QwenKt {
+	public static final fun getQwen (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/simpleicons/QwikKt {
 	public static final fun getQwik (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -9569,6 +9757,10 @@ public final class compose/icons/simpleicons/RadarKt {
 
 public final class compose/icons/simpleicons/RadarrKt {
 	public static final fun getRadarr (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/simpleicons/RadiantearthKt {
+	public static final fun getRadiantearth (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/simpleicons/RadiofranceKt {
@@ -10191,6 +10383,10 @@ public final class compose/icons/simpleicons/RustdeskKt {
 	public static final fun getRustdesk (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/simpleicons/RustfsKt {
+	public static final fun getRustfs (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/simpleicons/RxdbKt {
 	public static final fun getRxdb (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -10623,6 +10819,10 @@ public final class compose/icons/simpleicons/SimpleiconsKt {
 	public static final fun getSimpleicons (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/simpleicons/SimpleiconscdnKt {
+	public static final fun getSimpleiconscdn (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/simpleicons/SimplelocalizeKt {
 	public static final fun getSimplelocalize (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -10827,6 +11027,10 @@ public final class compose/icons/simpleicons/SolusKt {
 	public static final fun getSolus (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/simpleicons/SolveddotacKt {
+	public static final fun getSolveddotac (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/simpleicons/SonarKt {
 	public static final fun getSonar (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -10957,6 +11161,10 @@ public final class compose/icons/simpleicons/SpeedypageKt {
 
 public final class compose/icons/simpleicons/SphinxKt {
 	public static final fun getSphinx (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/simpleicons/SpidermonkeyKt {
+	public static final fun getSpidermonkey (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/simpleicons/SpigotmcKt {
@@ -11323,6 +11531,10 @@ public final class compose/icons/simpleicons/SupabaseKt {
 	public static final fun getSupabase (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/simpleicons/SupercellKt {
+	public static final fun getSupercell (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/simpleicons/SupercreaseKt {
 	public static final fun getSupercrease (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -11507,6 +11719,10 @@ public final class compose/icons/simpleicons/TampermonkeyKt {
 	public static final fun getTampermonkey (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/simpleicons/TangledKt {
+	public static final fun getTangled (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/simpleicons/TanstackKt {
 	public static final fun getTanstack (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -11525,6 +11741,10 @@ public final class compose/icons/simpleicons/TargetKt {
 
 public final class compose/icons/simpleicons/TaromKt {
 	public static final fun getTarom (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/simpleicons/TarteaucitronKt {
+	public static final fun getTarteaucitron (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/simpleicons/TaskKt {
@@ -11613,6 +11833,10 @@ public final class compose/icons/simpleicons/TelequebecKt {
 
 public final class compose/icons/simpleicons/TemporalKt {
 	public static final fun getTemporal (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/simpleicons/TencenthyKt {
+	public static final fun getTencenthy (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/simpleicons/TensorflowKt {
@@ -11811,12 +12035,20 @@ public final class compose/icons/simpleicons/TicketmasterKt {
 	public static final fun getTicketmaster (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/simpleicons/TickettailorKt {
+	public static final fun getTickettailor (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/simpleicons/TicktickKt {
 	public static final fun getTicktick (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/simpleicons/TidalKt {
 	public static final fun getTidal (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/simpleicons/TidbKt {
+	public static final fun getTidb (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/simpleicons/TiddlywikiKt {
@@ -11987,6 +12219,10 @@ public final class compose/icons/simpleicons/TradingviewKt {
 	public static final fun getTradingview (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/simpleicons/TraeKt {
+	public static final fun getTrae (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/simpleicons/TraefikmeshKt {
 	public static final fun getTraefikmesh (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -12027,6 +12263,10 @@ public final class compose/icons/simpleicons/TravisciKt {
 	public static final fun getTravisci (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/simpleicons/TraxsourceKt {
+	public static final fun getTraxsource (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/simpleicons/TreehouseKt {
 	public static final fun getTreehouse (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -12045,6 +12285,10 @@ public final class compose/icons/simpleicons/TresoritKt {
 
 public final class compose/icons/simpleicons/TreyarchKt {
 	public static final fun getTreyarch (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/simpleicons/TrezorKt {
+	public static final fun getTrezor (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/simpleicons/TricentisKt {
@@ -12085,6 +12329,10 @@ public final class compose/icons/simpleicons/TrivagoKt {
 
 public final class compose/icons/simpleicons/TrivyKt {
 	public static final fun getTrivy (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/simpleicons/TrmnlKt {
+	public static final fun getTrmnl (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/simpleicons/TroveKt {
@@ -12189,6 +12437,10 @@ public final class compose/icons/simpleicons/TwinmotionKt {
 
 public final class compose/icons/simpleicons/TwitchKt {
 	public static final fun getTwitch (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/simpleicons/TyKt {
+	public static final fun getTy (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/simpleicons/TypeformKt {
@@ -12681,6 +12933,10 @@ public final class compose/icons/simpleicons/VkKt {
 
 public final class compose/icons/simpleicons/VlcmediaplayerKt {
 	public static final fun getVlcmediaplayer (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/simpleicons/VllmKt {
+	public static final fun getVllm (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/simpleicons/VmwareKt {
@@ -13279,6 +13535,10 @@ public final class compose/icons/simpleicons/YetiKt {
 	public static final fun getYeti (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/simpleicons/YewKt {
+	public static final fun getYew (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/simpleicons/YiiKt {
 	public static final fun getYii (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
@@ -13379,12 +13639,20 @@ public final class compose/icons/simpleicons/ZdfKt {
 	public static final fun getZdf (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
+public final class compose/icons/simpleicons/ZdotaiKt {
+	public static final fun getZdotai (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
 public final class compose/icons/simpleicons/ZebpayKt {
 	public static final fun getZebpay (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/simpleicons/ZebratechnologiesKt {
 	public static final fun getZebratechnologies (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/simpleicons/ZectrixKt {
+	public static final fun getZectrix (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/simpleicons/ZedindustriesKt {
@@ -13505,6 +13773,10 @@ public final class compose/icons/simpleicons/ZshKt {
 
 public final class compose/icons/simpleicons/ZulipKt {
 	public static final fun getZulip (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/simpleicons/ZxKt {
+	public static final fun getZx (Lcompose/icons/SimpleIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
 }
 
 public final class compose/icons/simpleicons/ZyteKt {

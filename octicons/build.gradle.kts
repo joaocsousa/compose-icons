@@ -18,7 +18,7 @@ android {
 
 registerGeneratorTask(
     githubId = "primer/octicons",
-    version = "v19.22.0",
+    version = "v19.33.0",
     mapSourceCodeIconsToSvgComposeFolder = { repoCloneDir ->
         val relocatedNames = mutableMapOf<String, String>()
 

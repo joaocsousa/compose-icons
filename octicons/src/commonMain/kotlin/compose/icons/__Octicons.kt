@@ -274,6 +274,8 @@ import compose.icons.octicons.FilterRemove16
 import compose.icons.octicons.FilterRemove24
 import compose.icons.octicons.FiscalHost16
 import compose.icons.octicons.FiscalHost24
+import compose.icons.octicons.Flag16
+import compose.icons.octicons.Flag24
 import compose.icons.octicons.Flame16
 import compose.icons.octicons.Flame24
 import compose.icons.octicons.Flowchart16
@@ -321,6 +323,8 @@ import compose.icons.octicons.GraphBarHorizontal16
 import compose.icons.octicons.GraphBarHorizontal24
 import compose.icons.octicons.GraphBarVertical16
 import compose.icons.octicons.GraphBarVertical24
+import compose.icons.octicons.GraphStackedArea16
+import compose.icons.octicons.GraphStackedArea24
 import compose.icons.octicons.Hash16
 import compose.icons.octicons.Hash24
 import compose.icons.octicons.Heading16
@@ -360,6 +364,8 @@ import compose.icons.octicons.IssueDraft24
 import compose.icons.octicons.IssueLocked16
 import compose.icons.octicons.IssueOpened16
 import compose.icons.octicons.IssueOpened24
+import compose.icons.octicons.IssueRelatesTo16
+import compose.icons.octicons.IssueRelatesTo24
 import compose.icons.octicons.IssueReopened16
 import compose.icons.octicons.IssueReopened24
 import compose.icons.octicons.IssueTrackedBy16
@@ -392,6 +398,8 @@ import compose.icons.octicons.Location16
 import compose.icons.octicons.Location24
 import compose.icons.octicons.Lock16
 import compose.icons.octicons.Lock24
+import compose.icons.octicons.LockupGithub16
+import compose.icons.octicons.LockupGithub24
 import compose.icons.octicons.Log16
 import compose.icons.octicons.Log24
 import compose.icons.octicons.LogoGist16
@@ -497,6 +505,8 @@ import compose.icons.octicons.PlusCircle16
 import compose.icons.octicons.PlusCircle24
 import compose.icons.octicons.Project16
 import compose.icons.octicons.Project24
+import compose.icons.octicons.ProjectCheck16
+import compose.icons.octicons.ProjectCheck24
 import compose.icons.octicons.ProjectRoadmap16
 import compose.icons.octicons.ProjectRoadmap24
 import compose.icons.octicons.ProjectSymlink16
@@ -507,6 +517,8 @@ import compose.icons.octicons.Pulse16
 import compose.icons.octicons.Pulse24
 import compose.icons.octicons.Question16
 import compose.icons.octicons.Question24
+import compose.icons.octicons.QuestionBubble16
+import compose.icons.octicons.QuestionBubble24
 import compose.icons.octicons.Quote16
 import compose.icons.octicons.Quote24
 import compose.icons.octicons.Read16
@@ -525,6 +537,8 @@ import compose.icons.octicons.RepoDelete24
 import compose.icons.octicons.RepoDeleted16
 import compose.icons.octicons.RepoForked16
 import compose.icons.octicons.RepoForked24
+import compose.icons.octicons.RepoForkedLocked16
+import compose.icons.octicons.RepoForkedLocked24
 import compose.icons.octicons.RepoLocked16
 import compose.icons.octicons.RepoLocked24
 import compose.icons.octicons.RepoPull16
@@ -543,6 +557,7 @@ import compose.icons.octicons.Rss16
 import compose.icons.octicons.Rss24
 import compose.icons.octicons.Ruby16
 import compose.icons.octicons.Ruby24
+import compose.icons.octicons.Sandbox16
 import compose.icons.octicons.ScreenFull16
 import compose.icons.octicons.ScreenFull24
 import compose.icons.octicons.ScreenNormal16
@@ -623,6 +638,9 @@ import compose.icons.octicons.Squirrel16
 import compose.icons.octicons.Squirrel24
 import compose.icons.octicons.Stack16
 import compose.icons.octicons.Stack24
+import compose.icons.octicons.StackAdd16
+import compose.icons.octicons.StackCheck16
+import compose.icons.octicons.StackRemove16
 import compose.icons.octicons.Star16
 import compose.icons.octicons.Star24
 import compose.icons.octicons.StarFill16
@@ -703,9 +721,10 @@ import compose.icons.octicons.Versions16
 import compose.icons.octicons.Versions24
 import compose.icons.octicons.Video16
 import compose.icons.octicons.Video24
+import compose.icons.octicons.ViewFiles16
+import compose.icons.octicons.ViewFiles24
 import compose.icons.octicons.Vscode16
-import compose.icons.octicons.Vscode32
-import compose.icons.octicons.Vscode48
+import compose.icons.octicons.Vscode24
 import compose.icons.octicons.Webhook16
 import compose.icons.octicons.Workflow16
 import compose.icons.octicons.Workflow24
@@ -780,45 +799,48 @@ public val Octicons.AllIcons: ____KtList<ImageVector>
         FileDirectorySymlink24, FileMedia16, FileMedia24, FileMoved16, FileMoved24, FileRemoved16,
         FileRemoved24, FileSubmodule16, FileSubmodule24, FileSymlinkFile16, FileSymlinkFile24,
         FileZip16, FileZip24, Filter16, Filter24, FilterRemove16, FilterRemove24, FiscalHost16,
-        FiscalHost24, Flame16, Flame24, Flowchart16, Flowchart24, FocusCenter16, FocusCenter24,
-        Fold16, Fold24, FoldDown16, FoldDown24, FoldUp16, FoldUp24, Gear16, Gear24, Gift16, Gift24,
-        GitBranch16, GitBranch24, GitBranchCheck16, GitBranchCheck24, GitCommit16, GitCommit24,
-        GitCompare16, GitCompare24, GitMerge16, GitMerge24, GitMergeQueue16, GitMergeQueue24,
-        GitPullRequest16, GitPullRequest24, GitPullRequestClosed16, GitPullRequestClosed24,
-        GitPullRequestDraft16, GitPullRequestDraft24, GitPullRequestLocked16, Globe16, Globe24,
-        Goal16, Goal24, Grabber16, Grabber24, Graph16, Graph24, GraphBarHorizontal16,
-        GraphBarHorizontal24, GraphBarVertical16, GraphBarVertical24, Hash16, Hash24, Heading16,
-        Heading24, Heart16, Heart24, HeartFill16, HeartFill24, History16, History24, Home16, Home24,
-        HomeFill16, HomeFill24, HorizontalRule16, HorizontalRule24, Hourglass16, Hourglass24,
-        Hubot16, Hubot24, IdBadge16, IdBadge24, Image16, Image24, Inbox16, Inbox24, InboxFill16,
-        InboxFill24, Infinity16, Infinity24, Info16, Info24, IssueClosed16, IssueClosed24,
-        IssueDraft16, IssueDraft24, IssueLocked16, IssueOpened16, IssueOpened24, IssueReopened16,
-        IssueReopened24, IssueTrackedBy16, IssueTrackedBy24, IssueTracks16, IssueTracks24, Italic16,
-        Italic24, Iterations16, Iterations24, KebabHorizontal16, KebabHorizontal24, Key16, Key24,
-        KeyAsterisk16, KeyAsterisk24, Law16, Law24, LightBulb16, LightBulb24, Link16, Link24,
-        LinkExternal16, LinkExternal24, ListOrdered16, ListOrdered24, ListUnordered16,
-        ListUnordered24, Location16, Location24, Lock16, Lock24, Log16, Log24, LogoGist16,
-        LogoGist24, LogoGithub16, LogoGithub24, Loop16, Loop24, Mail16, Mail24, MarkGithub16,
-        MarkGithub24, Markdown16, Markdown24, Maximize16, Maximize24, Mcp16, Mcp24, Megaphone16,
-        Megaphone24, Mention16, Mention24, Meter16, Meter24, Milestone16, Milestone24, Minimize16,
-        Minimize24, Mirror16, Mirror24, Moon16, Moon24, MortarBoard16, MortarBoard24,
-        MoveToBottom16, MoveToBottom24, MoveToEnd16, MoveToEnd24, MoveToStart16, MoveToStart24,
-        MoveToTop16, MoveToTop24, MultiSelect16, MultiSelect24, Mute16, Mute24, NoEntry16,
-        NoEntry24, NoEntryFill12, Node16, Node24, NorthStar16, NorthStar24, Note16, Note24,
-        Number16, Number24, Organization16, Organization24, Package16, Package24,
-        PackageDependencies16, PackageDependencies24, PackageDependents16, PackageDependents24,
-        Paintbrush16, Paintbrush24, PaperAirplane16, PaperAirplane24, Paperclip16, Paperclip24,
-        PasskeyFill16, PasskeyFill24, Paste16, Paste24, Pause16, Pause24, Pencil16, Pencil24,
-        PencilAi16, PencilAi24, People16, People24, Person16, Person24, PersonAdd16, PersonAdd24,
-        PersonFill16, PersonFill24, Pin16, Pin24, PinSlash16, PinSlash24, PivotColumn16,
-        PivotColumn24, Play16, Play24, Plug16, Plug24, Plus16, Plus24, PlusCircle16, PlusCircle24,
-        Project16, Project24, ProjectRoadmap16, ProjectRoadmap24, ProjectSymlink16,
-        ProjectSymlink24, ProjectTemplate16, ProjectTemplate24, Pulse16, Pulse24, Question16,
-        Question24, Quote16, Quote24, Read16, Read24, Redo16, Redo24, RelFilePath16, RelFilePath24,
-        Reply16, Reply24, Repo16, Repo24, RepoClone16, RepoClone24, RepoDelete24, RepoDeleted16,
-        RepoForked16, RepoForked24, RepoLocked16, RepoLocked24, RepoPull16, RepoPull24, RepoPush16,
+        FiscalHost24, Flag16, Flag24, Flame16, Flame24, Flowchart16, Flowchart24, FocusCenter16,
+        FocusCenter24, Fold16, Fold24, FoldDown16, FoldDown24, FoldUp16, FoldUp24, Gear16, Gear24,
+        Gift16, Gift24, GitBranch16, GitBranch24, GitBranchCheck16, GitBranchCheck24, GitCommit16,
+        GitCommit24, GitCompare16, GitCompare24, GitMerge16, GitMerge24, GitMergeQueue16,
+        GitMergeQueue24, GitPullRequest16, GitPullRequest24, GitPullRequestClosed16,
+        GitPullRequestClosed24, GitPullRequestDraft16, GitPullRequestDraft24,
+        GitPullRequestLocked16, Globe16, Globe24, Goal16, Goal24, Grabber16, Grabber24, Graph16,
+        Graph24, GraphBarHorizontal16, GraphBarHorizontal24, GraphBarVertical16, GraphBarVertical24,
+        GraphStackedArea16, GraphStackedArea24, Hash16, Hash24, Heading16, Heading24, Heart16,
+        Heart24, HeartFill16, HeartFill24, History16, History24, Home16, Home24, HomeFill16,
+        HomeFill24, HorizontalRule16, HorizontalRule24, Hourglass16, Hourglass24, Hubot16, Hubot24,
+        IdBadge16, IdBadge24, Image16, Image24, Inbox16, Inbox24, InboxFill16, InboxFill24,
+        Infinity16, Infinity24, Info16, Info24, IssueClosed16, IssueClosed24, IssueDraft16,
+        IssueDraft24, IssueLocked16, IssueOpened16, IssueOpened24, IssueRelatesTo16,
+        IssueRelatesTo24, IssueReopened16, IssueReopened24, IssueTrackedBy16, IssueTrackedBy24,
+        IssueTracks16, IssueTracks24, Italic16, Italic24, Iterations16, Iterations24,
+        KebabHorizontal16, KebabHorizontal24, Key16, Key24, KeyAsterisk16, KeyAsterisk24, Law16,
+        Law24, LightBulb16, LightBulb24, Link16, Link24, LinkExternal16, LinkExternal24,
+        ListOrdered16, ListOrdered24, ListUnordered16, ListUnordered24, Location16, Location24,
+        Lock16, Lock24, LockupGithub16, LockupGithub24, Log16, Log24, LogoGist16, LogoGist24,
+        LogoGithub16, LogoGithub24, Loop16, Loop24, Mail16, Mail24, MarkGithub16, MarkGithub24,
+        Markdown16, Markdown24, Maximize16, Maximize24, Mcp16, Mcp24, Megaphone16, Megaphone24,
+        Mention16, Mention24, Meter16, Meter24, Milestone16, Milestone24, Minimize16, Minimize24,
+        Mirror16, Mirror24, Moon16, Moon24, MortarBoard16, MortarBoard24, MoveToBottom16,
+        MoveToBottom24, MoveToEnd16, MoveToEnd24, MoveToStart16, MoveToStart24, MoveToTop16,
+        MoveToTop24, MultiSelect16, MultiSelect24, Mute16, Mute24, NoEntry16, NoEntry24,
+        NoEntryFill12, Node16, Node24, NorthStar16, NorthStar24, Note16, Note24, Number16, Number24,
+        Organization16, Organization24, Package16, Package24, PackageDependencies16,
+        PackageDependencies24, PackageDependents16, PackageDependents24, Paintbrush16, Paintbrush24,
+        PaperAirplane16, PaperAirplane24, Paperclip16, Paperclip24, PasskeyFill16, PasskeyFill24,
+        Paste16, Paste24, Pause16, Pause24, Pencil16, Pencil24, PencilAi16, PencilAi24, People16,
+        People24, Person16, Person24, PersonAdd16, PersonAdd24, PersonFill16, PersonFill24, Pin16,
+        Pin24, PinSlash16, PinSlash24, PivotColumn16, PivotColumn24, Play16, Play24, Plug16, Plug24,
+        Plus16, Plus24, PlusCircle16, PlusCircle24, Project16, Project24, ProjectCheck16,
+        ProjectCheck24, ProjectRoadmap16, ProjectRoadmap24, ProjectSymlink16, ProjectSymlink24,
+        ProjectTemplate16, ProjectTemplate24, Pulse16, Pulse24, Question16, Question24,
+        QuestionBubble16, QuestionBubble24, Quote16, Quote24, Read16, Read24, Redo16, Redo24,
+        RelFilePath16, RelFilePath24, Reply16, Reply24, Repo16, Repo24, RepoClone16, RepoClone24,
+        RepoDelete24, RepoDeleted16, RepoForked16, RepoForked24, RepoForkedLocked16,
+        RepoForkedLocked24, RepoLocked16, RepoLocked24, RepoPull16, RepoPull24, RepoPush16,
         RepoPush24, RepoTemplate16, RepoTemplate24, Report16, Report24, Rocket16, Rocket24, Rows16,
-        Rows24, Rss16, Rss24, Ruby16, Ruby24, ScreenFull16, ScreenFull24, ScreenNormal16,
+        Rows24, Rss16, Rss24, Ruby16, Ruby24, Sandbox16, ScreenFull16, ScreenFull24, ScreenNormal16,
         ScreenNormal24, Search16, Search24, Server16, Server24, Share16, Share24, ShareAndroid16,
         ShareAndroid24, Shield16, Shield24, ShieldCheck16, ShieldCheck24, ShieldLock16,
         ShieldLock24, ShieldSlash16, ShieldSlash24, ShieldX16, ShieldX24, SidebarCollapse16,
@@ -830,20 +852,21 @@ public val Octicons.AllIcons: ____KtList<ImageVector>
         SpacingMedium16, SpacingMedium24, SpacingSmall16, SpacingSmall24, Sparkle16, Sparkle24,
         SparkleFill16, SparkleFill24, SparklesFill16, SparklesFill24, SplitView16, SplitView24,
         SponsorTiers16, SponsorTiers24, Square16, Square24, SquareCircle16, SquareCircle24,
-        SquareFill16, SquareFill24, Squirrel16, Squirrel24, Stack16, Stack24, Star16, Star24,
-        StarFill16, StarFill24, Stop16, Stop24, Stopwatch16, Stopwatch24, Strikethrough16,
-        Strikethrough24, Sun16, Sun24, Sync16, Sync24, Tab16, Tab24, TabExternal16, TabExternal24,
-        Table16, Table24, Tag16, Tag24, Tasklist16, Tasklist24, Telescope16, Telescope24,
-        TelescopeFill16, TelescopeFill24, Terminal16, Terminal24, ThreeBars16, ThreeBars24,
-        Thumbsdown16, Thumbsdown24, Thumbsup16, Thumbsup24, Tools16, Tools24,
-        TrackedByClosedCompleted16, TrackedByClosedCompleted24, TrackedByClosedNotPlanned16,
-        TrackedByClosedNotPlanned24, Trash16, Trash24, TriangleDown16, TriangleDown24,
-        TriangleLeft16, TriangleLeft24, TriangleRight16, TriangleRight24, TriangleUp16,
-        TriangleUp24, Trophy16, Trophy24, Typography16, Typography24, Undo16, Undo24, Unfold16,
-        Unfold24, Unlink16, Unlink24, Unlock16, Unlock24, Unmute16, Unmute24, Unread16, Unread24,
-        Unverified16, Unverified24, Unwrap16, Unwrap24, Upload16, Upload24, Verified16, Verified24,
-        Versions16, Versions24, Video16, Video24, Vscode16, Vscode32, Vscode48, Webhook16,
-        Workflow16, Workflow24, Wrap16, Wrap24, X12, X16, X24, XCircle16, XCircle24, XCircleFill12,
-        XCircleFill16, XCircleFill24, Zap16, Zap24, ZoomIn16, ZoomIn24, ZoomOut16, ZoomOut24)
+        SquareFill16, SquareFill24, Squirrel16, Squirrel24, Stack16, Stack24, StackAdd16,
+        StackCheck16, StackRemove16, Star16, Star24, StarFill16, StarFill24, Stop16, Stop24,
+        Stopwatch16, Stopwatch24, Strikethrough16, Strikethrough24, Sun16, Sun24, Sync16, Sync24,
+        Tab16, Tab24, TabExternal16, TabExternal24, Table16, Table24, Tag16, Tag24, Tasklist16,
+        Tasklist24, Telescope16, Telescope24, TelescopeFill16, TelescopeFill24, Terminal16,
+        Terminal24, ThreeBars16, ThreeBars24, Thumbsdown16, Thumbsdown24, Thumbsup16, Thumbsup24,
+        Tools16, Tools24, TrackedByClosedCompleted16, TrackedByClosedCompleted24,
+        TrackedByClosedNotPlanned16, TrackedByClosedNotPlanned24, Trash16, Trash24, TriangleDown16,
+        TriangleDown24, TriangleLeft16, TriangleLeft24, TriangleRight16, TriangleRight24,
+        TriangleUp16, TriangleUp24, Trophy16, Trophy24, Typography16, Typography24, Undo16, Undo24,
+        Unfold16, Unfold24, Unlink16, Unlink24, Unlock16, Unlock24, Unmute16, Unmute24, Unread16,
+        Unread24, Unverified16, Unverified24, Unwrap16, Unwrap24, Upload16, Upload24, Verified16,
+        Verified24, Versions16, Versions24, Video16, Video24, ViewFiles16, ViewFiles24, Vscode16,
+        Vscode24, Webhook16, Workflow16, Workflow24, Wrap16, Wrap24, X12, X16, X24, XCircle16,
+        XCircle24, XCircleFill12, XCircleFill16, XCircleFill24, Zap16, Zap24, ZoomIn16, ZoomIn24,
+        ZoomOut16, ZoomOut24)
     return __AllIcons!!
   }

@@ -23,9 +23,9 @@ public val TablerIcons.PlayBasketball: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(10.0f, 4.0f)
-                arcToRelative(1.0f, 1.0f, 0.0f, true, false, 2.0f, 0.0f)
-                arcToRelative(1.0f, 1.0f, 0.0f, false, false, -2.0f, 0.0f)
+                moveTo(9.007f, 5.0f)
+                arcToRelative(2.0f, 2.0f, 0.0f, true, false, 4.0f, 0.0f)
+                arcToRelative(2.0f, 2.0f, 0.0f, true, false, -4.0f, 0.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
@@ -49,14 +49,14 @@ public val TablerIcons.PlayBasketball: ImageVector
                 lineToRelative(1.0f, -3.0f)
                 lineToRelative(4.5f, -1.0f)
                 lineToRelative(3.5f, 3.0f)
-                lineToRelative(4.0f, 1.0f)
+                lineToRelative(4.0f, -0.5f)
             }
-            path(fill = SolidColor(Color(0xFF000000)), stroke = SolidColor(Color(0xFF000000)),
+            path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(18.5f, 16.0f)
-                arcToRelative(0.5f, 0.5f, 0.0f, true, false, 0.0f, -1.0f)
-                arcToRelative(0.5f, 0.5f, 0.0f, false, false, 0.0f, 1.0f)
+                moveTo(18.007f, 15.5f)
+                arcToRelative(1.5f, 1.5f, 0.0f, true, false, 3.0f, 0.0f)
+                arcToRelative(1.5f, 1.5f, 0.0f, true, false, -3.0f, 0.0f)
             }
         }
         .build()

@@ -23,13 +23,6 @@ public val TablerIcons.Stretching2: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(11.0f, 4.0f)
-                arcToRelative(1.0f, 1.0f, 0.0f, true, false, 2.0f, 0.0f)
-                arcToRelative(1.0f, 1.0f, 0.0f, false, false, -2.0f, 0.0f)
-            }
-            path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
-                    strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
-                    StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(6.5f, 21.0f)
                 lineToRelative(3.5f, -5.0f)
             }
@@ -46,6 +39,13 @@ public val TablerIcons.Stretching2: ImageVector
                 lineToRelative(-4.0f, -7.0f)
                 verticalLineToRelative(-5.0f)
                 lineToRelative(7.0f, -4.0f)
+            }
+            path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
+                    strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
+                    StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
+                moveTo(9.007f, 6.0f)
+                arcToRelative(2.0f, 2.0f, 0.0f, true, false, 4.0f, 0.0f)
+                arcToRelative(2.0f, 2.0f, 0.0f, true, false, -4.0f, 0.0f)
             }
         }
         .build()

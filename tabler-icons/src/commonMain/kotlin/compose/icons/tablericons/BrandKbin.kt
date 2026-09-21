@@ -21,7 +21,7 @@ public val TablerIcons.BrandKbin: ImageVector
         _brandKbin = Builder(name = "BrandKbin", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
-                    strokeLineWidth = 1.838f, strokeLineCap = Round, strokeLineJoin =
+                    strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(10.586f, 9.506f)
                 horizontalLineToRelative(-2.43f)
@@ -33,7 +33,7 @@ public val TablerIcons.BrandKbin: ImageVector
                 horizontalLineToRelative(0.64f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
-                    strokeLineWidth = 1.838f, strokeLineCap = Round, strokeLineJoin =
+                    strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(14.275f, 3.0f)
                 horizontalLineToRelative(5.645f)

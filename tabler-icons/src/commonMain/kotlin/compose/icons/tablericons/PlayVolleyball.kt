@@ -23,16 +23,16 @@ public val TablerIcons.PlayVolleyball: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(13.0f, 4.0f)
-                arcToRelative(1.0f, 1.0f, 0.0f, true, false, 2.0f, 0.0f)
-                arcToRelative(1.0f, 1.0f, 0.0f, false, false, -2.0f, 0.0f)
+                moveTo(11.007f, 5.0f)
+                arcToRelative(2.0f, 2.0f, 0.0f, true, false, 4.0f, 0.0f)
+                arcToRelative(2.0f, 2.0f, 0.0f, true, false, -4.0f, 0.0f)
             }
-            path(fill = SolidColor(Color(0xFF000000)), stroke = SolidColor(Color(0xFF000000)),
+            path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(20.5f, 10.0f)
-                arcToRelative(0.5f, 0.5f, 0.0f, true, false, 0.0f, -1.0f)
-                arcToRelative(0.5f, 0.5f, 0.0f, false, false, 0.0f, 1.0f)
+                moveTo(19.007f, 9.5f)
+                arcToRelative(1.5f, 1.5f, 0.0f, true, false, 3.0f, 0.0f)
+                arcToRelative(1.5f, 1.5f, 0.0f, true, false, -3.0f, 0.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
